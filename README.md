@@ -190,12 +190,12 @@ Abrir en el navegador: **http://localhost:5500**
 ---
 
 ## Usuarios de prueba
+### En caso de tener problemas con el usuario JOP, crear uno a través de la página web.
 
 | Username | Contraseña | Rol |
 |---|---|---|
 | `alvaro.morales` | `password123` | Gerencia |
-| `silgod` | `password123` | JOP |
-| `juan.perez` | `password123` | JOP |
+| `silgod` | `silgod1234` | JOP |
 
 ---
 
