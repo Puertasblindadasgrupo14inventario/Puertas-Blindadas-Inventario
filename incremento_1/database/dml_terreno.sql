@@ -2,7 +2,6 @@
 -- PostgreSQL database dump
 --
 
-\restrict zDxrYDZkOWskx9hJ5HOfKxuAWQQ0QhN5fbnTRmbbVXUKdbeDUBjMay2fAmEXhnD
 
 -- Dumped from database version 18.3
 -- Dumped by pg_dump version 18.3
@@ -467,5 +466,4 @@ SELECT pg_catalog.setval('terreno.tarea_tipo_id_tarea_tipo_seq', 3, true);
 -- PostgreSQL database dump complete
 --
 
-\unrestrict zDxrYDZkOWskx9hJ5HOfKxuAWQQ0QhN5fbnTRmbbVXUKdbeDUBjMay2fAmEXhnD
 
