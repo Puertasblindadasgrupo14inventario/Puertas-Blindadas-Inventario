@@ -1,0 +1,70 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="sQJoyzAbJsYNHXoQ6ZyN">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-127" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="950" width="999" x="100" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-128" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="860" width="860" x="199" y="645" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-129" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-130" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="qrOsgZDqs2jIluiTBBjf-134">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-130" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Registrando proveedores" vertex="1">
+          <mxGeometry height="70" width="140" x="299" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-131" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-132" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-130">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-132" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="129" y="725" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-133" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-134" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-136">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-134" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Seleccionando producto" vertex="1">
+          <mxGeometry height="70" width="140" x="299" y="825" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-135" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-136" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-144">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-136" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Vinculando precio y tiempo por producto" vertex="1">
+          <mxGeometry height="70" width="140" x="299" y="935" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-137" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-138" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-140">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-138" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Consultando historial de precios" vertex="1">
+          <mxGeometry height="70" width="140" x="299" y="1165" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-139" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-140" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-142">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-140" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Calculando tiempos reales de entrega" vertex="1">
+          <mxGeometry height="70" width="140" x="299" y="1285" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-141" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-142" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-145">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-142" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Visualizando métricas de cumplimiento" vertex="1">
+          <mxGeometry height="70" width="140" x="299" y="1395" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-143" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-144" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="qrOsgZDqs2jIluiTBBjf-138">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-144" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Registrando precios históricos por proveedor" vertex="1">
+          <mxGeometry height="70" width="140" x="299" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-145" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Comparando proveedores" vertex="1">
+          <mxGeometry height="70" width="140" x="519" y="1395" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-146" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Gestión de proveedores&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="164.75" x="506.63" y="595" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
