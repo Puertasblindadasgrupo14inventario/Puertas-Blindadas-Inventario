@@ -2,7 +2,6 @@
 -- PostgreSQL database dump
 --
 
-\restrict pGex47nQjYvSnNvrUsqb2tfyCn4Zv0turpblyiWaR4md2EVLwMhqKg8ufG8qNJu
 
 -- Dumped from database version 18.3
 -- Dumped by pg_dump version 18.3
@@ -875,5 +874,4 @@ SELECT pg_catalog.setval('finanzas.tipo_tarea_catalogada_id_tipo_tarea_seq', 3, 
 -- PostgreSQL database dump complete
 --
 
-\unrestrict pGex47nQjYvSnNvrUsqb2tfyCn4Zv0turpblyiWaR4md2EVLwMhqKg8ufG8qNJu
 
