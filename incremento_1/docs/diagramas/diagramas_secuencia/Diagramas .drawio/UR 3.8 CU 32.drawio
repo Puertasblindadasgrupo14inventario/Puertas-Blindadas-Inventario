@@ -1,0 +1,421 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram id="P7svonu-QjEGztf69_3o" name="Página-3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-32: Clasificando tipos de salida" vertex="1">
+          <mxGeometry height="30" width="250" x="90" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="100" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="470" width="20" x="130" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-4" parent="wNY4jm28zXKuAlcse3GJ-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="380" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Registrar Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="470" width="210" x="280" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-6" parent="wNY4jm28zXKuAlcse3GJ-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="390" width="10" x="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;movimientosController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="200" x="550" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-8" parent="wNY4jm28zXKuAlcse3GJ-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="370" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;PostgreController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="500" width="190" x="810" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-10" parent="wNY4jm28zXKuAlcse3GJ-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="90" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Clasificacion_Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="490" width="180" x="1070" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-12" parent="wNY4jm28zXKuAlcse3GJ-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="490" width="190" x="1320" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-14" parent="wNY4jm28zXKuAlcse3GJ-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="90" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar clasificacion de salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="650" y="330" as="sourcePoint" />
+            <mxPoint x="385" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra selector de categorias">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="360" as="sourcePoint" />
+            <mxPoint x="150" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Selecciona categoria de salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="150" y="390" as="sourcePoint" />
+            <mxPoint x="380" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Solicitar clasificar salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="385" y="420" as="sourcePoint" />
+            <mxPoint x="650" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Validar categoria seleccionada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="450" as="sourcePoint" />
+            <mxPoint x="905" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Validar categoria seleccionada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="475" as="sourcePoint" />
+            <mxPoint x="1152" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Categoria validada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1152" y="505" as="sourcePoint" />
+            <mxPoint x="915" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Categoria validada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="530" as="sourcePoint" />
+            <mxPoint x="660" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="9. Asociar categoria al movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="560" as="sourcePoint" />
+            <mxPoint x="905" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="wNY4jm28zXKuAlcse3GJ-14" value="10. Asociar categoria al movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="915" y="585" as="sourcePoint" />
+            <mxPoint x="1405" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Categoria asociada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1405" y="613" as="sourcePoint" />
+            <mxPoint x="915" y="613" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Categoria asociada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="905" y="638" as="sourcePoint" />
+            <mxPoint x="660" y="638" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="80" x="120" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="110" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="360" width="20" x="140" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-32" parent="wNY4jm28zXKuAlcse3GJ-31" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="250" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-33" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Registrar Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="210" x="290" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-34" parent="wNY4jm28zXKuAlcse3GJ-33" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="265" width="10" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;movimientosController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="200" x="560" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-36" parent="wNY4jm28zXKuAlcse3GJ-35" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="235" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar clasificacion de salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="930" as="sourcePoint" />
+            <mxPoint x="395" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Mostrar selector de categorias">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="960" as="sourcePoint" />
+            <mxPoint x="160" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Intentar guardar sin categoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="160" y="990" as="sourcePoint" />
+            <mxPoint x="390" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Solicitar clasificar salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="395" y="1020" as="sourcePoint" />
+            <mxPoint x="660" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-41" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar categoria seleccionada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="715" y="1045" />
+              <mxPoint x="715" y="1070" />
+            </Array>
+            <mxPoint x="670" y="1045" as="sourcePoint" />
+            <mxPoint x="670" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Solicitar seleccion obligatoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1100" as="sourcePoint" />
+            <mxPoint x="395" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error seleccion obligatoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="1130" as="sourcePoint" />
+            <mxPoint x="160" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;PostgreController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="190" x="810" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-46" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Clasificacion_Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="180" x="1070" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="wNY4jm28zXKuAlcse3GJ-48" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="190" x="1320" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="sYNKzuuwse6r01jC7XYA-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-e886b84b-7fff-508d-7789-1965b31b6347&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;margin-left:0pt;&quot; align=&quot;left&quot;&gt;&lt;table style=&quot;border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-collapse: collapse;&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;131&quot;&gt;&lt;col width=&quot;460&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Nombre&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;CU-32: Clasificando tipos de salida&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Actor(es)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Gerencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:14.25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Resumen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Permite categorizar las salidas “Consumo/Merma” para el análisis estadístico de recursos.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Frecuencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Alta&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Precondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Registro de salida de stock en curso.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:44.25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;El sistema presenta el selector de categorías y luego el motivo predefinido, el usuario selecciona la opción correspondiente “Producción, Merma, Devolución o Traslado” [Excepción 1], el sistema valida la selección, el sistema asocia la categoría al movimiento para reportes futuros.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:42.3993981581167pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepción 1: No se selecciona ninguna categoría. El sistema impide guardar y solicita una selección obligatoria de la lista.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:31.748543108441645pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Poscondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;La salida queda clasificada operativamente en el inventario.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:31.748543108441645pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Dependencias&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;UR 3.8&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="480" width="560" x="-680" y="350" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="I24IoF4jKMmwUHuEOvX5" name="Flujo general">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2BVKBmJyfri90Nc3iGaT-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="580" width="1470" x="270" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-32: Clasificando tipos de salida" vertex="1">
+          <mxGeometry height="30" width="250" x="880" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="280" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="470" width="20" x="310" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-4" parent="VE_PvoP8mHJGO-8pVmI0-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="360" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Registrar Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="470" width="210" x="460" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-6" parent="VE_PvoP8mHJGO-8pVmI0-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="390" width="10" x="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="480" width="200" x="730" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-8" parent="VE_PvoP8mHJGO-8pVmI0-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="370" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="480" width="190" x="990" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-10" parent="VE_PvoP8mHJGO-8pVmI0-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="90" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Clasificacion_Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="470" width="180" x="1250" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-12" parent="VE_PvoP8mHJGO-8pVmI0-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="480" width="190" x="1500" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-14" parent="VE_PvoP8mHJGO-8pVmI0-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="90" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar clasificacion de salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="410" as="sourcePoint" />
+            <mxPoint x="570" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra selector de categorias">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="440" as="sourcePoint" />
+            <mxPoint x="330" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Selecciona categoria de salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="470" as="sourcePoint" />
+            <mxPoint x="560" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Solicitar clasificar salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="500" as="sourcePoint" />
+            <mxPoint x="820" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Validar categoria seleccionada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="530" as="sourcePoint" />
+            <mxPoint x="1080" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Validar categoria seleccionada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="555" as="sourcePoint" />
+            <mxPoint x="1332" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Categoria validada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1332" y="585" as="sourcePoint" />
+            <mxPoint x="1095" y="585" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Categoria validada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1080" y="610" as="sourcePoint" />
+            <mxPoint x="840" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="9. Asociar categoria al movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="640" as="sourcePoint" />
+            <mxPoint x="1080" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="VE_PvoP8mHJGO-8pVmI0-14" value="10. Asociar categoria al movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="665" as="sourcePoint" />
+            <mxPoint x="1585" y="665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Categoria asociada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1585" y="693" as="sourcePoint" />
+            <mxPoint x="1095" y="693" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VE_PvoP8mHJGO-8pVmI0-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Categoria asociada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="718" as="sourcePoint" />
+            <mxPoint x="840" y="718" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="NGsM0k8eMjvq38T21pEX" name="exp1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="r5dYImNTZjMGpHJsVEGz-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="440" width="1380" x="270" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;CU-32: Clasificando tipos de salida&lt;/div&gt;Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="225" x="847.5" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="290" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="360" width="20" x="320" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-4" parent="0l3a_-jjXX8JiblXiP1G-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="250" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Registrar Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="210" x="470" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-6" parent="0l3a_-jjXX8JiblXiP1G-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="265" width="10" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="200" x="740" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-8" parent="0l3a_-jjXX8JiblXiP1G-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="255" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar clasificacion de salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="430" as="sourcePoint" />
+            <mxPoint x="580" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Mostrar selector de categorias">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="460" as="sourcePoint" />
+            <mxPoint x="340" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Intentar guardar sin categoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="490" as="sourcePoint" />
+            <mxPoint x="570" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Solicitar clasificar salida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="575" y="520" as="sourcePoint" />
+            <mxPoint x="830" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-13" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar categoria seleccionada">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="895" y="545" />
+              <mxPoint x="895" y="570" />
+            </Array>
+            <mxPoint x="850" y="545" as="sourcePoint" />
+            <mxPoint x="850" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Solicitar seleccion obligatoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="830" y="600" as="sourcePoint" />
+            <mxPoint x="580" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error seleccion obligatoria">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="570" y="630" as="sourcePoint" />
+            <mxPoint x="340" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="190" x="990" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Clasificacion_Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="180" x="1220" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="0l3a_-jjXX8JiblXiP1G-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="190" x="1430" y="340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

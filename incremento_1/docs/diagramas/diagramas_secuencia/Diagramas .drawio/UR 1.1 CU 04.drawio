@@ -1,0 +1,510 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Página-1" id="f3SPXT79wOJIiFMSWyqq">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Gwm0MVTiwHBw1OcesJh8-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-21e38678-7fff-c303-6c31-c05593677ed6&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;margin-left:0pt;&quot; align=&quot;left&quot;&gt;&lt;table style=&quot;border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-collapse: collapse;&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;131&quot;&gt;&lt;col width=&quot;460&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Campo&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Nombre&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;CU-04: Eliminando producto del sistema&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Actor(es)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Gerencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Resumen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Permite remover definitivamente un producto del catálogo maestro.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Frecuencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Baja&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Precondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;El producto debe existir y el usuario debe tener rol de Gerencia.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:39.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-style: normal; font-variant: normal; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;&lt;u style=&quot;&quot;&gt;&lt;b&gt;El usuario solicita la eliminación,&lt;/b&gt;&lt;/u&gt;&lt;/span&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt; el sistema verifica si el producto tiene historial de movimientos o stock [Excepción 1], el sistema solicita una confirmación final [Excepción 2], el sistema borra el registro de la base de datos y confirma la acción.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:54pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepción 1: Producto con movimientos asociados. El sistema impide el borrado por integridad referencial e indica que sólo puede &quot;Desactivarse&quot;.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepción 2: Usuario cancela la confirmación. El sistema aborta la eliminación.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Poscondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;El registro desaparece de la base de datos.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt 0.75pt 0.75pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Dependencias&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt 0.75pt 0.75pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(234, 153, 153); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;UR 1.1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="540" width="560" x="1600" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="tmBvYuVnAUjglv-LHWzk" name="Flujo general">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mGgYPjwX_pfU-L5O7NOC-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="770" width="1960" x="260" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="290" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="610" width="20" x="320" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-4" parent="EmdonHHyN_-jHsGUzF5C-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-5" parent="EmdonHHyN_-jHsGUzF5C-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-6" parent="EmdonHHyN_-jHsGUzF5C-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="620" width="180" x="460" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-8" parent="EmdonHHyN_-jHsGUzF5C-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="85" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_EliminarProducto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="200" x="690" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-10" parent="EmdonHHyN_-jHsGUzF5C-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="210" x="950" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-14" parent="EmdonHHyN_-jHsGUzF5C-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-15" parent="EmdonHHyN_-jHsGUzF5C-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-45" parent="EmdonHHyN_-jHsGUzF5C-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="190" x="1220" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-17" parent="EmdonHHyN_-jHsGUzF5C-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="90" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-18" parent="EmdonHHyN_-jHsGUzF5C-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="90" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-19" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="180" x="1480" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-20" parent="EmdonHHyN_-jHsGUzF5C-19" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="85" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="640" width="190" x="1730" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-22" parent="EmdonHHyN_-jHsGUzF5C-21" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="90" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-23" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="640" width="164" x="1990" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-24" parent="EmdonHHyN_-jHsGUzF5C-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="77" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-25" edge="1" parent="1" source="EmdonHHyN_-jHsGUzF5C-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="EmdonHHyN_-jHsGUzF5C-8" value="1. Selecciona producto a eliminar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="340" y="570" as="sourcePoint" />
+            <mxPoint x="540" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-26" edge="1" parent="1" source="EmdonHHyN_-jHsGUzF5C-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar verificar producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="560" y="570" as="sourcePoint" />
+            <mxPoint x="1050" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-27" edge="1" parent="1" source="EmdonHHyN_-jHsGUzF5C-45" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Verificar stock en bodegas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="590" as="sourcePoint" />
+            <mxPoint x="1310" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-28" edge="1" parent="1" source="EmdonHHyN_-jHsGUzF5C-17" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="EmdonHHyN_-jHsGUzF5C-20" value="4. Consultar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1360" y="610" />
+            </Array>
+            <mxPoint x="1325" y="610" as="sourcePoint" />
+            <mxPoint x="1562" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" value="5. Sin stock&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="640" as="sourcePoint" />
+            <mxPoint x="1320" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="P4dOl0FCw3zGk1x-FEGM-1" value="6. Sin stock en bodegas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="650" as="sourcePoint" />
+            <mxPoint x="1150" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" value="7. Verificar movimientos asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="680" as="sourcePoint" />
+            <mxPoint x="1310" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="8. Consultar movimientos asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1320" y="699.8" as="sourcePoint" />
+            <mxPoint x="1820" y="699.8" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Sin movimientos asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="730" as="sourcePoint" />
+            <mxPoint x="1320" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" value="10. Producto eliminable">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="749.71" as="sourcePoint" />
+            <mxPoint x="1060" y="749.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-35" edge="1" parent="1" source="P4dOl0FCw3zGk1x-FEGM-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" target="EmdonHHyN_-jHsGUzF5C-10" value="11. Solicitar confirmación final">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1020" y="770" />
+            </Array>
+            <mxPoint x="1060" y="790" as="sourcePoint" />
+            <mxPoint x="805" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Muestra dialogo de confirmación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="790" as="sourcePoint" />
+            <mxPoint x="335" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Confirma eliminación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="335" y="820" as="sourcePoint" />
+            <mxPoint x="785" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-38" edge="1" parent="1" source="EmdonHHyN_-jHsGUzF5C-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" target="EmdonHHyN_-jHsGUzF5C-14" value="14. Solicitar eliminar producto">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1000" y="840" />
+            </Array>
+            <mxPoint x="800" y="820" as="sourcePoint" />
+            <mxPoint x="1040" y="863" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="15. Eliminar registro producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1060" y="860" as="sourcePoint" />
+            <mxPoint x="1310" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;" value="16. Eliminar registro producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1321" y="880" as="sourcePoint" />
+            <mxPoint x="2068" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" value="17. Registro eliminado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2068" y="909.9999999999999" as="sourcePoint" />
+            <mxPoint x="1321" y="909.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" value="18. Registro eliminado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="930" as="sourcePoint" />
+            <mxPoint x="1060" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="P4dOl0FCw3zGk1x-FEGM-5" value="19. Mostrar confirmación eliminación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="950" as="sourcePoint" />
+            <mxPoint x="800" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EmdonHHyN_-jHsGUzF5C-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="EmdonHHyN_-jHsGUzF5C-6" value="20. Muestra confirmación eliminacion realizada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="960" as="sourcePoint" />
+            <mxPoint x="340" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pd3d-qHlikPni0oc52J2-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-04: Eliminando producto del sistema" vertex="1">
+          <mxGeometry height="30" width="224" x="1120" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="P4dOl0FCw3zGk1x-FEGM-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="1050" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="P4dOl0FCw3zGk1x-FEGM-2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="1050" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="P4dOl0FCw3zGk1x-FEGM-5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="785" y="930" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="FGzXLvwDqNjQro3KLcUk" name="exp 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="25acQVgIsNjITj4IZDHq-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="610" width="2150" x="300" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-1" edge="1" parent="1" source="4Ps5VVSJzoSJoZ3Qf0Uc-7" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="4Ps5VVSJzoSJoZ3Qf0Uc-11" value="1. Selecciona producto a eliminar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="455" as="sourcePoint" />
+            <mxPoint x="550" y="455" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-3" edge="1" parent="1" source="4Ps5VVSJzoSJoZ3Qf0Uc-10" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar verificar producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="865" y="490" as="sourcePoint" />
+            <mxPoint x="1370" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="300" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Verificar stock en bodegas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="515" as="sourcePoint" />
+            <mxPoint x="1630" y="515" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="480" width="20" x="330" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-7" parent="4Ps5VVSJzoSJoZ3Qf0Uc-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-8" parent="4Ps5VVSJzoSJoZ3Qf0Uc-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-9" edge="1" parent="1" source="4Ps5VVSJzoSJoZ3Qf0Uc-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Consultar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1645" y="545" as="sourcePoint" />
+            <mxPoint x="1882" y="545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="470" width="180" x="470" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-11" parent="4Ps5VVSJzoSJoZ3Qf0Uc-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. Stock disponible encontrado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1882" y="573" as="sourcePoint" />
+            <mxPoint x="1645" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_EliminarProducto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="480" width="200" x="750" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-14" parent="4Ps5VVSJzoSJoZ3Qf0Uc-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Producto tiene stock o movimientos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1630" y="680" as="sourcePoint" />
+            <mxPoint x="1380" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="495" width="210" x="1270" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-17" parent="4Ps5VVSJzoSJoZ3Qf0Uc-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="100" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="4Ps5VVSJzoSJoZ3Qf0Uc-14" value="9. mostrar &quot;los productos no se eliminan del sistema. Para desactivarlo, usa la vista de edición.&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1370" y="704.58" as="sourcePoint" />
+            <mxPoint x="860" y="704.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-19" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="502" width="190" x="1540" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-20" parent="4Ps5VVSJzoSJoZ3Qf0Uc-19" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="90" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Muestra &quot;Los productos no se eliminan del sistema. Para desactivarlo, usa la vista de edición.&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="720" as="sourcePoint" />
+            <mxPoint x="345" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="495" width="180" x="1800" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-23" parent="4Ps5VVSJzoSJoZ3Qf0Uc-22" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="85" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="485" width="190" x="2050" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-25" parent="4Ps5VVSJzoSJoZ3Qf0Uc-24" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="90" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-57" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Consultar movimientos asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1640" y="610" as="sourcePoint" />
+            <mxPoint x="2140" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4Ps5VVSJzoSJoZ3Qf0Uc-58" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;rounded=0;" value="7. Con movimientos asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2140" y="650" as="sourcePoint" />
+            <mxPoint x="1640" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfVP2n4mJe6M_vcrWMXa-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-04: Eliminando producto del sistema&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; Excepción 1&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="1155" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="KBzXLbFs-zpLsaCjGxAG-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="1370" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="VL1JkGfzLjGwVycYshmt-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="480" width="164" x="2270" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xC4Wn5q3Vrxlrt4l-Dmw" name="exp 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SkpC2RNoLLtTJYYKPqkG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="700" width="1660" x="320" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="330" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="560" width="20" x="360" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-4" parent="yhlZ0qemUDNRLnau64ul-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-5" parent="yhlZ0qemUDNRLnau64ul-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="180" x="500" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-7" parent="yhlZ0qemUDNRLnau64ul-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="85" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-8" parent="yhlZ0qemUDNRLnau64ul-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="85" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_EliminarProducto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="200" x="730" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-10" parent="yhlZ0qemUDNRLnau64ul-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="95" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="210" x="990" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-12" parent="yhlZ0qemUDNRLnau64ul-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="270" width="10" x="100" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="190" x="1260" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-14" parent="yhlZ0qemUDNRLnau64ul-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="250" width="10" x="90" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="180" x="1520" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-16" parent="yhlZ0qemUDNRLnau64ul-15" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="500" width="190" x="1770" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-18" parent="yhlZ0qemUDNRLnau64ul-17" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="90" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-19" edge="1" parent="1" source="yhlZ0qemUDNRLnau64ul-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="yhlZ0qemUDNRLnau64ul-8" value="1. Selecciona producto a eliminar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="448" as="sourcePoint" />
+            <mxPoint x="580" y="448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-20" edge="1" parent="1" source="yhlZ0qemUDNRLnau64ul-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar verificar producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="478" as="sourcePoint" />
+            <mxPoint x="1090" y="478" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Verificar stock en bodegas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="505" as="sourcePoint" />
+            <mxPoint x="1350" y="505" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Consultar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1365" y="530" as="sourcePoint" />
+            <mxPoint x="1602" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. Sin stock">
+          <mxGeometry relative="1" x="-0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1602" y="558" as="sourcePoint" />
+            <mxPoint x="1365" y="558" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Verificar movimientos asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="610" as="sourcePoint" />
+            <mxPoint x="1350" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="8. Consultar movimientos asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1360.0000000000002" y="639.9999999999999" as="sourcePoint" />
+            <mxPoint x="1860" y="639.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Sin movimientos asociados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1860" y="670" as="sourcePoint" />
+            <mxPoint x="1360" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="yhlZ0qemUDNRLnau64ul-12" value="10. Producto eliminable">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="700" as="sourcePoint" />
+            <mxPoint x="1105" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Solicitar confirmacion final">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1090" y="710" as="sourcePoint" />
+            <mxPoint x="840" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Muestra dialogo de confirmacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="825" y="730" as="sourcePoint" />
+            <mxPoint x="380" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Cancela eliminacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="760" as="sourcePoint" />
+            <mxPoint x="825" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="yhlZ0qemUDNRLnau64ul-7" value="14. Abortar eliminacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="790" as="sourcePoint" />
+            <mxPoint x="600" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="yhlZ0qemUDNRLnau64ul-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="yhlZ0qemUDNRLnau64ul-12" value="6. Sin stock en bodegas">
+          <mxGeometry relative="1" x="-0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1347" y="580" as="sourcePoint" />
+            <mxPoint x="1110" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HPow8datj_Vm072nV-ih-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-04: Eliminando producto del sistema&lt;div&gt;&lt;br&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;Excepción 2&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="250" x="970" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

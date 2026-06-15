@@ -1,0 +1,715 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Página-1" id="3VyU3xfwZSP1Sb3iooHz">
+    <mxGraphModel dx="2399" dy="891" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-9521b754-7fff-d6fa-2a90-9b945233b5db&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;margin-left:0pt;&quot; align=&quot;left&quot;&gt;&lt;table style=&quot;border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-collapse: collapse;&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;131&quot;&gt;&lt;col width=&quot;460&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Campo&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Nombre&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;CU-54: Registrando proveedores&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Actor(es)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Gerencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Resumen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Permite dar de alta proveedores con sus datos legales y de contacto.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Frecuencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Baja&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Precondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Usuario en módulo de proveedores.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:38.25pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;El sistema despliega el formulario, el usuario ingresa RUT, nombre, email y teléfono [Excepción 1], el sistema valida la unicidad del RUT [Excepción 2], el sistema guarda al nuevo proveedor y muestra una confirmacion de éxito, al usuario.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:45.94824218749999pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepción 1: Formato de email inválido. El sistema solicita corregir.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepción 2: RUT ya existe. El sistema notifica la duplicidad.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Poscondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;El proveedor queda disponible para asociaciones comerciales.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Dependencias&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: rgb(255, 255, 255); font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;UR 7.1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="500" width="560" x="-170" y="25" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="560" width="20" x="655" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-3" parent="EzJDmtD9Ie_dqdpvaNmN-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="400" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="630" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_RegistrarProveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="200" x="805" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-6" parent="EzJDmtD9Ie_dqdpvaNmN-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="410" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_ProveedorController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="550" width="200" x="1125" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-8" parent="EzJDmtD9Ie_dqdpvaNmN-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="400" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="164" x="1445" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-10" parent="EzJDmtD9Ie_dqdpvaNmN-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="77" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Correo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="200" x="1725" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-12" parent="EzJDmtD9Ie_dqdpvaNmN-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Telefono&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="210" x="2045" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-14" parent="EzJDmtD9Ie_dqdpvaNmN-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="100" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Desplegar formulario proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1221" y="110" as="sourcePoint" />
+            <mxPoint x="915" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="140" as="sourcePoint" />
+            <mxPoint x="675" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa RUT nombre email y telefono">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="675" y="170" as="sourcePoint" />
+            <mxPoint x="901" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="915" y="200" as="sourcePoint" />
+            <mxPoint x="1221" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Validar unicidad RUT">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1235" y="240" as="sourcePoint" />
+            <mxPoint x="1522" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. RUT disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1522" y="270" as="sourcePoint" />
+            <mxPoint x="1235" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Guardar nuevo proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1235" y="300" as="sourcePoint" />
+            <mxPoint x="1522" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="8. Guardar contacto correo">
+          <mxGeometry relative="1" width="80" x="0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1235" y="340" as="sourcePoint" />
+            <mxPoint x="1815" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="10. Guardar contacto telefono">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1235" y="410" as="sourcePoint" />
+            <mxPoint x="2135" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Contacto telefono guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2135" y="440" as="sourcePoint" />
+            <mxPoint x="1235" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Confirmar exito">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1221" y="470" as="sourcePoint" />
+            <mxPoint x="915" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="13. Muestra confirmacion exito">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="901" y="490" as="sourcePoint" />
+            <mxPoint x="675" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="80" x="590" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="290" width="20" x="630" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-29" parent="EzJDmtD9Ie_dqdpvaNmN-28" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-30" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="605" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_RegistrarProveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="290" width="200" x="780" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-32" parent="EzJDmtD9Ie_dqdpvaNmN-31" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-33" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_ProveedorController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="290" width="200" x="1100" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-34" parent="EzJDmtD9Ie_dqdpvaNmN-33" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Desplegar formulario proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1196" y="890" as="sourcePoint" />
+            <mxPoint x="890" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="876" y="920" as="sourcePoint" />
+            <mxPoint x="650" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa email con formato invalido">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="950" as="sourcePoint" />
+            <mxPoint x="876" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="890" y="980" as="sourcePoint" />
+            <mxPoint x="1196" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-39" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar formato email">
+          <mxGeometry relative="1" x="0.4665" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1270" y="1000" />
+              <mxPoint x="1270" y="1030" />
+            </Array>
+            <mxPoint x="1210" y="1000" as="sourcePoint" />
+            <mxPoint x="1210" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Mostrar error formato email invalido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1196" y="1050" as="sourcePoint" />
+            <mxPoint x="890" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error formato email invalido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="870" y="1070" as="sourcePoint" />
+            <mxPoint x="650" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-42" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="80" x="560" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-43" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="320" width="20" x="600" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-44" parent="EzJDmtD9Ie_dqdpvaNmN-43" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="575" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-46" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_RegistrarProveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="200" x="750" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-47" parent="EzJDmtD9Ie_dqdpvaNmN-46" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-48" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_ProveedorController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="200" x="1070" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-49" parent="EzJDmtD9Ie_dqdpvaNmN-48" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-50" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="164" x="1390" y="1500" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-51" parent="EzJDmtD9Ie_dqdpvaNmN-50" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="77" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Desplegar formulario proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1166" y="1590" as="sourcePoint" />
+            <mxPoint x="860" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-53" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="846" y="1620" as="sourcePoint" />
+            <mxPoint x="620" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-54" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa RUT ya existente">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="620" y="1650" as="sourcePoint" />
+            <mxPoint x="846" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="860" y="1680" as="sourcePoint" />
+            <mxPoint x="1166" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Validar unicidad RUT">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1180" y="1710" as="sourcePoint" />
+            <mxPoint x="1467" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-57" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. RUT ya existe">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1467" y="1740" as="sourcePoint" />
+            <mxPoint x="1180" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-58" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Mostrar notificacion duplicidad RUT">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1166" y="1770" as="sourcePoint" />
+            <mxPoint x="860" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-59" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Muestra notificacion duplicidad RUT">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="846" y="1789" as="sourcePoint" />
+            <mxPoint x="620" y="1789" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EzJDmtD9Ie_dqdpvaNmN-60" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Proveedor guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1817" y="370" as="sourcePoint" />
+            <mxPoint x="1237" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6iyJo9aqf1b9obWqMoKk-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="164" x="1500" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="6iyJo9aqf1b9obWqMoKk-2" parent="6iyJo9aqf1b9obWqMoKk-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="77" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="6iyJo9aqf1b9obWqMoKk-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Correo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="200" x="1780" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="6iyJo9aqf1b9obWqMoKk-4" parent="6iyJo9aqf1b9obWqMoKk-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="6iyJo9aqf1b9obWqMoKk-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Telefono&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="210" x="2100" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="6iyJo9aqf1b9obWqMoKk-6" parent="6iyJo9aqf1b9obWqMoKk-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="100" y="380" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fzq7rJ_IyXML0bKKY1lw" name="Página-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZPWGkYpbnfzEo0N1aiXP-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="740" width="2220" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="600" width="20" x="55" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-2" parent="u0X9Q0MdPyCvQmrYCpzM-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="hYzlDKFB4th0i-mdmevZ-10" parent="u0X9Q0MdPyCvQmrYCpzM-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="30" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_RegistrarProveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="200" x="465" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-5" parent="u0X9Q0MdPyCvQmrYCpzM-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hYzlDKFB4th0i-mdmevZ-9" parent="u0X9Q0MdPyCvQmrYCpzM-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="590" width="200" x="785" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-7" parent="u0X9Q0MdPyCvQmrYCpzM-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hYzlDKFB4th0i-mdmevZ-3" parent="u0X9Q0MdPyCvQmrYCpzM-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hYzlDKFB4th0i-mdmevZ-8" parent="u0X9Q0MdPyCvQmrYCpzM-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="160" x="1370" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Correo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="200" x="1650" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Telefono&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="210" x="1970" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Desplegar formulario proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="881" y="310" as="sourcePoint" />
+            <mxPoint x="575" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="u0X9Q0MdPyCvQmrYCpzM-2" value="2. Muestra formulario proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="561" y="340" as="sourcePoint" />
+            <mxPoint x="80" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-16" edge="1" parent="1" source="u0X9Q0MdPyCvQmrYCpzM-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa RUT nombre email y telefono">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="80" y="370" as="sourcePoint" />
+            <mxPoint x="561" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="hYzlDKFB4th0i-mdmevZ-3" value="4. Enviar datos proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="575" y="400" as="sourcePoint" />
+            <mxPoint x="870" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="15. Confirmar exito">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="881" y="710" as="sourcePoint" />
+            <mxPoint x="575" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="H0O3TGzM1BaWaS6-7er6-3" value="16. Redirige a vista general">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="561" y="730" as="sourcePoint" />
+            <mxPoint x="335" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZPWGkYpbnfzEo0N1aiXP-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-54: Registrando proveedores&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="900" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hYzlDKFB4th0i-mdmevZ-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="140" x="1090" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="hYzlDKFB4th0i-mdmevZ-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Validar informacion">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="890" y="430" as="sourcePoint" />
+            <mxPoint x="1150" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-9" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="1445" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Validar unicidad RUT">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1160" y="460" as="sourcePoint" />
+            <mxPoint x="1447" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. RUT disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1442" y="490" as="sourcePoint" />
+            <mxPoint x="1170" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="8. Guardar nuevo proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1170" y="514" as="sourcePoint" />
+            <mxPoint x="1442" y="514.44" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="10. Guardar contacto correo">
+          <mxGeometry relative="1" width="80" x="0.0009" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1170" y="580" as="sourcePoint" />
+            <mxPoint x="1745" y="580.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-22" edge="1" parent="1" source="hYzlDKFB4th0i-mdmevZ-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0.286;entryDx=0;entryDy=0;entryPerimeter=0;" target="u0X9Q0MdPyCvQmrYCpzM-13" value="12. Guardar contacto telefono">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1155" y="640" as="sourcePoint" />
+            <mxPoint x="2055" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-23" edge="1" parent="1" source="u0X9Q0MdPyCvQmrYCpzM-13" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=0.714;exitDx=0;exitDy=0;exitPerimeter=0;" value="13. Contacto telefono guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2055" y="670" as="sourcePoint" />
+            <mxPoint x="1170" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Correo Guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1745" y="610.0000000000002" as="sourcePoint" />
+            <mxPoint x="1170" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="YoZ9DYOsBC8R6_lyMJHR-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Proveedor Guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1437" y="540" as="sourcePoint" />
+            <mxPoint x="1170" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-11" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="1745" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="u0X9Q0MdPyCvQmrYCpzM-13" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="2070" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="hYzlDKFB4th0i-mdmevZ-5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="290" width="10" x="1155" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="hYzlDKFB4th0i-mdmevZ-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="14. Informacion valida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1150" y="690" as="sourcePoint" />
+            <mxPoint x="890" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H0O3TGzM1BaWaS6-7er6-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_Provedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="200" x="170" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="H0O3TGzM1BaWaS6-7er6-3" parent="H0O3TGzM1BaWaS6-7er6-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="2RaNfYnYycn_GdqznuDK-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="17. Muestra confirmacion exito">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="750" as="sourcePoint" />
+            <mxPoint x="70" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9UbsvqlKm7_nAPom9sjy" name="Página-3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qePxzS-3c7eiXz-8GrLS-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="530" width="2150" x="-20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="80" x="980" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="340" width="20" x="15" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-3" parent="UiWFMEi06GOxQBYzHGRq-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="sEkKj_v-0duicJwImtBu-5" parent="UiWFMEi06GOxQBYzHGRq-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="-10" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_RegistrarProveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="370" width="200" x="390" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-6" parent="UiWFMEi06GOxQBYzHGRq-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="sEkKj_v-0duicJwImtBu-3" parent="UiWFMEi06GOxQBYzHGRq-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="380" width="200" x="710" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-8" parent="UiWFMEi06GOxQBYzHGRq-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Desplegar formulario proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="806" y="250" as="sourcePoint" />
+            <mxPoint x="500" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="486" y="280" as="sourcePoint" />
+            <mxPoint x="40" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa email con formato invalido">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="40" y="310" as="sourcePoint" />
+            <mxPoint x="486" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="500" y="340" as="sourcePoint" />
+            <mxPoint x="806" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-13" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar formato email">
+          <mxGeometry relative="1" x="0.4665" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="880" y="360" />
+              <mxPoint x="880" y="390" />
+            </Array>
+            <mxPoint x="820" y="360" as="sourcePoint" />
+            <mxPoint x="820" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Mostrar error formato email invalido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="806" y="410" as="sourcePoint" />
+            <mxPoint x="500" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UiWFMEi06GOxQBYzHGRq-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error formato email invalido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="430" as="sourcePoint" />
+            <mxPoint x="30" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mL7gKmcapnjnI5LZ7OY1-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="380" width="164" x="1280" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mL7gKmcapnjnI5LZ7OY1-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Correo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="370" width="200" x="1560" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="mL7gKmcapnjnI5LZ7OY1-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Telefono&lt;/u&gt;" vertex="1">
+          <mxGeometry height="370" width="210" x="1880" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="qePxzS-3c7eiXz-8GrLS-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-54: Registrando proveedores&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="870" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="sEkKj_v-0duicJwImtBu-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_Provedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="200" x="120" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Xccq9lA3O6R_R347uygU-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="380" width="140" x="1040" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="D2qH9qoNIJQYZVK25ARf" name="Página-4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LMgje009gsXaNScb1BCv-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="500" width="2210" x="-150" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="80" x="880" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="360" width="20" x="-115" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-3" parent="BJbeqQl2mgjOqDfolK-c-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="crToV8aiGWT0e5BB4DLr-1" parent="BJbeqQl2mgjOqDfolK-c-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="-140" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_RegistrarProveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="370" width="200" x="300" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-6" parent="BJbeqQl2mgjOqDfolK-c-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6jJVUBZfnULFYEPqSBwP-2" parent="BJbeqQl2mgjOqDfolK-c-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="95" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="200" x="620" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-8" parent="BJbeqQl2mgjOqDfolK-c-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6jJVUBZfnULFYEPqSBwP-1" parent="BJbeqQl2mgjOqDfolK-c-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ZNxmDdh5TxzrSmLXvlzT-4" parent="BJbeqQl2mgjOqDfolK-c-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="95" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="345" width="164" x="1260" y="215" as="geometry" />
+        </mxCell>
+        <mxCell id="6jJVUBZfnULFYEPqSBwP-3" parent="BJbeqQl2mgjOqDfolK-c-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="75" width="10" x="77" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Desplegar formulario proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="716" y="300" as="sourcePoint" />
+            <mxPoint x="410" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="BJbeqQl2mgjOqDfolK-c-3" value="2. Muestra formulario proveedor">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="396" y="330" as="sourcePoint" />
+            <mxPoint x="-90" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-13" edge="1" parent="1" source="BJbeqQl2mgjOqDfolK-c-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa RUT ya existente">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-90" y="360" as="sourcePoint" />
+            <mxPoint x="396" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos proveedor">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="410" y="390" as="sourcePoint" />
+            <mxPoint x="716" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="6jJVUBZfnULFYEPqSBwP-2" value="9. Mostrar notificacion duplicidad RUT">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="716" y="500" as="sourcePoint" />
+            <mxPoint x="410" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="crToV8aiGWT0e5BB4DLr-1" value="10. Muestra notificacion duplicidad RUT">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="396" y="520" as="sourcePoint" />
+            <mxPoint x="-90" y="521" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Y2Js_E8ecL3fr-IDrUMv-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-54: Registrando proveedores&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="280" x="780" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LMgje009gsXaNScb1BCv-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Correo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="352.5" width="200" x="1500" y="217.5" as="geometry" />
+        </mxCell>
+        <mxCell id="LMgje009gsXaNScb1BCv-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Proveedor_Contacto_Telefono&lt;/u&gt;" vertex="1">
+          <mxGeometry height="347.5" width="210" x="1820" y="222.5" as="geometry" />
+        </mxCell>
+        <mxCell id="nyDq73LeuKgu3odB4ea0-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_Provedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="200" x="20" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="O90psamZZojw4rjTwdQg-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="140" x="980" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="BJbeqQl2mgjOqDfolK-c-10" parent="O90psamZZojw4rjTwdQg-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="85" width="10" x="65" y="195" as="geometry" />
+        </mxCell>
+        <mxCell id="ZkS1VPqb0bUfTO2MOtq5-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="6jJVUBZfnULFYEPqSBwP-3" value="6. Consultar RUT">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1060" y="440" as="sourcePoint" />
+            <mxPoint x="1330" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZkS1VPqb0bUfTO2MOtq5-2" edge="1" parent="1" source="6jJVUBZfnULFYEPqSBwP-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.5;entryY=0.765;entryDx=0;entryDy=0;entryPerimeter=0;" target="BJbeqQl2mgjOqDfolK-c-10" value="7. RUT existente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1330" y="470" as="sourcePoint" />
+            <mxPoint x="1060" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6jJVUBZfnULFYEPqSBwP-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="BJbeqQl2mgjOqDfolK-c-10" value="5. Validar informacion">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="730" y="420" as="sourcePoint" />
+            <mxPoint x="1030" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6jJVUBZfnULFYEPqSBwP-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Informacion invalida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="480" as="sourcePoint" />
+            <mxPoint x="730" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

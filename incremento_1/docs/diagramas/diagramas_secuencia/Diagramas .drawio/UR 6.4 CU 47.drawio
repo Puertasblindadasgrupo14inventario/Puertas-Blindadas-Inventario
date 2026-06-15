@@ -1,0 +1,588 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Página-1" id="fg4eXCz9UJqwqmBaid3r">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="410" width="20" x="740" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-2" parent="s9lNQk0TdmyEUxJLb0HZ-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="270" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="715" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_AjustarUmbralesAlerta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="410" width="210" x="920" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-5" parent="s9lNQk0TdmyEUxJLb0HZ-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_AlertaInventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="420" width="200" x="1250" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-7" parent="s9lNQk0TdmyEUxJLb0HZ-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="260" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="500" width="164" x="1570" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-9" parent="s9lNQk0TdmyEUxJLb0HZ-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="77" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Habilitar edicion umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1346" y="200" as="sourcePoint" />
+            <mxPoint x="1030" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Mostrar formulario umbrales">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="240" as="sourcePoint" />
+            <mxPoint x="760" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresar valores stock minimo maximo y critico">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="760" y="270" as="sourcePoint" />
+            <mxPoint x="1010" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar nuevos valores umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1030" y="290" as="sourcePoint" />
+            <mxPoint x="1346" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-14" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar valores y condicion stock critico">
+          <mxGeometry relative="1" x="0.7333" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1420" y="310" />
+              <mxPoint x="1420" y="340" />
+            </Array>
+            <mxPoint x="1360" y="310" as="sourcePoint" />
+            <mxPoint x="1360" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Guardar umbrales en producto">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1360" y="370" as="sourcePoint" />
+            <mxPoint x="1647" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Umbrales guardados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1647" y="400" as="sourcePoint" />
+            <mxPoint x="1360" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Confirmar configuracion guardada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1346" y="430" as="sourcePoint" />
+            <mxPoint x="1030" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Muestra confirmacion configuracion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="470" as="sourcePoint" />
+            <mxPoint x="760" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="280" width="20" x="740" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-21" parent="s9lNQk0TdmyEUxJLb0HZ-20" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="715" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-23" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_AjustarUmbralesAlerta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="280" width="210" x="910" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-24" parent="s9lNQk0TdmyEUxJLb0HZ-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_AlertaInventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="280" width="200" x="1240" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-26" parent="s9lNQk0TdmyEUxJLb0HZ-25" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Habilitar edicion umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1336" y="750" as="sourcePoint" />
+            <mxPoint x="1020" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Mostrar formulario umbrales">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="780" as="sourcePoint" />
+            <mxPoint x="760" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresar valor no numerico o negativo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="760" y="810" as="sourcePoint" />
+            <mxPoint x="1000" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar nuevos valores umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1020" y="830" as="sourcePoint" />
+            <mxPoint x="1336" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-31" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar valores y condicion stock critico">
+          <mxGeometry relative="1" x="0.6364" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1350" y="840" />
+              <mxPoint x="1390" y="840" />
+              <mxPoint x="1390" y="870" />
+            </Array>
+            <mxPoint x="1350" y="840" as="sourcePoint" />
+            <mxPoint x="1350" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Mostrar error valores no numericos o negativos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1336" y="900" as="sourcePoint" />
+            <mxPoint x="1020" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error valores no numericos o negativos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="910" as="sourcePoint" />
+            <mxPoint x="760" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="280" width="20" x="740" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-36" parent="s9lNQk0TdmyEUxJLb0HZ-35" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-37" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="715" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_AjustarUmbralesAlerta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="280" width="210" x="1030" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-39" parent="s9lNQk0TdmyEUxJLb0HZ-38" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-40" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_AlertaInventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="280" width="200" x="1360" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-41" parent="s9lNQk0TdmyEUxJLb0HZ-40" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-42" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Habilitar edicion umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1456" y="1190" as="sourcePoint" />
+            <mxPoint x="1140" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-43" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Mostrar formulario umbrales">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="1220" as="sourcePoint" />
+            <mxPoint x="760" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-44" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresar stock critico mayor que minimo o maximo menor que minimo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="760" y="1250" as="sourcePoint" />
+            <mxPoint x="1120" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar nuevos valores umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1140" y="1270" as="sourcePoint" />
+            <mxPoint x="1456" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-46" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar valores y condicion stock critico">
+          <mxGeometry relative="1" x="0.8182" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1510" y="1280" />
+              <mxPoint x="1510" y="1310" />
+              <mxPoint x="1470" y="1310" />
+            </Array>
+            <mxPoint x="1470" y="1280" as="sourcePoint" />
+            <mxPoint x="1470" y="1310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Mostrar error stock critico fuera de rango valido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1456" y="1330" as="sourcePoint" />
+            <mxPoint x="1140" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error stock critico fuera de rango valido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1126" y="1350" as="sourcePoint" />
+            <mxPoint x="760" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="s9lNQk0TdmyEUxJLb0HZ-49" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-3bc61b91-7fff-e3df-84ca-c8deb5f13539&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;margin-left:0pt;&quot; align=&quot;left&quot;&gt;&lt;table style=&quot;border-width: medium; border-style: none; border-color: currentcolor; border-image: initial; border-collapse: collapse;&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;131&quot;&gt;&lt;col width=&quot;460&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Nombre&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Actor(es)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Gerencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:37pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Resumen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Permite configurar valores mínimos, máximos&amp;nbsp; y críticos por producto para adaptar el sistema a la demanda.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Frecuencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Media&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Precondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Producto registrado.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:58.5pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;El sistema habilita la edición de umbrales. El usuario ingresa los nuevos valores de stock mínimo, stock máximo y stock crítico [Excepción 1]. El sistema valida que los valores ingresados sean válidos y que el stock crítico sea menor o igual al stock mínimo [Excepción 2]. Una vez valida la información, el sistema guarda la configuración, el sistema muestra una confirmacion al usuario.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:46.5pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepción 1: Se ingresan valores no numéricos o negativos.&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Excepción 2: El valor de stock crítico es mayor que el stock mínimo o el valor de stock máximo es menor que el stock mínimo.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Poscondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Se actualiza la sensibilidad del motor de alertas del producto.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Dependencias&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;UR 6.4&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Campo&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-width: 1.125pt; border-style: solid; border-color: rgb(0, 0, 0); vertical-align: top; padding: 5pt; overflow: hidden; overflow-wrap: break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size: 9pt; font-family: &amp;quot;Times New Roman&amp;quot;, serif; color: rgb(0, 0, 0); background-color: transparent; font-weight: 400; font-style: normal; font-variant: normal; text-decoration: none; vertical-align: baseline; white-space: pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="560" width="560" x="110" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gWxuoB99K_0V8O7N1mGo-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap;&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="1080" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="dyFOaEWM_abniQNEk8FV-1" parent="1" style="text;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="&lt;div data-ccp-timestamp=&quot;1781102642843&quot;&gt;&lt;table width=&quot;566&quot; style=&quot;border-collapse:collapse;width:425pt&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;115&quot; style=&quot;width:86pt&quot;&gt;&lt;col width=&quot;451&quot; style=&quot;width:338pt&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr height=&quot;21&quot; style=&quot;height:15.75pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;21&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:15.75pt&quot;&gt;Nombre&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;21&quot; style=&quot;height:15.75pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;21&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:15.75pt&quot;&gt;Actor(es)&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;Gerencia&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;50&quot; style=&quot;height:37.5pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;50&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:37.5pt&quot;&gt;Resumen&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;Permite configurar valores mínimos, máximos&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp; &lt;/span&gt;y críticos por producto para adaptar el sistema a la demanda.&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;21&quot; style=&quot;height:15.75pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;21&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:15.75pt&quot;&gt;Frecuencia&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;Media&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;21&quot; style=&quot;height:15.75pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;21&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:15.75pt&quot;&gt;Precondiciones&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;Producto registrado.&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;118&quot; style=&quot;height:88.5pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;118&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:88.5pt&quot;&gt;Descripción&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;El sistema habilita la edición de umbrales. El usuario ingresa los nuevos valores de stock mínimo, stock máximo y stock crítico [Excepción 1]. El sistema valida que los valores ingresados sean válidos y que el stock crítico sea menor o igual al stock mínimo [Excepción 2]. Una vez validad la información, el sistema guarda la configuración.&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;61&quot; style=&quot;height:45.75pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;61&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:45.75pt&quot;&gt;Excepciones&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;Excepción 1: Se ingresan valores no númericos o negativos.&lt;span style=&quot;mso-spacerun:yes&quot;&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;/span&gt;Excepción 2: El valor de stock crítico es mayor que el stock mínimo o el valor de stock máximo es menor que el stock mínimo.&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;18&quot; style=&quot;height:13.5pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;18&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:13.5pt&quot;&gt;Poscondiciones&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;Se actualiza la sensibilidad del motor de alertas del producto.&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;21&quot; style=&quot;height:15.75pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;21&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:15.75pt&quot;&gt;Dependencias&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;UR 6.4&lt;/td&gt;&lt;/tr&gt;&lt;tr height=&quot;21&quot; style=&quot;height:15.75pt&quot;&gt;&lt;td width=&quot;115&quot; height=&quot;21&quot; class=&quot;xl19&quot; style=&quot;width:86pt;height:15.75pt&quot;&gt;Campo&lt;/td&gt;&lt;td width=&quot;451&quot; class=&quot;xl19&quot; style=&quot;width:338pt&quot;&gt;Descripción&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="420" width="560" x="-470" y="210" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-ambI0IgK5IaLSnDuYW1" name="Página-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="520" width="1410" x="190" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_EditarProducto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="400" width="210" x="427" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-2" parent="3mJ3lP-C5AWzyVh-XJws-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="100" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7Yz1xND97kNQ7OeZsi8-1" parent="3mJ3lP-C5AWzyVh-XJws-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="410" width="200" x="757" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-1" parent="3mJ3lP-C5AWzyVh-XJws-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-5" parent="3mJ3lP-C5AWzyVh-XJws-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="95" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-10" parent="3mJ3lP-C5AWzyVh-XJws-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="55" width="10" x="95" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="400" width="170" x="1390" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-8" parent="3mJ3lP-C5AWzyVh-XJws-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="80" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-9" edge="1" parent="1" source="mkPJzYiL662LPquBQ258-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Habilitar edicion umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="850" y="320" as="sourcePoint" />
+            <mxPoint x="537" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario umbrales">
+          <mxGeometry relative="1" x="0.0005" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="527" y="350" as="sourcePoint" />
+            <mxPoint x="262" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa valores stock minimo maximo y critico">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="262" y="380" as="sourcePoint" />
+            <mxPoint x="527" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="mkPJzYiL662LPquBQ258-5" value="4. Enviar nuevos valores umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="537" y="410" as="sourcePoint" />
+            <mxPoint x="850" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap;&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="722" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="51qXZUilaQkSfaoWt_wP-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="410" width="140" x="1100" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-7" parent="51qXZUilaQkSfaoWt_wP-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="155" width="10" x="65" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-14" edge="1" parent="51qXZUilaQkSfaoWt_wP-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="mkPJzYiL662LPquBQ258-8" value="8. Guardar umbrales en producto">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="75" y="290" as="sourcePoint" />
+            <mxPoint x="362" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-16" edge="1" parent="51qXZUilaQkSfaoWt_wP-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="Y7Yz1xND97kNQ7OeZsi8-1" value="11. Confirmar configuracion guardada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-249.5" y="350" as="sourcePoint" />
+            <mxPoint x="-560" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-9" edge="1" parent="51qXZUilaQkSfaoWt_wP-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="mkPJzYiL662LPquBQ258-10" value="10. Devolver datos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="65" y="330" as="sourcePoint" />
+            <mxPoint x="-230" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;text-align: left;&quot;&gt;5. Validar valores y condicion stock critico&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <Array as="points">
+              <mxPoint x="1040" y="424.55" />
+            </Array>
+            <mxPoint x="862" y="424.55" as="sourcePoint" />
+            <mxPoint x="1165" y="424.55" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3dDfh6JGbh3QnRRrfqP-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Informacion valida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1165" y="460" as="sourcePoint" />
+            <mxPoint x="862" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="x3dDfh6JGbh3QnRRrfqP-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Procesar datos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="862" y="490" as="sourcePoint" />
+            <mxPoint x="1165" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Umbrales guardados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1470.0000000000002" y="540" as="sourcePoint" />
+            <mxPoint x="1175.0000000000002" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Muestra confirmacion configuracion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="524.5" y="584" as="sourcePoint" />
+            <mxPoint x="262" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3mJ3lP-C5AWzyVh-XJws-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="410" width="20" x="247" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-3" parent="3mJ3lP-C5AWzyVh-XJws-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="mkPJzYiL662LPquBQ258-12" parent="3mJ3lP-C5AWzyVh-XJws-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="S-v7A69Y41yfz9HRHH-Y-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="mkPJzYiL662LPquBQ258-3" value="Gerencia">
+          <mxGeometry relative="1" x="1" y="-50" as="geometry">
+            <mxPoint x="-2" as="offset" />
+            <mxPoint x="280" y="350" as="sourcePoint" />
+            <mxPoint x="270" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="HV5I5p7_1SnWMzm5-crM" name="Página-3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y7VprZQSfhFvp34svekp-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="445" width="1320" x="240" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="80" x="845" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="320" width="20" x="285" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-3" parent="Je1KIOcI-P0rLHuOz_Qw-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eFhJ_zd7woNEF1mLdHEA-5" parent="Je1KIOcI-P0rLHuOz_Qw-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="255" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_EditarProducto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="210" x="480" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-6" parent="Je1KIOcI-P0rLHuOz_Qw-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="eFhJ_zd7woNEF1mLdHEA-6" parent="Je1KIOcI-P0rLHuOz_Qw-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="200" x="810" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-8" parent="Je1KIOcI-P0rLHuOz_Qw-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="eFhJ_zd7woNEF1mLdHEA-3" parent="Je1KIOcI-P0rLHuOz_Qw-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="95" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="XF3m_-vN_V2LY7O4qqwO-1" edge="1" parent="Je1KIOcI-P0rLHuOz_Qw-7" source="eFhJ_zd7woNEF1mLdHEA-3" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" target="eFhJ_zd7woNEF1mLdHEA-3" value="5. Validar valores y condicion stock critico">
+          <mxGeometry relative="1" x="0.7333" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="170" y="190" />
+              <mxPoint x="170" y="220" />
+            </Array>
+            <mxPoint x="110" y="190" as="sourcePoint" />
+            <mxPoint x="110" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-9" edge="1" parent="1" source="Je1KIOcI-P0rLHuOz_Qw-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Habilitar edicion umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="906" y="330" as="sourcePoint" />
+            <mxPoint x="590" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="Je1KIOcI-P0rLHuOz_Qw-3" value="2. Muestra formulario umbrales">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="360" as="sourcePoint" />
+            <mxPoint x="330" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-11" edge="1" parent="1" source="Je1KIOcI-P0rLHuOz_Qw-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa valor no numerico o negativo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="310" y="400" as="sourcePoint" />
+            <mxPoint x="580" y="399.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar nuevos valores umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="590" y="410" as="sourcePoint" />
+            <mxPoint x="906" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-14" edge="1" parent="1" source="eFhJ_zd7woNEF1mLdHEA-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Mostrar error valores no numericos o negativos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="906" y="480" as="sourcePoint" />
+            <mxPoint x="590" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Je1KIOcI-P0rLHuOz_Qw-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error valores no numericos o negativos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="500" as="sourcePoint" />
+            <mxPoint x="300" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BVWP42m1LSjzH3zSMCO3-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="320" width="164" x="1360" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="Y7VprZQSfhFvp34svekp-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap;&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="750" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="ubYxLqr1r_dFACQdTmDn-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="330" width="140" x="1130" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="xKUyHM9_4oHlhIU9r8O-" name="Página-4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-ihsgXFWdV9a2YfTj56G-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="440" width="1410" x="110" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="80" x="770" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="310" width="20" x="140" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-3" parent="fZ-dg3-F2mClAZ86_jcm-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpbxOHWyJ1Ugj408QU7-5" parent="fZ-dg3-F2mClAZ86_jcm-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="115" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_EditarProducto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="210" x="430" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-6" parent="fZ-dg3-F2mClAZ86_jcm-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpbxOHWyJ1Ugj408QU7-4" parent="fZ-dg3-F2mClAZ86_jcm-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="200" x="760" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-8" parent="fZ-dg3-F2mClAZ86_jcm-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpbxOHWyJ1Ugj408QU7-3" parent="fZ-dg3-F2mClAZ86_jcm-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="95" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-13" edge="1" parent="fZ-dg3-F2mClAZ86_jcm-7" source="4lpbxOHWyJ1Ugj408QU7-3" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" target="4lpbxOHWyJ1Ugj408QU7-3" value="5. Validar que stock crítico ≤ stock mínimo y stock máximo ≥ stock mínimo">
+          <mxGeometry relative="1" x="0.8182" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="180" y="190" />
+              <mxPoint x="180" y="220" />
+            </Array>
+            <mxPoint x="110" y="190" as="sourcePoint" />
+            <mxPoint x="110" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-9" edge="1" parent="1" source="fZ-dg3-F2mClAZ86_jcm-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Habilitar edicion umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="856" y="320" as="sourcePoint" />
+            <mxPoint x="540" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="fZ-dg3-F2mClAZ86_jcm-3" value="2. Muestra formulario umbrales">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="350" as="sourcePoint" />
+            <mxPoint x="160" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa stock critico mayor que minimo o maximo menor que minimo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="155" y="384.77" as="sourcePoint" />
+            <mxPoint x="530" y="384.77" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar nuevos valores umbrales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="540" y="400" as="sourcePoint" />
+            <mxPoint x="856" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Mostrar error stock critico fuera de rango valido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="856" y="470" as="sourcePoint" />
+            <mxPoint x="540" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fZ-dg3-F2mClAZ86_jcm-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="4lpbxOHWyJ1Ugj408QU7-5" value="7. Muestra error stock critico fuera de rango valido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="530" y="490" as="sourcePoint" />
+            <mxPoint x="160" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wybYdiAJ5yYQEJvy1gaZ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap;&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="675" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="-ihsgXFWdV9a2YfTj56G-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="164" x="1330" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="4lpbxOHWyJ1Ugj408QU7-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="140" x="1070" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
