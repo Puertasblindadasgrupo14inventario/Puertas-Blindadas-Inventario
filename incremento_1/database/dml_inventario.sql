@@ -2,7 +2,6 @@
 -- PostgreSQL database dump
 --
 
-\restrict 51KxAcHEks7OoSyDmIdJ9bBqoboki0LeHuEQHvHMRb5to9CnyRyUajEYbIA7WY5
 
 -- Dumped from database version 18.3
 -- Dumped by pg_dump version 18.3
@@ -980,5 +979,4 @@ SELECT pg_catalog.setval('inventario.usuario_usuario_id_usuario_seq', 6, true);
 -- PostgreSQL database dump complete
 --
 
-\unrestrict 51KxAcHEks7OoSyDmIdJ9bBqoboki0LeHuEQHvHMRb5to9CnyRyUajEYbIA7WY5
 
