@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dashboard — Puertas Blindadas</title>
+  <link rel="stylesheet" href="assets/css/global.css" />
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <div class="main-content">
+    <div id="topbar-container"></div>
+
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Dashboard</div>
+          <div class="page-subtitle" id="dash-subtitle">Bienvenido al sistema de inventario</div>
+        </div>
+      </div>
+
+      <!-- KPIs -->
+      <div class="kpi-grid">
+        <div class="kpi-card kpi-danger">
+          <div class="kpi-label">Alertas urgentes</div>
+          <div class="kpi-value danger" id="kpi-urgentes">2</div>
+          <div class="kpi-sub">Requieren atención inmediata</div>
+          <div class="kpi-icon" style="background:#f8d7da">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#dc3545" stroke-width="1.8"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          </div>
+        </div>
+
+        <div class="kpi-card kpi-warning">
+          <div class="kpi-label">Stock bajo mínimo</div>
+          <div class="kpi-value warning" id="kpi-bajo">1</div>
+          <div class="kpi-sub">Productos bajo umbral mínimo</div>
+          <div class="kpi-icon" style="background:#fff4e6">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fe8f01" stroke-width="1.8"><path d="M18 8A6 6 0 006 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 01-3.46 0"/></svg>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-label">Productos registrados</div>
+          <div class="kpi-value" id="kpi-productos">5</div>
+          <div class="kpi-sub">En catálogo activo</div>
+          <div class="kpi-icon" style="background:#fff4e6">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fe8f01" stroke-width="1.8"><path d="M21 16V8a2 2 0 00-1-1.73l-7-4a2 2 0 00-2 0l-7 4A2 2 0 003 8v8a2 2 0 001 1.73l7 4a2 2 0 002 0l7-4A2 2 0 0021 16z"/></svg>
+          </div>
+        </div>
+
+        <div class="kpi-card">
+          <div class="kpi-label">Movimientos hoy</div>
+          <div class="kpi-value" id="kpi-movs">3</div>
+          <div class="kpi-sub">Entradas y salidas registradas</div>
+          <div class="kpi-icon" style="background:#fff4e6">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#fe8f01" stroke-width="1.8"><polyline points="17 1 21 5 17 9"/><path d="M3 11V9a4 4 0 014-4h14"/><polyline points="7 23 3 19 7 15"/><path d="M21 13v2a4 4 0 01-4 4H3"/></svg>
+          </div>
+        </div>
+
+        <!-- Solo gerencia -->
+        <div class="kpi-card kpi-danger" data-rol="gerencia">
+          <div class="kpi-label">Pedidos en riesgo</div>
+          <div class="kpi-value danger" id="kpi-riesgo">1</div>
+          <div class="kpi-sub">Sin stock suficiente</div>
+          <div class="kpi-icon" style="background:#f8d7da">
+            <svg viewBox="0 0 24 24" fill="none" stroke="#dc3545" stroke-width="1.8"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 01-2 2H5a2 2 0 01-2-2V5a2 2 0 012-2h11"/></svg>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dos columnas: alertas + últimos movimientos -->
+      <div class="two-col">
+
+        <!-- Alertas activas -->
+        <div class="card">
+          <div class="card-title">
+            Alertas activas
+            <span class="badge badge-danger">3</span>
+          </div>
+
+          <div id="alertas-list">
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #f0f0f0">
+              <div class="priority-dot dot-urgente"></div>
+              <div style="flex:1">
+                <div style="font-size:13px;font-weight:500">Cerradura seguridad triple</div>
+                <div style="font-size:11px;color:var(--gray)">Stock crítico · Stock actual: 4</div>
+              </div>
+              <span class="badge badge-danger">urgente</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #f0f0f0">
+              <div class="priority-dot dot-alta"></div>
+              <div style="flex:1">
+                <div style="font-size:13px;font-weight:500">Acero inoxidable placa 2mm</div>
+                <div style="font-size:11px;color:var(--gray)">Stock bajo mínimo · Stock actual: 35</div>
+              </div>
+              <span class="badge badge-warning">alta</span>
+            </div>
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 0">
+              <div class="priority-dot dot-media"></div>
+              <div style="flex:1">
+                <div style="font-size:13px;font-weight:500">Tornillo acero inox 5cm</div>
+                <div style="font-size:11px;color:var(--gray)">Tiempo reposición · Stock actual: 120</div>
+              </div>
+              <span class="badge badge-gray">media</span>
+            </div>
+          </div>
+
+          <div style="margin-top:14px;padding-top:14px;border-top:1px solid #f0f0f0">
+            <a href="alertas/alertas.html" class="btn btn-ghost btn-sm">Ver todas las alertas</a>
+          </div>
+        </div>
+
+        <!-- Últimos movimientos -->
+        <div class="card">
+          <div class="card-title">Últimos movimientos</div>
+
+          <div id="movs-list">
+            <!-- Entrada -->
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #f0f0f0">
+              <div style="width:32px;height:32px;border-radius:8px;background:#d1e7dd;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0">↓</div>
+              <div style="flex:1">
+                <div style="font-size:13px;font-weight:500">Acero inoxidable placa 2mm</div>
+                <div style="font-size:11px;color:var(--gray)">2025-05-20 · jgarcia</div>
+              </div>
+              <span class="badge badge-success">+100</span>
+            </div>
+            <!-- Salida -->
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #f0f0f0">
+              <div style="width:32px;height:32px;border-radius:8px;background:#f8d7da;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0">↑</div>
+              <div style="flex:1">
+                <div style="font-size:13px;font-weight:500">Cerradura seguridad triple</div>
+                <div style="font-size:11px;color:var(--gray)">2025-05-21 · mlopez</div>
+              </div>
+              <span class="badge badge-danger">-16</span>
+            </div>
+            <!-- Traslado -->
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 0;border-bottom:1px solid #f0f0f0">
+              <div style="width:32px;height:32px;border-radius:8px;background:#fff4e6;display:flex;align-items:center;justify-content:center;font-size:16px;flex-shrink:0">⇄</div>
+              <div style="flex:1">
+                <div style="font-size:13px;font-weight:500">Taladro percutor 800W</div>
+                <div style="font-size:11px;color:var(--gray)">2025-05-25 · jgarcia</div>
+              </div>
+              <span class="badge badge-orange">traslado</span>
+            </div>
+          </div>
+
+          <div style="margin-top:14px;padding-top:14px;border-top:1px solid #f0f0f0">
+            <a href="movimientos/historial.html" class="btn btn-ghost btn-sm">Ver historial completo</a>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<script src="assets/js/layout.js"></script>
+<script src="shared/api.js"></script>
+<script>
+  // Bienvenida
+  const user = JSON.parse(sessionStorage.getItem('pb_user') || 'null');
+  if (user) {
+    const sub = document.getElementById('dash-subtitle');
+    const now = new Date();
+    const fecha = now.toLocaleDateString('es-CL', { weekday:'long', day:'numeric', month:'long' });
+    sub.textContent = `Bienvenido, ${user.nombre || user.username} · ${fecha}`;
+  }
+
+  async function cargarDashboard() {
+    try {
+      // Cargar alertas, productos y movimientos en paralelo
+      const [alertas, productos, movimientos] = await Promise.all([
+        API.alertas.listar().catch(() => []),
+        API.materiales.listar().catch(() => []),
+        API.movimientos.listar({ desde: new Date().toISOString().slice(0,10) }).catch(() => []),
+      ]);
+
+      // KPIs
+      const urgentes = alertas.filter(a => a.prioridad === 'urgente' && a.estado === 'activa').length;
+      const bajo     = alertas.filter(a => a.prioridad !== 'urgente' && a.estado === 'activa').length;
+      const total    = Array.isArray(productos) ? productos.filter(p => p.estado === 'activo').length : 0;
+      const movsHoy  = Array.isArray(movimientos) ? movimientos.length : 0;
+
+      document.getElementById('kpi-urgentes').textContent = urgentes;
+      document.getElementById('kpi-bajo').textContent     = bajo;
+      document.getElementById('kpi-productos').textContent = total;
+      document.getElementById('kpi-movs').textContent     = movsHoy;
+
+      // Badge total alertas
+      const badge = document.querySelector('.card-title .badge-danger');
+      if (badge) badge.textContent = alertas.filter(a => a.estado === 'activa').length;
+
+      // Lista alertas activas (top 3)
+      const alertasList = document.getElementById('alertas-list');
+      const activas = alertas.filter(a => a.estado === 'activa').slice(0, 3);
+      if (activas.length === 0) {
+        alertasList.innerHTML = `<div style="text-align:center;padding:20px;color:var(--gray);font-size:13px">
+          ✅ Sin alertas activas</div>`;
+      } else {
+        const prioCls  = { urgente: 'badge-danger', alta: 'badge-warning', media: 'badge-gray' };
+        const prioDot  = { urgente: 'dot-urgente',  alta: 'dot-alta',      media: 'dot-media' };
+        alertasList.innerHTML = activas.map((a, i) => `
+          <div style="display:flex;align-items:center;gap:10px;padding:10px 0;${i < activas.length-1 ? 'border-bottom:1px solid #f0f0f0' : ''}">
+            <div class="priority-dot ${prioDot[a.prioridad] || 'dot-media'}"></div>
+            <div style="flex:1">
+              <div style="font-size:13px;font-weight:500">${a.producto || a.sku}</div>
+              <div style="font-size:11px;color:var(--gray)">${a.tipo || '—'} · Stock actual: ${parseFloat(a.stock_actual||0)}</div>
+            </div>
+            <span class="badge ${prioCls[a.prioridad] || 'badge-gray'}">${a.prioridad || 'media'}</span>
+          </div>`).join('');
+      }
+
+      // Últimos movimientos (top 5)
+      const movsEl = document.getElementById('movs-list');
+      if (movsEl) {
+        const ultimos = Array.isArray(movimientos) ? movimientos.slice(0, 5) : [];
+        if (ultimos.length === 0) {
+          movsEl.innerHTML = `<div style="text-align:center;padding:20px;color:var(--gray);font-size:13px">Sin movimientos hoy</div>`;
+        } else {
+          const tipoCls = (t='') => t.toLowerCase().includes('entrada') ? 'badge-success'
+                                  : t.toLowerCase().includes('salida')  ? 'badge-danger' : 'badge-gray';
+          movsEl.innerHTML = ultimos.map((m, i) => `
+            <div style="display:flex;align-items:center;gap:10px;padding:10px 0;${i < ultimos.length-1 ? 'border-bottom:1px solid #f0f0f0' : ''}">
+              <div style="flex:1">
+                <div style="font-size:13px;font-weight:500">${m.material_nombre || m.sku}</div>
+                <div style="font-size:11px;color:var(--gray)">${m.fecha_hora ? m.fecha_hora.split('T')[0] : '—'} · ${m.bodega || '—'}</div>
+              </div>
+              <span class="badge ${tipoCls(m.tipo)}">${m.tipo || '—'}</span>
+              <span style="font-size:12px;font-weight:600;min-width:30px;text-align:right">${parseFloat(m.cantidad||0)}</span>
+            </div>`).join('');
+        }
+      }
+
+      // Pedidos en riesgo (solo si el elemento existe y es gerencia)
+      if (user?.rol === 'gerencia') {
+        const pedidos = await API.pedidos.listar().catch(() => []);
+        const enRiesgo = Array.isArray(pedidos) ? pedidos.filter(p => parseInt(p.materiales_faltantes||0) > 0).length : 0;
+        const kpiRiesgo = document.getElementById('kpi-riesgo');
+        if (kpiRiesgo) kpiRiesgo.textContent = enRiesgo;
+      }
+
+    } catch (err) {
+      console.warn('Error cargando dashboard:', err.message);
+    }
+  }
+
+  // Generar alertas y luego cargar dashboard
+  API.alertas.generar().catch(() => {}).finally(() => cargarDashboard());
+</script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Productos — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css" />
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <div class="main-content">
+    <div id="topbar-container"></div>
+
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Catálogo de Productos</div>
+          <div class="page-subtitle">Gestión de materiales, insumos y herramientas</div>
+        </div>
+        <!-- Solo gerencia puede crear -->
+        <div data-rol="gerencia">
+          <a href="crear.html" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            Nuevo producto
+          </a>
+        </div>
+      </div>
+
+      <!-- Alertas / notificaciones -->
+      <div id="alert-container"></div>
+
+      <!-- Filtros -->
+      <div class="card card-sm" style="margin-bottom:16px">
+        <div class="filter-row" style="margin-bottom:0">
+          <div class="search-bar" style="flex:1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="search-input" placeholder="Buscar por SKU o nombre (mín. 3 caracteres)..." autocomplete="off" />
+          </div>
+          <div id="search-hint" style="font-size:11px;color:var(--orange);display:none;padding:4px 8px">
+            Ingresa al menos 3 caracteres para buscar
+          </div>
+          <select class="form-control" id="filter-cat" style="width:auto">
+            <option value="">Todas las categorías</option>
+            <option>Materia Prima</option>
+            <option>Material Crítico</option>
+          </select>
+          <select class="form-control" id="filter-stock" style="width:auto">
+            <option value="">Todos los estados</option>
+            <option value="critico">Crítico</option>
+            <option value="bajo">Bajo mínimo</option>
+            <option value="normal">Normal</option>
+            <option value="sobrestock">Sobrestock</option>
+          </select>
+          <select class="form-control" id="filter-critico" style="width:auto">
+            <option value="">Todos los productos</option>
+            <option value="si">Solo críticos ⚡</option>
+            <option value="no">No críticos</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Tabla -->
+      <div class="card">
+        <div class="table-wrap">
+          <table id="table-productos">
+            <thead>
+              <tr>
+                <th>SKU</th>
+                <th>Nombre</th>
+                <th>Categoría</th>
+                <th>Funcional</th>
+                <th>Unidad</th>
+                <th>Stock actual</th>
+                <th>Estado stock</th>
+                <th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-productos">
+              <!-- Poblado por JS -->
+            </tbody>
+          </table>
+        </div>
+        <div id="empty-state" class="empty-state" style="display:none">
+          <div class="empty-state-icon">📦</div>
+          <p>No se encontraron productos con los filtros aplicados.</p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<!-- Modal confirmación eliminar -->
+<div class="modal-backdrop" id="modal-delete">
+  <div class="modal">
+    <div class="modal-header">
+      <div>
+        <div class="modal-title">Eliminar producto</div>
+        <div class="modal-subtitle" id="delete-subtitle"></div>
+      </div>
+      <button class="modal-close" onclick="closeModal('modal-delete')">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      <div class="alert alert-danger">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        Esta acción no se puede deshacer. Si el producto tiene movimientos asociados, solo podrá desactivarse.
+      </div>
+      <p style="font-size:14px;color:var(--gray);line-height:1.6">¿Estás seguro de que deseas eliminar este producto del catálogo?</p>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-delete')">Cancelar</button>
+      <button class="btn btn-danger" id="btn-confirm-delete">Eliminar</button>
+    </div>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+  let productos = [];
+
+  async function cargarProductos() {
+    try {
+      // Cargar categorías reales para el filtro
+      const cats = await API.materiales.categorias();
+      const selCat = document.getElementById('filter-cat');
+      const currentVal = selCat.value;
+      selCat.innerHTML = '<option value="">Todas las categorías</option>' +
+        (cats.generales || []).map(c => `<option value="${c.nombre}">${c.nombre}</option>`).join('');
+      selCat.value = currentVal;
+
+      productos = await API.materiales.listar();
+      // Normalizar nombres de campos para que coincidan con renderTable
+      productos = productos.map(p => ({
+        sku:         p.sku,
+        nombre:      p.nombre,
+        categoria:   p.categoria_general || 'Sin categoría',
+        funcional:   p.categoria_funcional || '',
+        unidad:      p.unidad_medida || '',
+        stockMin:    parseFloat(p.stock_minimo)  || 0,
+        stockMax:    parseFloat(p.stock_maximo)  || 0,
+        stockCritico:parseFloat(p.stock_critico) || 0,
+        stockActual: parseFloat(p.stock_total)   || 0,
+        critico:     p.es_critico,
+        estado:      p.estado,
+      }));
+      renderTable();
+    } catch (err) {
+      showAlert('alert-container', 'danger', 'Error cargando productos: ' + err.message);
+    }
+  }
+
+  function getStockStatus(p) {
+    if (p.stockActual <= p.stockCritico) return { label:'Crítico',      cls:'badge-danger'  };
+    if (p.stockActual <= p.stockMin)     return { label:'Bajo mínimo',  cls:'badge-warning' };
+    if (p.stockActual >= p.stockMax)     return { label:'Sobrestock',   cls:'badge-info'    };
+    return                                      { label:'Normal',       cls:'badge-success' };
+  }
+
+  function getStockKey(p) {
+    if (p.stockActual <= p.stockCritico) return 'critico';
+    if (p.stockActual <= p.stockMin)     return 'bajo';
+    if (p.stockActual >= p.stockMax)     return 'sobrestock';
+    return 'normal';
+  }
+
+  function renderTable() {
+    const searchRaw  = document.getElementById('search-input').value;
+    const search     = searchRaw.toLowerCase();
+    const filterCat  = document.getElementById('filter-cat').value;
+    const filterSt   = document.getElementById('filter-stock').value;
+    const filterCrit = document.getElementById('filter-critico').value;
+    const hint       = document.getElementById('search-hint');
+
+    // CU-02: mínimo 3 caracteres para buscar
+    if (searchRaw.length > 0 && searchRaw.length < 3) {
+      hint.style.display = 'block';
+      document.getElementById('tbody-productos').innerHTML = '';
+      document.getElementById('empty-state').style.display = 'none';
+      return;
+    }
+    hint.style.display = 'none';
+
+    const filtered = productos.filter(p => {
+      const matchSearch = !search || String(p.sku||'').toLowerCase().includes(search) || String(p.nombre||'').toLowerCase().includes(search);
+      const matchCat    = !filterCat  || p.categoria === filterCat;
+      const matchSt     = !filterSt   || getStockKey(p) === filterSt;
+      const matchCrit   = !filterCrit || (filterCrit === 'si' ? p.critico : !p.critico);
+      return matchSearch && matchCat && matchSt && matchCrit;
+    });
+
+    const tbody = document.getElementById('tbody-productos');
+    const empty = document.getElementById('empty-state');
+
+    if (filtered.length === 0) {
+      tbody.innerHTML = '';
+      empty.style.display = 'block';
+      return;
+    }
+    empty.style.display = 'none';
+
+    const user = JSON.parse(sessionStorage.getItem('pb_user') || 'null');
+    const isGerencia = user?.rol === 'gerencia';
+
+    tbody.innerHTML = filtered.map(p => {
+      const st = getStockStatus(p);
+      return `
+        <tr>
+          <td><span class="td-mono">${p.sku}</span></td>
+          <td>
+            <div style="font-weight:500;font-size:13px">${p.nombre}</div>
+            <div style="font-size:11px;color:var(--gray)">${p.funcional}${p.critico ? ' · ⚡ Crítico' : ''}</div>
+          </td>
+          <td><span class="badge badge-gray">${p.categoria}</span></td>
+          <td style="font-size:13px;color:var(--gray)">${p.funcional}</td>
+          <td style="font-size:13px">${p.unidad}</td>
+          <td>
+            <span style="font-weight:600;font-size:14px">${p.stockActual}</span>
+            <span style="color:#aaa;font-size:11px"> / mín ${p.stockMin}</span>
+          </td>
+          <td><span class="badge ${st.cls}">${st.label}</span></td>
+          <td>
+            <div style="display:flex;gap:6px;align-items:center">
+              <a href="detalle.html?sku=${p.sku}" class="btn btn-ghost btn-sm btn-icon" title="Ver detalle">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+              </a>
+              ${isGerencia ? `
+              <a href="editar.html?sku=${p.sku}" class="btn btn-ghost btn-sm btn-icon" title="Editar">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+              </a>
+              <button class="btn btn-ghost btn-sm btn-icon" style="color:var(--danger)" title="Eliminar" onclick="confirmDelete('${p.sku}','${p.nombre}')">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><polyline points="3 6 5 6 21 6"/><path d="M19 6l-1 14H6L5 6"/><path d="M10 11v6"/><path d="M14 11v6"/><path d="M9 6V4h6v2"/></svg>
+              </button>
+              ` : ''}
+            </div>
+          </td>
+        </tr>`;
+    }).join('');
+  }
+
+  /* Filtros en tiempo real */
+  ['search-input','filter-cat','filter-stock','filter-critico'].forEach(id => {
+    document.getElementById(id).addEventListener('input', renderTable);
+    document.getElementById(id).addEventListener('change', renderTable);
+  });
+
+  /* Eliminar */
+  let skuToDelete = null;
+  function confirmDelete(sku, nombre) {
+    skuToDelete = sku;
+    document.getElementById('delete-subtitle').textContent = `Producto: ${nombre}`;
+    openModal('modal-delete');
+  }
+
+  document.getElementById('btn-confirm-delete').addEventListener('click', async () => {
+    if (!skuToDelete) return;
+    const btn = document.getElementById('btn-confirm-delete');
+    btn.disabled = true;
+    btn.textContent = 'Procesando...';
+    try {
+      const result = await API.materiales.eliminar(skuToDelete);
+      closeModal('modal-delete');
+      if (result.eliminado) {
+        showAlert('alert-container', 'success', result.message);
+      } else {
+        showAlert('alert-container', 'warning', result.message);
+      }
+      cargarProductos();
+    } catch (err) {
+      closeModal('modal-delete');
+      showAlert('alert-container', 'danger', 'Error: ' + err.message);
+    } finally {
+      btn.disabled = false;
+      btn.textContent = 'Eliminar';
+      skuToDelete = null;
+    }
+  });
+
+  cargarProductos();
+</script>
+</body>
+</html>

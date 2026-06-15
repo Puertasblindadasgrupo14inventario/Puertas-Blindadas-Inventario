@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reporte Movimientos — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css"/>
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <div class="main-content">
+    <div id="topbar-container"></div>
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Reporte de Movimientos</div>
+          <div class="page-subtitle">Auditoría de entradas, salidas y traslados por período</div>
+        </div>
+        <div style="display:flex;gap:8px">
+          <a href="mermas.html" class="btn btn-ghost">Ver reporte de mermas</a>
+          <button class="btn btn-secondary" id="btn-exportar" data-rol="gerencia">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Exportar CSV
+          </button>
+        </div>
+      </div>
+
+      <div id="alert-container"></div>
+
+      <!-- Filtros -->
+      <div class="card card-sm" style="margin-bottom:16px">
+        <div class="filter-row" style="margin-bottom:0;flex-wrap:wrap">
+          <div>
+            <label class="form-label" style="margin-bottom:4px">Desde</label>
+            <input class="form-control" type="date" id="filter-desde" style="width:auto"/>
+          </div>
+          <div>
+            <label class="form-label" style="margin-bottom:4px">Hasta</label>
+            <input class="form-control" type="date" id="filter-hasta" style="width:auto"/>
+          </div>
+          <div>
+            <label class="form-label" style="margin-bottom:4px">Tipo</label>
+            <select class="form-control" id="filter-tipo" style="width:auto">
+              <option value="">Todos</option>
+              <option>Entrada</option><option>Salida</option><option>Traslado</option>
+            </select>
+          </div>
+          <div>
+            <label class="form-label" style="margin-bottom:4px">Producto</label>
+            <select class="form-control" id="filter-sku" style="width:auto">
+              <option value="">Todos</option>
+              <option value="MAT-ACE-001">MAT-ACE-001</option>
+              <option value="INS-CER-003">INS-CER-003</option>
+              <option value="MAT-MAD-002">MAT-MAD-002</option>
+              <option value="INS-TOR-005">INS-TOR-005</option>
+              <option value="HER-TAL-004">HER-TAL-004</option>
+            </select>
+          </div>
+          <div style="margin-top:auto">
+            <button class="btn btn-primary btn-sm" id="btn-generar">Generar reporte</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- KPIs resumen -->
+      <div class="kpi-grid" id="kpi-container" style="display:none;margin-bottom:24px">
+        <div class="kpi-card">
+          <div class="kpi-label">Total movimientos</div>
+          <div class="kpi-value" id="kpi-total">—</div>
+          <div class="kpi-sub">En el período</div>
+        </div>
+        <div class="kpi-card kpi-success">
+          <div class="kpi-label">Entradas</div>
+          <div class="kpi-value" id="kpi-entradas" style="color:var(--success)">—</div>
+          <div class="kpi-sub">Ingresos de stock</div>
+        </div>
+        <div class="kpi-card kpi-danger">
+          <div class="kpi-label">Salidas</div>
+          <div class="kpi-value danger" id="kpi-salidas">—</div>
+          <div class="kpi-sub">Retiros de stock</div>
+        </div>
+        <div class="kpi-card kpi-warning">
+          <div class="kpi-label">Traslados</div>
+          <div class="kpi-value warning" id="kpi-traslados">—</div>
+          <div class="kpi-sub">Entre bodegas</div>
+        </div>
+      </div>
+
+      <!-- Tabla resultado -->
+      <div class="card" id="tabla-resultado" style="display:none">
+        <div class="card-title" id="tabla-titulo">Resultados</div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>ID</th><th>Fecha</th><th>Tipo</th><th>Producto</th><th>Bodega</th><th>Cantidad</th><th>Clasificación</th><th id="th-precio" style="display:none">Precio unit.</th><th>Usuario</th></tr>
+            </thead>
+            <tbody id="tbody-reporte"></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Estado vacío inicial -->
+      <div class="card" id="empty-inicial">
+        <div class="empty-state">
+          <div class="empty-state-icon">📊</div>
+          <p>Selecciona un rango de fechas y haz clic en <strong>Generar reporte</strong> para ver los resultados.</p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+// Default: mes actual
+const hoy       = new Date();
+const primerDia = new Date(hoy.getFullYear(), hoy.getMonth(), 1).toISOString().slice(0,10);
+document.getElementById('filter-desde').value = primerDia;
+document.getElementById('filter-hasta').value = hoy.toISOString().slice(0,10);
+
+async function generarReporte() {
+  const desde = document.getElementById('filter-desde').value;
+  const hasta = document.getElementById('filter-hasta').value;
+  const tipo  = document.getElementById('filter-tipo').value;
+
+  if (!desde || !hasta) { showAlert('alert-container','danger','Selecciona un rango de fechas.'); return; }
+  if (desde > hasta)    { showAlert('alert-container','danger','La fecha "desde" no puede ser mayor que "hasta".'); return; }
+
+  const btn = document.getElementById('btn-generar');
+  btn.disabled = true;
+  btn.textContent = 'Generando...';
+
+  try {
+    const data = await API.reportes.movimientos({ desde, hasta, tipo: tipo || null });
+    const movs  = data.movimientos || [];
+    const resumen = data.resumen  || {};
+
+    document.getElementById('empty-inicial').style.display  = 'none';
+    document.getElementById('kpi-container').style.display  = 'grid';
+    document.getElementById('tabla-resultado').style.display = 'block';
+
+    document.getElementById('kpi-total').textContent     = resumen.total_movimientos || 0;
+    document.getElementById('kpi-entradas').textContent  = resumen.total_entradas    || 0;
+    document.getElementById('kpi-salidas').textContent   = resumen.total_salidas     || 0;
+    document.getElementById('kpi-traslados').textContent = movs.filter(m => m.tipo?.toLowerCase().includes('traslado')).length;
+
+    document.getElementById('tabla-titulo').textContent =
+      `${movs.length} movimiento(s) entre ${desde} y ${hasta}`;
+
+    const esGerencia = getCurrentUser()?.rol === 'gerencia';
+    const tipoCls = {};
+
+    document.getElementById('tbody-reporte').innerHTML = movs.length === 0
+      ? `<tr><td colspan="9"><div class="empty-state"><p>Sin movimientos en este período.</p></div></td></tr>`
+      : movs.map(m => {
+          const tipoNombre = m.tipo || '';
+          const cls = tipoNombre.toLowerCase().includes('entrada')  ? 'badge-success'
+                    : tipoNombre.toLowerCase().includes('salida')   ? 'badge-danger'
+                    : tipoNombre.toLowerCase().includes('traslado') ? 'badge-orange'
+                    : 'badge-gray';
+          const signo = tipoNombre.toLowerCase().includes('entrada') ? '+'
+                      : tipoNombre.toLowerCase().includes('salida')  ? '-' : '';
+          const precioCell = esGerencia
+            ? `<td style="font-size:12px" data-rol="gerencia">${m.precio_unitario != null ? '$' + parseFloat(m.precio_unitario).toLocaleString('es-CL') : '—'}</td>`
+            : '';
+          return `<tr>
+            <td><span class="td-mono" style="font-size:11px">${m.id}</span></td>
+            <td style="font-size:12px;color:var(--gray)">${m.fecha_hora ? m.fecha_hora.split('T')[0] : '—'}</td>
+            <td><span class="badge ${cls}">${tipoNombre}</span></td>
+            <td><div style="font-weight:500;font-size:13px">${m.material || '—'}</div><div style="font-size:11px;color:#aaa">${m.sku}</div></td>
+            <td style="font-size:12px;color:var(--gray)">${m.bodega || '—'}</td>
+            <td style="font-weight:600">${signo}${parseFloat(m.cantidad||0)}</td>
+            <td style="font-size:12px">${m.clasificacion_salida || '—'}</td>
+            ${precioCell}
+            <td style="font-size:12px;color:var(--gray)">${m.usuario || '—'}</td>
+          </tr>`;
+        }).join('');
+  } catch (err) {
+    showAlert('alert-container','danger','Error generando reporte: ' + err.message);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Generar reporte';
+  }
+}
+
+document.getElementById('btn-generar').addEventListener('click', generarReporte);
+document.getElementById('btn-exportar').addEventListener('click', () => {
+  showAlert('alert-container','success','Exportación disponible próximamente.');
+});
+
+// Generar al cargar con defaults
+window.addEventListener('DOMContentLoaded', () => {
+  setTimeout(() => {
+    // Mostrar columna precio solo para gerencia
+    if (getCurrentUser()?.rol === 'gerencia') {
+      const th = document.getElementById('th-precio');
+      if (th) th.style.display = '';
+    }
+    generarReporte();
+  }, 300);
+});
+</script>
+</body>
+</html>

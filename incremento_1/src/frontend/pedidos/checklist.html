@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pedidos — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css"/>
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <div class="main-content">
+    <div id="topbar-container"></div>
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Validación de Pedidos</div>
+          <div class="page-subtitle">Lista de chequeo de insumos por orden de trabajo — FR-74</div>
+        </div>
+      </div>
+
+      <div id="alert-container"></div>
+
+      <!-- Vista lista -->
+      <div id="vista-lista">
+        <div class="card">
+          <div class="filter-row" style="margin-bottom:16px">
+            <div class="search-bar" style="flex:1">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="15" height="15" style="color:var(--gray)"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+              <input id="search-pedidos" placeholder="Buscar por proyecto o código..." oninput="cargarPedidos()"/>
+            </div>
+            <select class="form-control" id="filter-estado-ot" style="width:180px" onchange="cargarPedidos()">
+              <option value="">Todos los estados</option>
+              <option value="pendiente">Pendiente</option>
+              <option value="en_proceso">En proceso</option>
+              <option value="completado">Completado</option>
+            </select>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>ID Orden</th>
+                  <th>Proyecto</th>
+                  <th>Fecha</th>
+                  <th>Viabilidad</th>
+                  <th>Materiales</th>
+                  <th>Acciones</th>
+                </tr>
+              </thead>
+              <tbody id="tbody-pedidos"></tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <!-- Vista detalle / checklist -->
+      <div id="vista-detalle" style="display:none">
+        <button class="btn btn-ghost" style="margin-bottom:16px" onclick="volverLista()">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><polyline points="15 18 9 12 15 6"/></svg>
+          Volver a pedidos
+        </button>
+
+        <div class="card">
+          <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:20px;flex-wrap:wrap;gap:10px">
+            <div>
+              <div style="font-weight:700;font-size:16px" id="det-cliente"></div>
+              <div style="font-size:12px;color:var(--gray)" id="det-meta"></div>
+            </div>
+            <span class="badge" id="det-estado-badge"></span>
+          </div>
+
+          <!-- KPIs resumen -->
+          <div id="det-resumen" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(130px,1fr));gap:12px;margin-bottom:20px"></div>
+
+          <!-- Lista de materiales (checklist) -->
+          <div style="font-size:11px;font-weight:600;color:var(--gray);text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px">
+            Materiales requeridos
+          </div>
+          <div id="checklist-items"></div>
+
+          <!-- Acciones -->
+          <div id="acciones-reserva" style="display:flex;gap:10px;flex-wrap:wrap;margin-top:20px;padding-top:16px;border-top:1px solid var(--gray-mid)"></div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+const INSUMO_INFO = {
+  disponible: { label:'Disponible', cls:'badge-success', icon:'✓',  bg:'#d1e7dd', color:'#198754' },
+  faltante:   { label:'Sin stock',  cls:'badge-danger',  icon:'✗',  bg:'#f8d7da', color:'#dc3545' },
+  reservado:  { label:'Reservado',  cls:'badge-info',    icon:'🔒', bg:'#cff4fc', color:'#055160' },
+};
+
+let pedidoActual = null;
+let pedidos      = [];
+
+async function cargarPedidos() {
+  const buscar  = document.getElementById('search-pedidos').value;
+  const estado  = document.getElementById('filter-estado-ot').value;
+  try {
+    pedidos = await API.pedidos.listar({ buscar: buscar || null, estado: estado || null });
+    renderLista();
+  } catch (err) {
+    showAlert('alert-container', 'danger', 'Error cargando pedidos: ' + err.message);
+  }
+}
+
+function renderLista() {
+  const tbody = document.getElementById('tbody-pedidos');
+  if (!pedidos || pedidos.length === 0) {
+    tbody.innerHTML = `<tr><td colspan="6">
+      <div class="empty-state"><div class="empty-state-icon">📋</div>
+      <p>No hay órdenes de trabajo registradas.</p></div>
+    </td></tr>`;
+    return;
+  }
+  tbody.innerHTML = pedidos.map(p => {
+    const faltantes  = parseInt(p.materiales_faltantes || 0);
+    const total      = parseInt(p.total_materiales || 0);
+    const hayRiesgo  = faltantes > 0;
+    const estadoBadge = hayRiesgo
+      ? '<span class="badge badge-danger">En riesgo</span>'
+      : total > 0
+        ? '<span class="badge badge-success">Viable</span>'
+        : '<span class="badge badge-gray">Sin materiales</span>';
+
+    return `<tr>
+      <td><span class="td-mono">#${p.id}</span></td>
+      <td style="font-weight:500;font-size:13px">
+        ${p.proyecto_nombre || '—'}
+        ${p.proyecto_codigo ? `<div style="font-size:11px;color:var(--gray)">${p.proyecto_codigo}</div>` : ''}
+      </td>
+      <td style="font-size:13px;color:var(--gray)">${p.fecha ? p.fecha.split('T')[0] : '—'}</td>
+      <td>${estadoBadge}</td>
+      <td style="font-size:12px">
+        ${total} material(es)
+        ${faltantes > 0 ? `· <span style="color:var(--danger);font-weight:600">${faltantes} faltante(s)</span>` : ''}
+      </td>
+      <td>
+        <button class="btn btn-ghost btn-sm" onclick="verChecklist(${p.id})">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="13" height="13"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+          Ver checklist
+        </button>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+async function verChecklist(id) {
+  try {
+    const data = await API.pedidos.checklist(id);
+    pedidoActual = data;
+
+    document.getElementById('vista-lista').style.display   = 'none';
+    document.getElementById('vista-detalle').style.display = 'block';
+
+    const o = data.orden;
+    document.getElementById('det-cliente').textContent = o.proyecto_nombre || `Orden #${o.id}`;
+    document.getElementById('det-meta').textContent    =
+      [o.proyecto_codigo, `Área: ${o.area || '—'}`, `Responsable: ${o.responsable || '—'}`]
+      .filter(Boolean).join(' · ');
+
+    const hayFaltantes = data.resumen.faltante > 0;
+    const badge = document.getElementById('det-estado-badge');
+    badge.textContent = hayFaltantes ? 'En riesgo' : data.resumen.reservado > 0 ? 'Reservado' : 'Viable';
+    badge.className   = `badge ${hayFaltantes ? 'badge-danger' : data.resumen.reservado > 0 ? 'badge-info' : 'badge-success'}`;
+
+    // KPIs
+    document.getElementById('det-resumen').innerHTML = `
+      <div class="kpi-card" style="padding:12px">
+        <div class="kpi-label">Total materiales</div>
+        <div class="kpi-value" style="font-size:20px">${data.resumen.total}</div>
+      </div>
+      <div class="kpi-card" style="padding:12px">
+        <div class="kpi-label" style="color:var(--success)">Disponibles</div>
+        <div class="kpi-value" style="font-size:20px;color:var(--success)">${data.resumen.disponible}</div>
+      </div>
+      <div class="kpi-card" style="padding:12px">
+        <div class="kpi-label" style="color:var(--info)">Reservados</div>
+        <div class="kpi-value" style="font-size:20px;color:var(--info)">${data.resumen.reservado}</div>
+      </div>
+      <div class="kpi-card" style="padding:12px">
+        <div class="kpi-label" style="color:var(--danger)">Faltantes</div>
+        <div class="kpi-value" style="font-size:20px;color:var(--danger)">${data.resumen.faltante}</div>
+      </div>`;
+
+    // Lista materiales
+    const lista = document.getElementById('checklist-items');
+    if (!data.materiales || data.materiales.length === 0) {
+      lista.innerHTML = '<div class="empty-state"><p>Esta orden no tiene materiales asignados.</p></div>';
+    } else {
+      lista.innerHTML = data.materiales.map(ins => {
+        const disp = parseFloat(ins.stock_disponible || 0);
+        const req  = parseFloat(ins.cantidad_requerida || 0);
+        // Re-calcular con redondeo para evitar imprecisión de decimales
+        const estadoReal = ins.estado_stock === 'reservado' ? 'reservado'
+                         : (Math.round(disp * 10000) >= Math.round(req * 10000)) ? 'disponible'
+                         : 'faltante';
+        const ii = INSUMO_INFO[estadoReal] || INSUMO_INFO.faltante;
+        return `<div style="display:flex;align-items:center;justify-content:space-between;padding:12px 0;border-bottom:1px solid #f0f0f0">
+          <div style="display:flex;align-items:center;gap:12px">
+            <div style="width:28px;height:28px;border-radius:6px;background:${ii.bg};display:flex;align-items:center;justify-content:center;font-size:14px;color:${ii.color};flex-shrink:0;font-weight:700">${ii.icon}</div>
+            <div>
+              <div style="font-size:13px;font-weight:500">${ins.nombre}</div>
+              <div style="font-size:11px;color:var(--gray)">
+                <span class="td-mono">${ins.sku}</span>
+                · Requerido: <strong>${req} ${ins.unidad || ''}</strong>
+                · Disponible: <strong style="color:${disp >= req ? 'var(--success)' : 'var(--danger)'}">${disp}</strong>
+                ${parseFloat(ins.ya_reservado || 0) > 0 ? ` · Reservado: <strong style="color:#0d6efd">${parseFloat(ins.ya_reservado)}</strong>` : ''}
+              </div>
+            </div>
+          </div>
+          <span class="badge ${ii.cls}">${ii.label}</span>
+        </div>`;
+      }).join('');
+    }
+
+    // Acciones
+    const acciones = document.getElementById('acciones-reserva');
+    if (hayFaltantes) {
+      acciones.innerHTML = `
+        <div class="alert alert-danger" style="width:100%;margin:0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          ${data.resumen.faltante} material(es) sin stock suficiente. Registra una compra antes de confirmar.
+        </div>
+        <a href="../movimientos/entrada.html" class="btn btn-secondary">Registrar compra</a>`;
+    } else if (data.resumen.reservado === data.resumen.total && data.resumen.total > 0) {
+      acciones.innerHTML = `
+        <div class="alert alert-success" style="margin:0">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg>
+          Todos los materiales están reservados para esta orden.
+        </div>`;
+    } else {
+      acciones.innerHTML = `
+        <a href="../movimientos/entrada.html" class="btn btn-secondary">Registrar compra</a>
+        <button class="btn btn-primary" onclick="reservarStock(${id})">Reservar insumos disponibles</button>`;
+    }
+  } catch (err) {
+    showAlert('alert-container', 'danger', 'Error cargando checklist: ' + err.message);
+  }
+}
+
+async function reservarStock(id) {
+  const data = pedidoActual;
+  const materialesAReservar = (data.materiales || [])
+    .filter(m => m.estado_stock === 'disponible')
+    .map(m => ({ sku: m.sku, cantidad: parseFloat(m.cantidad_requerida || 0) }));
+
+  if (materialesAReservar.length === 0) {
+    showAlert('alert-container', 'warning', 'No hay materiales disponibles para reservar.');
+    return;
+  }
+  try {
+    await API.pedidos.reservar(id, { materiales: materialesAReservar });
+    showAlert('alert-container', 'success', 'Stock reservado correctamente.');
+    verChecklist(id);
+  } catch (err) {
+    showAlert('alert-container', 'danger', 'Error al reservar: ' + err.message);
+  }
+}
+
+function volverLista() {
+  document.getElementById('vista-lista').style.display   = 'block';
+  document.getElementById('vista-detalle').style.display = 'none';
+  pedidoActual = null;
+}
+
+cargarPedidos();
+</script>
+</body>
+</html>

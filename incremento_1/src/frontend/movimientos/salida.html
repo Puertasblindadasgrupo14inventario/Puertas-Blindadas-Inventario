@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Registrar Salida — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css"/>
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <div class="main-content">
+    <div id="topbar-container"></div>
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Registrar Salida</div>
+          <div class="page-subtitle">Retiro de stock del inventario (FR-19, FR-24, FR-25)</div>
+        </div>
+        <a href="historial.html" class="btn btn-secondary">← Volver al historial</a>
+      </div>
+
+      <div id="alert-container"></div>
+
+      <div style="display:grid;grid-template-columns:2fr 1fr;gap:20px;align-items:start">
+
+        <form id="form-salida" novalidate>
+
+          <div class="card" style="margin-bottom:16px">
+            <div class="section-label">Datos del retiro</div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="sku">SKU del producto <span class="required">*</span></label>
+                <select class="form-control" id="sku" required>
+                  <option value="">Cargando productos...</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="bodega">Bodega origen <span class="required">*</span></label>
+                <select class="form-control" id="bodega" required>
+                  <option value="">Cargando bodegas...</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label" for="cantidad">Cantidad a retirar <span class="required">*</span></label>
+                <input class="form-control" id="cantidad" type="number" min="1" placeholder="0" required/>
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="fecha">Fecha del movimiento <span class="required">*</span></label>
+                <input class="form-control" id="fecha" type="date" required/>
+              </div>
+            </div>
+          </div>
+
+          <div class="card" style="margin-bottom:16px">
+            <div class="section-label">Clasificación de la salida (FR-25)</div>
+            <div class="form-group">
+              <label class="form-label" for="clasificacion">Categoría <span class="required">*</span></label>
+              <select class="form-control" id="clasificacion" required>
+                <option value="">Cargando clasificaciones...</option>
+              </select>
+            </div>
+            <!-- CU-19: Bodega destino solo visible para traslados -->
+            <div class="form-group" id="grupo-bodega-destino" style="display:none">
+              <label class="form-label" for="bodega-destino">Bodega destino <span class="required">*</span></label>
+              <select class="form-control" id="bodega-destino">
+                <option value="">Seleccionar bodega destino...</option>
+              </select>
+              <div class="form-hint">El stock se descontará de la bodega origen y se sumará en la bodega destino</div>
+            </div>
+            <div class="form-group" id="grupo-motivo-select" style="display:none">
+              <label class="form-label">Motivo predefinido</label>
+              <select class="form-control" id="motivo-select">
+                <option value="">Seleccionar motivo...</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="section-label">Motivo de salida (FR-24)</div>
+            <div class="form-group">
+              <label class="form-label" for="motivo">
+                Descripción del motivo <span class="required">*</span>
+                <span class="hint">(máx. 255 caracteres)</span>
+              </label>
+              <textarea class="form-control" id="motivo" rows="3" maxlength="255"
+                placeholder="Ej: Producto dañado durante transporte hacia obra, lote 2025-05." required></textarea>
+              <div class="form-counter"><span id="motivo-count">0</span>/255</div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Usuario responsable</label>
+              <input class="form-control" id="usuario" disabled/>
+            </div>
+            <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:8px">
+              <a href="historial.html" class="btn btn-secondary">Cancelar</a>
+              <button type="submit" class="btn btn-primary">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="15" height="15"><polyline points="20 6 9 17 4 12"/></svg>
+                Registrar salida
+              </button>
+            </div>
+          </div>
+
+        </form>
+
+        <!-- Sidebar stock -->
+        <div style="display:flex;flex-direction:column;gap:16px">
+          <div class="card">
+            <div class="section-label">Stock disponible</div>
+            <div id="stock-preview" style="text-align:center;padding:16px 0;color:var(--gray)">
+              <div style="font-size:12px">Selecciona un producto</div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="section-label">Método FIFO</div>
+            <p style="font-size:13px;color:var(--gray);line-height:1.7">El sistema descontará automáticamente desde el lote más antiguo con stock disponible.</p>
+          </div>
+        </div>
+
+      </div>
+    </main>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+document.getElementById('fecha').value = new Date().toISOString().slice(0,10);
+const user = JSON.parse(sessionStorage.getItem('pb_user') || 'null');
+if (user) document.getElementById('usuario').value = user.username || user.id;
+
+// Catálogos guardados en memoria
+window._catalogosSalida = {};
+
+async function cargarCatalogos() {
+  try {
+    const [materiales, bodegas, catalogos] = await Promise.all([
+      API.materiales.listar(),
+      API.bodegas.listar(),
+      API.movimientos.catalogos(),
+    ]);
+
+    document.getElementById('sku').innerHTML = '<option value="">Seleccionar producto...</option>' +
+      materiales.map(m => `<option value="${m.sku}">${m.sku} — ${m.nombre}</option>`).join('');
+
+    document.getElementById('bodega').innerHTML = '<option value="">Seleccionar bodega...</option>' +
+      bodegas.filter(b => ['activo','activa'].includes(b.estado)).map(b => `<option value="${b.id}">${b.nombre}</option>`).join('');
+
+    // Clasificaciones desde la API
+    document.getElementById('clasificacion').innerHTML = '<option value="">Seleccionar categoría...</option>' +
+      catalogos.clasificaciones.map(c => `<option value="${c.id}">${c.nombre}</option>`).join('');
+
+    window._catalogosSalida.motivos        = catalogos.motivos;
+    window._catalogosSalida.clasificaciones = catalogos.clasificaciones;
+
+    // Tipo movimiento: salida
+    const tipoSalida = catalogos.tipos.find(t => t.nombre.toLowerCase().includes('salida'));
+    window._tipoSalidaId = tipoSalida?.id;
+    window._catalogosSalida.tipos = catalogos.tipos;
+  } catch (err) {
+    showAlert('alert-container', 'danger', 'Error cargando catálogos: ' + err.message);
+  }
+}
+
+// Preview stock al seleccionar producto
+document.getElementById('sku').addEventListener('change', async function() {
+  const preview = document.getElementById('stock-preview');
+  if (!this.value) { preview.innerHTML = '<div style="font-size:12px;color:var(--gray)">Selecciona un producto</div>'; return; }
+  try {
+    const mat    = await API.materiales.obtener(this.value);
+    const fisico    = parseFloat(mat.stock_por_bodega?.reduce((s,b) => s + parseFloat(b.cantidad_fisica||0), 0) || 0);
+    const reservado = parseFloat(mat.stock_por_bodega?.reduce((s,b) => s + parseFloat(b.cantidad_reservada||0), 0) || 0);
+    const disponible = fisico - reservado;
+    const min    = parseFloat(mat.stock_minimo || 0);
+    const critico= parseFloat(mat.stock_critico || 0);
+    let color = 'var(--success)', badge = '';
+    if (disponible <= critico)  { color = 'var(--danger)';  badge = '<span class="badge badge-danger" style="margin-top:8px">Crítico</span>'; }
+    else if (disponible <= min) { color = 'var(--warning)'; badge = '<span class="badge badge-warning" style="margin-top:8px">Bajo mínimo</span>'; }
+    preview.innerHTML = `
+      <div style="font-size:36px;font-weight:700;color:${color}">${disponible}</div>
+      <div style="font-size:12px;color:var(--gray)">${mat.unidad_medida || 'unidades'} disponibles para despacho</div>
+      <div style="font-size:11px;color:var(--gray);margin-top:6px;display:flex;gap:12px">
+        <span>Stock físico: <b>${fisico}</b></span>
+        <span>Reservado OT: <b>${reservado}</b></span>
+      </div>
+      ${badge}`;
+    window._stockDisponible = disponible;
+  } catch(e) {
+    preview.innerHTML = '<div style="font-size:12px;color:var(--gray)">Error cargando stock</div>';
+  }
+});
+
+// Motivos según clasificación + bodega destino para traslados (CU-19)
+document.getElementById('clasificacion').addEventListener('change', function() {
+  const clasificId   = this.value;
+  const nombreClasif = this.options[this.selectedIndex]?.text?.toLowerCase() || '';
+  const motivos      = (window._catalogosSalida.motivos || []).filter(m => String(m.clasificacion_id) === String(clasificId));
+  const grupo        = document.getElementById('grupo-motivo-select');
+  const sel          = document.getElementById('motivo-select');
+  const grupoDest    = document.getElementById('grupo-bodega-destino');
+  const selDest      = document.getElementById('bodega-destino');
+
+  // Mostrar bodega destino solo si es traslado
+  const esTraslado = nombreClasif.includes('traslado');
+  grupoDest.style.display = esTraslado ? 'block' : 'none';
+  if (esTraslado && selDest.options.length <= 1) {
+    // Poblar bodegas destino si aún no están cargadas
+    API.bodegas.listar().then(bodegas => {
+      selDest.innerHTML = '<option value="">Seleccionar bodega destino...</option>' +
+        bodegas.filter(b => ['activo','activa'].includes(b.estado))
+               .map(b => `<option value="${b.id}">${b.nombre}</option>`).join('');
+    });
+  }
+
+  // Motivos predefinidos
+  if (motivos.length > 0) {
+    grupo.style.display = 'block';
+    sel.innerHTML = '<option value="">Seleccionar motivo...</option>' + motivos.map(m => `<option value="${m.id}">${m.nombre}</option>`).join('');
+    sel.onchange = () => { if (sel.value) document.getElementById('motivo').value = motivos.find(m => String(m.id) === sel.value)?.nombre || ''; };
+  } else {
+    grupo.style.display = 'none';
+  }
+});
+
+document.getElementById('motivo').addEventListener('input', function() {
+  document.getElementById('motivo-count').textContent = this.value.length;
+});
+
+document.getElementById('form-salida').addEventListener('submit', async function(e) {
+  e.preventDefault();
+  const sku        = document.getElementById('sku').value;
+  const bodega     = document.getElementById('bodega').value;
+  const cantidad   = parseFloat(document.getElementById('cantidad').value);
+  const clasifId   = document.getElementById('clasificacion').value;
+  const motivoId   = document.getElementById('motivo-select').value || null;
+  const nombreClasif = document.getElementById('clasificacion').options[document.getElementById('clasificacion').selectedIndex]?.text?.toLowerCase() || '';
+  const esTraslado = nombreClasif.includes('traslado');
+  const bodegaDest = document.getElementById('bodega-destino').value;
+
+  // Limpiar bordes previos
+  ['sku','bodega','cantidad','clasificacion','motivo'].forEach(id => {
+    const el = document.getElementById(id);
+    if (el) { el.style.borderColor = ''; el.style.boxShadow = ''; }
+  });
+
+  const motivoTexto = document.getElementById('motivo').value.trim();
+  let errS = null;
+  if (!sku)                             { document.getElementById('sku').style.borderColor           = 'var(--danger)'; errS = 'Selecciona un producto.'; }
+  else if (!bodega)                     { document.getElementById('bodega').style.borderColor        = 'var(--danger)'; errS = 'Selecciona la bodega de origen.'; }
+  else if (isNaN(cantidad)||cantidad<=0){ document.getElementById('cantidad').style.borderColor      = 'var(--danger)'; document.getElementById('cantidad').style.boxShadow='0 0 0 3px rgba(220,53,69,.12)'; errS = 'La cantidad debe ser mayor que 0.'; }
+  else if (!clasifId)                   { document.getElementById('clasificacion').style.borderColor = 'var(--danger)'; errS = 'Selecciona la clasificación de la salida.'; }
+  else if (!motivoTexto)                { document.getElementById('motivo').style.borderColor        = 'var(--danger)'; document.getElementById('motivo').style.boxShadow='0 0 0 3px rgba(220,53,69,.12)'; errS = 'El motivo de la salida es obligatorio.'; }
+  if (errS) { showAlert('alert-container','danger', errS); return; }
+  if (esTraslado && !bodegaDest)        { showAlert('alert-container','danger','Debes seleccionar la bodega destino para un traslado.'); return; }
+  if (esTraslado && bodegaDest === bodega) { showAlert('alert-container','danger','La bodega destino debe ser distinta a la bodega origen.'); return; }
+  if (!window._tipoSalidaId)            { showAlert('alert-container','danger','No se encontró tipo de movimiento "salida" en el sistema.'); return; }
+  if (window._stockDisponible != null && cantidad > window._stockDisponible) {
+    showAlert('alert-container','danger',`Stock insuficiente. Disponible: <strong>${window._stockDisponible}</strong> unidades.`);
+    return;
+  }
+
+  const btn = e.submitter || document.querySelector('[type=submit]');
+  btn.disabled = true;
+  btn.textContent = 'Registrando...';
+
+  try {
+    await API.movimientos.salida({
+      sku,
+      bodega_id:          parseInt(bodega),
+      cantidad,
+      tipo_movimiento_id: window._tipoSalidaId,
+      motivo_id:          motivoId ? parseInt(motivoId) : null,
+    });
+    // CU-19: Si es traslado, registrar entrada en bodega destino
+    if (esTraslado && bodegaDest) {
+      const tipoEntrada = window._catalogosSalida.tipos?.find(t => t.nombre.toLowerCase().includes('entrada'));
+      if (tipoEntrada) {
+        await API.movimientos.entrada({
+          sku,
+          bodega_id:          parseInt(bodegaDest),
+          cantidad,
+          tipo_movimiento_id: tipoEntrada.id,
+        }).catch(err => console.warn('Error registrando entrada de traslado:', err.message));
+      }
+      showAlert('alert-container','success','Traslado registrado. Stock descontado en bodega origen y sumado en bodega destino.');
+    } else {
+      showAlert('alert-container','success','Salida registrada correctamente. El stock ha sido descontado aplicando método FIFO.');
+    }
+    setTimeout(() => { window.location.href = 'historial.html'; }, 1500);
+  } catch (err) {
+    showAlert('alert-container','danger', err.message || 'Error al registrar la salida.');
+    btn.disabled = false;
+    btn.textContent = 'Registrar salida';
+  }
+});
+
+cargarCatalogos();
+</script>
+</body>
+</html>
