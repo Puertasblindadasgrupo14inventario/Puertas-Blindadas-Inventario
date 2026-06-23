@@ -1,0 +1,53 @@
+Este documento contempla la información de los commits de cada integrante del grupo
+Sofia Cariñe con la cuenta sofiisii realizo 
+-Incremento 1 – Grupo 14.docx
+-Incremento 1 – Grupo 14.pptx
+-Incremento 1 – Anexos – Grupo 14.pptx
+-Incremento 1 – Grupo 14 organización trabajo.xlsx 
+-Incremento 1 – Grupo 14 sprint backlog.xlsx
+-Incremento 1 – Grupo 14 casos de uso.xlsx
+-Incremento 1 Grupo 14 documento de instalación.docx
+Jhoe Catillo con la cuenta lDazt-X realizo
+-Incremento 1 – Grupo 14 requerimientos ur.xlsx
+-diagrama de componentes – puertas blindadas.drawio
+-diagrama de componentes – puertas blindadas.drawio.png
+-diagrama de despliegue – puertas blindadas.drawio
+-diagrama de despliegue – puertas blindadas.drawio.png
+-MERE – puertas blindadas.drawio
+-MERE – puertas blindadas.drawio.png
+-Modelo físico – puertas blindadas.drawio 
+-Modelo físico – puertas blindadas.drawio.png
+Karla Curín con la cuenta Karla236-gif realizo
+-correoaceptacionusuario.png
+-matriz de requerimientos versus casos de uso – Grupo 14.xlsx
+-matriz ur vs cu – Grupo 14.png
+-organización trabajo – Grupo 14.xlsx
+-Carpeta diagramas CU
+-analisis cuantitativo – Grupo 14.xlsx
+-analisis cualitativo – Grupo 14.png
+-MVC.drawio
+-MVC.png
+Valentín García con la cuenta V4le23 realizo
+-Incremento 1 – Grupo 14 product backlog.xlsx
+-INA3B7~1.png
+-INCREM~2.png
+-ARBOLD~1.png
+-arbol de navegación – Grupo 14.drawio
+-Carpeta diagramas de secuencia
+-Carpeta ddl
+-Carpeta dml
+Omar Olmos con la cuenta KidneyStonez realizo
+-Carpeta de códigos vistas y controlador
+-Carpeta vistas pagina web – Grupo 14
+-Carpeta pruebas del sistema
+-Carpeta diagramas CU incremento 1
+Silvio Villagra con la cuenta JFK98 realizo
+-Carpeta bizagi
+-Carpeta curriculum
+-Documento 0 – Grupo 14.docx
+-Documento 0 – Grupo 14.pptx
+-Dimension técnica del proyecto – Grupo 14.docx
+-Casos de uso – Grupo 14.xlsx
+-Requerimientos UR – Grupo 14.xlsx
+-estimacion de costos y beneficios – Grupo 14.xlsx
+-Videos explicativos de instalación y funcionalidades
