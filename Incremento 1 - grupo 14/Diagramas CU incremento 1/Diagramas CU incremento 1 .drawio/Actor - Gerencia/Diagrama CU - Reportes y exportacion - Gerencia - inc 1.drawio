@@ -1,0 +1,58 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="sQJoyzAbJsYNHXoQ6ZyN">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-159" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="970" width="990" x="380" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-160" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
+          <mxGeometry height="860" width="860" x="470" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-161" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-162" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.3333333333333333;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-164">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-162" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Gerencia" vertex="1">
+          <mxGeometry height="60" width="30" x="403" y="604" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-163" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-164" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-166">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-164" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Auditando reportes de movimientos periódicamente" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-165" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-166" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-168">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-166" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Analizando el índice de rotación" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="705" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-167" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-168" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="qrOsgZDqs2jIluiTBBjf-170">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-168" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Visualizando reportes de merma y pérdida" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-169" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-170" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="qrOsgZDqs2jIluiTBBjf-173">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-170" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Visualizando reportes históricos consolidados" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-171" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Exportando a CSV/Excel" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-172" edge="1" parent="1" source="qrOsgZDqs2jIluiTBBjf-173" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="qrOsgZDqs2jIluiTBBjf-171">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-173" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Utilizando filtros avanzados en reportes" vertex="1">
+          <mxGeometry height="70" width="140" x="580" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="qrOsgZDqs2jIluiTBBjf-174" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 13px;&quot;&gt;Reportes y exportación&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="164.75" x="792.62" y="490" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
