@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Proveedores — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css"/>
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <div class="main-content">
+    <div id="topbar-container"></div>
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Directorio de Proveedores</div>
+          <div class="page-subtitle">Registro, datos de contacto y tiempos de entrega (FR-22, FR-41)</div>
+        </div>
+        <button class="btn btn-primary" onclick="openModal('modal-nuevo')" data-rol="gerencia">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+          Nuevo proveedor
+        </button>
+      </div>
+
+      <div id="alert-container"></div>
+
+      <div class="card card-sm" style="margin-bottom:16px">
+        <div class="filter-row" style="margin-bottom:0">
+          <div class="search-bar" style="flex:1">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="search-input" placeholder="Buscar por nombre, RUT o rubro..." autocomplete="off"/>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr><th>RUT</th><th>Nombre</th><th>Contacto</th><th>Email</th><th>Teléfono</th><th>Rubro</th><th>T. entrega prom.</th><th>Acciones</th></tr>
+            </thead>
+            <tbody id="tbody-proveedores"></tbody>
+          </table>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<!-- Modal nuevo proveedor (FR-22) -->
+<div class="modal-backdrop" id="modal-nuevo">
+  <div class="modal modal-lg">
+    <div class="modal-header">
+      <div><div class="modal-title">Registrar Proveedor</div><div class="modal-subtitle">Todos los campos marcados con * son obligatorios</div></div>
+      <button class="modal-close" onclick="closeModal('modal-nuevo')">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      <div id="modal-alert"></div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="n-rut">RUT <span class="required">*</span></label>
+          <input class="form-control" id="n-rut" placeholder="76.543.210-1"/>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="n-nombre">Nombre / Razón social <span class="required">*</span></label>
+          <input class="form-control" id="n-nombre" placeholder="Empresa S.A."/>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="n-contacto">Persona de contacto</label>
+          <input class="form-control" id="n-contacto" placeholder="Juan García"/>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="n-email">Email <span class="required">*</span></label>
+          <input class="form-control" id="n-email" type="email" placeholder="contacto@empresa.cl" oninput="this.style.borderColor='';this.style.boxShadow=''"/>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group">
+          <label class="form-label" for="n-telefono">Teléfono</label>
+          <input class="form-control" id="n-telefono" placeholder="+56 9 1234 5678"/>
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="n-rubro">Rubro</label>
+          <input class="form-control" id="n-rubro" placeholder="Metales y aceros"/>
+        </div>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="n-direccion">Dirección comercial</label>
+        <input class="form-control" id="n-direccion" placeholder="Av. Providencia 1234, Santiago"/>
+      </div>
+      <div class="form-group">
+        <label class="form-label" for="n-obs">Observaciones</label>
+        <textarea class="form-control" id="n-obs" rows="2" placeholder="Información adicional..."></textarea>
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-nuevo')">Cancelar</button>
+      <button class="btn btn-primary" id="btn-guardar-prov">Registrar proveedor</button>
+    </div>
+  </div>
+</div>
+
+<!-- Modal tiempos de entrega (FR-41) -->
+<div class="modal-backdrop" id="modal-tiempos">
+  <div class="modal">
+    <div class="modal-header">
+      <div><div class="modal-title">Tiempos de entrega</div><div class="modal-subtitle" id="tiempos-subtitle"></div></div>
+      <button class="modal-close" onclick="closeModal('modal-tiempos')">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      <div class="table-wrap">
+        <table>
+          <thead><tr><th>Fecha pedido</th><th>Fecha recepción</th><th>Días transcurridos</th></tr></thead>
+          <tbody id="tbody-tiempos"></tbody>
+        </table>
+      </div>
+      <div style="margin-top:14px;padding:12px;background:#f9f9f9;border-radius:8px;font-size:13px">
+        Tiempo promedio de entrega: <strong id="prom-entrega">—</strong> días
+      </div>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-tiempos')">Cerrar</button>
+    </div>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+let proveedores = [];
+
+async function cargarProveedores() {
+  const search = document.getElementById('search-input').value;
+  try {
+    proveedores = await API.proveedores.listar({ buscar: search || null });
+    renderTable();
+  } catch (err) {
+    showAlert('alert-container', 'danger', 'Error cargando proveedores: ' + err.message);
+  }
+}
+
+function renderTable() {
+  const user = JSON.parse(sessionStorage.getItem('pb_user')||'null');
+  const isG  = user?.rol === 'gerencia';
+
+  document.getElementById('tbody-proveedores').innerHTML = proveedores.length === 0
+    ? `<tr><td colspan="8"><div class="empty-state"><div class="empty-state-icon">🏢</div><p>No se encontraron proveedores.</p></div></td></tr>`
+    : proveedores.map(p => `
+    <tr>
+      <td><span class="td-mono">${p.rut || '—'}</span></td>
+      <td style="font-weight:500;font-size:13px">${p.nombre}</td>
+      <td style="font-size:13px;color:var(--gray)">${p.contacto || '—'}</td>
+      <td style="font-size:13px;color:var(--orange)">${p.correo || '—'}</td>
+      <td style="font-size:13px">${p.telefono || '—'}</td>
+      <td><span class="badge badge-gray">${p.rubro || '—'}</span></td>
+      <td>
+        <span style="font-weight:600">${p.tiempo_entrega_promedio != null ? Math.round(p.tiempo_entrega_promedio) : '—'}</span>
+        <span style="font-size:11px;color:var(--gray)"> días prom.</span>
+      </td>
+      <td>
+        <a href="detalle.html?id=${p.id}" class="btn btn-ghost btn-sm btn-icon" title="Ver detalle">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="13" height="13"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></svg>
+        </a>
+      ${isG ? `<button class="btn btn-ghost btn-sm btn-icon" title="Editar" onclick="editarProveedor(${p.id})">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="13" height="13"><path d="M11 4H4a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2v-7"/><path d="M18.5 2.5a2.121 2.121 0 013 3L12 15l-4 1 1-4 9.5-9.5z"/></svg>
+        </button>` : ''}
+      </td>
+    </tr>`).join('');
+}
+
+function editarProveedor(id) {
+  showAlert('alert-container', 'info', 'Función de edición disponible próximamente.');
+}
+
+document.getElementById('btn-guardar-prov').addEventListener('click', async () => {
+  const rut    = document.getElementById('n-rut').value.trim();
+  const nombre = document.getElementById('n-nombre').value.trim();
+  const email  = document.getElementById('n-email').value.trim();
+  const alertEl = document.getElementById('modal-alert');
+
+  // Limpiar estados previos
+  ['n-rut','n-nombre','n-email'].forEach(id => {
+    document.getElementById(id).style.borderColor = '';
+    document.getElementById(id).style.boxShadow   = '';
+  });
+
+  if (!rut) {
+    document.getElementById('n-rut').style.borderColor = 'var(--danger)';
+    alertEl.innerHTML = '<div class="alert alert-danger">El RUT es obligatorio.</div>';
+    return;
+  }
+  if (!nombre) {
+    document.getElementById('n-nombre').style.borderColor = 'var(--danger)';
+    alertEl.innerHTML = '<div class="alert alert-danger">El nombre es obligatorio.</div>';
+    return;
+  }
+  if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    document.getElementById('n-email').style.borderColor = 'var(--danger)';
+    document.getElementById('n-email').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.15)';
+    alertEl.innerHTML = '<div class="alert alert-danger">El email no tiene un formato válido.</div>';
+    return;
+  }
+
+  try {
+    await API.proveedores.crear({
+      nombre,
+      rut: rut || null,
+      correos:  email ? [email] : [],
+      telefonos: document.getElementById('n-telefono').value.trim() ? [document.getElementById('n-telefono').value.trim()] : [],
+      rubro:    document.getElementById('n-rubro').value.trim(),
+      contacto_nombre: document.getElementById('n-contacto').value.trim(),
+    });
+    closeModal('modal-nuevo');
+    alertEl.innerHTML = '';
+    ['n-rut','n-nombre','n-contacto','n-email','n-telefono','n-rubro','n-direccion','n-obs'].forEach(id => {
+      document.getElementById(id).value = '';
+      document.getElementById(id).style.borderColor = '';
+    });
+    cargarProveedores();
+    showAlert('alert-container','success',`Proveedor <strong>${nombre}</strong> registrado correctamente.`);
+  } catch (err) {
+    alertEl.innerHTML = `<div class="alert alert-danger">${err.message}</div>`;
+  }
+});
+
+document.getElementById('search-input').addEventListener('input', cargarProveedores);
+cargarProveedores();
+</script>
+</body>
+</html>

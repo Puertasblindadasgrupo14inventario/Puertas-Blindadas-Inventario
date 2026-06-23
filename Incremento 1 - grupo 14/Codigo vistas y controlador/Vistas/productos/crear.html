@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nuevo Producto — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css" />
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+
+  <div class="main-content">
+    <div id="topbar-container"></div>
+
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Nuevo Producto</div>
+          <div class="page-subtitle">Completa todos los campos obligatorios</div>
+        </div>
+        <a href="lista.html" class="btn btn-secondary">← Volver al catálogo</a>
+      </div>
+
+      <div id="alert-container"></div>
+
+      <form id="form-producto" novalidate>
+        <div style="display:grid;grid-template-columns:2fr 1fr;gap:20px;align-items:start">
+
+          <!-- Columna principal -->
+          <div style="display:flex;flex-direction:column;gap:16px">
+
+            <!-- Identificación -->
+            <div class="card">
+              <div class="section-label">Identificación</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="sku">
+                    SKU <span class="required">*</span>
+                    <span class="hint">(4–16 caracteres alfanuméricos)</span>
+                  </label>
+                  <input class="form-control" id="sku" name="sku" placeholder="MAT-CEM-001" maxlength="16" required oninput="onSkuInput(this.value)"/>
+                  <div class="form-hint" id="hint-sku" style="margin-top:4px"></div>
+                  <div class="form-hint">Formato sugerido: CATEGORÍA-TIPO-CORRELATIVO</div>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="unidad">
+                    Unidad de medida <span class="required">*</span>
+                  </label>
+                  <select class="form-control" id="unidad" name="unidad" required>
+                    <option value="">Cargando...</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="nombre">
+                  Nombre del producto <span class="required">*</span>
+                  <span class="hint">(Tipo · Material · Medida — 3 a 100 caracteres)</span>
+                </label>
+                <input class="form-control" id="nombre" name="nombre" placeholder="Ej: Tornillo acero inoxidable 5cm" maxlength="100" required oninput="this.style.borderColor='';this.style.boxShadow=''"/>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="descripcion">
+                  Descripción
+                  <span class="hint">(máx. 500 caracteres)</span>
+                </label>
+                <textarea class="form-control" id="descripcion" name="descripcion" rows="3" maxlength="500"
+                  placeholder="Material, uso específico, condición de uso..."></textarea>
+                <div class="form-counter"><span id="desc-count">0</span>/500</div>
+              </div>
+            </div>
+
+            <!-- Clasificación -->
+            <div class="card">
+              <div class="section-label">Clasificación</div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="categoria">
+                    Categoría general <span class="required">*</span>
+                  </label>
+                  <select class="form-control" id="categoria" name="categoria" required>
+                    <option value="">Cargando...</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="funcional">
+                    Categoría funcional <span class="required">*</span>
+                  </label>
+                  <select class="form-control" id="funcional" name="funcional" required>
+                    <option value="">Cargando...</option>
+                  </select>
+                </div>
+              </div>
+              <label class="form-check">
+                <input type="checkbox" id="critico" name="critico" />
+                Marcar como <strong>producto crítico</strong> — genera alertas de prioridad alta
+              </label>
+            </div>
+
+            <!-- Clasificación en cascada -->
+            <div class="card">
+              <div class="section-label">Clasificación específica</div>
+              <div class="form-hint" style="margin-bottom:12px;font-size:12px;color:var(--gray)">
+                Selecciona en orden: categoría → subcategoría → nivel específico
+              </div>
+              <div class="form-group">
+                <label class="form-label" for="clas-categoria">
+                  Categoría de clasificación <span class="required">*</span>
+                </label>
+                <select class="form-control" id="clas-categoria" required>
+                  <option value="">Cargando...</option>
+                </select>
+              </div>
+              <div class="form-group" id="grupo-subcategoria" style="display:none">
+                <label class="form-label" for="clas-subcategoria">
+                  Subcategoría <span class="required">*</span>
+                </label>
+                <select class="form-control" id="clas-subcategoria" required>
+                  <option value="">Seleccionar subcategoría...</option>
+                </select>
+                <div class="form-hint" id="hint-color-custom" style="display:none;color:var(--orange)">
+                  Esta subcategoría admite colores personalizados (ej. pinturas custom)
+                </div>
+              </div>
+              <div class="form-group" id="grupo-nivel" style="display:none">
+                <label class="form-label" for="clas-nivel">
+                  Nivel específico <span class="required">*</span>
+                </label>
+                <select class="form-control" id="clas-nivel" required>
+                  <option value="">Seleccionar nivel...</option>
+                </select>
+              </div>
+            </div>
+
+          </div>
+
+          <!-- Columna lateral: stock -->
+          <div>
+            <div class="card">
+              <div class="section-label">Parámetros de stock</div>
+
+              <div class="form-group">
+                <label class="form-label" for="stockMin">
+                  Stock mínimo <span class="required">*</span>
+                </label>
+                <input class="form-control" id="stockMin" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockMin" type="number" min="1" placeholder="0" required />
+                <div class="form-hint">Dispara alerta de reposición</div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="stockMax">
+                  Stock máximo <span class="required">*</span>
+                </label>
+                <input class="form-control" id="stockMax" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockMax" type="number" min="1" placeholder="0" required />
+                <div class="form-hint">Alerta de sobrestock</div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="stockCritico">
+                  Stock crítico <span class="required">*</span>
+                </label>
+                <input class="form-control" id="stockCritico" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockCritico" type="number" min="0" placeholder="0" required />
+                <div class="form-hint">Debe ser ≤ stock mínimo</div>
+              </div>
+
+              <div class="divider"></div>
+
+              <button type="submit" class="btn btn-primary" style="width:100%;justify-content:center">
+                <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" width="15" height="15"><polyline points="20 6 9 17 4 12"/></svg>
+                Guardar producto
+              </button>
+              <a href="lista.html" class="btn btn-ghost" style="width:100%;justify-content:center;margin-top:8px">
+                Cancelar
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </form>
+
+    </main>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+  /* Contador descripción */
+  document.getElementById('descripcion').addEventListener('input', function() {
+    document.getElementById('desc-count').textContent = this.value.length;
+  });
+
+  /* Cargar catálogos desde la API */
+  // FIX 2: Verificar disponibilidad de SKU en tiempo real (CU-01)
+  let _skuTimer = null;
+  function onSkuInput(val) {
+    val = val.trim().toUpperCase();
+    document.getElementById('sku').value = val; // forzar mayúsculas
+    const hint = document.getElementById('hint-sku');
+    hint.textContent = '';
+    hint.style.color = '';
+    document.getElementById('sku').style.borderColor = '';
+    if (!val || val.length < 4) return;
+    if (!/^[A-Z0-9_-]+$/.test(val)) {
+      hint.textContent = 'Solo letras, números, guión y guión bajo';
+      hint.style.color = 'var(--danger)';
+      document.getElementById('sku').style.borderColor = 'var(--danger)';
+      return;
+    }
+    hint.textContent = 'Verificando...';
+    hint.style.color = 'var(--gray)';
+    clearTimeout(_skuTimer);
+    _skuTimer = setTimeout(async () => {
+      try {
+        await API.materiales.obtener(val);
+        // Si llega aquí, el SKU ya existe
+        hint.textContent = '✗ Este SKU ya está en uso';
+        hint.style.color = 'var(--danger)';
+        document.getElementById('sku').style.borderColor = 'var(--danger)';
+        document.getElementById('sku').style.boxShadow  = '0 0 0 3px rgba(220,53,69,.12)';
+      } catch (err) {
+        // 404 o error = disponible
+        hint.textContent = '✓ SKU disponible';
+        hint.style.color = 'var(--success)';
+        document.getElementById('sku').style.borderColor = 'var(--success)';
+        document.getElementById('sku').style.boxShadow  = '0 0 0 3px rgba(25,135,84,.12)';
+      }
+    }, 500);
+  }
+
+  let _clasificacion = { categorias: [], subcategorias: [], niveles: [] };
+
+  async function cargarCatalogos() {
+    try {
+      const [unidades, categorias] = await Promise.all([
+        API.materiales.unidades(),
+        API.materiales.categorias(),
+      ]);
+
+      document.getElementById('unidad').innerHTML = '<option value="">Seleccionar...</option>' +
+        unidades.map(u => `<option value="${u.id}">${u.nombre}</option>`).join('');
+
+      document.getElementById('categoria').innerHTML = '<option value="">Seleccionar...</option>' +
+        categorias.generales.map(c => `<option value="${c.id}">${c.nombre}</option>`).join('');
+
+      document.getElementById('funcional').innerHTML = '<option value="">Seleccionar...</option>' +
+        categorias.funcionales.map(c => `<option value="${c.id}">${c.nombre}</option>`).join('');
+
+      // Clasificación en cascada
+      _clasificacion = categorias.clasificacion || { categorias: [], subcategorias: [], niveles: [] };
+      document.getElementById('clas-categoria').innerHTML = '<option value="">Seleccionar categoría...</option>' +
+        _clasificacion.categorias.map(c => `<option value="${c.id}">${c.nombre}</option>`).join('');
+
+    } catch (err) {
+      showAlert('alert-container', 'danger', 'Error cargando catálogos: ' + err.message);
+    }
+  }
+
+  // Cascada: categoría → subcategoría
+  document.getElementById('clas-categoria').addEventListener('change', function() {
+    const catId = this.value;
+    const grupoSub = document.getElementById('grupo-subcategoria');
+    const selSub   = document.getElementById('clas-subcategoria');
+    document.getElementById('grupo-nivel').style.display = 'none';
+    document.getElementById('clas-nivel').innerHTML = '<option value="">Seleccionar nivel...</option>';
+
+    if (!catId) { grupoSub.style.display = 'none'; return; }
+
+    const subs = _clasificacion.subcategorias.filter(s => String(s.categoria_id) === String(catId));
+    selSub.innerHTML = '<option value="">Seleccionar subcategoría...</option>' +
+      subs.map(s => `<option value="${s.id}" data-color="${s.es_color_custom}">${s.nombre}</option>`).join('');
+    grupoSub.style.display = 'block';
+  });
+
+  // Cascada: subcategoría → nivel
+  document.getElementById('clas-subcategoria').addEventListener('change', function() {
+    const subId = this.value;
+    const grupoNiv = document.getElementById('grupo-nivel');
+    const selNiv   = document.getElementById('clas-nivel');
+    const hintColor = document.getElementById('hint-color-custom');
+    const esColor  = this.options[this.selectedIndex]?.dataset?.color === 'true';
+    hintColor.style.display = esColor ? 'block' : 'none';
+
+    if (!subId) { grupoNiv.style.display = 'none'; return; }
+
+    const niveles = _clasificacion.niveles.filter(n => String(n.subcategoria_id) === String(subId));
+    selNiv.innerHTML = '<option value="">Seleccionar nivel...</option>' +
+      niveles.map(n => `<option value="${n.id}">${n.nombre}</option>`).join('');
+    grupoNiv.style.display = 'block';
+  });
+
+  /* Validación y submit */
+  document.getElementById('form-producto').addEventListener('submit', async function(e) {
+    e.preventDefault();
+
+    const sku       = document.getElementById('sku').value.trim().toUpperCase();
+    document.getElementById('sku').value = sku; // asegurar que el campo también muestre uppercase
+    const nombre    = document.getElementById('nombre').value.trim();
+    const categoria = document.getElementById('categoria').value;
+    const funcional = document.getElementById('funcional').value;
+    const unidad    = document.getElementById('unidad').value;
+    const stockMin  = parseInt(document.getElementById('stockMin').value);
+    const stockMax  = parseInt(document.getElementById('stockMax').value);
+    const stockCrit = parseInt(document.getElementById('stockCritico').value);
+    const esCritico = document.getElementById('critico').checked;
+    const descripcion = document.getElementById('descripcion').value.trim();
+
+    /* Validaciones */
+    if (!sku) {
+      document.getElementById('sku').style.borderColor = 'var(--danger)';
+      showAlert('alert-container','danger','El SKU es obligatorio.'); return;
+    }
+    if (sku.length < 4 || sku.length > 16) {
+      document.getElementById('sku').style.borderColor = 'var(--danger)';
+      showAlert('alert-container','danger','El SKU debe tener entre 4 y 16 caracteres alfanuméricos.'); return;
+    }
+    if (!nombre) {
+      document.getElementById('nombre').style.borderColor = 'var(--danger)';
+      showAlert('alert-container','danger','El nombre del producto es obligatorio.'); return;
+    }
+    if (nombre.length < 3) {
+      document.getElementById('nombre').style.borderColor = 'var(--danger)';
+      showAlert('alert-container','danger','El nombre debe tener al menos 3 caracteres.'); return;
+    }
+    if (nombre.length > 100) {
+      document.getElementById('nombre').style.borderColor = 'var(--danger)';
+      showAlert('alert-container','danger','El nombre no puede superar los 100 caracteres.'); return;
+    }
+    const clasNivel = document.getElementById('clas-nivel').value;
+    if (!categoria || !funcional) {
+      showAlert('alert-container','danger','Debes seleccionar una categoría general y una categoría funcional.'); return;
+    }
+    if (!clasNivel) {
+      showAlert('alert-container','danger','Debes seleccionar la clasificación específica (categoría → subcategoría → nivel).'); return;
+    }
+    if (!unidad) {
+      showAlert('alert-container','danger','Debes seleccionar la unidad de medida.'); return;
+    }
+    if (isNaN(stockMin) || stockMin <= 0) {
+      markField('stockMin', false, 'Debe ser mayor que 0');
+      showAlert('alert-container','danger','El stock mínimo debe ser mayor que 0.'); return;
+    }
+    if (isNaN(stockMax) || stockMax <= 0 || stockMax <= stockMin) {
+      markField('stockMax', false, stockMax <= 0 ? 'Debe ser mayor que 0' : 'Debe ser mayor que el stock mínimo');
+      showAlert('alert-container','danger','El stock máximo debe ser mayor que el stock mínimo.'); return;
+    }
+    if (isNaN(stockCrit) || stockCrit < 0 || stockCrit > stockMin) {
+      markField('stockCritico', false, 'Debe estar entre 0 y el stock mínimo');
+      showAlert('alert-container','danger','El stock crítico debe estar entre 0 y el stock mínimo.'); return;
+    }
+
+    const btn = e.submitter || document.querySelector('[type=submit]');
+    btn.disabled = true;
+    btn.textContent = 'Guardando...';
+
+    try {
+      await API.materiales.crear({
+        sku,
+        nombre,
+        descripcion:                       descripcion || null,
+        stock_minimo:                      stockMin,
+        stock_maximo:                      stockMax,
+        stock_critico:                     stockCrit,
+        es_critico:                        esCritico,
+        es_rotativo:                       true,
+        estado:                            'activo',
+        unidad_medida_id:                  parseInt(unidad),
+        categoria_general_id:              parseInt(categoria),
+        categoria_funcional_id:            parseInt(funcional),
+        clasificacion_nivel_especifico_id: parseInt(clasNivel),
+      });
+      showAlert('alert-container','success',`Producto <strong>${nombre}</strong> creado correctamente.`);
+      setTimeout(() => { window.location.href = 'lista.html'; }, 1200);
+    } catch (err) {
+      showAlert('alert-container','danger', err.message || 'Error al crear el producto.');
+      btn.disabled = false;
+      btn.textContent = 'Guardar producto';
+    }
+  });
+
+  cargarCatalogos();
+</script>
+</body>
+</html>

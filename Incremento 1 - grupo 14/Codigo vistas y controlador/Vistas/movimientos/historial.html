@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Movimientos — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css"/>
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <div class="main-content">
+    <div id="topbar-container"></div>
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Movimientos de Inventario</div>
+          <div class="page-subtitle">Historial de entradas, salidas y traslados</div>
+        </div>
+        <div style="display:flex;gap:8px">
+          <a href="entrada.html" class="btn btn-primary">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="15" height="15"><line x1="12" y1="5" x2="12" y2="19"/><line x1="5" y1="12" x2="19" y2="12"/></svg>
+            Registrar entrada
+          </a>
+          <a href="salida.html" class="btn btn-secondary">Registrar salida</a>
+        </div>
+      </div>
+
+      <div id="alert-container"></div>
+
+      <!-- Filtros -->
+      <div class="card card-sm" style="margin-bottom:16px">
+        <div class="filter-row" style="margin-bottom:0;flex-wrap:wrap">
+          <div class="search-bar" style="flex:1;min-width:200px">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <input type="text" id="search-input" placeholder="Buscar por SKU, producto..." autocomplete="off"/>
+          </div>
+          <select class="form-control" id="filter-tipo" style="width:auto">
+            <option value="">Todos los tipos</option>
+            <option>Entrada</option><option>Salida</option><option>Traslado</option>
+          </select>
+          <input type="date" class="form-control" id="filter-desde" style="width:auto" />
+          <input type="date" class="form-control" id="filter-hasta" style="width:auto" />
+          <button class="btn btn-secondary btn-sm" data-rol="gerencia" id="btn-exportar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Exportar
+          </button>
+        </div>
+      </div>
+
+      <!-- Tabla -->
+      <div class="card">
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr>
+                <th>ID</th><th>Fecha</th><th>Tipo</th><th>Producto</th>
+                <th>Bodega</th><th>Cant.</th><th>Clasificación</th><th>Motivo</th><th>Proveedor</th><th>Usuario</th>
+                <th>Estado</th><th>Acciones</th>
+              </tr>
+            </thead>
+            <tbody id="tbody-movimientos"></tbody>
+          </table>
+        </div>
+        <div id="empty-state" class="empty-state" style="display:none">
+          <div class="empty-state-icon">📋</div>
+          <p>No hay movimientos registrados en el periodo seleccionado.</p>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<!-- Modal revertir (FR-30, solo gerencia) -->
+<div class="modal-backdrop" id="modal-revertir">
+  <div class="modal">
+    <div class="modal-header">
+      <div><div class="modal-title">Revertir movimiento</div><div class="modal-subtitle" id="rev-subtitle"></div></div>
+      <button class="modal-close" onclick="closeModal('modal-revertir')">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      <div class="alert alert-warning">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+        La reversión queda registrada en el historial de auditoría. Esta acción requiere autorización de Gerencia.
+      </div>
+      <p style="font-size:14px;color:var(--gray);line-height:1.6">¿Confirmas la reversión de este movimiento? El stock se ajustará automáticamente.</p>
+    </div>
+    <div class="modal-footer">
+      <button class="btn btn-secondary" onclick="closeModal('modal-revertir')">Cancelar</button>
+      <button class="btn btn-primary" id="btn-confirmar-revertir">Autorizar reversión</button>
+    </div>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+let movimientos = [];
+
+async function cargarMovimientos() {
+  const search = document.getElementById('search-input').value.toLowerCase();
+  const tipo   = document.getElementById('filter-tipo').value;
+  const desde  = document.getElementById('filter-desde').value;
+  const hasta  = document.getElementById('filter-hasta').value;
+  try {
+    const data = await API.movimientos.listar({ buscar: search || null, tipo: tipo || null, desde: desde || null, hasta: hasta || null });
+    movimientos = (data || []).map(m => ({
+      id:            m.id,
+      fecha:         m.fecha_hora ? m.fecha_hora.split('T')[0] : '',
+      tipo:          m.tipo || '',
+      sku:           m.sku || '',
+      producto:      m.material_nombre || '',
+      bodega:        m.bodega || '—',
+      cantidad:      parseFloat(m.cantidad) || 0,
+      clasificacion: m.clasificacion_salida || '—',
+      motivo:        m.motivo || '—',
+      usuario:       m.usuario || '',
+      revertido:     m.estado === 'revertido',
+      proyecto_nombre: m.proyecto_nombre || null,
+    }));
+    renderTable();
+  } catch (err) {
+    showAlert('alert-container', 'danger', 'Error cargando movimientos: ' + err.message);
+  }
+}
+
+function renderTable() {
+  const filtered = movimientos;
+
+  const user = JSON.parse(sessionStorage.getItem('pb_user') || 'null');
+  const isGerencia = user?.rol === 'gerencia';
+  const tbody = document.getElementById('tbody-movimientos');
+  const empty = document.getElementById('empty-state');
+
+  if (filtered.length === 0) { tbody.innerHTML = ''; empty.style.display = 'block'; return; }
+  empty.style.display = 'none';
+
+  tbody.innerHTML = filtered.map(m => {
+    const tipoCls  = m.tipo === 'Entrada' ? 'badge-success' : m.tipo === 'Salida' ? 'badge-danger' : 'badge-orange';
+    const cantSign = m.tipo === 'Entrada' ? `+${m.cantidad}` : m.tipo === 'Salida' ? `-${m.cantidad}` : `${m.cantidad}`;
+    return `<tr style="opacity:${m.revertido ? .5 : 1}">
+      <td><span class="td-mono">${m.id}</span></td>
+      <td style="font-size:12px;color:var(--gray);white-space:nowrap">${m.fecha}</td>
+      <td><span class="badge ${tipoCls}">${m.tipo}</span></td>
+      <td>
+        <div style="font-weight:500;font-size:13px">${m.producto}</div>
+        <div style="font-size:11px;color:#aaa">${m.sku}</div>
+      </td>
+      <td style="font-size:12px;color:var(--gray)">${m.bodega}</td>
+      <td style="font-weight:600">${cantSign}</td>
+      <td style="font-size:12px;color:var(--gray)">${m.clasificacion}</td>
+      <td style="font-size:12px;color:var(--gray)" title="${m.motivo}">${String(m.motivo||'—').substring(0,25)}${String(m.motivo||'').length>25?'...':''}</td>
+      <td style="font-size:12px;color:var(--gray)">${m.proveedor}</td>
+      <td style="font-size:12px;color:var(--gray)">${m.usuario}</td>
+      <td>${m.revertido ? '<span class="badge badge-gray">Revertido</span>' : '<span class="badge badge-success">Activo</span>'}</td>
+      <td>
+        <div style="display:flex;gap:4px">
+          ${isGerencia && !m.revertido ? `<button class="btn btn-ghost btn-sm btn-icon" title="Revertir" onclick="pedirReversion('${m.id}')">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="13" height="13"><polyline points="1 4 1 10 7 10"/><path d="M3.51 15a9 9 0 102.13-9.36L1 10"/></svg>
+          </button>` : ''}
+        </div>
+      </td>
+    </tr>`;
+  }).join('');
+}
+
+let movIdRevertir = null;
+function pedirReversion(id) {
+  movIdRevertir = id;
+  const m = movimientos.find(x => x.id === id);
+  document.getElementById('rev-subtitle').textContent = `${m.id} · ${m.tipo} · ${m.producto} (${m.cantidad} uds.)`;
+  openModal('modal-revertir');
+}
+
+document.getElementById('btn-confirmar-revertir').addEventListener('click', async () => {
+  try {
+    await API.movimientos.revertir(movIdRevertir);
+    closeModal('modal-revertir');
+    showAlert('alert-container','success','Movimiento revertido. El stock ha sido ajustado y la acción queda registrada en auditoría.');
+    cargarMovimientos();
+  } catch (err) {
+    closeModal('modal-revertir');
+    showAlert('alert-container','danger','Error al revertir: ' + err.message);
+  }
+});
+
+['search-input','filter-tipo','filter-desde','filter-hasta'].forEach(id =>
+  document.getElementById(id).addEventListener('change', cargarMovimientos)
+);
+document.getElementById('search-input').addEventListener('input', cargarMovimientos);
+
+cargarMovimientos();
+</script>
+</body>
+</html>

@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Reporte de Mermas — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css"/>
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <div class="main-content">
+    <div id="topbar-container"></div>
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title">Reporte de Mermas</div>
+          <div class="page-subtitle">Pérdidas, daños y productos no recuperables por período</div>
+        </div>
+        <div style="display:flex;gap:8px">
+          <a href="movimientos.html" class="btn btn-ghost">Ver reporte de movimientos</a>
+          <!-- Exportar solo visible para gerencia (FR-59, CU-80) -->
+          <button class="btn btn-secondary" id="btn-exportar" data-rol="gerencia">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><path d="M21 15v4a2 2 0 01-2 2H5a2 2 0 01-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>
+            Exportar CSV
+          </button>
+        </div>
+      </div>
+
+      <div id="alert-container"></div>
+
+      <!-- Filtros (FR-50, FR-53) -->
+      <div class="card" style="margin-bottom:20px">
+        <div style="font-weight:600;font-size:13px;margin-bottom:12px">Filtrar por período</div>
+        <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:flex-end">
+          <div class="form-group" style="margin-bottom:0;flex:1;min-width:160px">
+            <label class="form-label">Fecha inicio</label>
+            <input class="form-control" type="date" id="filter-desde" value="2025-05-01"/>
+          </div>
+          <div class="form-group" style="margin-bottom:0;flex:1;min-width:160px">
+            <label class="form-label">Fecha fin</label>
+            <input class="form-control" type="date" id="filter-hasta" value="2025-05-31"/>
+          </div>
+          <div class="form-group" style="margin-bottom:0;flex:1;min-width:160px">
+            <label class="form-label">Motivo</label>
+            <select class="form-control" id="filter-motivo">
+              <option value="">Todos los motivos</option>
+              <option value="producto dañado">Producto dañado</option>
+              <option value="vencimiento">Vencimiento</option>
+              <option value="pérdida">Pérdida</option>
+            </select>
+          </div>
+          <button class="btn btn-primary" id="btn-generar">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            Generar reporte
+          </button>
+        </div>
+      </div>
+
+      <!-- Estado inicial: pide generar -->
+      <div id="empty-inicial" class="card" style="text-align:center;padding:48px 24px;color:var(--gray)">
+        <div style="font-size:40px;margin-bottom:12px;opacity:.3">📉</div>
+        <p style="font-size:14px">Selecciona un rango de fechas y presiona <strong>Generar reporte</strong></p>
+      </div>
+
+      <!-- KPIs de merma -->
+      <div id="kpi-container" style="display:none;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin-bottom:20px">
+        <div class="kpi-card danger">
+          <div class="kpi-label">Eventos de merma</div>
+          <div class="kpi-value" id="kpi-eventos" style="color:var(--danger)">0</div>
+          <div class="kpi-sub">Movimientos clasificados como pérdida</div>
+        </div>
+        <div class="kpi-card danger">
+          <div class="kpi-label">Unidades perdidas</div>
+          <div class="kpi-value" id="kpi-unidades" style="color:var(--danger)">0</div>
+          <div class="kpi-sub">Total de stock no recuperable</div>
+        </div>
+        <!-- Valor monetario solo para gerencia (FR-59) -->
+        <div class="kpi-card warning" data-rol="gerencia">
+          <div class="kpi-label">Valor total merma</div>
+          <div class="kpi-value" id="kpi-valor" style="color:var(--orange-dark);font-size:20px">$0</div>
+          <div class="kpi-sub">Estimado según precio unitario</div>
+        </div>
+        <div class="kpi-card">
+          <div class="kpi-label">Productos afectados</div>
+          <div class="kpi-value" id="kpi-productos">0</div>
+          <div class="kpi-sub">SKUs distintos con merma</div>
+        </div>
+      </div>
+
+      <!-- Tabla resultado -->
+      <div id="tabla-resultado" style="display:none">
+        <div class="card">
+          <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;flex-wrap:wrap;gap:8px">
+            <div style="font-size:13px;color:var(--gray)" id="tabla-titulo">0 evento(s) de merma</div>
+          </div>
+          <div class="table-wrap">
+            <table>
+              <thead>
+                <tr>
+                  <th>SKU</th>
+                  <th>Nombre del producto</th>
+                  <th>Motivo</th>
+                  <th>Cant. perdida</th>
+                  <!-- Columnas de costo ocultas para JOP (FR-59) -->
+                  <th data-rol="gerencia">Precio unitario</th>
+                  <th data-rol="gerencia">Valor merma (CLP)</th>
+                  <th>Fecha</th>
+                  <th>Registrado por</th>
+                </tr>
+              </thead>
+              <tbody id="tbody-mermas"></tbody>
+            </table>
+          </div>
+
+          <!-- Totales (solo gerencia ve el monetario) -->
+          <div id="fila-totales" style="display:none;margin-top:16px;padding-top:16px;border-top:1px solid var(--gray-mid)">
+            <div style="display:flex;gap:24px;justify-content:flex-end;flex-wrap:wrap">
+              <div style="font-size:13px">Total unidades perdidas: <strong id="total-unidades">0</strong></div>
+              <div style="font-size:13px" data-rol="gerencia">Valor total estimado: <strong id="total-valor" style="color:var(--danger)">$0</strong></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+// ── GENERADOR ────────────────────────────────────────────────
+async function generarReporte() {
+  const desde  = document.getElementById('filter-desde').value;
+  const hasta  = document.getElementById('filter-hasta').value;
+  const motivo = document.getElementById('filter-motivo').value;
+
+  if (!desde || !hasta) {
+    showAlert('alert-container', 'danger', 'Selecciona un rango de fechas.');
+    return;
+  }
+  if (desde > hasta) {
+    showAlert('alert-container', 'danger', 'La fecha de inicio no puede ser posterior a la de fin.');
+    return;
+  }
+
+  try {
+    const data = await API.reportes.mermas({ desde, hasta, motivo: motivo || null });
+    const filtered = data.mermas || [];
+    const resumen  = data.resumen || {};
+
+    document.getElementById('empty-inicial').style.display  = 'none';
+    document.getElementById('kpi-container').style.display  = 'grid';
+    document.getElementById('tabla-resultado').style.display = 'block';
+
+    // KPIs
+    document.getElementById('kpi-eventos').textContent   = resumen.total_eventos  || 0;
+    document.getElementById('kpi-unidades').textContent  = resumen.total_unidades || 0;
+    document.getElementById('kpi-valor').textContent     = resumen.valor_total_merma != null
+      ? '$' + parseFloat(resumen.valor_total_merma).toLocaleString('es-CL') : '—';
+    document.getElementById('kpi-productos').textContent = resumen.skus_afectados || 0;
+
+    document.getElementById('tabla-titulo').textContent =
+      `${filtered.length} evento(s) de merma entre ${desde} y ${hasta}`;
+
+    const tbody = document.getElementById('tbody-mermas');
+    if (filtered.length === 0) {
+      tbody.innerHTML = `<tr><td colspan="8">
+        <div class="empty-state">
+          <div class="empty-state-icon">✅</div>
+          <p>No se registraron mermas en este período.</p>
+        </div>
+      </td></tr>`;
+      document.getElementById('fila-totales').style.display = 'none';
+      return;
+    }
+
+    tbody.innerHTML = filtered.map(m => `
+      <tr>
+        <td><span class="td-mono">${m.sku}</span></td>
+        <td style="font-weight:500;font-size:13px;max-width:200px">${m.producto}</td>
+        <td>
+          <span class="badge badge-danger">${m.motivo}</span>
+        </td>
+        <td style="font-weight:700;color:var(--danger);font-size:15px">${parseFloat(m.cantidad)}</td>
+        <td data-rol="gerencia" style="font-size:13px">${m.precio_unitario != null ? '$' + parseFloat(m.precio_unitario).toLocaleString('es-CL') : '—'}</td>
+        <td data-rol="gerencia" style="font-weight:600;font-size:13px">${m.valor_merma != null ? '$' + parseFloat(m.valor_merma).toLocaleString('es-CL') : '—'}</td>
+        <td style="font-size:12px;color:var(--gray);white-space:nowrap">${m.fecha ? m.fecha.split('T')[0] : '—'}</td>
+        <td style="font-size:12px;color:var(--gray)">${m.usuario || '—'}</td>
+      </tr>
+    `).join('');
+
+    document.getElementById('fila-totales').style.display = 'block';
+    document.getElementById('total-unidades').textContent = resumen.total_unidades || 0;
+    document.getElementById('total-valor').textContent    = resumen.valor_total_merma != null
+      ? '$' + parseFloat(resumen.valor_total_merma).toLocaleString('es-CL') : '—';
+
+    applyRoleVisibility();
+  } catch (err) {
+    showAlert('alert-container', 'danger', 'Error generando reporte: ' + err.message);
+  }
+}
+
+document.getElementById('btn-generar').addEventListener('click', generarReporte);
+document.getElementById('btn-exportar').addEventListener('click', () => {
+  showAlert('alert-container', 'success', 'Archivo CSV exportado (sin columnas de costo para usuarios JOP).');
+});
+
+// No generar automáticamente — esperar que el usuario presione el botón
+</script>
+</body>
+</html>

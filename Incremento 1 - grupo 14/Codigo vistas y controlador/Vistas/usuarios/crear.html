@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Crear Usuario — Puertas Blindadas</title>
+  <link rel="stylesheet" href="../assets/css/global.css"/>
+</head>
+<body>
+<div class="layout">
+  <div id="sidebar-container"></div>
+  <div class="sidebar-overlay" id="sidebar-overlay"></div>
+  <div class="main-content">
+    <div id="topbar-container"></div>
+    <main class="page-body">
+
+      <div class="page-header">
+        <div>
+          <div class="page-title" id="page-title">Nuevo usuario</div>
+          <div class="page-subtitle" id="page-subtitle">Completa todos los campos obligatorios</div>
+        </div>
+        <a href="lista.html" class="btn btn-ghost">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><polyline points="15 18 9 12 15 6"/></svg>
+          Volver a usuarios
+        </a>
+      </div>
+
+      <div id="alert-container"></div>
+
+      <div style="display:grid;grid-template-columns:1fr 340px;gap:20px;align-items:start">
+
+        <!-- FORMULARIO PRINCIPAL -->
+        <div class="card">
+
+          <!-- Paso 1: Identidad -->
+          <div class="section-label">Datos de cuenta</div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">
+                ID de usuario <span style="color:var(--danger)">*</span>
+                <span style="font-weight:400;color:var(--gray)">(1–20 caracteres alfanuméricos)</span>
+              </label>
+              <input class="form-control" id="f-id" placeholder="ej: jgarcia"
+                maxlength="20" oninput="validarCampo('id')" autocomplete="off"/>
+              <div class="form-hint" id="hint-id"></div>
+            </div>
+            <div class="form-group">
+              <label class="form-label">Nombre completo <span style="color:var(--danger)">*</span></label>
+              <input class="form-control" id="f-nombre" placeholder="Juan García"
+                maxlength="100" oninput="validarCampo('nombre')"/>
+              <div class="form-hint" id="hint-nombre"></div>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label">
+              Email <span style="color:var(--danger)">*</span>
+              <span style="font-weight:400;color:var(--gray)">(debe ser único en el sistema)</span>
+            </label>
+            <input class="form-control" id="f-email" type="email"
+              placeholder="usuario@puertasblindadas.cl" oninput="validarCampo('email')"/>
+            <div class="form-hint" id="hint-email"></div>
+          </div>
+
+          <div style="height:1px;background:var(--gray-mid);margin:20px 0"></div>
+
+          <!-- Paso 2: Rol y estado -->
+          <div class="section-label">Rol y permisos</div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label">Rol <span style="color:var(--danger)">*</span></label>
+              <select class="form-control" id="f-rol" onchange="onRolChange()">
+                <option value="">Seleccionar rol...</option>
+                <option value="gerencia">Gerencia</option>
+                <option value="jop">JOP</option>
+              </select>
+              <div class="form-hint" id="hint-rol"></div>
+            </div>
+            <div class="form-group" id="grupo-estado" style="display:none">
+              <label class="form-label">Estado</label>
+              <select class="form-control" id="f-estado">
+                <option value="activo">Activo</option>
+                <option value="inactivo">Inactivo</option>
+              </select>
+            </div>
+          </div>
+
+          <!-- Descripción dinámica del rol seleccionado -->
+          <div id="rol-descripcion" style="display:none;margin-bottom:20px">
+            <div id="rol-desc-gerencia" style="display:none;background:var(--orange-light);border-radius:var(--radius-md);padding:12px 16px;font-size:12px">
+              <strong style="color:var(--orange-dark)">Gerencia</strong>
+              <p style="color:var(--orange-dark);margin-top:4px;line-height:1.6">
+                Acceso completo al sistema: gestión de productos, bodegas, movimientos, alertas, proveedores, pedidos, reportes con valores monetarios y gestión de usuarios.
+              </p>
+            </div>
+            <div id="rol-desc-jop" style="display:none;background:#cff4fc;border-radius:var(--radius-md);padding:12px 16px;font-size:12px">
+              <strong style="color:#055160">JOP (Jefe de Operaciones)</strong>
+              <p style="color:#055160;margin-top:4px;line-height:1.6">
+                Acceso operativo: registro de entradas y salidas, consulta de stock, alertas y pedidos. <strong>No visualiza costos ni precios</strong> en ninguna vista del sistema.
+              </p>
+            </div>
+          </div>
+
+          <div style="height:1px;background:var(--gray-mid);margin:4px 0 20px"></div>
+
+          <!-- Paso 3: Contraseña (solo creación) -->
+          <div id="bloque-password">
+            <div class="section-label">Contraseña inicial</div>
+            <div class="form-row">
+              <div class="form-group">
+                <label class="form-label">Contraseña <span style="color:var(--danger)">*</span></label>
+                <input class="form-control" id="f-pass" type="password"
+                  placeholder="Mínimo 8 caracteres" oninput="validarPass()"/>
+                <div class="form-hint" id="hint-pass"></div>
+              </div>
+              <div class="form-group">
+                <label class="form-label">Confirmar contraseña <span style="color:var(--danger)">*</span></label>
+                <input class="form-control" id="f-pass2" type="password"
+                  placeholder="Repite la contraseña" oninput="validarPass()"/>
+                <div class="form-hint" id="hint-pass2"></div>
+              </div>
+            </div>
+
+            <!-- Indicador de fortaleza -->
+            <div style="margin-bottom:16px">
+              <div style="font-size:11px;color:var(--gray);margin-bottom:4px">Fortaleza de contraseña</div>
+              <div style="height:4px;background:var(--gray-mid);border-radius:2px;overflow:hidden">
+                <div id="pass-strength-bar" style="height:100%;width:0;transition:width 0.3s,background 0.3s;border-radius:2px"></div>
+              </div>
+              <div id="pass-strength-label" style="font-size:11px;color:var(--gray);margin-top:4px"></div>
+            </div>
+
+            <div class="alert alert-info" style="font-size:12px;margin-bottom:0">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>
+              El usuario deberá cambiar su contraseña en el primer inicio de sesión. Se recomienda notificarle por email.
+            </div>
+          </div>
+
+          <!-- ACCIONES -->
+          <div style="display:flex;justify-content:flex-end;gap:10px;margin-top:24px">
+            <a href="lista.html" class="btn btn-ghost">Cancelar</a>
+            <button class="btn btn-secondary" id="btn-preview" onclick="mostrarPreview(); document.getElementById('preview-card').scrollIntoView({behavior:'smooth'}); this.textContent='✓ Vista previa'; setTimeout(()=>this.textContent='Vista previa',1500);">
+              Vista previa
+            </button>
+            <button class="btn btn-primary" onclick="guardarUsuario()">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="20 6 9 17 4 12"/></svg>
+              Crear usuario
+            </button>
+          </div>
+
+        </div>
+
+        <!-- PANEL LATERAL: Preview + Validaciones -->
+        <div style="display:flex;flex-direction:column;gap:16px">
+
+          <!-- Card preview del usuario (CU-75: confirmación) -->
+          <div class="card" id="preview-card" style="opacity:.4;transition:opacity 0.3s">
+            <div style="font-size:11px;font-weight:600;color:var(--gray);text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px">Vista previa</div>
+            <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">
+              <div style="width:48px;height:48px;border-radius:50%;background:var(--orange-light);display:flex;align-items:center;justify-content:center;font-size:16px;font-weight:700;color:var(--orange-dark);flex-shrink:0" id="preview-avatar">--</div>
+              <div>
+                <div style="font-weight:600;font-size:14px" id="preview-nombre">Nombre completo</div>
+                <div style="font-size:12px;color:var(--orange)" id="preview-email">email@dominio.cl</div>
+              </div>
+            </div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:8px">
+              <div>
+                <div style="font-size:10px;color:var(--gray);font-weight:600;text-transform:uppercase">ID</div>
+                <div class="td-mono" style="font-size:12px" id="preview-id">—</div>
+              </div>
+              <div>
+                <div style="font-size:10px;color:var(--gray);font-weight:600;text-transform:uppercase">Rol</div>
+                <span class="badge" id="preview-rol-badge">—</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Checklist de validaciones -->
+          <div class="card">
+            <div style="font-size:11px;font-weight:600;color:var(--gray);text-transform:uppercase;letter-spacing:.5px;margin-bottom:12px">Validaciones</div>
+            <div id="validacion-list" style="display:flex;flex-direction:column;gap:6px">
+              <!-- Se actualiza dinámicamente -->
+            </div>
+          </div>
+
+          <!-- Info de roles -->
+          <div class="card" style="background:#f9f9f9;border-style:dashed">
+            <div style="font-size:11px;font-weight:600;color:var(--gray);text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px">Roles disponibles</div>
+            <div style="font-size:12px;color:var(--gray);line-height:1.7">
+              <div><strong>Gerencia:</strong> acceso completo incluyendo costos y administración de usuarios.</div>
+              <div style="margin-top:6px"><strong>JOP:</strong> acceso operativo sin visualización de datos monetarios (FR-59).</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </main>
+  </div>
+</div>
+
+<script src="../assets/js/layout.js"></script>
+<script src="../shared/api.js"></script>
+<script>
+// Detectar modo edición (parámetro ?id= con ID numérico)
+const params     = new URLSearchParams(window.location.search);
+const editId     = params.get('id');   // ID numérico del usuario
+const modoEditar = !!editId;
+
+// Cargar datos reales si es modo edición
+async function iniciarModoEdicion() {
+  document.getElementById('page-title').textContent    = 'Editar usuario';
+  document.querySelector('#bloque-password').style.display = 'none';
+  document.querySelector('.btn.btn-primary').textContent   = 'Guardar cambios';
+  // Usar readonly en lugar de disabled: readonly sí permite leer el value
+  const fId = document.getElementById('f-id');
+  fId.readOnly = true;
+  fId.style.background = 'var(--gray-light)';
+  fId.style.cursor = 'default';
+  document.getElementById('grupo-estado').style.display = 'grid';
+
+  try {
+    const usuarios = await API.usuarios.listar();
+    const u = usuarios.find(x => String(x.id) === String(editId));
+    if (u) {
+      document.getElementById('page-subtitle').textContent = `Modificando datos de: ${u.username || u.id}`;
+      fId.value = u.username || String(u.id);
+      document.getElementById('f-nombre').value = u.nombre_completo || '';
+      document.getElementById('f-email').value  = u.correo || '';
+      document.getElementById('f-rol').value    = u.rol || '';
+      document.getElementById('f-estado').value = u.estado || 'activo';
+      onRolChange();
+      mostrarPreview();
+    } else {
+      showAlert('alert-container', 'danger', 'Usuario no encontrado.');
+    }
+  } catch (err) {
+    showAlert('alert-container', 'danger', 'Error cargando datos del usuario: ' + err.message);
+  }
+}
+
+if (modoEditar) iniciarModoEdicion();
+
+// ── VALIDACIONES EN TIEMPO REAL ────────────────────────────
+function setHint(id, msg, ok) {
+  const el    = document.getElementById('hint-' + id);
+  const input = document.getElementById('f-' + id);
+  if (!el) return;
+  el.textContent = msg;
+  el.style.color = ok ? 'var(--success)' : 'var(--danger)';
+  // Borde rojo/verde en el input
+  if (input && msg) {
+    input.style.borderColor = ok ? 'var(--success)' : 'var(--danger)';
+    input.style.boxShadow   = ok
+      ? '0 0 0 3px rgba(25,135,84,.12)'
+      : '0 0 0 3px rgba(220,53,69,.12)';
+  } else if (input) {
+    input.style.borderColor = '';
+    input.style.boxShadow   = '';
+  }
+}
+
+function validarCampo(campo) {
+  const val = document.getElementById('f-' + campo).value.trim();
+  switch (campo) {
+    case 'id':
+      if (!val)                 { setHint('id', 'Campo obligatorio', false); break; }
+      if (val.length > 20)      { setHint('id', 'Máximo 20 caracteres', false); break; }
+      if (!/^[a-zA-Z0-9_]+$/.test(val)) { setHint('id', 'Solo letras, números y guión bajo', false); break; }
+      setHint('id', '✓ ID válido y disponible', true);
+      break;
+    case 'nombre':
+      if (!val || val.length < 2) { setHint('nombre', 'Mínimo 2 caracteres', false); break; }
+      if (val.length > 100)       { setHint('nombre', 'Máximo 100 caracteres', false); break; }
+      setHint('nombre', '✓', true);
+      break;
+    case 'email':
+      if (!val)                    { setHint('email', 'Campo obligatorio', false); break; }
+      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val)) { setHint('email', 'Formato inválido (ej: nombre@dominio.cl)', false); break; }
+      setHint('email', '✓ Email válido', true);
+      break;
+    case 'rol':
+      if (!val) { setHint('rol', 'Debes seleccionar un rol', false); break; }
+      setHint('rol', '✓', true);
+      break;
+  }
+  actualizarChecklist();
+  mostrarPreview();
+}
+
+function validarPass() {
+  const p1 = document.getElementById('f-pass').value;
+  const p2 = document.getElementById('f-pass2').value;
+  if (modoEditar) return;
+
+  // Fortaleza
+  let score = 0;
+  if (p1.length >= 8) score++;
+  if (/[A-Z]/.test(p1)) score++;
+  if (/[0-9]/.test(p1)) score++;
+  if (/[^a-zA-Z0-9]/.test(p1)) score++;
+  const bar   = document.getElementById('pass-strength-bar');
+  const label = document.getElementById('pass-strength-label');
+  const colores = ['#dc3545','#dc3545','#ffc107','#198754','#198754'];
+  const labels  = ['','Muy débil','Débil','Aceptable','Fuerte'];
+  bar.style.width      = (score * 25) + '%';
+  bar.style.background = colores[score] || '#aaa';
+  label.textContent    = labels[score] || '';
+
+  if (p1.length < 8) { setHint('pass', 'Mínimo 8 caracteres', false); }
+  else               { setHint('pass', '✓', true); }
+
+  if (p2 && p1 !== p2) { setHint('pass2', 'Las contraseñas no coinciden', false); }
+  else if (p2)          { setHint('pass2', '✓ Coinciden', true); }
+
+  actualizarChecklist();
+}
+
+// ── CHECKLIST DE VALIDACIONES ──────────────────────────────
+function actualizarChecklist() {
+  const checks = [
+    { label: 'ID único y válido',      ok: esValido('id') },
+    { label: 'Nombre completo',        ok: (document.getElementById('f-nombre').value.trim().length >= 2) },
+    { label: 'Email con formato válido', ok: esValido('email') },
+    { label: 'Rol asignado',           ok: !!document.getElementById('f-rol').value },
+  ];
+  if (!modoEditar) {
+    checks.push({ label: 'Contraseña (mín. 8 caracteres)', ok: document.getElementById('f-pass').value.length >= 8 });
+    checks.push({ label: 'Contraseñas coinciden',          ok: document.getElementById('f-pass').value === document.getElementById('f-pass2').value && document.getElementById('f-pass').value.length > 0 });
+  }
+  document.getElementById('validacion-list').innerHTML = checks.map(c => `
+    <div style="display:flex;align-items:center;gap:8px;font-size:12px">
+      <div style="width:16px;height:16px;border-radius:50%;flex-shrink:0;display:flex;align-items:center;justify-content:center;font-size:10px;
+        background:${c.ok ? 'var(--success)' : 'var(--gray-mid)'};color:${c.ok ? '#fff' : 'var(--gray)'}">
+        ${c.ok ? '✓' : '○'}
+      </div>
+      <span style="color:${c.ok ? 'var(--success)' : 'var(--gray)'}">${c.label}</span>
+    </div>
+  `).join('');
+}
+
+function esValido(campo) {
+  const hint = document.getElementById('hint-' + campo);
+  return hint && hint.style.color === 'var(--success)';
+}
+
+// ── PREVIEW ────────────────────────────────────────────────
+function onRolChange() {
+  const rol = document.getElementById('f-rol').value;
+  document.getElementById('rol-descripcion').style.display    = rol ? 'block' : 'none';
+  document.getElementById('rol-desc-gerencia').style.display  = rol === 'gerencia' ? 'block' : 'none';
+  document.getElementById('rol-desc-jop').style.display       = rol === 'jop'      ? 'block' : 'none';
+  if (modoEditar) document.getElementById('grupo-estado').style.display = 'grid';
+  validarCampo('rol');
+  mostrarPreview();
+}
+
+function mostrarPreview() {
+  const id     = document.getElementById('f-id').value.trim();
+  const nombre = document.getElementById('f-nombre').value.trim();
+  const email  = document.getElementById('f-email').value.trim();
+  const rol    = document.getElementById('f-rol').value;
+  const completo = id && nombre && email && rol;
+
+  const card = document.getElementById('preview-card');
+  card.style.opacity = completo ? '1' : '0.4';
+
+  const initials = nombre ? nombre.split(' ').map(n => n[0]).join('').slice(0,2).toUpperCase() : '--';
+  document.getElementById('preview-avatar').textContent       = initials;
+  document.getElementById('preview-nombre').textContent       = nombre  || 'Nombre completo';
+  document.getElementById('preview-email').textContent        = email   || 'email@dominio.cl';
+  document.getElementById('preview-id').textContent           = id      || '—';
+  const badge = document.getElementById('preview-rol-badge');
+  badge.textContent  = rol || '—';
+  badge.className    = 'badge ' + (rol === 'gerencia' ? 'badge-orange' : rol === 'jop' ? 'badge-info' : 'badge-gray');
+}
+
+// ── GUARDAR ────────────────────────────────────────────────
+async function guardarUsuario() {
+  const username = document.getElementById('f-id').value.trim();
+  const nombre   = document.getElementById('f-nombre').value.trim();
+  const email    = document.getElementById('f-email').value.trim();
+  const rol      = document.getElementById('f-rol').value;
+  const pass     = modoEditar ? null : document.getElementById('f-pass').value;
+  const pass2    = modoEditar ? null : document.getElementById('f-pass2').value;
+
+  if (!username && !modoEditar) { showAlert('alert-container', 'danger', 'El ID de usuario es obligatorio.'); return; }
+  if (!nombre)   { showAlert('alert-container', 'danger', 'El nombre es obligatorio.'); return; }
+  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+    showAlert('alert-container', 'danger', 'El email tiene un formato inválido.'); return;
+  }
+  if (!rol) { showAlert('alert-container', 'danger', 'Debes asignar un rol al usuario.'); return; }
+  if (!modoEditar) {
+    if (!pass || pass.length < 8) { showAlert('alert-container', 'danger', 'La contraseña debe tener al menos 8 caracteres.'); return; }
+    if (pass !== pass2)            { showAlert('alert-container', 'danger', 'Las contraseñas no coinciden.'); return; }
+  }
+
+  // Separar nombre en primer nombre y apellido (simplificado)
+  const partes   = nombre.split(' ');
+  const primerNombre  = partes[0] || '';
+  const primerApellido = partes.slice(1).join(' ') || '';
+
+  const btn = document.querySelector('.btn.btn-primary');
+  btn.disabled = true;
+  btn.textContent = 'Guardando...';
+
+  try {
+    if (modoEditar) {
+      // Modo edición: actualizar rol y estado
+      const estado = document.getElementById('f-estado').value;
+      await API.usuarios.editarPermisos(editId, { rol, estado });
+      window.location.href = `lista.html?actualizado=${encodeURIComponent(username)}`;
+    } else {
+      // Modo creación: crear usuario nuevo
+      await API.usuarios.crear({
+        username,
+        correo:   email,
+        password: pass,
+        nombre:   primerNombre,
+        apellido: primerApellido,
+        rol,
+        estado:   'activo',
+      });
+      window.location.href = `lista.html?creado=${encodeURIComponent(username)}`;
+    }
+  } catch (err) {
+    showAlert('alert-container', 'danger', err.message || 'Error al guardar el usuario.');
+    btn.disabled = false;
+    btn.textContent = modoEditar ? 'Guardar cambios' : 'Crear usuario';
+  }
+}
+
+// ── INIT ──────────────────────────────────────────────────
+actualizarChecklist();
+mostrarPreview();
+</script>
+</body>
+</html>
