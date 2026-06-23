@@ -1,0 +1,653 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Página-1" id="zk0xR8cD_nrixKi6-Pjy">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="500" width="20" x="730" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-2" parent="kpxnOuxInMtwJL3gUsX7-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="340" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_Reporte&lt;/u&gt;" vertex="1">
+          <mxGeometry height="490" width="200" x="880" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-5" parent="kpxnOuxInMtwJL3gUsX7-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="360" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_ReporteController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="490" width="200" x="1200" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-7" parent="kpxnOuxInMtwJL3gUsX7-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="490" width="190" x="1520" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-9" parent="kpxnOuxInMtwJL3gUsX7-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="90" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Reporte_Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="490" width="220" x="1830" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-11" parent="kpxnOuxInMtwJL3gUsX7-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="105" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar rango de fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1296" y="290" as="sourcePoint" />
+            <mxPoint x="990" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario rango fechas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="976" y="320" as="sourcePoint" />
+            <mxPoint x="750" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresar fecha inicio y fin">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="750" y="350" as="sourcePoint" />
+            <mxPoint x="976" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar rango fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="990" y="380" as="sourcePoint" />
+            <mxPoint x="1296" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Buscar movimientos en periodo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1310" y="410" as="sourcePoint" />
+            <mxPoint x="1607" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Registros del periodo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1607" y="440" as="sourcePoint" />
+            <mxPoint x="1310" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="8. Generar tabla reporte">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1311.5" y="484.47" as="sourcePoint" />
+            <mxPoint x="1930" y="484" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Tabla generada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1930" y="520" as="sourcePoint" />
+            <mxPoint x="1310" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Mostrar tabla resultados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1296" y="550" as="sourcePoint" />
+            <mxPoint x="990" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Muestra tabla resultados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="976" y="580" as="sourcePoint" />
+            <mxPoint x="750" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="12. Revisar resultados en pantalla">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="750" y="620" as="sourcePoint" />
+            <mxPoint x="976" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="80" x="690" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="290" width="20" x="730" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-25" parent="kpxnOuxInMtwJL3gUsX7-24" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-26" parent="kpxnOuxInMtwJL3gUsX7-24" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_ReporteMovimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="290" width="200" x="880" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-29" parent="kpxnOuxInMtwJL3gUsX7-28" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_ReporteController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="290" width="200" x="1200" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-31" parent="kpxnOuxInMtwJL3gUsX7-30" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar rango de fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1296" y="930" as="sourcePoint" />
+            <mxPoint x="990" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario rango fechas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="976" y="960" as="sourcePoint" />
+            <mxPoint x="750" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresar fecha fin anterior a inicio">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="750" y="990" as="sourcePoint" />
+            <mxPoint x="976" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar rango fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="990" y="1010" as="sourcePoint" />
+            <mxPoint x="1296" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-36" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar rango fechas">
+          <mxGeometry relative="1" x="0.6364" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1360" y="1020" />
+              <mxPoint x="1360" y="1050" />
+            </Array>
+            <mxPoint x="1310" y="1020" as="sourcePoint" />
+            <mxPoint x="1310" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Mostrar error fecha fin anterior a inicio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="1070" as="sourcePoint" />
+            <mxPoint x="990" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error fecha fin anterior a inicio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="970" y="1090" as="sourcePoint" />
+            <mxPoint x="750" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-39" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="80" x="690" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-40" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="310" width="20" x="730" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-41" parent="kpxnOuxInMtwJL3gUsX7-40" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-42" parent="kpxnOuxInMtwJL3gUsX7-40" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="700" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_ReporteMovimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="200" x="880" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-45" parent="kpxnOuxInMtwJL3gUsX7-44" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-46" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_ReporteController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="200" x="1200" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-47" parent="kpxnOuxInMtwJL3gUsX7-46" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-48" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="310" width="190" x="1520" y="1270" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-49" parent="kpxnOuxInMtwJL3gUsX7-48" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="90" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar rango de fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1296" y="1360" as="sourcePoint" />
+            <mxPoint x="990" y="1360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario rango fechas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="976" y="1390" as="sourcePoint" />
+            <mxPoint x="750" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresar fecha inicio y fin">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="750" y="1420" as="sourcePoint" />
+            <mxPoint x="976" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-53" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar rango fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="990" y="1450" as="sourcePoint" />
+            <mxPoint x="1296" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-54" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Buscar movimientos en periodo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1310" y="1480" as="sourcePoint" />
+            <mxPoint x="1610" y="1480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Sin registros en periodo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1610" y="1510" as="sourcePoint" />
+            <mxPoint x="1310" y="1510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Mostrar informacion sin datos en periodo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1296" y="1540" as="sourcePoint" />
+            <mxPoint x="990" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-57" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Muestra informacion sin datos en periodo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="976" y="1560" as="sourcePoint" />
+            <mxPoint x="750" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kpxnOuxInMtwJL3gUsX7-58" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-b12931fc-7fff-14ca-e783-0961c6571e46&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;margin-left:0pt;&quot; align=&quot;left&quot;&gt;&lt;table style=&quot;border:none;border-collapse:collapse;&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;131&quot;&gt;&lt;col width=&quot;460&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Campo&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Nombre&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;CU-66: Auditando reportes de movimientos periódicamente&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Actor(es)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Gerencia/JOP&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:37pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Resumen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Genera tablas de entradas y salidas por rango de fechas para auditoría operativa.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Frecuencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Alta&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Precondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;El usuario debe estar en el módulo de reportes.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:43.5pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;El sistema solicita el rango de fechas, el usuario ingresa inicio y fin [Excepción 1], el sistema busca los movimientos en la base de datos [Excepción 2], el sistema genera la tabla con SKU, tipo y timestamp, el usuario revisa los resultados en pantalla.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:42.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Excepciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Excepción 1: Fecha fin anterior a la de inicio. El sistema solicita corregir el rango.&lt;/span&gt;&lt;/p&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Excepción 2: No hay registros en el periodo. El sistema informa que no hay datos.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Poscondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;El usuario obtiene el rastro de movimientos del periodo.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Dependencias&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;UR 9.1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Campo&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.2;text-align: center;margin-top:0pt;margin-bottom:10pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ffffff;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="600" width="560" x="-146" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="hmCYzCF0eqfjoPpvyD2h-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;CU-66: Auditando reportes de movimientos periódicamente&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="1210" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cdjU1BAt9qUbcqk2eWYm-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;authController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;alertaController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;auditoriaController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;pedidosController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;usuariosController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;bodegasController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;materialesController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;movimientosController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;proveedoresController&lt;/code&gt;&lt;/li&gt;&lt;br&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;code class=&quot;bg-text-200/5 border border-0.5 border-border-300 text-danger-000 whitespace-pre-wrap rounded-[0.4rem] px-1 py-px text-[0.9rem]&quot;&gt;reportesController&lt;/code&gt;&lt;/li&gt;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;&lt;span style=&quot;color: oklab(0.952614 0.000793397 -0.00253761); font-family: &amp;quot;gg sans&amp;quot;, &amp;quot;Noto Sans&amp;quot;, &amp;quot;Helvetica Neue&amp;quot;, Helvetica, Arial, sans-serif; font-size: 16px; white-space: break-spaces; background-color: oklab(0.219499 0.00211129 -0.00744916);&quot;&gt;PostgreController&lt;/span&gt;&lt;/li&gt;" vertex="1">
+          <mxGeometry height="380" width="260" x="270" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cdjU1BAt9qUbcqk2eWYm-2" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Iniciar sesión, Recuperar contraseña&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Dashboard&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Productos, Detalle Producto, Editar Producto, Eliminar Producto&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Bodegas, Detalle Bodega, Nueva Bodega&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Movimientos, Registrar Entrada, Registrar Salida, Revertir Movimiento&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Alertas&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Proveedores, Nuevo Proveedor&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Pedidos, Validación de Pedidos&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Reportes, Auditoría de Acciones&lt;/li&gt;&#xa;&lt;li class=&quot;font-claude-response-body whitespace-normal break-words pl-2&quot;&gt;Usuarios, Editar Usuario, Nuevo Usuario, Cambiar Apodo, Cambiar Contraseña&lt;/li&gt;" vertex="1">
+          <mxGeometry height="300" width="460" x="-290" y="750" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="pedS6L65jzOs7CXOUBdZ" name="Página-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="670" width="1770" x="430" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="550" width="20" x="480" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-2" parent="y-aqX1yPG14SGY3JSVMJ-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="G725dc5v9UUq9FOmwjiU-2" parent="y-aqX1yPG14SGY3JSVMJ-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="450" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_Reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="550" width="200" x="630" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-5" parent="y-aqX1yPG14SGY3JSVMJ-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="G725dc5v9UUq9FOmwjiU-1" parent="y-aqX1yPG14SGY3JSVMJ-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="95" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="200" x="950" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-7" parent="y-aqX1yPG14SGY3JSVMJ-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wOmP4Pcf0l41JqcXqabH-3" parent="y-aqX1yPG14SGY3JSVMJ-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="wOmP4Pcf0l41JqcXqabH-4" parent="y-aqX1yPG14SGY3JSVMJ-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="190" x="1620" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-9" parent="y-aqX1yPG14SGY3JSVMJ-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="90" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Reporte_Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="530" width="220" x="1930" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="wOmP4Pcf0l41JqcXqabH-5" parent="y-aqX1yPG14SGY3JSVMJ-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="105" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar rango de fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1046" y="470" as="sourcePoint" />
+            <mxPoint x="740" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario rango fechas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="726" y="500" as="sourcePoint" />
+            <mxPoint x="500" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa fecha inicio y fin">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="500" y="530" as="sourcePoint" />
+            <mxPoint x="726" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar rango fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="740" y="560" as="sourcePoint" />
+            <mxPoint x="1046" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Mostrar tabla resultados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1046" y="780" as="sourcePoint" />
+            <mxPoint x="740" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Muestra tabla resultados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="726" y="810" as="sourcePoint" />
+            <mxPoint x="500" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;. Revisa resultados en pantalla&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="500" y="840" as="sourcePoint" />
+            <mxPoint x="726" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;CU-66: Auditando reportes de movimientos periódicamente&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="1140" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="iRQfI2APQn5bt68qMgcf-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="530" width="140" x="1320" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="iRQfI2APQn5bt68qMgcf-2" parent="iRQfI2APQn5bt68qMgcf-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="65" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="aeQzIXaLwsuICwDmAwQB-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Validar informacion">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1060" y="590" as="sourcePoint" />
+            <mxPoint x="1380" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aeQzIXaLwsuICwDmAwQB-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="wOmP4Pcf0l41JqcXqabH-4" value="10. Informacion valida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="750" as="sourcePoint" />
+            <mxPoint x="1060" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Buscar movimientos en periodo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1395" y="634.71" as="sourcePoint" />
+            <mxPoint x="1710" y="634.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Registros del periodo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1710" y="660" as="sourcePoint" />
+            <mxPoint x="1395" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="8. Generar tabla reporte">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1395" y="700" as="sourcePoint" />
+            <mxPoint x="2035" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y-aqX1yPG14SGY3JSVMJ-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Tabla generada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2032.5" y="730" as="sourcePoint" />
+            <mxPoint x="1397.5" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cridRRWMEx8j4YESQ40M" name="Página-3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nmrC4ZOmiGugV3qKfv-0-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="480" width="1580" x="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="80" x="1010" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="350" width="20" x="310" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cWf27UYAFqBr9TZ23tm9-2" parent="hTCYAaGpMyyejcraNhW8-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cWf27UYAFqBr9TZ23tm9-7" parent="hTCYAaGpMyyejcraNhW8-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="280" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_Reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="200" x="460" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cWf27UYAFqBr9TZ23tm9-1" parent="hTCYAaGpMyyejcraNhW8-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="200" x="780" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cWf27UYAFqBr9TZ23tm9-5" parent="hTCYAaGpMyyejcraNhW8-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cWf27UYAFqBr9TZ23tm9-6" parent="hTCYAaGpMyyejcraNhW8-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="95" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cWf27UYAFqBr9TZ23tm9-1" value="1. Solicitar rango de fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="876" y="300" as="sourcePoint" />
+            <mxPoint x="570" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra formulario rango fechas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="320" as="sourcePoint" />
+            <mxPoint x="325" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-12" edge="1" parent="1" source="cWf27UYAFqBr9TZ23tm9-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa fecha fin anterior a inicio">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="330" y="350" as="sourcePoint" />
+            <mxPoint x="555" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar rango fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="565" y="380" as="sourcePoint" />
+            <mxPoint x="876" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-14" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar rango fechas">
+          <mxGeometry relative="1" x="0.6364" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="960" y="400" />
+              <mxPoint x="960" y="430" />
+            </Array>
+            <mxPoint x="884.97" y="400.03" as="sourcePoint" />
+            <mxPoint x="884.97" y="430.03" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Mostrar error fecha fin anterior a inicio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="875" y="440" as="sourcePoint" />
+            <mxPoint x="565" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hTCYAaGpMyyejcraNhW8-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra error fecha fin anterior a inicio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="460" as="sourcePoint" />
+            <mxPoint x="325" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WnerucUodInzRqnOzOHb-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="190" x="1340" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="WnerucUodInzRqnOzOHb-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Reporte_Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="220" x="1589" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="nmrC4ZOmiGugV3qKfv-0-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;CU-66: Auditando reportes de movimientos periódicamente&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="900" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cOBtIm14e7-rVZLPVuXv-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="140" x="1090" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="cWf27UYAFqBr9TZ23tm9-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="570" y="380" as="sourcePoint" />
+            <mxPoint x="565" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U0MzRabaEw2C0tEO6i4g-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="555" y="430" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y9FEXvGphHPKAGr5xiYV" name="Página-4">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="FX8rexTbjqpCUch7mSnc-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="490" width="1680" x="170" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="80" x="920" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="350" width="20" x="210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-4" parent="fm0zTex-KKpz-1873VqB-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-15" parent="fm0zTex-KKpz-1873VqB-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="180" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V_Reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="200" x="370" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-1" parent="fm0zTex-KKpz-1873VqB-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-14" parent="fm0zTex-KKpz-1873VqB-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="95" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="200" x="690" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-5" parent="fm0zTex-KKpz-1873VqB-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="95" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-10" parent="fm0zTex-KKpz-1873VqB-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-13" parent="fm0zTex-KKpz-1873VqB-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="95" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="190" x="1360" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-12" parent="fm0zTex-KKpz-1873VqB-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="90" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="uiyRregRrommQ6A2OTTZ-1" value="1. Solicitar rango de fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="786" y="290" as="sourcePoint" />
+            <mxPoint x="480" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="uiyRregRrommQ6A2OTTZ-4" value="2. Muestra formulario rango fechas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466" y="320" as="sourcePoint" />
+            <mxPoint x="240" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-14" edge="1" parent="1" source="uiyRregRrommQ6A2OTTZ-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa fecha inicio y fin">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="240" y="350" as="sourcePoint" />
+            <mxPoint x="466" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar rango fechas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="475" y="374.74" as="sourcePoint" />
+            <mxPoint x="786" y="374.74" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-16" edge="1" parent="1" source="uiyRregRrommQ6A2OTTZ-11" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Buscar movimientos en periodo">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1130" y="420" as="sourcePoint" />
+            <mxPoint x="1450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="uiyRregRrommQ6A2OTTZ-11" value="7. Sin registros en periodo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="450" as="sourcePoint" />
+            <mxPoint x="1130" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Mostrar informacion sin datos en periodo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="490" as="sourcePoint" />
+            <mxPoint x="475" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fm0zTex-KKpz-1873VqB-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="uiyRregRrommQ6A2OTTZ-15" value="10. Muestra informacion sin datos en periodo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="466" y="500" as="sourcePoint" />
+            <mxPoint x="240" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HYLvFDbfgDN8CSnhKbHX-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Reporte_Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="220" x="1591" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="FX8rexTbjqpCUch7mSnc-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap; background-color: rgb(255, 255, 255);&quot;&gt;CU-66: Auditando reportes de movimientos periódicamente&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="300" x="820" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="xjU496omkIRYSVYOI5r1-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="140" x="1040" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-11" parent="xjU496omkIRYSVYOI5r1-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="65" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Validar informacion">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="795" y="400" as="sourcePoint" />
+            <mxPoint x="1105" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uiyRregRrommQ6A2OTTZ-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Informacion invalida">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="470" as="sourcePoint" />
+            <mxPoint x="795" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

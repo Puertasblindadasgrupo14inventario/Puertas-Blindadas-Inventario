@@ -1,0 +1,592 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram id="YEzuTltxl5Zx6N6yZzLZ" name="Página-2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1jPwzjmuPrA2nH6SG2_c-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-175d3380-7fff-a2e3-af47-0e7a3bc07211&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;margin-left:0pt;&quot; align=&quot;left&quot;&gt;&lt;table style=&quot;border:none;border-collapse:collapse;&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;131&quot;&gt;&lt;col width=&quot;460&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Campo&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Nombre&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;CU-19: Registrando traslado entre bodegas&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Actor(es)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Gerencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:37pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Resumen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Permite mover stock de una bodega a otra manteniendo el inventario global constante.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Frecuencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Media&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:17.737731933593754pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Precondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Stock disponible en bodega origen y bodegas destino configurada.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:45.46319580078126pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;El usuario selecciona el producto a mover, el usuario elige bodega de origen y destino, el usuario ingresa la cantidad [Excepción 1], el sistema valida disponibilidad, el sistema resta stock en origen y suma en destino, el sistema genera registro de movimiento tipo &quot;Traslado&quot;.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:24pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Excepciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Excepción 1: Cantidad supera el stock disponible en origen. El sistema bloquea el traslado.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:20.25pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Poscondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Los saldos locales de ambas bodegas se actualizan sincronizadamente.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:0pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Dependencias&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ea9999;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;UR 2.1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="520" width="560" x="-420" y="180" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ISTyhprDHcuKI3T5fdGz" name="oficial">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-19: Registrando traslado entre bodegas" vertex="1">
+          <mxGeometry height="30" width="310" x="560" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="-10" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="690" width="20" x="20" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-4" parent="QlSy7fTYIDBzu8KSWOUa-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="570" width="10" x="5" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Registrar Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="680" width="190" x="400" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-6" parent="QlSy7fTYIDBzu8KSWOUa-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="530" width="10" x="90" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;bodegasController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="210" x="650" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-8" parent="QlSy7fTYIDBzu8KSWOUa-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="510" width="10" x="100" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;PostgreController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="650" width="190" x="920" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-10" parent="QlSy7fTYIDBzu8KSWOUa-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="425" width="10" x="90" y="175" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="650" width="180" x="1180" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-12" parent="QlSy7fTYIDBzu8KSWOUa-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="85" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="650" width="190" x="1430" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-14" parent="QlSy7fTYIDBzu8KSWOUa-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="90" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar formulario de traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="380" as="sourcePoint" />
+            <mxPoint x="490" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="QlSy7fTYIDBzu8KSWOUa-3" value="2. Muestra bodegas origen y destino">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="410" as="sourcePoint" />
+            <mxPoint x="280" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-17" edge="1" parent="1" source="QlSy7fTYIDBzu8KSWOUa-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Selecciona el producto a mover, bodega origen, destino e ingresar cantidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="440" as="sourcePoint" />
+            <mxPoint x="485" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos del traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="470" as="sourcePoint" />
+            <mxPoint x="755" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-19" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar disponibilidad de stock">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="495" />
+              <mxPoint x="820" y="520" />
+            </Array>
+            <mxPoint x="770" y="495" as="sourcePoint" />
+            <mxPoint x="770" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Consultar stock disponible en bodega origen">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="765" y="548" as="sourcePoint" />
+            <mxPoint x="1015" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Consultar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="573" as="sourcePoint" />
+            <mxPoint x="1262" y="573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Informar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1262" y="600" as="sourcePoint" />
+            <mxPoint x="1025" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="9. Restar stock de bodega origen">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="630" as="sourcePoint" />
+            <mxPoint x="1262" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Confirmar descuento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1262" y="660" as="sourcePoint" />
+            <mxPoint x="1025" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Sumar stock a bodega destino">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="690" as="sourcePoint" />
+            <mxPoint x="1262" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Confirmar incremento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1262" y="720" as="sourcePoint" />
+            <mxPoint x="1025" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Registrar movimiento tipo Traslado">
+          <mxGeometry relative="1" x="0.0007" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1025" y="770" as="sourcePoint" />
+            <mxPoint x="1515" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="14. Confirmar registro de movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1515" y="800" as="sourcePoint" />
+            <mxPoint x="1025" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="15. Informar traslado exitoso">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="838" as="sourcePoint" />
+            <mxPoint x="765" y="838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="16. Cargar confirmacion de traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="865" as="sourcePoint" />
+            <mxPoint x="500" y="865" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="QlSy7fTYIDBzu8KSWOUa-3" value="17. Muestra confirmacion de traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="485" y="893" as="sourcePoint" />
+            <mxPoint x="280" y="893" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-34" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="100" x="550" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="240" y="1169" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="440" width="20" x="260" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-37" parent="QlSy7fTYIDBzu8KSWOUa-36" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="325" width="10" x="5" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Registrar Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="440" width="190" x="420" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-39" parent="QlSy7fTYIDBzu8KSWOUa-38" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="325" width="10" x="90" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-40" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;bodegasController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="420" width="210" x="670" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-41" parent="QlSy7fTYIDBzu8KSWOUa-40" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="100" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-42" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;PostgreController&lt;/u&gt;" vertex="1">
+          <mxGeometry height="410" width="190" x="940" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-43" parent="QlSy7fTYIDBzu8KSWOUa-42" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="200" width="10" x="90" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="400" width="180" x="1200" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-45" parent="QlSy7fTYIDBzu8KSWOUa-44" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="265" as="geometry" />
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-46" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar formulario de traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="1235" as="sourcePoint" />
+            <mxPoint x="510" y="1235" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Mostrar bodegas origen y destino">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="1263" as="sourcePoint" />
+            <mxPoint x="300" y="1263" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresar cantidad mayor al stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="280" y="1291" as="sourcePoint" />
+            <mxPoint x="510" y="1291" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos del traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1318" as="sourcePoint" />
+            <mxPoint x="775" y="1318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-50" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar disponibilidad de stock">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="830" y="1343" />
+              <mxPoint x="830" y="1368" />
+            </Array>
+            <mxPoint x="780" y="1343" as="sourcePoint" />
+            <mxPoint x="780" y="1368" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Consultar stock disponible en bodega origen">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="785" y="1395" as="sourcePoint" />
+            <mxPoint x="1035" y="1395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Consultar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="1420" as="sourcePoint" />
+            <mxPoint x="1282" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-53" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Stock insuficiente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1282" y="1448" as="sourcePoint" />
+            <mxPoint x="1045" y="1448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-54" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Stock insuficiente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="1473" as="sourcePoint" />
+            <mxPoint x="785" y="1473" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Mostrar error traslado bloqueado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="1500" as="sourcePoint" />
+            <mxPoint x="530" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="QlSy7fTYIDBzu8KSWOUa-56" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Muestra error cantidad supera stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="1528" as="sourcePoint" />
+            <mxPoint x="300" y="1528" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LiGo5bep05oFN4Dy6ltc-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="&lt;b style=&quot;font-weight:normal;&quot; id=&quot;docs-internal-guid-175d3380-7fff-a2e3-af47-0e7a3bc07211&quot;&gt;&lt;div dir=&quot;ltr&quot; style=&quot;margin-left:0pt;&quot; align=&quot;left&quot;&gt;&lt;table style=&quot;border:none;border-collapse:collapse;&quot;&gt;&lt;colgroup&gt;&lt;col width=&quot;131&quot;&gt;&lt;col width=&quot;460&quot;&gt;&lt;/colgroup&gt;&lt;tbody&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Campo&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Nombre&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;CU-19: Registrando traslado entre bodegas&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Actor(es)&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Gerencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:37pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Resumen&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Permite mover stock de una bodega a otra manteniendo el inventario global constante.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:25.75pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Frecuencia&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Media&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:17.737731933593754pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Precondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Stock disponible en bodega origen y bodegas destino configurada.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:45.46319580078126pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Descripción&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;El usuario selecciona el producto a mover, el usuario elige bodega de origen y destino, el usuario ingresa la cantidad [Excepción 1], el sistema valida disponibilidad, el sistema resta stock en origen y suma en destino, el sistema genera registro de movimiento tipo &quot;Traslado&quot;.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:24pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Excepciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Excepción 1: Cantidad supera el stock disponible en origen. El sistema bloquea el traslado.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:20.25pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Poscondiciones&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Los saldos locales de ambas bodegas se actualizan sincronizadamente.&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr style=&quot;height:0pt&quot;&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:transparent;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;Dependencias&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;td style=&quot;border-left:solid #000000 1.125pt;border-right:solid #000000 1.125pt;border-bottom:solid #000000 1.125pt;border-top:solid #000000 1.125pt;vertical-align:top;padding:5pt 5pt 5pt 5pt;overflow:hidden;overflow-wrap:break-word;&quot;&gt;&lt;p dir=&quot;ltr&quot; style=&quot;line-height:1.3900000000000001;text-align: center;margin-top:0pt;margin-bottom:8pt;&quot;&gt;&lt;span style=&quot;font-size:9pt;font-family:&#39;Times New Roman&#39;,serif;color:#000000;background-color:#ea9999;font-weight:400;font-style:normal;font-variant:normal;text-decoration:none;vertical-align:baseline;white-space:pre;white-space:pre-wrap;&quot;&gt;UR 2.1&lt;/span&gt;&lt;/p&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/div&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="500" width="570" x="-430" y="1130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CgTFNr6yVAB7jojg4tSV" name="General">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KRqRNj9NXdePU7RqOvMP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="740" width="1690" x="540" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="550" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="650" width="20" x="580" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-3" parent="hF1BkfnulvgGyinmGEZ0-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="HW4BbLoyEudzrZJueZnV-4" parent="hF1BkfnulvgGyinmGEZ0-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Registrar Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="640" width="190" x="960" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-5" parent="hF1BkfnulvgGyinmGEZ0-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HW4BbLoyEudzrZJueZnV-3" parent="hF1BkfnulvgGyinmGEZ0-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="90" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="640" width="210" x="1210" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-7" parent="hF1BkfnulvgGyinmGEZ0-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="HW4BbLoyEudzrZJueZnV-2" parent="hF1BkfnulvgGyinmGEZ0-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="100" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="190" x="1480" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-9" parent="hF1BkfnulvgGyinmGEZ0-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="90" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="640" width="180" x="1740" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-11" parent="hF1BkfnulvgGyinmGEZ0-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="85" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="190" x="1990" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-13" parent="hF1BkfnulvgGyinmGEZ0-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="90" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicitar formulario de traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="150" as="sourcePoint" />
+            <mxPoint x="1060" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra bodegas origen y destino">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="180" as="sourcePoint" />
+            <mxPoint x="595" y="180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Selecciona el producto a mover, bodega origen, destino e ingresar cantidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="210" as="sourcePoint" />
+            <mxPoint x="1050" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-17" edge="1" parent="1" source="hF1BkfnulvgGyinmGEZ0-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos del traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="240" as="sourcePoint" />
+            <mxPoint x="1310" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-18" edge="1" parent="1" source="HW4BbLoyEudzrZJueZnV-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;exitX=1;exitY=0.318;exitDx=0;exitDy=0;exitPerimeter=0;" target="HW4BbLoyEudzrZJueZnV-1" value="5. Validar disponibilidad de stock">
+          <mxGeometry relative="1" x="0.4482" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1380" y="265" />
+              <mxPoint x="1380" y="290" />
+            </Array>
+            <mxPoint x="1330" y="265" as="sourcePoint" />
+            <mxPoint x="1330" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-19" edge="1" parent="1" source="HW4BbLoyEudzrZJueZnV-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Consultar stock disponible en bodega origen">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325" y="318" as="sourcePoint" />
+            <mxPoint x="1570" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Consultar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="350" as="sourcePoint" />
+            <mxPoint x="1825" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Informar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1825" y="374.7" as="sourcePoint" />
+            <mxPoint x="1580" y="374.7" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="9. Restar stock de bodega origen">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="400" as="sourcePoint" />
+            <mxPoint x="1825" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="hF1BkfnulvgGyinmGEZ0-9" value="10. Confirmar descuento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1822" y="430" as="sourcePoint" />
+            <mxPoint x="1585" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Sumar stock a bodega destino">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1580" y="460" as="sourcePoint" />
+            <mxPoint x="1825" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Confirmar incremento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1825" y="490" as="sourcePoint" />
+            <mxPoint x="1580" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Registrar movimiento tipo Traslado">
+          <mxGeometry relative="1" x="0.0007" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1580" y="540" as="sourcePoint" />
+            <mxPoint x="2080" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-27" edge="1" parent="1" source="hF1BkfnulvgGyinmGEZ0-13" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="hF1BkfnulvgGyinmGEZ0-9" value="14. Confirmar registro de movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1970" y="570" />
+            </Array>
+            <mxPoint x="2075" y="570" as="sourcePoint" />
+            <mxPoint x="1585" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="HW4BbLoyEudzrZJueZnV-2" value="15. Informar traslado exitoso">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1570" y="590" as="sourcePoint" />
+            <mxPoint x="1330" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="HW4BbLoyEudzrZJueZnV-3" value="16. Cargar confirmacion de traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1310" y="610" as="sourcePoint" />
+            <mxPoint x="1070" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="hF1BkfnulvgGyinmGEZ0-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="17. Muestra confirmacion de traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="630" as="sourcePoint" />
+            <mxPoint x="595" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_6O4azbBHrb1QnEIPbkw-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-19: Registrando traslado entre bodegas" vertex="1">
+          <mxGeometry height="20" width="240" x="1265" y="-10" as="geometry" />
+        </mxCell>
+        <mxCell id="HW4BbLoyEudzrZJueZnV-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="1310" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="SQBUhFCbgyzzrhDGqejc" name="Excepcion1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="mimwpWg4fJWI5UPNFb2y-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="530" width="1260" x="20" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 1" vertex="1">
+          <mxGeometry height="20" width="84" x="594" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="30" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="430" width="20" x="60" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-4" parent="tNGCtNkFkzQCeQLLlWqj-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="5" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2wq3Bgj5BSitqAKCnl5R-7" parent="tNGCtNkFkzQCeQLLlWqj-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Registrar Salida&lt;/u&gt;" vertex="1">
+          <mxGeometry height="430" width="190" x="281" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-6" parent="tNGCtNkFkzQCeQLLlWqj-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="90" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2wq3Bgj5BSitqAKCnl5R-5" parent="tNGCtNkFkzQCeQLLlWqj-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="90" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="420" width="210" x="531" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-8" parent="tNGCtNkFkzQCeQLLlWqj-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="100" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2wq3Bgj5BSitqAKCnl5R-2" parent="tNGCtNkFkzQCeQLLlWqj-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="2wq3Bgj5BSitqAKCnl5R-3" parent="tNGCtNkFkzQCeQLLlWqj-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="100" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="410" width="190" x="810" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-10" parent="tNGCtNkFkzQCeQLLlWqj-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="90" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="400" width="180" x="1070" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-12" parent="tNGCtNkFkzQCeQLLlWqj-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="85" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="tNGCtNkFkzQCeQLLlWqj-6" value="1. Solicitar formulario de traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="185" as="sourcePoint" />
+            <mxPoint x="371" y="185" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="tNGCtNkFkzQCeQLLlWqj-4" value="2. Muestra bodegas origen y destino">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="366" y="213" as="sourcePoint" />
+            <mxPoint x="161" y="213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-15" edge="1" parent="1" source="tNGCtNkFkzQCeQLLlWqj-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Ingresa cantidad mayor al stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="141" y="241" as="sourcePoint" />
+            <mxPoint x="371" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-16" edge="1" parent="1" source="tNGCtNkFkzQCeQLLlWqj-6" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Enviar datos del traslado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="401" y="268" as="sourcePoint" />
+            <mxPoint x="630" y="268" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-17" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="5. Validar disponibilidad de stock">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="691" y="293" />
+              <mxPoint x="691" y="318" />
+            </Array>
+            <mxPoint x="641" y="293" as="sourcePoint" />
+            <mxPoint x="641" y="318" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Consultar stock disponible en bodega origen">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="641" y="350" as="sourcePoint" />
+            <mxPoint x="900" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Consultar stock disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="910" y="370" as="sourcePoint" />
+            <mxPoint x="1155" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="tNGCtNkFkzQCeQLLlWqj-10" value="8. Stock insuficiente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1152" y="398" as="sourcePoint" />
+            <mxPoint x="915" y="398" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Stock insuficiente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="900" y="420" as="sourcePoint" />
+            <mxPoint x="641" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Mostrar error traslado bloqueado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="625" y="450" as="sourcePoint" />
+            <mxPoint x="380" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="1" y="-143" as="geometry">
+            <mxPoint x="-60" y="13" as="offset" />
+            <mxPoint x="370" y="470" as="sourcePoint" />
+            <mxPoint x="74" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pLaURHBEzaNumY2YDl1X-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-19: Registrando traslado entre bodegas" vertex="1">
+          <mxGeometry height="30" width="249" x="511.5" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="tNGCtNkFkzQCeQLLlWqj-25" parent="1" style="text;whiteSpace=wrap;html=1;" value="11. Muestra error cantidad supera stock disponible" vertex="1">
+          <mxGeometry height="20" width="280" x="90" y="450" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
