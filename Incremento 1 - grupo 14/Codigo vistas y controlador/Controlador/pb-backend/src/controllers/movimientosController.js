@@ -55,6 +55,23 @@ async function listar(req, res) {
        LIMIT $5 OFFSET $6`,
       [buscar || null, tipo || null, desde || null, hasta || null, limit, offset]
     );
+    // Intentar enriquecer con descripcion_motivo (solo si la columna existe)
+    try {
+      if (rows.length > 0) {
+        const ids = rows.map(r => r.id);
+        const { rows: descs } = await query(
+          `SELECT movimiento_inventario_id_movimiento AS id,
+                  movimiento_inventario_descripcion_motivo AS descripcion_motivo
+           FROM movimiento_inventario
+           WHERE movimiento_inventario_id_movimiento = ANY($1::bigint[])`,
+          [ids]
+        );
+        const descMap = {};
+        descs.forEach(d => { if (d.descripcion_motivo) descMap[d.id] = d.descripcion_motivo; });
+        rows.forEach(r => { if (descMap[r.id]) r.descripcion_motivo = descMap[r.id]; });
+      }
+    } catch (_) { /* columna no existe aún — no pasa nada */ }
+
     res.json(rows);
   } catch (err) {
     console.error('Error listando movimientos:', err);
@@ -197,7 +214,7 @@ async function registrarEntrada(req, res) {
 async function registrarSalida(req, res) {
   const {
     sku, bodega_id, cantidad,
-    tipo_movimiento_id, motivo_id
+    tipo_movimiento_id, motivo_id, descripcion_motivo
   } = req.body;
 
   const userId = req.user.id;
@@ -255,18 +272,39 @@ async function registrarSalida(req, res) {
       restante -= descontar;
     }
 
-    // Registrar movimiento
-    const { rows: mov } = await query(
-      `INSERT INTO movimiento_inventario (
-         movimiento_inventario_cantidad, movimiento_inventario_estado,
-         material_sku, bodega_id_bodega,
-         usuario_id_usuario,
-         movimiento_inventario_tipo_movimiento_id_tipo_movimiento,
-         movimiento_inventario_motivo_movimiento_id_motivo_movimiento
-       ) VALUES ($1, 'completado', $2, $3, $4, $5, $6)
-       RETURNING movimiento_inventario_id_movimiento AS id`,
-      [cantidad, sku, bodega_id, userId, tipo_movimiento_id, motivo_id || null]
-    );
+    // Intentar INSERT con descripcion_motivo; fallback sin ella si columna no existe
+    let mov;
+    try {
+      ({ rows: mov } = await query(
+        `INSERT INTO movimiento_inventario (
+           movimiento_inventario_cantidad, movimiento_inventario_estado,
+           material_sku, bodega_id_bodega,
+           usuario_id_usuario,
+           movimiento_inventario_tipo_movimiento_id_tipo_movimiento,
+           movimiento_inventario_motivo_movimiento_id_motivo_movimiento,
+           movimiento_inventario_descripcion_motivo
+         ) VALUES ($1, 'completado', $2, $3, $4, $5, $6, $7)
+         RETURNING movimiento_inventario_id_movimiento AS id`,
+        [cantidad, sku, bodega_id, userId, tipo_movimiento_id, motivo_id || null, descripcion_motivo || null]
+      ));
+    } catch (e) {
+      if (e.message && e.message.includes('descripcion_motivo')) {
+        // Columna no existe aún — insertar sin ella
+        ({ rows: mov } = await query(
+          `INSERT INTO movimiento_inventario (
+             movimiento_inventario_cantidad, movimiento_inventario_estado,
+             material_sku, bodega_id_bodega,
+             usuario_id_usuario,
+             movimiento_inventario_tipo_movimiento_id_tipo_movimiento,
+             movimiento_inventario_motivo_movimiento_id_motivo_movimiento
+           ) VALUES ($1, 'completado', $2, $3, $4, $5, $6)
+           RETURNING movimiento_inventario_id_movimiento AS id`,
+          [cantidad, sku, bodega_id, userId, tipo_movimiento_id, motivo_id || null]
+        ));
+      } else {
+        throw e;
+      }
+    }
 
     auditoria.registrar(req.user?.id, 'registrar_salida', `SKU: ${sku}, cantidad: ${cantidad}, bodega: ${bodega_id}`);
     generarAlertasAutomaticas().catch(e => console.warn('Alertas:', e.message));

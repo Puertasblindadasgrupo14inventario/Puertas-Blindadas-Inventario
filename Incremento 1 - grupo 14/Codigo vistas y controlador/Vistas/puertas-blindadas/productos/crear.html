@@ -145,25 +145,25 @@
 
               <div class="form-group">
                 <label class="form-label" for="stockMin">
-                  Stock mínimo <span class="required">*</span>
+                  Stock mínimo
                 </label>
-                <input class="form-control" id="stockMin" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockMin" type="number" min="1" placeholder="0" required />
+                <input class="form-control" id="stockMin" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockMin" type="number" min="0" placeholder="Opcional" />
                 <div class="form-hint">Dispara alerta de reposición</div>
               </div>
 
               <div class="form-group">
                 <label class="form-label" for="stockMax">
-                  Stock máximo <span class="required">*</span>
+                  Stock máximo
                 </label>
-                <input class="form-control" id="stockMax" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockMax" type="number" min="1" placeholder="0" required />
+                <input class="form-control" id="stockMax" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockMax" type="number" min="0" placeholder="Opcional" />
                 <div class="form-hint">Alerta de sobrestock</div>
               </div>
 
               <div class="form-group">
                 <label class="form-label" for="stockCritico">
-                  Stock crítico <span class="required">*</span>
+                  Stock crítico
                 </label>
-                <input class="form-control" id="stockCritico" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockCritico" type="number" min="0" placeholder="0" required />
+                <input class="form-control" id="stockCritico" oninput="this.style.borderColor='';this.style.boxShadow=''" name="stockCritico" type="number" min="0" placeholder="Opcional" />
                 <div class="form-hint">Debe ser ≤ stock mínimo</div>
               </div>
 
@@ -303,9 +303,12 @@
     const categoria = document.getElementById('categoria').value;
     const funcional = document.getElementById('funcional').value;
     const unidad    = document.getElementById('unidad').value;
-    const stockMin  = parseInt(document.getElementById('stockMin').value);
-    const stockMax  = parseInt(document.getElementById('stockMax').value);
-    const stockCrit = parseInt(document.getElementById('stockCritico').value);
+    const stockMinRaw  = document.getElementById('stockMin').value;
+    const stockMaxRaw  = document.getElementById('stockMax').value;
+    const stockCritRaw = document.getElementById('stockCritico').value;
+    const stockMin  = stockMinRaw  !== '' ? parseInt(stockMinRaw)  : null;
+    const stockMax  = stockMaxRaw  !== '' ? parseInt(stockMaxRaw)  : null;
+    const stockCrit = stockCritRaw !== '' ? parseInt(stockCritRaw) : null;
     const esCritico = document.getElementById('critico').checked;
     const descripcion = document.getElementById('descripcion').value.trim();
 
@@ -340,16 +343,30 @@
     if (!unidad) {
       showAlert('alert-container','danger','Debes seleccionar la unidad de medida.'); return;
     }
-    if (isNaN(stockMin) || stockMin <= 0) {
-      markField('stockMin', false, 'Debe ser mayor que 0');
-      showAlert('alert-container','danger','El stock mínimo debe ser mayor que 0.'); return;
+    // Validar stocks solo si tienen valor (son opcionales)
+    if (stockMin !== null && (isNaN(stockMin) || stockMin < 0)) {
+      document.getElementById('stockMin').style.borderColor = 'var(--danger)';
+      document.getElementById('stockMin').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+      showAlert('alert-container','danger','El stock mínimo no puede ser negativo.'); return;
     }
-    if (isNaN(stockMax) || stockMax <= 0 || stockMax <= stockMin) {
-      markField('stockMax', false, stockMax <= 0 ? 'Debe ser mayor que 0' : 'Debe ser mayor que el stock mínimo');
+    if (stockMax !== null && (isNaN(stockMax) || stockMax < 0)) {
+      document.getElementById('stockMax').style.borderColor = 'var(--danger)';
+      document.getElementById('stockMax').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+      showAlert('alert-container','danger','El stock máximo no puede ser negativo.'); return;
+    }
+    if (stockMax !== null && stockMin !== null && stockMax <= stockMin) {
+      document.getElementById('stockMax').style.borderColor = 'var(--danger)';
+      document.getElementById('stockMax').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
       showAlert('alert-container','danger','El stock máximo debe ser mayor que el stock mínimo.'); return;
     }
-    if (isNaN(stockCrit) || stockCrit < 0 || stockCrit > stockMin) {
-      markField('stockCritico', false, 'Debe estar entre 0 y el stock mínimo');
+    if (stockCrit !== null && (isNaN(stockCrit) || stockCrit < 0)) {
+      document.getElementById('stockCritico').style.borderColor = 'var(--danger)';
+      document.getElementById('stockCritico').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+      showAlert('alert-container','danger','El stock crítico no puede ser negativo.'); return;
+    }
+    if (stockCrit !== null && stockMin !== null && stockCrit > stockMin) {
+      document.getElementById('stockCritico').style.borderColor = 'var(--danger)';
+      document.getElementById('stockCritico').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
       showAlert('alert-container','danger','El stock crítico debe estar entre 0 y el stock mínimo.'); return;
     }
 

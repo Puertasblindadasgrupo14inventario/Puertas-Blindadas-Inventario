@@ -198,6 +198,13 @@
 
     if (filtered.length === 0) {
       tbody.innerHTML = '';
+      // Distinguir BD vacía de filtros sin resultados
+      const emptyP = empty.querySelector('p');
+      if (productos.length === 0) {
+        emptyP.textContent = 'No hay productos creados.';
+      } else {
+        emptyP.textContent = 'No se encontraron productos con los filtros aplicados.';
+      }
       empty.style.display = 'block';
       return;
     }

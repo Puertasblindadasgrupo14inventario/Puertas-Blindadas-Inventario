@@ -219,7 +219,14 @@ document.getElementById('clasificacion').addEventListener('change', function() {
   if (motivos.length > 0) {
     grupo.style.display = 'block';
     sel.innerHTML = '<option value="">Seleccionar motivo...</option>' + motivos.map(m => `<option value="${m.id}">${m.nombre}</option>`).join('');
-    sel.onchange = () => { if (sel.value) document.getElementById('motivo').value = motivos.find(m => String(m.id) === sel.value)?.nombre || ''; };
+    sel.onchange = () => {
+      const motivoTextarea = document.getElementById('motivo');
+      // Solo pre-rellenar si el usuario no ha escrito nada propio
+      if (sel.value && !motivoTextarea.value.trim()) {
+        const motivoObj = motivos.find(m => String(m.id) === sel.value);
+        if (motivoObj) motivoTextarea.placeholder = motivoObj.nombre;
+      }
+    };
   } else {
     grupo.style.display = 'none';
   }
@@ -273,6 +280,7 @@ document.getElementById('form-salida').addEventListener('submit', async function
       cantidad,
       tipo_movimiento_id: window._tipoSalidaId,
       motivo_id:          motivoId ? parseInt(motivoId) : null,
+      descripcion_motivo: motivoTexto,
     });
     // CU-19: Si es traslado, registrar entrada en bodega destino
     if (esTraslado && bodegaDest) {

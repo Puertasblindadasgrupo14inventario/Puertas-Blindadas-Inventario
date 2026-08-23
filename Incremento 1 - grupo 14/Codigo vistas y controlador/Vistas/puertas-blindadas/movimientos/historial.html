@@ -39,7 +39,7 @@
           </div>
           <select class="form-control" id="filter-tipo" style="width:auto">
             <option value="">Todos los tipos</option>
-            <option>Entrada</option><option>Salida</option><option>Traslado</option>
+            <option>Entrada</option><option>Salida</option><option>Reverso</option>
           </select>
           <input type="date" class="form-control" id="filter-desde" style="width:auto" />
           <input type="date" class="form-control" id="filter-hasta" style="width:auto" />
@@ -105,20 +105,23 @@ async function cargarMovimientos() {
   const tipo   = document.getElementById('filter-tipo').value;
   const desde  = document.getElementById('filter-desde').value;
   const hasta  = document.getElementById('filter-hasta').value;
+  // Forzar hasta al final del día para evitar desfase
+  const params = { buscar: search || null, tipo: tipo || null, desde: desde || null, hasta: hasta || null };
   try {
-    const data = await API.movimientos.listar({ buscar: search || null, tipo: tipo || null, desde: desde || null, hasta: hasta || null });
+    const data = await API.movimientos.listar(params);
     movimientos = (data || []).map(m => ({
       id:            m.id,
-      fecha:         m.fecha_hora ? m.fecha_hora.split('T')[0] : '',
+      fecha:         m.fecha_hora ? new Date(m.fecha_hora).toLocaleDateString('sv-SE') : '',
       tipo:          m.tipo || '',
       sku:           m.sku || '',
       producto:      m.material_nombre || '',
       bodega:        m.bodega || '—',
       cantidad:      parseFloat(m.cantidad) || 0,
       clasificacion: m.clasificacion_salida || '—',
-      motivo:        m.motivo || '—',
+      motivo:        m.descripcion_motivo || m.motivo || '—',
       usuario:       m.usuario || '',
       revertido:     m.estado === 'revertido',
+      proveedor:   m.proveedor || '—',
       proyecto_nombre: m.proyecto_nombre || null,
     }));
     renderTable();

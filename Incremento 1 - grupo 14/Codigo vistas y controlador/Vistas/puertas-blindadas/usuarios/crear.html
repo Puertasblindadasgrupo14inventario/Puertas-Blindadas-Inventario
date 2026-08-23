@@ -72,7 +72,7 @@
             <div class="form-group">
               <label class="form-label">Rol <span style="color:var(--danger)">*</span></label>
               <select class="form-control" id="f-rol" onchange="onRolChange()">
-                <option value="">Seleccionar rol...</option>
+                <option value="" disabled selected>Seleccionar rol...</option>
                 <option value="gerencia">Gerencia</option>
                 <option value="jop">JOP</option>
               </select>
@@ -277,7 +277,8 @@ function validarCampo(campo) {
       break;
     case 'email':
       if (!val)                    { setHint('email', 'Campo obligatorio', false); break; }
-      if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(val)) { setHint('email', 'Formato inválido (ej: nombre@dominio.cl)', false); break; }
+      // FIX CU-73: regex más estricta — TLD debe tener al menos 2 letras
+      if (!/^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/.test(val)) { setHint('email', 'Formato inválido (ej: nombre@dominio.cl)', false); break; }
       setHint('email', '✓ Email válido', true);
       break;
     case 'rol':
@@ -387,7 +388,7 @@ async function guardarUsuario() {
 
   if (!username && !modoEditar) { showAlert('alert-container', 'danger', 'El ID de usuario es obligatorio.'); return; }
   if (!nombre)   { showAlert('alert-container', 'danger', 'El nombre es obligatorio.'); return; }
-  if (!email || !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  if (!email || !/^[a-zA-Z0-9._%+\-]+@[a-zA-Z0-9.\-]+\.[a-zA-Z]{2,}$/.test(email)) {
     showAlert('alert-container', 'danger', 'El email tiene un formato inválido.'); return;
   }
   if (!rol) { showAlert('alert-container', 'danger', 'Debes asignar un rol al usuario.'); return; }

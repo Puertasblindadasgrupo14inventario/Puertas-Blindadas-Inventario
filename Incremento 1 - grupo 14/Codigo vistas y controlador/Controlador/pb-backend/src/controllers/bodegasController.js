@@ -112,12 +112,43 @@ async function crear(req, res) {
       return res.status(409).json({ error: 'Ya existe una bodega con ese nombre' });
     }
 
-    const { rows } = await query(
-      `INSERT INTO bodega (bodega_nombre_bodega, bodega_direccion, bodega_estado)
-       VALUES ($1, $2, $3)
-       RETURNING bodega_id_bodega AS id`,
-      [nombre, direccion || null, estado || 'activa']
-    );
+    // Verificar duplicado por código (si la columna existe)
+    if (codigo) {
+      try {
+        const { rows: dupCodigo } = await query(
+          `SELECT bodega_id_bodega FROM bodega WHERE bodega_codigo ILIKE $1`,
+          [codigo]
+        );
+        if (dupCodigo.length > 0) {
+          return res.status(409).json({ error: 'Ya existe una bodega con ese código' });
+        }
+      } catch (e) {
+        // columna bodega_codigo aún no existe — ignorar
+      }
+    }
+
+    // Intentar INSERT con código; si la columna no existe, fallback sin ella
+    let rows;
+    try {
+      ({ rows } = await query(
+        `INSERT INTO bodega (bodega_nombre_bodega, bodega_codigo, bodega_direccion, bodega_estado)
+         VALUES ($1, $2, $3, $4)
+         RETURNING bodega_id_bodega AS id`,
+        [nombre, codigo || null, direccion || null, estado || 'activa']
+      ));
+    } catch (e) {
+      if (e.message && e.message.includes('bodega_codigo')) {
+        // Columna no existe aún — insertar sin código
+        ({ rows } = await query(
+          `INSERT INTO bodega (bodega_nombre_bodega, bodega_direccion, bodega_estado)
+           VALUES ($1, $2, $3)
+           RETURNING bodega_id_bodega AS id`,
+          [nombre, direccion || null, estado || 'activa']
+        ));
+      } else {
+        throw e;
+      }
+    }
     res.status(201).json({ message: 'Bodega creada correctamente', id: rows[0].id });
   } catch (err) {
     console.error('Error creando bodega:', err);

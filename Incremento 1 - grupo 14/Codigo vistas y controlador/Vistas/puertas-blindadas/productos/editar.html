@@ -34,7 +34,7 @@
               <div class="form-row">
                 <div class="form-group">
                   <label class="form-label">SKU <span class="hint">(no editable)</span></label>
-                  <input class="form-control" id="sku" disabled />
+                  <input class="form-control" id="sku" readonly style="background:var(--gray-light,#f5f5f5);cursor:default" />
                 </div>
                 <div class="form-group">
                   <label class="form-label" for="unidad">Unidad de medida <span class="required">*</span></label>
@@ -292,24 +292,33 @@
       if (el) { el.style.borderColor = ''; el.style.boxShadow = ''; }
     });
 
-    // Validar campos obligatorios con borde rojo
-    let error = null;
+    // Validar campos obligatorios con borde rojo — marcar TODOS los inválidos
+    let errores = [];
     if (!nombre || nombre.length < 3) {
       document.getElementById('nombre').style.borderColor = 'var(--danger)';
-      error = 'El nombre debe tener al menos 3 caracteres.';
+      document.getElementById('nombre').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+      errores.push('El nombre debe tener al menos 3 caracteres.');
     } else if (nombre.length > 100) {
       document.getElementById('nombre').style.borderColor = 'var(--danger)';
-      error = 'El nombre no puede superar los 100 caracteres.';
-    } else if (!unidad) {
-      document.getElementById('unidad').style.borderColor = 'var(--danger)';
-      error = 'Selecciona la unidad de medida.';
-    } else if (!categoria) {
-      document.getElementById('categoria').style.borderColor = 'var(--danger)';
-      error = 'Selecciona la categoría general.';
-    } else if (!funcional) {
-      document.getElementById('funcional').style.borderColor = 'var(--danger)';
-      error = 'Selecciona la categoría funcional.';
+      document.getElementById('nombre').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+      errores.push('El nombre no puede superar los 100 caracteres.');
     }
+    if (!unidad) {
+      document.getElementById('unidad').style.borderColor = 'var(--danger)';
+      document.getElementById('unidad').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+      errores.push('Selecciona la unidad de medida.');
+    }
+    if (!categoria) {
+      document.getElementById('categoria').style.borderColor = 'var(--danger)';
+      document.getElementById('categoria').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+      errores.push('Selecciona la categoría general.');
+    }
+    if (!funcional) {
+      document.getElementById('funcional').style.borderColor = 'var(--danger)';
+      document.getElementById('funcional').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+      errores.push('Selecciona la categoría funcional.');
+    }
+    let error = errores.length > 0 ? errores.join(' ') : null;
 
     // Validar stocks solo si tienen valor
     const min  = minVal  !== '' ? parseFloat(minVal)  : null;
@@ -337,13 +346,15 @@
     btn.textContent = 'Guardando...';
 
     try {
+      const estadoVal = document.getElementById('estado').value;
       const payload = {
         nombre,
         descripcion:           document.getElementById('descripcion').value.trim() || null,
         es_critico:            esCritico,
-        unidad_medida_id:      parseInt(unidad),
-        categoria_general_id:  parseInt(categoria),
-        categoria_funcional_id: parseInt(funcional),
+        unidad_medida_id:      unidad ? parseInt(unidad) : null,
+        categoria_general_id:  categoria ? parseInt(categoria) : null,
+        categoria_funcional_id: funcional ? parseInt(funcional) : null,
+        estado:                estadoVal || 'activo',
       };
       // Solo incluir stocks si tienen valor
       if (min  !== null) payload.stock_minimo  = min;

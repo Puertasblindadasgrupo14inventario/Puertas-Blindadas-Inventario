@@ -82,11 +82,11 @@
       </div>
       <div class="form-row">
         <div class="form-group">
-          <label class="form-label" for="n-telefono">Teléfono</label>
+          <label class="form-label" for="n-telefono">Teléfono <span class="required">*</span></label>
           <input class="form-control" id="n-telefono" placeholder="+56 9 1234 5678"/>
         </div>
         <div class="form-group">
-          <label class="form-label" for="n-rubro">Rubro</label>
+          <label class="form-label" for="n-rubro">Rubro <span class="required">*</span></label>
           <input class="form-control" id="n-rubro" placeholder="Metales y aceros"/>
         </div>
       </div>
@@ -185,25 +185,50 @@ document.getElementById('btn-guardar-prov').addEventListener('click', async () =
   const alertEl = document.getElementById('modal-alert');
 
   // Limpiar estados previos
-  ['n-rut','n-nombre','n-email'].forEach(id => {
+  ['n-rut','n-nombre','n-email','n-telefono','n-rubro'].forEach(id => {
     document.getElementById(id).style.borderColor = '';
     document.getElementById(id).style.boxShadow   = '';
   });
 
   if (!rut) {
     document.getElementById('n-rut').style.borderColor = 'var(--danger)';
+    document.getElementById('n-rut').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
     alertEl.innerHTML = '<div class="alert alert-danger">El RUT es obligatorio.</div>';
     return;
   }
   if (!nombre) {
     document.getElementById('n-nombre').style.borderColor = 'var(--danger)';
+    document.getElementById('n-nombre').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
     alertEl.innerHTML = '<div class="alert alert-danger">El nombre es obligatorio.</div>';
     return;
   }
-  if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+  // FIX CU-54 CP4: email, teléfono y rubro son obligatorios
+  if (!email) {
     document.getElementById('n-email').style.borderColor = 'var(--danger)';
-    document.getElementById('n-email').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.15)';
-    alertEl.innerHTML = '<div class="alert alert-danger">El email no tiene un formato válido.</div>';
+    document.getElementById('n-email').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+    alertEl.innerHTML = '<div class="alert alert-danger">El email es obligatorio.</div>';
+    return;
+  }
+  // FIX CU-54 CP2 + CU-73 CP2: regex más estricta para email
+  // Debe tener al menos 2 caracteres en dominio y TLD de al menos 2 caracteres
+  if (!/^[^\s@]+@[^\s@]+\.[a-zA-Z]{2,}$/.test(email)) {
+    document.getElementById('n-email').style.borderColor = 'var(--danger)';
+    document.getElementById('n-email').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+    alertEl.innerHTML = '<div class="alert alert-danger">El email no tiene un formato válido (ej: contacto@empresa.cl).</div>';
+    return;
+  }
+  const telefono = document.getElementById('n-telefono').value.trim();
+  if (!telefono) {
+    document.getElementById('n-telefono').style.borderColor = 'var(--danger)';
+    document.getElementById('n-telefono').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+    alertEl.innerHTML = '<div class="alert alert-danger">El teléfono es obligatorio.</div>';
+    return;
+  }
+  const rubro = document.getElementById('n-rubro').value.trim();
+  if (!rubro) {
+    document.getElementById('n-rubro').style.borderColor = 'var(--danger)';
+    document.getElementById('n-rubro').style.boxShadow   = '0 0 0 3px rgba(220,53,69,.12)';
+    alertEl.innerHTML = '<div class="alert alert-danger">El rubro es obligatorio.</div>';
     return;
   }
 

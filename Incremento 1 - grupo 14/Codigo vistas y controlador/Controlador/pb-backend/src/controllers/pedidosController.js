@@ -23,16 +23,37 @@ async function listar(req, res) {
          -- Resumen de materiales: cuántos tienen stock suficiente
          COUNT(mot.material_sku)                             AS total_materiales,
          COUNT(CASE
+           -- Ya reservado para ESTA orden → OK
+           WHEN COALESCE(ri.reserva_inventario_cantidad_reservada, 0) >=
+                COALESCE(mot.material_orden_trabajo_consumo_estimado, 0)
+           THEN 1
+           -- Stock libre suficiente → OK
            WHEN COALESCE(stock.disponible, 0) >= COALESCE(mot.material_orden_trabajo_consumo_estimado, 0)
-           THEN 1 END)                                       AS materiales_ok,
+           THEN 1
+           END)                                              AS materiales_ok,
          COUNT(CASE
-           WHEN COALESCE(stock.disponible, 0) < COALESCE(mot.material_orden_trabajo_consumo_estimado, 0)
-           THEN 1 END)                                       AS materiales_faltantes
+           WHEN COALESCE(ri.reserva_inventario_cantidad_reservada, 0) <
+                COALESCE(mot.material_orden_trabajo_consumo_estimado, 0)
+            AND COALESCE(stock.disponible, 0) < COALESCE(mot.material_orden_trabajo_consumo_estimado, 0)
+           THEN 1 END)                                       AS materiales_faltantes,
+         -- Cuántos faltantes son materiales críticos
+         COUNT(CASE
+           WHEN COALESCE(ri.reserva_inventario_cantidad_reservada, 0) <
+                COALESCE(mot.material_orden_trabajo_consumo_estimado, 0)
+            AND COALESCE(stock.disponible, 0) < COALESCE(mot.material_orden_trabajo_consumo_estimado, 0)
+            AND m.material_material_critico = TRUE
+           THEN 1 END)                                       AS criticos_faltantes
        FROM orden_trabajo ot
        LEFT JOIN terreno.proyecto p ON p.id_proyecto = ot.proyecto_id_proyecto
        LEFT JOIN area_trabajo at    ON at.area_trabajo_id_area = ot.area_trabajo_id_area
        LEFT JOIN usuario u          ON u.usuario_id_usuario = ot.usuario_id_usuario
        LEFT JOIN material_orden_trabajo mot ON mot.orden_trabajo_id_orden = ot.orden_trabajo_id_orden
+       LEFT JOIN material m ON m.material_sku = mot.material_sku
+       -- Reserva activa de este material para ESTA orden
+       LEFT JOIN reserva_inventario ri
+              ON ri.material_sku = mot.material_sku
+             AND ri.orden_trabajo_id_orden = ot.orden_trabajo_id_orden
+             AND ri.reserva_inventario_estado_reserva = 'activa'
        -- Stock disponible por material (todas las bodegas)
        LEFT JOIN LATERAL (
          SELECT
@@ -99,6 +120,7 @@ async function checklist(req, res) {
       `SELECT
          mot.material_sku                                    AS sku,
          m.material_nombre_material                          AS nombre,
+         m.material_material_critico                         AS es_critico,
          u.material_unidad_medida_nombre                     AS unidad,
          mot.material_orden_trabajo_consumo_estimado         AS cantidad_requerida,
          mot.material_orden_trabajo_consumo_real             AS cantidad_real,
@@ -131,6 +153,7 @@ async function checklist(req, res) {
        WHERE mot.orden_trabajo_id_orden = $1
        GROUP BY
          mot.material_sku, m.material_nombre_material,
+         m.material_material_critico,
          u.material_unidad_medida_nombre,
          mot.material_orden_trabajo_consumo_estimado,
          mot.material_orden_trabajo_consumo_real,

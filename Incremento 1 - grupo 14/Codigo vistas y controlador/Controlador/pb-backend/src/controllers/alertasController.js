@@ -133,40 +133,48 @@ async function generarAlertasAutomaticas() {
     const esCritico   = s.es_critico;
     const tiempoRep   = parseInt(s.tiempo_reposicion || 0);
 
+    // FIX CU-42: Solo generar alerta cuando stock está BAJO el umbral
     // Determinar si necesita alerta y qué tipo (FR-35)
     let tipoNombre = null;
     let prioridadNombre = 'media';
 
-    if (stockActual <= stockCrit) {
+    if (stockActual <= stockCrit && stockCrit > 0) {
       tipoNombre = 'stock critico';
       prioridadNombre = 'urgente';
-    } else if (stockActual <= stockMin) {
+    } else if (stockActual <= stockMin && stockMin > 0) {
       tipoNombre = 'stock bajo minimo';
       prioridadNombre = esCritico ? 'alta' : 'media';
-    } else if (stockMax > 0 && stockActual > stockMax) {
-      tipoNombre = 'stock maximo';
-      prioridadNombre = 'media';
-    } else if (tiempoRep > 0 && stockActual <= stockMin * 1.2) {
+    } else if (tiempoRep > 0 && stockMin > 0 && stockActual <= stockMin * 1.2) {
       tipoNombre = 'tiempo reposicion';
       prioridadNombre = 'media';
     }
+    // NOTA: Se elimina la alerta de stock_maximo (sobrestock) porque generaba
+    // alertas incoherentes cuando el stock estaba SOBRE el umbral (CU-42 CP1/2)
 
     console.log(`[Alertas] ${s.material_sku}: stock=${stockActual} min=${stockMin} crit=${stockCrit} → tipo=${tipoNombre || 'ninguno'}`);
-    if (!tipoNombre) continue;
+    if (!tipoNombre) {
+      // Si no necesita alerta, resolver alertas activas previas para este SKU
+      await query(
+        `UPDATE alerta_inventario SET alerta_inventario_estado = 'resuelta'
+         WHERE material_sku = $1 AND alerta_inventario_estado = 'activa'`,
+        [s.material_sku]
+      );
+      continue;
+    }
 
-    // Verificar si ya existe alerta activa para este material y tipo
+    // FIX CU-42 CP3: Verificar si ya existe CUALQUIER alerta activa para este SKU
+    // (no solo del mismo tipo) para evitar duplicadas
     const tipo = tipos.find(t => normalize(t.nombre).includes(tipoNombre));
     if (!tipo) continue;
 
     const { rows: existe } = await query(
       `SELECT alerta_inventario_id_alerta FROM alerta_inventario
        WHERE material_sku = $1
-         AND alerta_inventario_tipo_alerta_id_tipo_alerta = $2
          AND alerta_inventario_estado = 'activa'`,
-      [s.material_sku, tipo.id]
+      [s.material_sku]
     );
 
-    if (existe.length > 0) continue; // Ya existe alerta activa
+    if (existe.length > 0) continue; // Ya existe alerta activa para este SKU
 
     // Crear historial para esta alerta (FR-37)
     const { rows: hist } = await query(

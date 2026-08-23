@@ -124,13 +124,18 @@ function renderLista() {
   }
   tbody.innerHTML = pedidos.map(p => {
     const faltantes  = parseInt(p.materiales_faltantes || 0);
+    const criticos   = parseInt(p.criticos_faltantes || 0);
     const total      = parseInt(p.total_materiales || 0);
-    const hayRiesgo  = faltantes > 0;
-    const estadoBadge = hayRiesgo
-      ? '<span class="badge badge-danger">En riesgo</span>'
-      : total > 0
-        ? '<span class="badge badge-success">Viable</span>'
-        : '<span class="badge badge-gray">Sin materiales</span>';
+    let estadoBadge;
+    if (criticos > 0) {
+      estadoBadge = '<span class="badge badge-danger" style="background:#721c24;color:#fff">No viable</span>';
+    } else if (faltantes > 0) {
+      estadoBadge = '<span class="badge badge-danger">En riesgo</span>';
+    } else if (total > 0) {
+      estadoBadge = '<span class="badge badge-success">Viable</span>';
+    } else {
+      estadoBadge = '<span class="badge badge-gray">Sin materiales</span>';
+    }
 
     return `<tr>
       <td><span class="td-mono">#${p.id}</span></td>
@@ -143,6 +148,7 @@ function renderLista() {
       <td style="font-size:12px">
         ${total} material(es)
         ${faltantes > 0 ? `· <span style="color:var(--danger);font-weight:600">${faltantes} faltante(s)</span>` : ''}
+        ${criticos > 0 ? `<div style="font-size:11px;color:#721c24;font-weight:600">⚡ ${criticos} crítico(s) sin stock</div>` : ''}
       </td>
       <td>
         <button class="btn btn-ghost btn-sm" onclick="verChecklist(${p.id})">
@@ -168,10 +174,40 @@ async function verChecklist(id) {
       [o.proyecto_codigo, `Área: ${o.area || '—'}`, `Responsable: ${o.responsable || '—'}`]
       .filter(Boolean).join(' · ');
 
+    // Calcular materiales críticos faltantes (para badge y alerta)
+    const criticosFaltantes = (data.materiales || []).filter(ins => {
+      const disp = parseFloat(ins.stock_disponible || 0);
+      const req  = parseFloat(ins.cantidad_requerida || 0);
+      const estadoReal = ins.estado_stock === 'reservado' ? 'reservado'
+                       : (Math.round(disp * 10000) >= Math.round(req * 10000)) ? 'disponible'
+                       : 'faltante';
+      return estadoReal === 'faltante' && ins.es_critico;
+    });
+
     const hayFaltantes = data.resumen.faltante > 0;
+    const hayCriticosFaltantes = criticosFaltantes.length > 0;
     const badge = document.getElementById('det-estado-badge');
-    badge.textContent = hayFaltantes ? 'En riesgo' : data.resumen.reservado > 0 ? 'Reservado' : 'Viable';
-    badge.className   = `badge ${hayFaltantes ? 'badge-danger' : data.resumen.reservado > 0 ? 'badge-info' : 'badge-success'}`;
+    if (hayCriticosFaltantes) {
+      badge.textContent = 'No viable';
+      badge.className   = 'badge badge-danger';
+      badge.style.background = '#721c24';
+      badge.style.color      = '#fff';
+    } else if (hayFaltantes) {
+      badge.textContent = 'En riesgo';
+      badge.className   = 'badge badge-danger';
+      badge.style.background = '';
+      badge.style.color      = '';
+    } else if (data.resumen.reservado > 0) {
+      badge.textContent = 'Reservado';
+      badge.className   = 'badge badge-info';
+      badge.style.background = '';
+      badge.style.color      = '';
+    } else {
+      badge.textContent = 'Viable';
+      badge.className   = 'badge badge-success';
+      badge.style.background = '';
+      badge.style.color      = '';
+    }
 
     // KPIs
     document.getElementById('det-resumen').innerHTML = `
@@ -197,7 +233,16 @@ async function verChecklist(id) {
     if (!data.materiales || data.materiales.length === 0) {
       lista.innerHTML = '<div class="empty-state"><p>Esta orden no tiene materiales asignados.</p></div>';
     } else {
-      lista.innerHTML = data.materiales.map(ins => {
+      let alertaCriticosHtml = '';
+      if (criticosFaltantes.length > 0) {
+        alertaCriticosHtml = `<div class="alert alert-danger" style="margin-bottom:12px;display:flex;align-items:center;gap:8px">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="16" height="16"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <strong>⚡ Instalación no viable — ${criticosFaltantes.length} material(es) crítico(s) sin stock:</strong>
+          ${criticosFaltantes.map(c => c.nombre + ' (' + c.sku + ')').join(', ')}
+        </div>`;
+      }
+
+      lista.innerHTML = alertaCriticosHtml + data.materiales.map(ins => {
         const disp = parseFloat(ins.stock_disponible || 0);
         const req  = parseFloat(ins.cantidad_requerida || 0);
         // Re-calcular con redondeo para evitar imprecisión de decimales
@@ -209,7 +254,7 @@ async function verChecklist(id) {
           <div style="display:flex;align-items:center;gap:12px">
             <div style="width:28px;height:28px;border-radius:6px;background:${ii.bg};display:flex;align-items:center;justify-content:center;font-size:14px;color:${ii.color};flex-shrink:0;font-weight:700">${ii.icon}</div>
             <div>
-              <div style="font-size:13px;font-weight:500">${ins.nombre}</div>
+              <div style="font-size:13px;font-weight:500">${ins.nombre}${ins.es_critico ? ' <span style="color:var(--danger);font-size:11px">⚡ Crítico</span>' : ''}</div>
               <div style="font-size:11px;color:var(--gray)">
                 <span class="td-mono">${ins.sku}</span>
                 · Requerido: <strong>${req} ${ins.unidad || ''}</strong>
@@ -225,7 +270,14 @@ async function verChecklist(id) {
 
     // Acciones
     const acciones = document.getElementById('acciones-reserva');
-    if (hayFaltantes) {
+    if (hayCriticosFaltantes) {
+      acciones.innerHTML = `
+        <div class="alert alert-danger" style="width:100%;margin:0;background:#f5c6cb;border-color:#721c24">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>
+          <strong>Instalación no viable.</strong> Faltan ${criticosFaltantes.length} material(es) crítico(s). No se puede agendar la instalación hasta resolver el abastecimiento.
+        </div>
+        <a href="../movimientos/entrada.html" class="btn btn-secondary">Registrar compra de emergencia</a>`;
+    } else if (hayFaltantes) {
       acciones.innerHTML = `
         <div class="alert alert-danger" style="width:100%;margin:0">
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" width="14" height="14"><path d="M10.29 3.86L1.82 18a2 2 0 001.71 3h16.94a2 2 0 001.71-3L13.71 3.86a2 2 0 00-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>

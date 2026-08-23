@@ -6,7 +6,7 @@ const { query } = require('../db/pool');
  * Query params: ?desde=&hasta=&tipo=
  */
 async function reporteMovimientos(req, res) {
-  const { desde, hasta, tipo } = req.query;
+  const { desde, hasta, tipo, buscar } = req.query;
 
   if (!desde || !hasta) {
     return res.status(400).json({ error: 'Los parámetros desde y hasta son requeridos' });
@@ -24,6 +24,7 @@ async function reporteMovimientos(req, res) {
          b.bodega_nombre_bodega                            AS bodega,
          tm.movimiento_inventario_tipo_movimiento_nombre   AS tipo,
          mot.movimiento_inventario_motivo_movimiento_nombre AS motivo,
+         cs.movimiento_inventario_clasificacion_salida_nombre AS clasificacion_salida,
          u.usuario_username                                AS usuario,
          l.lote_numero_lote                                AS lote,
          -- Precio referencial del proveedor principal (solo gerencia lo verá en el frontend)
@@ -39,6 +40,9 @@ async function reporteMovimientos(req, res) {
        LEFT JOIN movimiento_inventario_motivo_movimiento mot
             ON mot.movimiento_inventario_motivo_movimiento_id_motivo_movimiento
              = mi.movimiento_inventario_motivo_movimiento_id_motivo_movimiento
+       LEFT JOIN movimiento_inventario_clasificacion_salida cs
+            ON cs.movimiento_inventario_clasificacion_salida_id_clasificacion_salida
+             = mot.movimiento_inventario_clasificacion_salida_id_clasificacion_salida
        -- Precio referencial del proveedor principal
        LEFT JOIN material_proveedor mp
             ON mp.material_sku = mi.material_sku
@@ -46,8 +50,9 @@ async function reporteMovimientos(req, res) {
        WHERE mi.movimiento_inventario_fecha_hora >= $1::date
          AND mi.movimiento_inventario_fecha_hora < ($2::date + INTERVAL '1 day')
          AND ($3::text IS NULL OR tm.movimiento_inventario_tipo_movimiento_nombre ILIKE '%' || $3 || '%')
+         AND ($4::text IS NULL OR mi.material_sku ILIKE '%' || $4 || '%' OR m.material_nombre_material ILIKE '%' || $4 || '%')
        ORDER BY mi.movimiento_inventario_fecha_hora DESC`,
-      [desde, hasta, tipo || null]
+      [desde, hasta, tipo || null, buscar || null]
     );
 
     // Resumen
