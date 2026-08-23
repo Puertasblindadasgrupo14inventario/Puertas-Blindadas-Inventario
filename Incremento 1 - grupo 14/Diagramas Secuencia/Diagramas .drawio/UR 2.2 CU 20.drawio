@@ -1,0 +1,426 @@
+<mxfile host="Electron" pages="2">
+  <diagram id="jgXf4TdipzVaKX9w1T_G" name="Diagrama general">
+    <mxGraphModel dx="1805" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VYeO-LXL3C8Mqpd30-SO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="930" width="1680" x="260" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-20: Asignando productos a bodega" vertex="1">
+          <mxGeometry height="30" width="300" x="945" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="280" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="790" width="20" x="310" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-4" parent="wzzZoXAZgRzb2GG4tz8H-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-9" parent="wzzZoXAZgRzb2GG4tz8H-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-10" parent="wzzZoXAZgRzb2GG4tz8H-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-11" parent="wzzZoXAZgRzb2GG4tz8H-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="790" width="170" x="450" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-6" parent="wzzZoXAZgRzb2GG4tz8H-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="80" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_DetalleBodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="790" width="180" x="675" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-8" parent="wzzZoXAZgRzb2GG4tz8H-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="85" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-9" parent="wzzZoXAZgRzb2GG4tz8H-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="86" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_AsignarProducto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="790" width="190" x="915" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-11" parent="wzzZoXAZgRzb2GG4tz8H-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="90" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="780" width="210" x="1165" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-13" parent="wzzZoXAZgRzb2GG4tz8H-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-4" parent="wzzZoXAZgRzb2GG4tz8H-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-5" parent="wzzZoXAZgRzb2GG4tz8H-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-6" parent="wzzZoXAZgRzb2GG4tz8H-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-7" parent="wzzZoXAZgRzb2GG4tz8H-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-8" parent="wzzZoXAZgRzb2GG4tz8H-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="780" width="190" x="1435" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-15" parent="wzzZoXAZgRzb2GG4tz8H-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="90" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-3" parent="wzzZoXAZgRzb2GG4tz8H-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="90" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="790" width="180" x="1720" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-17" parent="wzzZoXAZgRzb2GG4tz8H-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="85" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-1" parent="wzzZoXAZgRzb2GG4tz8H-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="85" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="IJI8MXnJW1pyfrZ-8i_S-2" parent="wzzZoXAZgRzb2GG4tz8H-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="85" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Accede al detalle de una bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="540" as="sourcePoint" />
+            <mxPoint x="530" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="wzzZoXAZgRzb2GG4tz8H-13" value="2. Solicitar detalle de bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="570" as="sourcePoint" />
+            <mxPoint x="1260" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="wzzZoXAZgRzb2GG4tz8H-15" value="3. Cargar detalle de bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="598" as="sourcePoint" />
+            <mxPoint x="1530" y="598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="wzzZoXAZgRzb2GG4tz8H-17" value="4. Consultar productos de la bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1535" y="620" as="sourcePoint" />
+            <mxPoint x="1800" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. Retornar productos asignados">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1805" y="650" as="sourcePoint" />
+            <mxPoint x="1535" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-23" edge="1" parent="1" source="wzzZoXAZgRzb2GG4tz8H-15" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="IJI8MXnJW1pyfrZ-8i_S-8" value="6. Informar detalle de bodega">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1300" y="670" />
+            </Array>
+            <mxPoint x="1530" y="675" as="sourcePoint" />
+            <mxPoint x="1280" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Mostrar detalle de bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1265" y="700" as="sourcePoint" />
+            <mxPoint x="770" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="IJI8MXnJW1pyfrZ-8i_S-9" value="8. Muestra detalle de bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="730" as="sourcePoint" />
+            <mxPoint x="330" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-26" edge="1" parent="1" source="IJI8MXnJW1pyfrZ-8i_S-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="9. Solicita asignar producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="760" as="sourcePoint" />
+            <mxPoint x="760" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="IJI8MXnJW1pyfrZ-8i_S-7" value="10. Solicitar formulario de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="788" as="sourcePoint" />
+            <mxPoint x="1260" y="788" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" value="11. Cargar formulario de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1265" y="820" as="sourcePoint" />
+            <mxPoint x="1015" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="IJI8MXnJW1pyfrZ-8i_S-10" value="12. Muestra formulario de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="843" as="sourcePoint" />
+            <mxPoint x="330" y="843" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="wzzZoXAZgRzb2GG4tz8H-11" value="13. Selecciona producto por SKU e ingresar ubicacion interna">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="330" y="880" as="sourcePoint" />
+            <mxPoint x="1000" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="14. Enviar datos de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="900" as="sourcePoint" />
+            <mxPoint x="1265" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="IJI8MXnJW1pyfrZ-8i_S-3" value="15. Validar asignacion existente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="928" as="sourcePoint" />
+            <mxPoint x="1520" y="928" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="16. Consultar asignacion del producto a bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1535" y="950" as="sourcePoint" />
+            <mxPoint x="1805" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="17. Informar asignacion existente o disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1805" y="980" as="sourcePoint" />
+            <mxPoint x="1535" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="18. Informar validacion de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="1005" as="sourcePoint" />
+            <mxPoint x="1280" y="1005" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="19. Registrar asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="1033" as="sourcePoint" />
+            <mxPoint x="1520" y="1033" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="IJI8MXnJW1pyfrZ-8i_S-2" value="20. Registrar producto en bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1540" y="1058" as="sourcePoint" />
+            <mxPoint x="1780" y="1058" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-38" edge="1" parent="1" source="IJI8MXnJW1pyfrZ-8i_S-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="21. Confirmar registro de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1780" y="1085" as="sourcePoint" />
+            <mxPoint x="1540" y="1085" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="22. Informar asignacion exitosa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1525" y="1110" as="sourcePoint" />
+            <mxPoint x="1275" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="23. Mostrar confirmacion de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="1140" as="sourcePoint" />
+            <mxPoint x="770" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wzzZoXAZgRzb2GG4tz8H-41" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="IJI8MXnJW1pyfrZ-8i_S-11" value="24. Muestra confirmacion de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="1165" as="sourcePoint" />
+            <mxPoint x="330" y="1165" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="8os9khx8D7Sl_mq7akzF" name="Excepción 1">
+    <mxGraphModel dx="1805" dy="1018" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Y8LBuJCxnCvAS-2U-BLY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="690" width="1710" x="540" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 1" vertex="1">
+          <mxGeometry height="30" width="100" x="1345" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="550" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="560" width="20" x="580" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-4" parent="HDnG_h75KRUd3szRnvxY-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="35" width="10" x="5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3TdWRKQjjR7D5cGsad-2" parent="HDnG_h75KRUd3szRnvxY-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3TdWRKQjjR7D5cGsad-3" parent="HDnG_h75KRUd3szRnvxY-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="5" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3TdWRKQjjR7D5cGsad-7" parent="HDnG_h75KRUd3szRnvxY-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="170" x="720" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-6" parent="HDnG_h75KRUd3szRnvxY-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="80" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_DetalleBodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="180" x="945" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-8" parent="HDnG_h75KRUd3szRnvxY-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="115" width="10" x="85" y="145" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_AsignarProducto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="190" x="1185" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-10" parent="HDnG_h75KRUd3szRnvxY-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="90" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3TdWRKQjjR7D5cGsad-6" parent="HDnG_h75KRUd3szRnvxY-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="90" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_bodegas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="210" x="1460" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-12" parent="HDnG_h75KRUd3szRnvxY-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3TdWRKQjjR7D5cGsad-1" parent="HDnG_h75KRUd3szRnvxY-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3TdWRKQjjR7D5cGsad-4" parent="HDnG_h75KRUd3szRnvxY-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="lg3TdWRKQjjR7D5cGsad-5" parent="HDnG_h75KRUd3szRnvxY-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="100" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="190" x="1730" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-14" parent="HDnG_h75KRUd3szRnvxY-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="90" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="180" x="2015" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-16" parent="HDnG_h75KRUd3szRnvxY-15" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="85" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Accede al detalle de una bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="425" as="sourcePoint" />
+            <mxPoint x="800" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="HDnG_h75KRUd3szRnvxY-12" value="2. Solicitar detalle de bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="453" as="sourcePoint" />
+            <mxPoint x="1530" y="453" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="3. Mostrar detalle de bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1535" y="490" as="sourcePoint" />
+            <mxPoint x="1040" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="lg3TdWRKQjjR7D5cGsad-2" value="4. Muestra detalle de bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="508" as="sourcePoint" />
+            <mxPoint x="600" y="508" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-21" edge="1" parent="1" source="lg3TdWRKQjjR7D5cGsad-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Solicita asignar producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="535" as="sourcePoint" />
+            <mxPoint x="1030" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="lg3TdWRKQjjR7D5cGsad-1" value="6. Solicitar formulario de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="563" as="sourcePoint" />
+            <mxPoint x="1530" y="563" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-23" edge="1" parent="1" source="lg3TdWRKQjjR7D5cGsad-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" value="7. Cargar formulario de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1535" y="599.64" as="sourcePoint" />
+            <mxPoint x="1285" y="599.64" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Muestra formulario de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="620" as="sourcePoint" />
+            <mxPoint x="595" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="9. Selecciona producto por SKU e ingresar ubicacion interna">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="595" y="650" as="sourcePoint" />
+            <mxPoint x="1275.0000000000002" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="lg3TdWRKQjjR7D5cGsad-4" value="10. Enviar datos de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1285.0000000000002" y="670" as="sourcePoint" />
+            <mxPoint x="1535" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-27" edge="1" parent="1" source="lg3TdWRKQjjR7D5cGsad-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="HDnG_h75KRUd3szRnvxY-14" value="11. Validar asignacion existente">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1595" y="690" />
+            </Array>
+            <mxPoint x="1575" y="700" as="sourcePoint" />
+            <mxPoint x="1815" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="HDnG_h75KRUd3szRnvxY-16" value="12. Consultar asignacion del producto a bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1830" y="720" as="sourcePoint" />
+            <mxPoint x="2095" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="13. Producto ya asignado a esta bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2100" y="750" as="sourcePoint" />
+            <mxPoint x="1830" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="14. Informar duplicidad de asignacion">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1820" y="780" as="sourcePoint" />
+            <mxPoint x="1570" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="15. Mostrar error producto ya asignado a la bodega">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1560" y="800" as="sourcePoint" />
+            <mxPoint x="1285" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HDnG_h75KRUd3szRnvxY-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="16. Muestra error notifica duplicidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1275" y="830" as="sourcePoint" />
+            <mxPoint x="595" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4TwsWiQF8msbFvoXB7_L-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-20: Asignando productos a bodega" vertex="1">
+          <mxGeometry height="30" width="300" x="1245" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
