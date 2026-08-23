@@ -59,7 +59,7 @@ Puertas-Blindadas-Inventario/
     │
     ├── Diagramas CU incremento 1/
     ├── Diagramas Secuencia/          ← 41 diagramas .drawio + imágenes
-    ├── Pruebas del sistema/          ← 3 iteraciones caja negra
+    ├── Pruebas del sistema/          ← 4 iteraciones caja negra
     ├── Videos explicativos/
     └── Vistas pagina web - Grupo 14/ ← Capturas de pantalla del sistema
 ```
@@ -367,8 +367,8 @@ Todos requieren header `Authorization: Bearer <token>` excepto `/api/auth/login`
 - Sofía Cariñe
 - Jhoe Castillo
 - Karla Curín
-- Valentín García
 - Omar Olmos
+- Lenin Reyes
 - Silvio Villagra
 
 *Sistema Puertas Blindadas ERP — Módulo Inventario — Grupo 14*
