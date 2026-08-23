@@ -1,0 +1,378 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram id="-hGhO9G6a_ryq5VkNtld" name="General">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ihegdaUsTrMLIrCuJrTN-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="635" width="1320" x="130" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="5OzMpcB7TNKPgSBDalue-3" edge="1" parent="1" source="5OzMpcB7TNKPgSBDalue-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185.16666666666674" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="420" width="10" x="180" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="210" x="355" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-4" parent="jy4aRSPyrkHCizHxVpHc-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="450" width="10" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_AlertaInventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="200" x="685" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-6" parent="jy4aRSPyrkHCizHxVpHc-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="410" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="164" x="1005" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-8" parent="jy4aRSPyrkHCizHxVpHc-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="77" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-9" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="7. Validar valores y condicion stock critico">
+          <mxGeometry relative="1" x="-0.0667" y="5" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="860" y="620" />
+              <mxPoint x="860" y="650" />
+            </Array>
+            <mxPoint x="800" y="620" as="sourcePoint" />
+            <mxPoint x="800" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap;&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="655" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="164" x="1260" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-12" parent="jy4aRSPyrkHCizHxVpHc-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="77" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-13" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="460" as="sourcePoint" />
+            <mxPoint x="775" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-14" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="1100" y="719" as="sourcePoint" />
+            <mxPoint x="1335.5" y="719.2900000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-1" y="296" as="geometry">
+            <mxPoint x="235" y="-116" as="offset" />
+            <mxPoint x="1330" y="750" as="sourcePoint" />
+            <mxPoint x="1090" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-1" y="271" as="geometry">
+            <mxPoint x="143" y="-41" as="offset" />
+            <mxPoint x="768.5" y="500" as="sourcePoint" />
+            <mxPoint x="471.5" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-17" parent="1" style="text;whiteSpace=wrap;html=1;" value="2. Solicitar habilitar edicion umbrales" vertex="1">
+          <mxGeometry height="40" width="230" x="485" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-18" parent="1" style="text;whiteSpace=wrap;html=1;" value="3. Habilitar edicion umbrales" vertex="1">
+          <mxGeometry height="40" width="180" x="530" y="480" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-19" edge="1" parent="1" source="jy4aRSPyrkHCizHxVpHc-4" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-1" y="271" as="geometry">
+            <mxPoint x="143" y="-41" as="offset" />
+            <mxPoint x="487" y="529.6" as="sourcePoint" />
+            <mxPoint x="190" y="529.6" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-20" parent="1" style="text;whiteSpace=wrap;html=1;" value="4. Mostrar formulario umbrales" vertex="1">
+          <mxGeometry height="40" width="200" x="230" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-21" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="190" y="565" as="sourcePoint" />
+            <mxPoint x="455" y="565" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-22" parent="1" style="text;whiteSpace=wrap;html=1;" value="5. Ingresar valores stock minimo maximo y critico" vertex="1">
+          <mxGeometry height="40" width="300" x="190" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-23" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="467.5" y="590" as="sourcePoint" />
+            <mxPoint x="780" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="6. Enviar nuevos valores umbrales" vertex="1">
+          <mxGeometry height="40" width="220" x="520" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-25" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;exitX=0.8;exitY=0.786;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="800" y="680" as="sourcePoint" />
+            <mxPoint x="1080" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-26" parent="1" style="text;whiteSpace=wrap;html=1;" value="8. Guardar umbrales en producto" vertex="1">
+          <mxGeometry height="40" width="210" x="816" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-27" parent="1" style="text;whiteSpace=wrap;html=1;" value="9. Actualizar umbrales de producto" vertex="1">
+          <mxGeometry height="30" width="220" x="1110" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-28" parent="1" style="text;whiteSpace=wrap;html=1;" value="10. Umbrales guardados" vertex="1">
+          <mxGeometry height="30" width="160" x="1132" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="jy4aRSPyrkHCizHxVpHc-6" value="">
+          <mxGeometry relative="1" x="-1" y="296" as="geometry">
+            <mxPoint x="235" y="-116" as="offset" />
+            <mxPoint x="1075" y="765" as="sourcePoint" />
+            <mxPoint x="835" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-30" parent="1" style="text;whiteSpace=wrap;html=1;" value="11. Confirmar guardado en BD" vertex="1">
+          <mxGeometry height="40" width="200" x="826" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-31" edge="1" parent="1" source="jy4aRSPyrkHCizHxVpHc-6" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-1" y="296" as="geometry">
+            <mxPoint x="235" y="-116" as="offset" />
+            <mxPoint x="752.5" y="785" as="sourcePoint" />
+            <mxPoint x="467.5" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-32" parent="1" style="text;whiteSpace=wrap;html=1;" value="12. Confirmar configuracion guardada" vertex="1">
+          <mxGeometry height="30" width="230" x="505" y="755" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-1" y="296" as="geometry">
+            <mxPoint x="235" y="-116" as="offset" />
+            <mxPoint x="455" y="810" as="sourcePoint" />
+            <mxPoint x="188.5" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-34" parent="1" style="text;whiteSpace=wrap;html=1;" value="13. Muestra confirmacion configuracion" vertex="1">
+          <mxGeometry height="20" width="240" x="215" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="jy4aRSPyrkHCizHxVpHc-35" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="jy4aRSPyrkHCizHxVpHc-4" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1.Accede a edición de umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="190" y="440" as="sourcePoint" />
+            <mxPoint x="450" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5OzMpcB7TNKPgSBDalue-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;Gerencia&lt;/span&gt;" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="300" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="oYOuo2btHYYq3YrGI-cU" name="Excepcion1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0hWtYHHnv1utnJ2g4TIw-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="450" width="1310" x="100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="360" width="20" x="145" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-2" parent="_plxjTMd9UTbCR5YDA2E-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="5" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="120" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="210" x="315" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-5" parent="_plxjTMd9UTbCR5YDA2E-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="260" width="10" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_AlertaInventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="200" x="645" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-7" parent="_plxjTMd9UTbCR5YDA2E-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. Accede a edicion de umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="165" y="310" as="sourcePoint" />
+            <mxPoint x="405" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;2. Solicitar habilitar edicion umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="430" y="320" as="sourcePoint" />
+            <mxPoint x="740" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-10" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="7. Validar valores y condicion stock critico">
+          <mxGeometry relative="1" x="-0.0915" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="756" y="430" />
+              <mxPoint x="796" y="430" />
+              <mxPoint x="796" y="460" />
+            </Array>
+            <mxPoint x="756" y="430" as="sourcePoint" />
+            <mxPoint x="756" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Mostrar error valores no numericos o negativos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="736" y="480" as="sourcePoint" />
+            <mxPoint x="430" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Muestra error valores no numéricos o negativos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="500" as="sourcePoint" />
+            <mxPoint x="160" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="270" width="164" x="956" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="270" width="164" x="1190" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;3. Habilitar edicion umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="360" as="sourcePoint" />
+            <mxPoint x="430" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-17" edge="1" parent="1" source="_plxjTMd9UTbCR5YDA2E-5" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;4. Muestra formulario umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="476" y="370" as="sourcePoint" />
+            <mxPoint x="160" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;5. Ingresar valor no numerico o negativo&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="165" y="410" as="sourcePoint" />
+            <mxPoint x="405" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_plxjTMd9UTbCR5YDA2E-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;6. Enviar nuevos valores umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="425" y="430" as="sourcePoint" />
+            <mxPoint x="740" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XNfRSqwtA80_b_4obT7_-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap;&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;Excepción 1&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="620" y="130" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="iddql5K-yoITPUNWmF2V" name="Excepcion2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OLrbv_2gEnRJ44326NOc-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="460" width="1310" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="360" width="20" x="110" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="80" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="210" x="293" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-5" parent="Z24_bZbhWYQls0h5iOG9-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="250" width="10" x="100" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_AlertaInventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="200" x="623" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-7" parent="Z24_bZbhWYQls0h5iOG9-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="95" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-8" edge="1" parent="1" source="Z24_bZbhWYQls0h5iOG9-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;2. Solicitar habilitar edicion umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="400" y="364" as="sourcePoint" />
+            <mxPoint x="716" y="364" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-9" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="7. Validar valores y condicion stock critico">
+          <mxGeometry relative="1" x="-0.0915" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="734" y="464" />
+              <mxPoint x="774" y="464" />
+              <mxPoint x="774" y="494" />
+            </Array>
+            <mxPoint x="734" y="464" as="sourcePoint" />
+            <mxPoint x="734" y="494" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;8. Mostrar error stock critico fuera de rango valido&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.0013" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="714" y="514" as="sourcePoint" />
+            <mxPoint x="408" y="514" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="Z24_bZbhWYQls0h5iOG9-18" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;9. Muestra error stock critico fuera de rango valido&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="393" y="524" as="sourcePoint" />
+            <mxPoint x="153" y="524" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="270" width="164" x="934" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="270" width="164" x="1168" y="214" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;3. Habilitar edicion umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="724" y="394" as="sourcePoint" />
+            <mxPoint x="408" y="394" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;4. Muestra&amp;nbsp; formulario umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="390" y="410.0000000000002" as="sourcePoint" />
+            <mxPoint x="125" y="410.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="Z24_bZbhWYQls0h5iOG9-5" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;5. Ingresar stock critico mayor que&amp;nbsp;&lt;/font&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;mínimo o máximo menor que mínimo&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="125" y="450" as="sourcePoint" />
+            <mxPoint x="365" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;6. Enviar nuevos valores umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="403" y="464" as="sourcePoint" />
+            <mxPoint x="718" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-18" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="115" y="314" as="geometry" />
+        </mxCell>
+        <mxCell id="Z24_bZbhWYQls0h5iOG9-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="Z24_bZbhWYQls0h5iOG9-5" value="&lt;span style=&quot;color: rgb(11, 11, 11); font-family: &amp;quot;Anthropic Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1.Accede a edición de umbrales&lt;/font&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="125" y="340" as="sourcePoint" />
+            <mxPoint x="438" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="UtI1SNmrzPhSYj35kNMA-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap;&quot;&gt;CU-47: Ajustando umbrales de alerta&lt;/span&gt;&lt;div&gt;&lt;font face=&quot;Times New Roman, serif&quot;&gt;&lt;span style=&quot;font-size: 12px; white-space-collapse: preserve;&quot;&gt;Excepción 2&lt;/span&gt;&lt;/font&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="270" x="590" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
