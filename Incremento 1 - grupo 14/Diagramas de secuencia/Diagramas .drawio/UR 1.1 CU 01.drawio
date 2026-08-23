@@ -1,0 +1,402 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram id="e-rPVoBK2OET8HedpfKG" name="Flujo general">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5dkHifvpHE3J4wJiZABP-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="540" width="1180" x="210" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="220" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="460" width="20" x="250" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-4" parent="OvKteEy5sIXuVTCdNKae-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="-NukDVWApPffsbjtd1nQ-1" parent="OvKteEy5sIXuVTCdNKae-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Nuevo Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="400" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-6" parent="OvKteEy5sIXuVTCdNKae-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-7" parent="OvKteEy5sIXuVTCdNKae-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="210" x="665" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="XkBKl1P-QQcc54PZGZzM-1" parent="OvKteEy5sIXuVTCdNKae-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="105" width="10" x="100" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="XkBKl1P-QQcc54PZGZzM-2" parent="OvKteEy5sIXuVTCdNKae-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="185" x="940" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-11" parent="OvKteEy5sIXuVTCdNKae-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="87" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1195" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-13" parent="OvKteEy5sIXuVTCdNKae-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="75" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-16" edge="1" parent="1" source="OvKteEy5sIXuVTCdNKae-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Ingresa codigo SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="530" as="sourcePoint" />
+            <mxPoint x="490" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2 Validar SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="505" y="555" as="sourcePoint" />
+            <mxPoint x="760" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="3. Validar longitud y formato">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="827" y="580" />
+              <mxPoint x="827" y="605" />
+            </Array>
+            <mxPoint x="777" y="580" as="sourcePoint" />
+            <mxPoint x="777" y="605" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="OvKteEy5sIXuVTCdNKae-11" value="4. Verificar disponibilidad del codigo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="780" y="633" as="sourcePoint" />
+            <mxPoint x="1030" y="633" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="OvKteEy5sIXuVTCdNKae-13" value="5. Consultar SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="658" as="sourcePoint" />
+            <mxPoint x="1273" y="658" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Codigo no registrado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1270" y="688" as="sourcePoint" />
+            <mxPoint x="1040" y="688" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-22" edge="1" parent="1" source="OvKteEy5sIXuVTCdNKae-11" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Codigo disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="715" as="sourcePoint" />
+            <mxPoint x="780" y="715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Cargar confirmacion de SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="760" y="743" as="sourcePoint" />
+            <mxPoint x="505" y="743" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OvKteEy5sIXuVTCdNKae-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Muestra confirmacion SKU disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="760" as="sourcePoint" />
+            <mxPoint x="270" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PlZ5bCrHmzrPQZCe_BDw-1" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-01: Registrando producto con SKU unico" vertex="1">
+          <mxGeometry height="20" width="250" x="675" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="nnWJPABh1DgVRLs8KhGZ" name="exp 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="580" width="1180" x="240" y="95" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="250" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="460" width="20" x="280" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-4" parent="1jWFSSdgAM0ZNCAUijvu-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-5" parent="1jWFSSdgAM0ZNCAUijvu-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="285" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Nuevo Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="430" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-7" parent="1jWFSSdgAM0ZNCAUijvu-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-8" parent="1jWFSSdgAM0ZNCAUijvu-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="255" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="210" x="695" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-10" parent="1jWFSSdgAM0ZNCAUijvu-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="105" width="10" x="100" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="185" x="970" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1225" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-16" edge="1" parent="1" source="1jWFSSdgAM0ZNCAUijvu-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Ingresa campo vacio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="355" as="sourcePoint" />
+            <mxPoint x="520" y="355" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Validar formato obligatorio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="380" as="sourcePoint" />
+            <mxPoint x="790" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="3. Validar longitud y formato">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="857" y="405" />
+              <mxPoint x="857" y="430" />
+            </Array>
+            <mxPoint x="807" y="405" as="sourcePoint" />
+            <mxPoint x="807" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-25" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="CU-01: Registrando producto con SKU unico&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;Excepción 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="260" x="680" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="4. Solicitar ingreso obligatorio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="797.5" y="470" as="sourcePoint" />
+            <mxPoint x="537.5" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1jWFSSdgAM0ZNCAUijvu-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. Muestra solicitud de campo obligatorio">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="354" y="490" />
+            </Array>
+            <mxPoint x="529" y="490" as="sourcePoint" />
+            <mxPoint x="299" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Bzw-CKypzT1jDJFAuvcW" name="exp 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="460" width="1180" x="480" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="490" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="350" width="20" x="520" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-5" parent="4h89mxWUnnbXWvcmUyS9-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-6" parent="4h89mxWUnnbXWvcmUyS9-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Nuevo Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="200" x="670" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-8" parent="4h89mxWUnnbXWvcmUyS9-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-9" parent="4h89mxWUnnbXWvcmUyS9-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="350" width="210" x="935" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-11" parent="4h89mxWUnnbXWvcmUyS9-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="105" width="10" x="100" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="360" width="185" x="1210" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="160" x="1465" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-17" edge="1" parent="1" source="4h89mxWUnnbXWvcmUyS9-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Ingresa codigo SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="1250" as="sourcePoint" />
+            <mxPoint x="760" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2 Validar SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="775" y="1275" as="sourcePoint" />
+            <mxPoint x="1030" y="1275" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-19" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="3. Validar longitud y formato">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1097" y="1300" />
+              <mxPoint x="1097" y="1325" />
+            </Array>
+            <mxPoint x="1047" y="1300" as="sourcePoint" />
+            <mxPoint x="1047" y="1325" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-01: Registrando producto con SKU unico" vertex="1">
+          <mxGeometry height="20" width="260" x="920" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="4. Error formato invalido mostrar reglas del SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1040" y="1370" as="sourcePoint" />
+            <mxPoint x="780" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. Muestra reglas SKU">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points" />
+            <mxPoint x="765" y="1380" as="sourcePoint" />
+            <mxPoint x="540" y="1380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4h89mxWUnnbXWvcmUyS9-31" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 2" vertex="1">
+          <mxGeometry height="30" width="100" x="990" y="1040" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="CX29Q-iqLdSD7neteTLM" name="exp 3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="580" width="1180" x="600" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="80" x="610" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="460" width="20" x="640" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-5" parent="Svs8wXPZUYyn1Goou1UO-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-6" parent="Svs8wXPZUYyn1Goou1UO-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Nuevo Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="790" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-8" parent="Svs8wXPZUYyn1Goou1UO-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-9" parent="Svs8wXPZUYyn1Goou1UO-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="210" x="1055" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-11" parent="Svs8wXPZUYyn1Goou1UO-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="105" width="10" x="100" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-12" parent="Svs8wXPZUYyn1Goou1UO-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="185" x="1330" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-14" parent="Svs8wXPZUYyn1Goou1UO-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="87" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1585" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-16" parent="Svs8wXPZUYyn1Goou1UO-15" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="75" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-17" edge="1" parent="1" source="Svs8wXPZUYyn1Goou1UO-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Ingresa codigo SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="660" y="1470" as="sourcePoint" />
+            <mxPoint x="880" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2 Validar SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="895" y="1495" as="sourcePoint" />
+            <mxPoint x="1150" y="1495" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-19" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="3. Validar longitud y formato">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1217" y="1520" />
+              <mxPoint x="1217" y="1545" />
+            </Array>
+            <mxPoint x="1167" y="1520" as="sourcePoint" />
+            <mxPoint x="1167" y="1545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="Svs8wXPZUYyn1Goou1UO-14" value="4. Verificar disponibilidad del codigo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="1573" as="sourcePoint" />
+            <mxPoint x="1420" y="1573" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="Svs8wXPZUYyn1Goou1UO-16" value="5. Consultar SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1430" y="1598" as="sourcePoint" />
+            <mxPoint x="1663" y="1598" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Codigo no registrado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1660" y="1628" as="sourcePoint" />
+            <mxPoint x="1430" y="1628" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-23" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-01: Registrando producto con SKU unico" vertex="1">
+          <mxGeometry height="20" width="260" x="1040" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 2" vertex="1">
+          <mxGeometry height="30" width="100" x="1110" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="Svs8wXPZUYyn1Goou1UO-12" value="7. Codigo no disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1412" y="1660" as="sourcePoint" />
+            <mxPoint x="1170" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Solicitar codigo distinto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="1680" as="sourcePoint" />
+            <mxPoint x="895" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Svs8wXPZUYyn1Goou1UO-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="Svs8wXPZUYyn1Goou1UO-6" value="9. Muestra solicitud de codigo distinto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="1700" as="sourcePoint" />
+            <mxPoint x="665" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
