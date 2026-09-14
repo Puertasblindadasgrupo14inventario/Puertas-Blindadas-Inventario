@@ -1,0 +1,50 @@
+<mxfile host="Electron">
+  <diagram name="Página-1" id="9gGbgUeIdtXfU8Kkfg8t">
+    <mxGraphModel dx="1552" dy="875" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-1" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="224" width="402" x="258" y="431" as="geometry">
+            <mxRectangle height="44" width="50" x="258" y="412" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-2" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="306" width="496" x="200" y="388" as="geometry">
+            <mxRectangle height="44" width="50" x="200" y="351" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="t10ZgxzqFsQRRy7DNsAE-3" edge="1" parent="-rSmHoV0b_mm-tehqPS3-2" source="-rSmHoV0b_mm-tehqPS3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="t10ZgxzqFsQRRy7DNsAE-2" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-5" parent="-rSmHoV0b_mm-tehqPS3-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="Auditando reportes de movimientos periódicamente" vertex="1">
+          <mxGeometry height="80" width="120" x="87" y="51" as="geometry" />
+        </mxCell>
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-6" edge="1" parent="-rSmHoV0b_mm-tehqPS3-2" source="-rSmHoV0b_mm-tehqPS3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-rSmHoV0b_mm-tehqPS3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-7" parent="-rSmHoV0b_mm-tehqPS3-2" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="10" y="61" as="geometry" />
+        </mxCell>
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-10" edge="1" parent="-rSmHoV0b_mm-tehqPS3-2" source="-rSmHoV0b_mm-tehqPS3-8" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-rSmHoV0b_mm-tehqPS3-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-8" parent="-rSmHoV0b_mm-tehqPS3-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="Utilizando filtros avanzados en reportes" vertex="1">
+          <mxGeometry height="80" width="130" x="291" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-9" parent="-rSmHoV0b_mm-tehqPS3-2" style="ellipse;whiteSpace=wrap;html=1;" value="Exportando a CSV/Excel" vertex="1">
+          <mxGeometry height="80" width="130" x="94" y="157" as="geometry" />
+        </mxCell>
+        <mxCell id="-rSmHoV0b_mm-tehqPS3-3" parent="-rSmHoV0b_mm-tehqPS3-2" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Reportes y exportación&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="190" x="159" y="9" as="geometry" />
+        </mxCell>
+        <mxCell id="t10ZgxzqFsQRRy7DNsAE-4" edge="1" parent="-rSmHoV0b_mm-tehqPS3-2" source="t10ZgxzqFsQRRy7DNsAE-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="-rSmHoV0b_mm-tehqPS3-8" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="t10ZgxzqFsQRRy7DNsAE-2" parent="-rSmHoV0b_mm-tehqPS3-2" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" value="&lt;span style=&quot;font-family: &amp;quot;Times New Roman&amp;quot;, serif; white-space: pre-wrap; color: rgb(0, 0, 0);&quot;&gt; Solicitando aprobación gerencial para merma de producto crítico&lt;/span&gt;" vertex="1">
+          <mxGeometry height="80" width="130" x="291" y="51" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
