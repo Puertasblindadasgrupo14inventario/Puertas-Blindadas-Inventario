@@ -1,0 +1,848 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Flujo General" id="adbGoIGENyuGQK2N0nDz">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xizSSrdyI44vQncE2CZK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="890" width="1690" x="960" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-8" edge="1" parent="1" source="keyP00MP9Pce3wqcyvHw-3" style="rounded=0;html=1;endArrow=block;endFill=1" value="7. Consultar todos los materiales de la orden&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1548" y="860" as="sourcePoint" />
+            <mxPoint x="1782" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="10. Obtiene el nombre de cada material">
+          <mxGeometry relative="1" x="0.0086" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.5" y="950" as="sourcePoint" />
+            <mxPoint x="2479" y="949.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-12" edge="1" parent="1" source="keyP00MP9Pce3wqcyvHw-6" style="rounded=0;html=1;endArrow=open;dashed=1;" value="9. Retorna la lista obtenida">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2019" y="910" as="sourcePoint" />
+            <mxPoint x="1800" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.147;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Obtiene el consumo estimado y real&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0086" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1798.7639999999997" y="879.9999999999998" as="sourcePoint" />
+            <mxPoint x="2270" y="880.2999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Entrega los datos encontrados">
+          <mxGeometry relative="1" x="-0.05" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1796.52" y="819.9999999999999" as="sourcePoint" />
+            <mxPoint x="1514.996666666667" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="700" width="180" x="1935" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: rgb(18, 18, 18);&quot;&gt;V_Detalle de Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="700" width="180" x="1184" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_ordenesTrabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="700" width="160" x="1429" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="700" width="160" x="1710" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="700" width="150" x="2410" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="700" width="180" x="2186" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-7" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1268" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Solicita reporte comparativo de la OT">
+          <mxGeometry relative="1" x="-0.0239" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1059" y="700" as="sourcePoint" />
+            <mxPoint x="1268" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita generar reporte Estimado vs. Real">
+          <mxGeometry relative="1" x="-0.0046" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1284" y="720" as="sourcePoint" />
+            <mxPoint x="1503" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="3. Consulta información de materiales de la OT">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1513.996666666667" y="750" as="sourcePoint" />
+            <mxPoint x="1785.33" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="4. Obtiene los datos de la orden">
+          <mxGeometry relative="1" x="0.0128" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1796" y="770" as="sourcePoint" />
+            <mxPoint x="2020" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Entrega materiales con datos de consumo">
+          <mxGeometry relative="1" x="-0.05" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1786.33" y="1000" as="sourcePoint" />
+            <mxPoint x="1514.996666666667" y="1000.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="16. Genera reporte comparativo">
+          <mxGeometry relative="1" x="0.0179" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1504" y="1190" as="sourcePoint" />
+            <mxPoint x="1280" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="17. Despliega reporte comparativo">
+          <mxGeometry relative="1" x="0.027" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1268" y="1204.41" as="sourcePoint" />
+            <mxPoint x="1056" y="1204.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="700" width="20" x="1040" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="1020" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-20" edge="1" parent="1" style="dashed=1;strokeWidth=1;endArrow=none;endFill=0;" target="keyP00MP9Pce3wqcyvHw-21" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1509" y="630" as="sourcePoint" />
+            <mxPoint x="1509" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-21" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1503" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-22" edge="1" parent="1" style="dashed=1;strokeWidth=1;endArrow=none;endFill=0;" target="keyP00MP9Pce3wqcyvHw-23" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1790" y="630" as="sourcePoint" />
+            <mxPoint x="1790" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1784" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="2019" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1044" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-27" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="5. Retorna los datos de la orden">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2019" y="805" as="sourcePoint" />
+            <mxPoint x="1800" y="805" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="230" width="12" x="1503" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-29" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;13. Verifica que existan datos de estimacion previa&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1579" y="1035.59" />
+              <mxPoint x="1579" y="1069.92" />
+            </Array>
+            <mxPoint x="1515" y="1035.59" as="sourcePoint" />
+            <mxPoint x="1515.6619999999998" y="1069.93" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1268" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1044" y="1185" as="geometry" />
+        </mxCell>
+        <mxCell id="keyP00MP9Pce3wqcyvHw-32" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" value="&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CU-98: Generando reporte comparativo &quot;Estimado vs. Real&quot;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="430" x="1590" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-6" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1503" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-10" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="160" width="12" x="1784" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2270" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-16" edge="1" parent="1" source="keyP00MP9Pce3wqcyvHw-5" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna datos de materiales">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2264" y="980" as="sourcePoint" />
+            <mxPoint x="1800" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2479" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-19" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;14. Verifica que existan consumos reales para la orden&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1579" y="1087.83" />
+              <mxPoint x="1579" y="1122.16" />
+            </Array>
+            <mxPoint x="1515" y="1087.83" as="sourcePoint" />
+            <mxPoint x="1515.6619999999998" y="1122.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K_4HXT8cw4b32qyZv9lx-22" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;15. Calcula&amp;nbsp; la varianza y el porcentaje de varianza&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1579" y="1140" />
+              <mxPoint x="1579" y="1174.3300000000002" />
+            </Array>
+            <mxPoint x="1515" y="1140" as="sourcePoint" />
+            <mxPoint x="1515.6619999999998" y="1174.3400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="6EHqBzZE1K_xCnC68r99" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="790" width="1810" x="770" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-2" edge="1" parent="1" source="EY7A47l7mwWJFGxfLP-p-9" style="rounded=0;html=1;endArrow=block;endFill=1" value="7. Consultar todos los materiales de la orden&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1518" y="1720" as="sourcePoint" />
+            <mxPoint x="1752" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="10. Obtiene el nombre de cada material">
+          <mxGeometry relative="1" x="0.0086" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1760.5" y="1810" as="sourcePoint" />
+            <mxPoint x="2449" y="1809.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-4" edge="1" parent="1" source="EY7A47l7mwWJFGxfLP-p-12" style="rounded=0;html=1;endArrow=open;dashed=1;" value="9. Retorna la lista obtenida">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1989" y="1770" as="sourcePoint" />
+            <mxPoint x="1770" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.147;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Obtiene el consumo estimado y real&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0086" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1768.7639999999997" y="1739.9999999999998" as="sourcePoint" />
+            <mxPoint x="2240" y="1740.2999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Entrega los datos encontrados">
+          <mxGeometry relative="1" x="-0.05" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1766.52" y="1680" as="sourcePoint" />
+            <mxPoint x="1484.996666666667" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="180" x="1905" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: rgb(18, 18, 18);&quot;&gt;V_Detalle de Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="180" x="1154" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_ordenesTrabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="160" x="1399" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="160" x="1680" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="150" x="2380" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="600" width="180" x="2156" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-13" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1238" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-14" edge="1" parent="1" source="EY7A47l7mwWJFGxfLP-p-21" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Solicita reporte comparativo de la OT">
+          <mxGeometry relative="1" x="-0.0239" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1029" y="1560" as="sourcePoint" />
+            <mxPoint x="1238" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita generar reporte Estimado vs. Real">
+          <mxGeometry relative="1" x="-0.0046" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1254" y="1580" as="sourcePoint" />
+            <mxPoint x="1473" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="3. Consulta información de materiales de la OT">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1483.996666666667" y="1610" as="sourcePoint" />
+            <mxPoint x="1755.33" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="4. Obtiene los datos de la orden">
+          <mxGeometry relative="1" x="0.0128" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1766" y="1630" as="sourcePoint" />
+            <mxPoint x="1990" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Entrega materiales con datos de consumo">
+          <mxGeometry relative="1" x="-0.05" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1756.33" y="1860" as="sourcePoint" />
+            <mxPoint x="1484.996666666667" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Datos no existentes">
+          <mxGeometry relative="1" x="0.0179" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1473" y="1950" as="sourcePoint" />
+            <mxPoint x="1249" y="1950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="15. Informa &quot;No existe una base de comparacion definida para esta OT&quot;&amp;nbsp;">
+          <mxGeometry relative="1" x="0.027" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1244.5" y="1979.4999999999998" as="sourcePoint" />
+            <mxPoint x="846" y="1979.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="600" width="20" x="830" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="810" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-23" edge="1" parent="1" style="dashed=1;strokeWidth=1;endArrow=none;endFill=0;" target="EY7A47l7mwWJFGxfLP-p-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1479" y="1490" as="sourcePoint" />
+            <mxPoint x="1479" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1473" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-25" edge="1" parent="1" style="dashed=1;strokeWidth=1;endArrow=none;endFill=0;" target="EY7A47l7mwWJFGxfLP-p-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1760" y="1490" as="sourcePoint" />
+            <mxPoint x="1760" y="2070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1754" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1989" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="834" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-29" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="5. Retorna los datos de la orden">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1989" y="1665" as="sourcePoint" />
+            <mxPoint x="1770" y="1665" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="120" width="12" x="1473" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-31" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;13. Verifica que existan datos de estimacion previa&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1549" y="1895.5900000000001" />
+              <mxPoint x="1549" y="1929.92" />
+            </Array>
+            <mxPoint x="1485" y="1895.5900000000001" as="sourcePoint" />
+            <mxPoint x="1485.6619999999998" y="1929.9300000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1238" y="1940" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="834" y="1960" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1473" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="160" width="12" x="1754" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2240" y="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-38" edge="1" parent="1" source="EY7A47l7mwWJFGxfLP-p-11" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna datos de materiales">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2234" y="1840" as="sourcePoint" />
+            <mxPoint x="1770" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="EY7A47l7mwWJFGxfLP-p-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2449" y="1800" as="geometry" />
+        </mxCell>
+        <mxCell id="e2i-dZ6Rpx-TaRsrdaff-1" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#000000;" value="&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CU-98: Generando reporte comparativo &quot;Estimado vs. Real&quot;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Excepción 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="430" x="1510" y="1340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1tGpznMyAPHb01YB2Yiq" name="Excepción 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="850" width="1810" x="-470" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-2" edge="1" parent="1" source="3qtIVCl3MWP2EzwFcVf9-9" style="rounded=0;html=1;endArrow=block;endFill=1" value="7. Consultar todos los materiales de la orden&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="268" y="1710" as="sourcePoint" />
+            <mxPoint x="502" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="10. Obtiene el nombre de cada material">
+          <mxGeometry relative="1" x="0.0086" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="510.5" y="1800" as="sourcePoint" />
+            <mxPoint x="1199" y="1799.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-4" edge="1" parent="1" source="3qtIVCl3MWP2EzwFcVf9-12" style="rounded=0;html=1;endArrow=open;dashed=1;" value="9. Retorna la lista obtenida">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="739" y="1760" as="sourcePoint" />
+            <mxPoint x="520" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.147;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Obtiene el consumo estimado y real&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0086" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="518.7639999999997" y="1729.9999999999998" as="sourcePoint" />
+            <mxPoint x="990" y="1730.2999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Entrega los datos encontrados">
+          <mxGeometry relative="1" x="-0.05" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="516.52" y="1670" as="sourcePoint" />
+            <mxPoint x="234.9966666666669" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="180" x="655" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: rgb(18, 18, 18);&quot;&gt;V_Detalle de Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="180" x="-96" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_ordenesTrabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="160" x="149" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="160" x="430" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="1130" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="180" x="906" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-13" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-12" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-14" edge="1" parent="1" source="3qtIVCl3MWP2EzwFcVf9-21" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Solicita reporte comparativo de la OT">
+          <mxGeometry relative="1" x="-0.0239" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-221" y="1550" as="sourcePoint" />
+            <mxPoint x="-12" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita generar reporte Estimado vs. Real">
+          <mxGeometry relative="1" x="-0.0046" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="4" y="1570" as="sourcePoint" />
+            <mxPoint x="223" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="3. Consulta información de materiales de la OT">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="233.9966666666669" y="1600" as="sourcePoint" />
+            <mxPoint x="505.3299999999999" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="4. Obtiene los datos de la orden">
+          <mxGeometry relative="1" x="0.0128" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="516" y="1620" as="sourcePoint" />
+            <mxPoint x="740" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Entrega materiales con datos de consumo">
+          <mxGeometry relative="1" x="-0.05" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="506.3299999999999" y="1850" as="sourcePoint" />
+            <mxPoint x="234.9966666666669" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="15. Datos no existentes">
+          <mxGeometry relative="1" x="0.0179" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="223" y="2000" as="sourcePoint" />
+            <mxPoint x="-1" y="2000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="16. Informa datos faltantes no tiene consumos reales registrados">
+          <mxGeometry relative="1" x="0.0289" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-5.5" y="2019.5" as="sourcePoint" />
+            <mxPoint x="-404" y="2019.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="670" width="20" x="-420" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="-440" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-23" edge="1" parent="1" style="dashed=1;strokeWidth=1;endArrow=none;endFill=0;" target="3qtIVCl3MWP2EzwFcVf9-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="229" y="1480" as="sourcePoint" />
+            <mxPoint x="229" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="223" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-25" edge="1" parent="1" style="dashed=1;strokeWidth=1;endArrow=none;endFill=0;" target="3qtIVCl3MWP2EzwFcVf9-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="1480" as="sourcePoint" />
+            <mxPoint x="510" y="2060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="504" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="739" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-416" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-29" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="5. Retorna los datos de la orden">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="739" y="1655" as="sourcePoint" />
+            <mxPoint x="520" y="1655" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="180" width="12" x="223" y="1830" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-31" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;13. Verifica que existan datos de estimacion previa&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="299" y="1885.5900000000001" />
+              <mxPoint x="299" y="1919.92" />
+            </Array>
+            <mxPoint x="235" y="1885.5900000000001" as="sourcePoint" />
+            <mxPoint x="235.6619999999998" y="1919.9300000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-12" y="1990" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-416" y="2000" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="223" y="1660" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="160" width="12" x="504" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="990" y="1720" as="geometry" />
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-38" edge="1" parent="1" source="3qtIVCl3MWP2EzwFcVf9-11" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna datos de materiales">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="984" y="1830" as="sourcePoint" />
+            <mxPoint x="520" y="1830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3qtIVCl3MWP2EzwFcVf9-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1199" y="1790" as="geometry" />
+        </mxCell>
+        <mxCell id="8U8yV6WhXJeNx1xecuCD-1" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;14. Verifica que existan consumos reales para la orden&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="299" y="1950" />
+              <mxPoint x="299" y="1984.3300000000002" />
+            </Array>
+            <mxPoint x="235" y="1950" as="sourcePoint" />
+            <mxPoint x="235.6619999999998" y="1984.3400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="635tTlbsaTv76RrH_pOs-1" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#000000;align=center;" value="&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CU-98: Generando reporte comparativo &quot;Estimado vs. Real&quot;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Excepción 2&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="430" x="260" y="1340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ixoz3r5UC7pqDV6v9pep" name="Excepción 3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="y_xhDTeX__k4zgTNdElO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="880" width="1630" x="670" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-2" edge="1" parent="1" source="y_xhDTeX__k4zgTNdElO-9" style="rounded=0;html=1;endArrow=block;endFill=1" value="7. Consultar todos los materiales de la orden&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1218" y="1700" as="sourcePoint" />
+            <mxPoint x="1452" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="10. Obtiene el nombre de cada material">
+          <mxGeometry relative="1" x="0.0086" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1460.5" y="1790" as="sourcePoint" />
+            <mxPoint x="2149" y="1789.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-4" edge="1" parent="1" source="y_xhDTeX__k4zgTNdElO-12" style="rounded=0;html=1;endArrow=open;dashed=1;" value="9. Retorna la lista obtenida">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1689" y="1750" as="sourcePoint" />
+            <mxPoint x="1470" y="1750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.147;exitY=0.198;exitDx=0;exitDy=0;exitPerimeter=0;" value="8. Obtiene el consumo estimado y real&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0086" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1468.7639999999997" y="1719.9999999999998" as="sourcePoint" />
+            <mxPoint x="1940" y="1720.2999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Entrega los datos encontrados">
+          <mxGeometry relative="1" x="-0.05" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1466.52" y="1660" as="sourcePoint" />
+            <mxPoint x="1184.996666666667" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="1605" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: rgb(18, 18, 18);&quot;&gt;V_Detalle de Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="854" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_ordenesTrabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="160" x="1099" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="160" x="1380" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="2080" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="1856" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-13" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="938" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Solicita reporte comparativo de la OT">
+          <mxGeometry relative="1" x="-0.0239" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="729" y="1540" as="sourcePoint" />
+            <mxPoint x="938" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita generar reporte Estimado vs. Real">
+          <mxGeometry relative="1" x="-0.0046" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="954" y="1560" as="sourcePoint" />
+            <mxPoint x="1173" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="3. Consulta información de materiales de la OT">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1183.996666666667" y="1590" as="sourcePoint" />
+            <mxPoint x="1455.33" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="4. Obtiene los datos de la orden">
+          <mxGeometry relative="1" x="0.0128" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1466" y="1610" as="sourcePoint" />
+            <mxPoint x="1690" y="1610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Entrega materiales con datos de consumo">
+          <mxGeometry relative="1" x="-0.05" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1456.33" y="1840" as="sourcePoint" />
+            <mxPoint x="1184.996666666667" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="17. Genera reporte comparativo">
+          <mxGeometry relative="1" x="0.0179" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1174" y="2090" as="sourcePoint" />
+            <mxPoint x="950" y="2090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" value="18. Despliega reporte comparativo">
+          <mxGeometry relative="1" x="0.027" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="938" y="2104.41" as="sourcePoint" />
+            <mxPoint x="726" y="2104.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="740" width="20" x="710" y="1420" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="690" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-23" edge="1" parent="1" style="dashed=1;strokeWidth=1;endArrow=none;endFill=0;" target="y_xhDTeX__k4zgTNdElO-24" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1179" y="1470" as="sourcePoint" />
+            <mxPoint x="1179" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1173" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-25" edge="1" parent="1" style="dashed=1;strokeWidth=1;endArrow=none;endFill=0;" target="y_xhDTeX__k4zgTNdElO-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1460" y="1470" as="sourcePoint" />
+            <mxPoint x="1460" y="2050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1454" y="1580" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1689" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="714" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-29" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="5. Retorna los datos de la orden">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1689" y="1645" as="sourcePoint" />
+            <mxPoint x="1470" y="1645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="285" width="12" x="1173" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-31" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;13. Verifica que existan datos de estimacion previa&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1249" y="1875.5900000000001" />
+              <mxPoint x="1249" y="1909.92" />
+            </Array>
+            <mxPoint x="1185" y="1875.5900000000001" as="sourcePoint" />
+            <mxPoint x="1185.6619999999998" y="1909.9300000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="25" width="12" x="938" y="2085" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="35" width="12" x="714" y="2085" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1173" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="160" width="12" x="1454" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1940" y="1710" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-38" edge="1" parent="1" source="y_xhDTeX__k4zgTNdElO-11" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna datos de materiales">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1934" y="1820" as="sourcePoint" />
+            <mxPoint x="1470" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2149" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-40" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;14. Verifica que existan consumos reales para la orden&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1249" y="1927.83" />
+              <mxPoint x="1249" y="1962.1599999999999" />
+            </Array>
+            <mxPoint x="1185" y="1927.83" as="sourcePoint" />
+            <mxPoint x="1185.6619999999998" y="1962.17" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-41" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;15. Clasifica los materiales en tres grupos: comparables, estimables y solo real&amp;nbsp;&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1249" y="1980" />
+              <mxPoint x="1249" y="2014.33" />
+            </Array>
+            <mxPoint x="1185" y="1980" as="sourcePoint" />
+            <mxPoint x="1185.6619999999998" y="2014.3400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="y_xhDTeX__k4zgTNdElO-43" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.111;entryY=0.531;entryDx=0;entryDy=0;entryPerimeter=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;16. Calcula&amp;nbsp; la varianza y el porcentaje de varianza&lt;/span&gt;">
+          <mxGeometry relative="1" x="0.9669" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1249" y="2040" />
+              <mxPoint x="1249" y="2074.33" />
+            </Array>
+            <mxPoint x="1185" y="2040" as="sourcePoint" />
+            <mxPoint x="1185.6619999999998" y="2074.34" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ElMqZ3NR19REcVtzTBPc-1" parent="1" style="text;whiteSpace=wrap;html=1;fontColor=#000000;align=center;" value="&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;CU-98: Generando reporte comparativo &quot;Estimado vs. Real&quot;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: pre-wrap; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;Excepción 3&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="430" x="1245" y="1340" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

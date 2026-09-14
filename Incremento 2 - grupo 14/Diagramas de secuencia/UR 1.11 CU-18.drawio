@@ -1,0 +1,540 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="Diagrama general" id="iooqac_NBjzbvndqS1jG">
+    <mxGraphModel dx="2350" dy="1250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0MEDqnqnOEmU6Ou0Owy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="670" width="1930" x="790" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gzULdXcRlwfkS8szDVV6-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Muestra tabla cronologica con precios, fechas y proovedores">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1176.5" y="900" as="sourcePoint" />
+            <mxPoint x="850" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--4" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Selecciona el producto a consultar">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="844.0238095238096" y="690" as="sourcePoint" />
+            <mxPoint x="1174" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzULdXcRlwfkS8szDVV6-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Envia datos del historial de precios&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1505.5" y="890" as="sourcePoint" />
+            <mxPoint x="1186" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzULdXcRlwfkS8szDVV6-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna registros de precios historicos">
+          <mxGeometry relative="1" x="0.0009" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2325.5" y="860" as="sourcePoint" />
+            <mxPoint x="1796" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Solicita historial de precios por lotes y facturas">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1505.5" y="810" as="sourcePoint" />
+            <mxPoint x="1784" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--13" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8 Producto encontrado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.5" y="780" as="sourcePoint" />
+            <mxPoint x="1511" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Solicita historial de precios del producto seleccionado">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1180.5" y="700" as="sourcePoint" />
+            <mxPoint x="1499" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1430" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-18: Consultando historial de precios unitarios&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="1525" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la opcion &quot;Ver historial precios&quot;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="843.6666666666667" y="620" as="sourcePoint" />
+            <mxPoint x="1174" y="620.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;startArrow=block;startFill=1;strokeWidth=1;dashed=1;" value="2. Muestra listado a seleccion&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0766" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="850.0038095238097" y="650" as="sourcePoint" />
+            <mxPoint x="1179.98" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Entrega tabla cronologica de precios&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.5" y="879.5" as="sourcePoint" />
+            <mxPoint x="1511" y="879.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="498" width="20" x="834" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="112" width="12" x="838" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="820" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1975" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1715" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1499" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1105" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="142" width="12" x="1174" y="608" as="geometry" />
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Busca el material por SKU">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1511" y="720" as="sourcePoint" />
+            <mxPoint x="1780" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--9" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="190" width="12" x="1784" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--10" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Consultar existencia del producto&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1800" y="736.75" as="sourcePoint" />
+            <mxPoint x="2044" y="736.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2044" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="7. Retorna datos del producto">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2044" y="770" as="sourcePoint" />
+            <mxPoint x="1800" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1499" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="10. Consultar precios. fechas y proovedores asociados&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1800" y="830" as="sourcePoint" />
+            <mxPoint x="2319" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--19" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;lote_fecha_pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="2250" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--18" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2319" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="gzULdXcRlwfkS8szDVV6-2" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1499" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="gzULdXcRlwfkS8szDVV6-4" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1174" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="gzULdXcRlwfkS8szDVV6-6" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="838" y="878" as="geometry" />
+        </mxCell>
+        <mxCell id="GD1gDhzFGSfcSYokxDj9-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;material_proovedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="2510" y="500" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="55Cy9Y-z1bAQFlVy2HXG" name="Excepción 1">
+    <mxGraphModel dx="2350" dy="1250" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="EAI5x9eOCJKYavmwyYLJ-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;startArrow=block;startFill=1;strokeWidth=1;dashed=1;" value="2. Muestra listado a seleccion&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0766" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="370" y="540" as="sourcePoint" />
+            <mxPoint x="699.9761904761904" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="790" width="1940" x="300" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-44" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="17. Informa que solo existe el precio actual&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0009" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1025.6764705882354" y="872.4100000000004" as="sourcePoint" />
+            <mxPoint x="706.0035294117646" y="872.4100000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-42" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="16. Entrega solo el precio actual&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0009" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1310.68" y="860" as="sourcePoint" />
+            <mxPoint x="1031.0035294117647" y="859.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-39" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="15. Retorna precio referencial actual&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0009" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2105.68" y="840" as="sourcePoint" />
+            <mxPoint x="1316.003529411765" y="839.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-37" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="14. Consulta precio referencial vigente">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1310.5" y="810" as="sourcePoint" />
+            <mxPoint x="2099" y="809.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-35" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="13. Solicita precio referencial actual del producto">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1025.5" y="798" as="sourcePoint" />
+            <mxPoint x="1304" y="798" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="18. Muestra mensaje indicando que solo existe precio actual">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="696.5" y="890" as="sourcePoint" />
+            <mxPoint x="370" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Selecciona el producto a consultar">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="363.07142857142844" y="570" as="sourcePoint" />
+            <mxPoint x="694" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. No retorna registros de precios&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0009" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1845.5" y="750" as="sourcePoint" />
+            <mxPoint x="1316" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Solicita historial de precios por lotes y facturas">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1025.5" y="700" as="sourcePoint" />
+            <mxPoint x="1304" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Producto encontrado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1310.5" y="670" as="sourcePoint" />
+            <mxPoint x="1031" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Solicita historial de precios del producto seleccionado">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="700.5" y="590" as="sourcePoint" />
+            <mxPoint x="1019" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="150" x="950" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-18: Consultando historial de precios unitarios&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="960" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la opcion &quot;Ver historial precios&quot;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="363.66666666666674" y="500" as="sourcePoint" />
+            <mxPoint x="694" y="500.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. No hay datos historicos de compra&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0018" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1310.5" y="769.5" as="sourcePoint" />
+            <mxPoint x="1031" y="769.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="580" width="20" x="354" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="112" width="12" x="358" y="478" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="340" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="590" width="150" x="1495" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="150" x="1235" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-19" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1019" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="150" x="625" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-21" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="122" width="12" x="694" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Busca el material por SKU">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1031" y="610" as="sourcePoint" />
+            <mxPoint x="1300" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="280" width="12" x="1304" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Consultar existencia del producto&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320" y="626.75" as="sourcePoint" />
+            <mxPoint x="1564" y="626.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1564" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="7. Retorna datos del producto">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1564" y="660" as="sourcePoint" />
+            <mxPoint x="1320" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1019" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-29" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="10. Consultar precios. fechas y proovedores asociados&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320" y="720" as="sourcePoint" />
+            <mxPoint x="1839" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;lote_fecha_pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="590" width="150" x="1770" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1839" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1019" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="694" y="848" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="358" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;material_proovedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="590" width="150" x="2030" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2099" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1019" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="vIRfP1WW06k-RIanhoIX-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="90" x="1160" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="a8InkD-Yk2lXaDCLKZIv" name="Excepcion 2">
+    <mxGraphModel dx="2742" dy="1458" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="345e130CcfsK3ZDICUkN-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=none;endFill=0;startArrow=block;startFill=1;strokeWidth=1;dashed=1;" value="2. Muestra listado a seleccion&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0766" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="330" y="600" as="sourcePoint" />
+            <mxPoint x="659.9761904761904" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="680" width="1890" x="260" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Muestra mensaje de error y solicita reintentar la consulta">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="656.5" y="850" as="sourcePoint" />
+            <mxPoint x="330" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Selecciona el producto a consultar">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="323.81034482758605" y="640" as="sourcePoint" />
+            <mxPoint x="654" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Informa problema de conexion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="985.5" y="840" as="sourcePoint" />
+            <mxPoint x="666" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Falla de conexion con la base de datos">
+          <mxGeometry relative="1" x="0.0009" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1805.5" y="810" as="sourcePoint" />
+            <mxPoint x="1276" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Solicita historial de precios por lotes y facturas">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="985.5" y="760" as="sourcePoint" />
+            <mxPoint x="1264" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Producto encontrado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1270.5" y="730" as="sourcePoint" />
+            <mxPoint x="991" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="4. Solicita historial de precios del producto seleccionado">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="660.5" y="650" as="sourcePoint" />
+            <mxPoint x="979" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="910" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-10" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-18: Consultando historial de precios unitarios&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="800" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la opcion &quot;Ver historial precios&quot;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="323.66666666666674" y="560" as="sourcePoint" />
+            <mxPoint x="654" y="560.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Error interno del servidor&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0018" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1270.5" y="829.5" as="sourcePoint" />
+            <mxPoint x="991" y="829.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="498" width="20" x="314" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="122" width="12" x="318" y="538" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="300" y="488" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1455" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1195" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-19" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="979" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="585" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-21" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="142" width="12" x="654" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="5. Busca el material por SKU">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="991" y="670" as="sourcePoint" />
+            <mxPoint x="1260" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="190" width="12" x="1264" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.063;exitY=0.94;exitDx=0;exitDy=0;exitPerimeter=0;" value="6. Consultar existencia del producto&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1280" y="686.75" as="sourcePoint" />
+            <mxPoint x="1524" y="686.75" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1524" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="7. Retorna datos del producto">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1524" y="720" as="sourcePoint" />
+            <mxPoint x="1280" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-29" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="10. Intenta consultar registros historicos&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0769" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1280" y="780" as="sourcePoint" />
+            <mxPoint x="1799" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;lote_fecha_pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1730" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1799" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="979" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="654" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="318" y="828" as="geometry" />
+        </mxCell>
+        <mxCell id="3T6SU37GQpP-zJiOFL_n-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="110" x="1010" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="gBwz6sSKh2zQzOHrVxhb-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;material_proovedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1970" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="345e130CcfsK3ZDICUkN-2" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="979" y="720" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

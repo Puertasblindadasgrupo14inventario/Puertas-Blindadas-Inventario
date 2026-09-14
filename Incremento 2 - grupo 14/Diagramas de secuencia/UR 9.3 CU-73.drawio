@@ -1,0 +1,416 @@
+<mxfile host="Electron" pages="2">
+  <diagram name="Diagrama general" id="iooqac_NBjzbvndqS1jG">
+    <mxGraphModel dx="3688" dy="3464" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0MEDqnqnOEmU6Ou0Owy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="850" width="2250" x="770" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-31" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="21. Muestra mensaje &quot;merma registrada como pendiente&quot;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1180.4993103448278" y="1090.0000000000007" as="sourcePoint" />
+            <mxPoint x="850" y="1090.000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-30" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="20. Retorna confirmacion de solicitud">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1505.189655172414" y="1075.66" as="sourcePoint" />
+            <mxPoint x="1186.000344827586" y="1075.6599999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-27" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="19. Confirma que la notificacion fue enviada">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.189655172414" y="1060" as="sourcePoint" />
+            <mxPoint x="1511" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="18. Confirma la creacion de la notificacion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2883.4296551724137" y="1040" as="sourcePoint" />
+            <mxPoint x="1796.001428571429" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17. Insertar notificacion&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0001" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.5" y="1009" as="sourcePoint" />
+            <mxPoint x="2879" y="1009" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="16. Solicita crear una notificacion priotitaria">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1505.5" y="990" as="sourcePoint" />
+            <mxPoint x="1784" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-22" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="15. Confirma el movimiento registrado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.189655172414" y="960" as="sourcePoint" />
+            <mxPoint x="1511" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="12. Solicita registrar movimiento de inventario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1505.5" y="890" as="sourcePoint" />
+            <mxPoint x="1784" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Confirma el registro del movimiento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2605.499655172414" y="940" as="sourcePoint" />
+            <mxPoint x="1796" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="13. Inserta el registro del movimiento">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1785" y="909.5" as="sourcePoint" />
+            <mxPoint x="2599" y="909.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Confirma stock descontado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1789.5" y="850" as="sourcePoint" />
+            <mxPoint x="1511" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="10. Confirma el descuento realizado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2325.19" y="830" as="sourcePoint" />
+            <mxPoint x="1796.000344827586" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="9. Descuenta la cantidad fisica">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.5" y="800" as="sourcePoint" />
+            <mxPoint x="2318.9999999999995" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="8. solicita descontar stock fisico">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1505.5" y="780" as="sourcePoint" />
+            <mxPoint x="1784" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-10" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Confirma que el producto es critico">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.19" y="700" as="sourcePoint" />
+            <mxPoint x="1511.000344827586" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene el campo de producto critico&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1790.5" y="664.66" as="sourcePoint" />
+            <mxPoint x="2044" y="664.6599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Envia solicitud de registro">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1180.5" y="640" as="sourcePoint" />
+            <mxPoint x="1499" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consulta si el material es producto critico">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1505.5" y="654.71" as="sourcePoint" />
+            <mxPoint x="1784" y="654.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="1430" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-73: Solicitando aprobacion gerencial para merma de producto critico&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="1645" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Ingresa registro de salida por merma">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="843.6666666666667" y="620" as="sourcePoint" />
+            <mxPoint x="1174" y="620.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="670" width="20" x="834" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="838" y="598" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="814" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="1975" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="1715" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="460" width="12" x="1499" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="1105" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1174" y="608" as="geometry" />
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--19" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;inventario_bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="2250" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="G5V-mKND5YYHanZYO3z--18" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2319" y="784.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;movimiento_inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="2530" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;notificacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="2810" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-5" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="430" width="12" x="1784" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-6" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2044" y="639" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna que el producto es critico">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2040" y="690" as="sourcePoint" />
+            <mxPoint x="1796" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-12" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;7. Queda en estado pendiente&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1541" y="750" />
+            </Array>
+            <mxPoint x="1511" y="720" as="sourcePoint" />
+            <mxPoint x="1516" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-20" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2599" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2879" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1174" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="838" y="1070" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="55Cy9Y-z1bAQFlVy2HXG" name="Excepción 1">
+    <mxGraphModel dx="190" dy="563" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="780" width="2200" x="1890" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="17. Muestra mensaje &quot;salida de merma registrada&quot;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2280.499310344828" y="1845.4100000000008" as="sourcePoint" />
+            <mxPoint x="1950" y="1845.410000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="16. Retorna confirmacion de salida">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2605.189655172414" y="1830" as="sourcePoint" />
+            <mxPoint x="2286.000344827586" y="1829.9999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="15. Confirma el movimiento registrado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2890.189655172414" y="1810" as="sourcePoint" />
+            <mxPoint x="2611" y="1810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="12. Solicita registrar movimiento de inventario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2605.5" y="1740" as="sourcePoint" />
+            <mxPoint x="2884" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-10" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Confirma el registro del movimiento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3705.499655172414" y="1790" as="sourcePoint" />
+            <mxPoint x="2896" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="13. Inserta el registro del movimiento">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2885" y="1759.5" as="sourcePoint" />
+            <mxPoint x="3699" y="1759.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Confirma stock descontado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2889.5" y="1700" as="sourcePoint" />
+            <mxPoint x="2611" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="10. Confirma el descuento realizado">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3425.19" y="1680" as="sourcePoint" />
+            <mxPoint x="2896.000344827586" y="1680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="9. Descuenta la cantidad fisica">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2890.5" y="1650" as="sourcePoint" />
+            <mxPoint x="3418.9999999999995" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="8. solicita descontar stock fisico">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2605.5" y="1630" as="sourcePoint" />
+            <mxPoint x="2884" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Confirma que el producto no es critico">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2890.19" y="1550" as="sourcePoint" />
+            <mxPoint x="2611.000344827586" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene el campo de producto critico&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2890.5" y="1514.6599999999999" as="sourcePoint" />
+            <mxPoint x="3144" y="1514.6599999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Envia solicitud de registro">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2280.5" y="1490" as="sourcePoint" />
+            <mxPoint x="2599" y="1490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consulta si el material es producto critico">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2605.5" y="1504.71" as="sourcePoint" />
+            <mxPoint x="2884" y="1504.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="150" x="2530" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-21" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-73: Solicitando aprobacion gerencial para merma de producto critico&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="2770" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-22" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Ingresa registro de salida por merma">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1943.6666666666667" y="1470" as="sourcePoint" />
+            <mxPoint x="2274" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-23" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="560" width="20" x="1934" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1938" y="1448" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="1914" y="1398" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-26" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="150" x="3075" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="150" x="2815" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="360" width="12" x="2599" y="1480" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="150" x="2205" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2274" y="1458" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;inventario_bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="150" x="3350" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="3419" y="1634.5" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-33" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;movimiento_inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="150" x="3630" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;notificacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="560" width="150" x="3910" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="342" width="12" x="2884" y="1488" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="3144" y="1489" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-37" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna que el producto no es critico">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="3140" y="1540" as="sourcePoint" />
+            <mxPoint x="2896" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-38" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;7. Queda registrado directamente&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="2641" y="1600" />
+            </Array>
+            <mxPoint x="2611" y="1570" as="sourcePoint" />
+            <mxPoint x="2616" y="1600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="3699" y="1740" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="2274" y="1820" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1938" y="1826" as="geometry" />
+        </mxCell>
+        <mxCell id="8BwtZ1rS67OqYNyffQJG-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1&amp;nbsp;" vertex="1">
+          <mxGeometry height="30" width="100" x="2970" y="1290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

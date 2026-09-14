@@ -1,0 +1,495 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="Flujo General" id="bhzf5WSkwur_qJJLuXeZ">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="GgvMDSXX0bsZM1SRIHOh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="690" width="1810" x="960" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_ordenesTrabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="610" width="190" x="1386" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="610" width="190" x="1636" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="610" width="180" x="1896" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="610" width="190" x="2126" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="610" width="150" x="2356" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="610" width="200" x="2546" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-7" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="2425" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-8" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="80" width="12" x="2640" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="1. Selecciona una Orden de Trabajo">
+          <mxGeometry relative="1" x="-0.027" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1012" y="280" as="sourcePoint" />
+            <mxPoint x="1236" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita consumos registrados de la OT">
+          <mxGeometry relative="1" x="-0.0417" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1247" y="294.71" as="sourcePoint" />
+            <mxPoint x="1476" y="294.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="3. Solicita consulta de consumos registrados">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1487" y="320" as="sourcePoint" />
+            <mxPoint x="1976" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="4. Consulta consumos registrados">
+          <mxGeometry relative="1" x="-0.0298" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1992" y="340" as="sourcePoint" />
+            <mxPoint x="2216" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna consumos registrados">
+          <mxGeometry relative="1" x="-0.0046" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2215" y="380" as="sourcePoint" />
+            <mxPoint x="1996" y="380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.278;exitY=0.942;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Consulta información del material consumido">
+          <mxGeometry relative="1" x="-0.0125" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1490.3360000000002" y="440.14" as="sourcePoint" />
+            <mxPoint x="1725" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="9. Recupera datos del Material">
+          <mxGeometry relative="1" x="-0.0138" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1992" y="480" as="sourcePoint" />
+            <mxPoint x="2426" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="11. Consulta asociación Material - OT">
+          <mxGeometry relative="1" x="0.0121" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1992" y="550" as="sourcePoint" />
+            <mxPoint x="2636" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="12. Retorna información de asociación con la OT">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2640" y="590" as="sourcePoint" />
+            <mxPoint x="1996" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-18" edge="1" parent="1" source="Qp1jdSy_vZz3GydBA4cV-30" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.333;exitY=0.95;exitDx=0;exitDy=0;exitPerimeter=0;" value="13. Retorna producto, cantidad, fecha y costo">
+          <mxGeometry relative="1" x="-0.0237" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1971" y="620" as="sourcePoint" />
+            <mxPoint x="1737" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="15. Entrega información de consumos">
+          <mxGeometry relative="1" x="0.0417" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1475" y="664.71" as="sourcePoint" />
+            <mxPoint x="1246" y="664.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="16. Muestra consumos registrados en la OT">
+          <mxGeometry relative="1" x="0.027" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1235.19" y="690" as="sourcePoint" />
+            <mxPoint x="1016" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="610" width="20" x="996" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1000" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1475" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1980" y="305" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="2215" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-27" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Listado de consumos registrados">
+          <mxGeometry relative="1" x="-0.0045" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1980" y="390" as="sourcePoint" />
+            <mxPoint x="1486" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="&lt;span&gt;8.&lt;span&gt;Informacion del material&amp;nbsp;&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1736" y="460" as="sourcePoint" />
+            <mxPoint x="1976" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1725" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="200" width="12" x="1980" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-31" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="10. Retorna datos del Material&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0218" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2425" y="509.58000000000004" as="sourcePoint" />
+            <mxPoint x="1996" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-32" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="14. Retorna producto, cantidad, fecha y costo">
+          <mxGeometry relative="1" x="-0.0204" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1725" y="640" as="sourcePoint" />
+            <mxPoint x="1486" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1725" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="45" width="12" x="1475" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1000" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-36" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="976" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Ordenes de trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="610" width="190" x="1146" y="160" as="geometry">
+            <mxRectangle height="30" width="150" x="1146" y="160" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="45" width="12" x="1235" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1235" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="Qp1jdSy_vZz3GydBA4cV-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1475" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="Y01D6tN4Ryy9X33z4Usb-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-96: Consultando consumos registrados en una OT" vertex="1">
+          <mxGeometry height="30" width="306" x="1712" y="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="s-7zBuK6PT5ZEliizu0s" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IorbNmm468jetInSs1aY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="450" width="1880" x="200" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Ordenes de trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="190" x="450" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="190" x="950" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="180" x="1210" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="150" x="1670" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="200" x="1860" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-8" edge="1" parent="1" source="ilSnooHLIqzI2vuQyQCb-13" style="rounded=0;html=1;endArrow=block;endFill=1" value="1. Selecciona una Orden de Trabajo">
+          <mxGeometry relative="1" x="-0.027" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="316" y="560" as="sourcePoint" />
+            <mxPoint x="540" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita consumos registrados de la OT">
+          <mxGeometry relative="1" x="-0.0417" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="561" y="574.71" as="sourcePoint" />
+            <mxPoint x="790" y="574.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-10" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="3. Solicita consulta de movimientos asociados">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="801" y="600" as="sourcePoint" />
+            <mxPoint x="1290" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-11" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="4. Consulta movimientos de inventario">
+          <mxGeometry relative="1" x="-0.0298" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1306" y="620" as="sourcePoint" />
+            <mxPoint x="1530" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna consumos no registrados">
+          <mxGeometry relative="1" x="-0.0046" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1529" y="660" as="sourcePoint" />
+            <mxPoint x="1310" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="340" width="20" x="220" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-14" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="224" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-16" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1294" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="&lt;span&gt;6. Retorna consumos no encontrados&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.0046" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1294" y="670" as="sourcePoint" />
+            <mxPoint x="800" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="200" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.2;exitY=0.933;exitDx=0;exitDy=0;exitPerimeter=0;" value="&lt;span&gt;7. Informar aun no se han asociado materiales&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.0046" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="786.5999999999999" y="697.3" as="sourcePoint" />
+            <mxPoint x="551" y="697.3499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-21" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="45" width="12" x="539" y="675" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-22" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="&lt;span&gt;8. Mensaje &quot;no se han asociado materiales a esta orden&quot;&amp;nbsp;&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.0046" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="539" y="710" as="sourcePoint" />
+            <mxPoint x="239.02380952380963" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="224" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="45" width="12" x="539" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="4j603ENVKeN7fOD2qXFi-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Ordenes de trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="190" x="700" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="150" width="12" x="789" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="6QCwSLbwTxVsKuIDge7x-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="340" width="190" x="1440" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="ilSnooHLIqzI2vuQyQCb-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="1529" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="597fr0LRAhIQgTlwFdkN-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-96: Consultando consumos registrados en una OT&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Excepción 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="306" x="987" y="379" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9oYhd2SXXd4i7GzbpBOP" name="Excepción 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="aJ9xeB5soP6jTFZpOPKh-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="555" width="1830" x="286" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_ordenesTrabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="425" width="190" x="736" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="425" width="190" x="986" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="425" width="180" x="1246" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="425" width="190" x="1476" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="425" width="150" x="1706" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="425" width="200" x="1896" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-7" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="51" width="12" x="1775" y="1805" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.278;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" value="1. Selecciona una Orden de Trabajo">
+          <mxGeometry relative="1" x="-0.027" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="315.996" y="1670.01" as="sourcePoint" />
+            <mxPoint x="582.66" y="1670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita consumos registrados de la OT">
+          <mxGeometry relative="1" x="-0.0417" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="597" y="1684.71" as="sourcePoint" />
+            <mxPoint x="826" y="1684.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="3. Solicita consulta de consumos registrados">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="837" y="1703" as="sourcePoint" />
+            <mxPoint x="1326" y="1703" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="4. Consulta consumos registrados">
+          <mxGeometry relative="1" x="-0.0298" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1342" y="1715" as="sourcePoint" />
+            <mxPoint x="1566" y="1715" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna consumos registrados">
+          <mxGeometry relative="1" x="-0.0046" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1565" y="1744.76" as="sourcePoint" />
+            <mxPoint x="1346" y="1744.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.049;exitY=0.832;exitDx=0;exitDy=0;exitPerimeter=0;" value="7. Consulta información del material consumido">
+          <mxGeometry relative="1" x="-0.0025" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="837.5880000000002" y="1795" as="sourcePoint" />
+            <mxPoint x="1075" y="1795.08" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.194;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Recupera datos del Material">
+          <mxGeometry relative="1" x="-0.0138" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1342" y="1815.65" as="sourcePoint" />
+            <mxPoint x="1772.672" y="1815.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="425" width="20" x="300" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="304" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="45" width="12" x="825" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="85.5" width="12" x="1330" y="1684.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="51" width="12" x="1565" y="1704" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.214;entryY=0.145;entryDx=0;entryDy=0;entryPerimeter=0;" value="6. Listado de consumos registrados">
+          <mxGeometry relative="1" x="-0.0045" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1327.43" y="1755" as="sourcePoint" />
+            <mxPoint x="838.9979999999998" y="1755.1499999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-27" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="&lt;span&gt;8.&lt;span&gt;Informacion del material&amp;nbsp;&lt;/span&gt;&lt;/span&gt;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1087" y="1807.21" as="sourcePoint" />
+            <mxPoint x="1327" y="1807.21" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="35" width="12" x="1075" y="1785" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="72.5" width="12" x="1330" y="1792.5" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-30" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Retorna datos del Material&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0218" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1775" y="1845.05" as="sourcePoint" />
+            <mxPoint x="1342.996" y="1844.9985" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1075" y="1845" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="45" width="12" x="825" y="1865" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="25" width="12" x="304" y="1895" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-35" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="280" y="1600" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Ordenes de trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="425" width="190" x="496" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="45" width="12" x="585" y="1650" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="45" width="12" x="585" y="1875" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="825" y="1745" as="geometry" />
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-41" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna informacion del material&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0218" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1329.9961904761903" y="1856" as="sourcePoint" />
+            <mxPoint x="1089.02" y="1856" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-42" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" value="12. Material dado de baja">
+          <mxGeometry relative="1" x="0.0218" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1075" y="1874.9999999999998" as="sourcePoint" />
+            <mxPoint x="837.0022222222221" y="1875" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-43" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Mostrar registro historico&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0218" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="824.9961904761903" y="1895" as="sourcePoint" />
+            <mxPoint x="602" y="1895" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KMl3M8MAmIh8GvjofRdW-44" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.205;entryDx=0;entryDy=0;entryPerimeter=0;" value="14. Muestra registro y nombre, producto no activo&amp;nbsp;">
+          <mxGeometry relative="1" x="-0.0101" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="583" y="1910" as="sourcePoint" />
+            <mxPoint x="315.9960000000001" y="1910.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_LErYus7GPKRnIteKwlc-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-96: Consultando consumos registrados en una OT&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Excepción 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="306" x="1048" y="1475" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,403 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram id="cu15general" name="Flujo general">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1550" pageHeight="1080" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Lxdze0WXt8QAN_UzGHS1-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1210" width="1690" x="30" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-15: Gestionando stock crítico" vertex="1">
+          <mxGeometry height="30" width="420" x="665" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="940" width="180" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-lifeline-view-inner" parent="cu15general-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.94" width="10" x="85" y="151.06" as="geometry" />
+        </mxCell>
+        <mxCell id="UHwLERXuFj746TskDTDH-5" parent="cu15general-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="85" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="UHwLERXuFj746TskDTDH-6" parent="cu15general-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="85" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="940" width="180" x="740" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-lifeline-controller-inner" parent="cu15general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.94" width="10" x="85" y="191.06" as="geometry" />
+        </mxCell>
+        <mxCell id="UHwLERXuFj746TskDTDH-3" parent="cu15general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="UHwLERXuFj746TskDTDH-4" parent="cu15general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="85" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="UHwLERXuFj746TskDTDH-7" parent="cu15general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="85" y="690" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="940" width="180" x="1060" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-lifeline-db-inner" parent="cu15general-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="85" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="UHwLERXuFj746TskDTDH-9" parent="cu15general-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="85" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="940" width="180" x="1480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-lifeline-entity-inner" parent="cu15general-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="85" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="UHwLERXuFj746TskDTDH-8" parent="cu15general-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="85" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15general-msg-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita gestionar el stock crítico de un producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="465" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu15general-lifeline-controller-inner" value="2. Solicita los datos del producto&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="320" as="sourcePoint" />
+            <mxPoint x="820" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu15general-lifeline-db-inner" value="3. Consultar stock mínimo configurado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="360" as="sourcePoint" />
+            <mxPoint x="1105" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu15general-lifeline-entity-inner" value="4.&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Obtiene el stock mínimo del material según su SKU.&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="400" as="sourcePoint" />
+            <mxPoint x="1370" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. Stock mínimo configurado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="440" as="sourcePoint" />
+            <mxPoint x="1155" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-6" edge="1" parent="1" source="cu15general-lifeline-db-inner" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Stock mínimo verificado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="480" as="sourcePoint" />
+            <mxPoint x="835" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-7" edge="1" parent="1" source="UHwLERXuFj746TskDTDH-3" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Datos del producto con stock mínimo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="520" as="sourcePoint" />
+            <mxPoint x="475" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Muestra el producto y habilita el campo &quot;Stock Crítico&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="560" as="sourcePoint" />
+            <mxPoint x="135" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="9. Ingresa el valor de stock crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="600" as="sourcePoint" />
+            <mxPoint x="465" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="UHwLERXuFj746TskDTDH-4" value="10. Envía el valor&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="640" as="sourcePoint" />
+            <mxPoint x="745" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-11" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="11. Validar que el valor sea menor al stock mínimo">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="900" y="660" />
+              <mxPoint x="900" y="690" />
+            </Array>
+            <mxPoint x="835" y="660" as="sourcePoint" />
+            <mxPoint x="835" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="UHwLERXuFj746TskDTDH-9" value="12. Guardar nivel de emergencia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="720" as="sourcePoint" />
+            <mxPoint x="1105" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="UHwLERXuFj746TskDTDH-8" value="13.&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Actualiza el stock crítico del material&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1155" y="760" as="sourcePoint" />
+            <mxPoint x="1425" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-14" edge="1" parent="1" source="UHwLERXuFj746TskDTDH-8" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="14. Confirmación de actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1425" y="800" as="sourcePoint" />
+            <mxPoint x="1155" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-15" edge="1" parent="1" source="UHwLERXuFj746TskDTDH-9" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="15. Nivel de emergencia guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="840" as="sourcePoint" />
+            <mxPoint x="835" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-16" edge="1" parent="1" source="UHwLERXuFj746TskDTDH-7" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="16. Confirmación de guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="810" y="880" as="sourcePoint" />
+            <mxPoint x="475" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15general-msg-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="17. Muestra confirmación del stock crítico establecido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="920" as="sourcePoint" />
+            <mxPoint x="135" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IFfaov8wnuaf86ET8G-x-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="940" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="IFfaov8wnuaf86ET8G-x-2" parent="IFfaov8wnuaf86ET8G-x-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.94" width="10" x="5" y="131.06" as="geometry" />
+        </mxCell>
+        <mxCell id="IFfaov8wnuaf86ET8G-x-3" parent="IFfaov8wnuaf86ET8G-x-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.94" width="10" x="5" y="425.53" as="geometry" />
+        </mxCell>
+        <mxCell id="IFfaov8wnuaf86ET8G-x-4" parent="IFfaov8wnuaf86ET8G-x-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.94" width="10" x="5" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="qSHv0YfHTlPBk5HdkFn2-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="G&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;erencia&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu15e2" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1550" pageHeight="1040" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="800" width="1535" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="180" x="315" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-8" parent="ZdDzW0AePSOvmFe5Rsx9-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-9" parent="ZdDzW0AePSOvmFe5Rsx9-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="180" x="635" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-11" parent="ZdDzW0AePSOvmFe5Rsx9-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="85" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-12" parent="ZdDzW0AePSOvmFe5Rsx9-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="180" x="915" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-14" parent="ZdDzW0AePSOvmFe5Rsx9-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-15" parent="ZdDzW0AePSOvmFe5Rsx9-13" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="180" x="1315" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-17" parent="ZdDzW0AePSOvmFe5Rsx9-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-18" edge="1" parent="1" source="yebt9UO-w3JUjlqpQ-6p-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita gestionar el stock crítico de un producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="70" y="270" as="sourcePoint" />
+            <mxPoint x="400" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="ZdDzW0AePSOvmFe5Rsx9-11" value="2. Solicita los datos del producto&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="410" y="310" as="sourcePoint" />
+            <mxPoint x="680" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar stock mínimo configurado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="730" y="350" as="sourcePoint" />
+            <mxPoint x="1000" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="ZdDzW0AePSOvmFe5Rsx9-17" value="4.&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Obtiene el stock mínimo del material según su SKU.&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1010" y="390" as="sourcePoint" />
+            <mxPoint x="1280" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-22" edge="1" parent="1" source="ZdDzW0AePSOvmFe5Rsx9-17" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5.&amp;nbsp;El stock crítico es igual o superior al mínimo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1280" y="430" as="sourcePoint" />
+            <mxPoint x="1010" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Impide el registro&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1000" y="470" as="sourcePoint" />
+            <mxPoint x="730" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-24" edge="1" parent="1" source="ZdDzW0AePSOvmFe5Rsx9-12" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Impide el registro del stock crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="510" as="sourcePoint" />
+            <mxPoint x="410" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="yebt9UO-w3JUjlqpQ-6p-3" value="8.&amp;nbsp;solicita ajuste.">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="550" as="sourcePoint" />
+            <mxPoint x="70" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-15: Gestionando stock crítico" vertex="1">
+          <mxGeometry height="30" width="420" x="575" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="ZdDzW0AePSOvmFe5Rsx9-27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 1" vertex="1">
+          <mxGeometry height="30" width="420" x="575" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="yebt9UO-w3JUjlqpQ-6p-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="580" width="20" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="yebt9UO-w3JUjlqpQ-6p-2" parent="yebt9UO-w3JUjlqpQ-6p-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.94" width="10" x="5" y="131.06" as="geometry" />
+        </mxCell>
+        <mxCell id="yebt9UO-w3JUjlqpQ-6p-3" parent="yebt9UO-w3JUjlqpQ-6p-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="44.47" width="10" x="5" y="425.53" as="geometry" />
+        </mxCell>
+        <mxCell id="yebt9UO-w3JUjlqpQ-6p-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="G&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;erencia&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="30" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu15e3" name="Excepción 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1550" pageHeight="720" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="5LNjVlUHn4mBKzcmVLhY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="900" width="1520" x="80" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="180" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-lifeline-view-inner" parent="cu15e3-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="bmhmGCD6YhZ34q7WSKMc-3" parent="cu15e3-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="180" x="700" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-lifeline-controller-inner" parent="cu15e3-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="85" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="bmhmGCD6YhZ34q7WSKMc-2" parent="cu15e3-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="180" x="980" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-lifeline-db-inner" parent="cu15e3-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="bmhmGCD6YhZ34q7WSKMc-1" parent="cu15e3-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="580" width="180" x="1380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-lifeline-entity-inner" parent="cu15e3-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="cu15e3-msg-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita gestionar el stock crítico de un producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="465" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15e3-msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu15e3-lifeline-controller-inner" value="2. Solicita los datos del producto&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="320" as="sourcePoint" />
+            <mxPoint x="745" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15e3-msg-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Consultar stock mínimo configurado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="795" y="360" as="sourcePoint" />
+            <mxPoint x="1065" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15e3-msg-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu15e3-lifeline-entity-inner" value="4.&amp;nbsp;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Obtiene el stock mínimo del material según su SKU.&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1075" y="400" as="sourcePoint" />
+            <mxPoint x="1345" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15e3-msg-5" edge="1" parent="1" source="cu15e3-lifeline-entity-inner" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. No existe stock mínimo&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1345" y="440" as="sourcePoint" />
+            <mxPoint x="1075" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15e3-msg-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Sin stock mínimo configurado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1065" y="480" as="sourcePoint" />
+            <mxPoint x="795" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15e3-msg-7" edge="1" parent="1" source="bmhmGCD6YhZ34q7WSKMc-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Impide el registro del stock crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="520" as="sourcePoint" />
+            <mxPoint x="475" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu15e3-msg-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Solicita definir primero el stock mínimo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="560" as="sourcePoint" />
+            <mxPoint x="135" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4xHJShUiXnyCjStfROjF-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-15: Gestionando stock crítico" vertex="1">
+          <mxGeometry height="30" width="420" x="640" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="4xHJShUiXnyCjStfROjF-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 2" vertex="1">
+          <mxGeometry height="30" width="420" x="640" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="2V_thQBG39797mPhzhWL-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="580" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2V_thQBG39797mPhzhWL-2" parent="2V_thQBG39797mPhzhWL-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.94" width="10" x="5" y="131.06" as="geometry" />
+        </mxCell>
+        <mxCell id="2V_thQBG39797mPhzhWL-3" parent="2V_thQBG39797mPhzhWL-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.94" width="10" x="5" y="425.53" as="geometry" />
+        </mxCell>
+        <mxCell id="2V_thQBG39797mPhzhWL-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="G&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;erencia&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,324 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="General" id="R64ix9DpxSayPQK0_I-X">
+    <mxGraphModel dx="1376" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="540" width="1440" x="200" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia / JOP" vertex="1">
+          <mxGeometry height="30" width="90" x="210" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="460" width="20" x="240" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-4" parent="So-3PQWQG8SqXKxdj2lR-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-5" parent="So-3PQWQG8SqXKxdj2lR-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Alertas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="390" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-7" parent="So-3PQWQG8SqXKxdj2lR-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-8" parent="So-3PQWQG8SqXKxdj2lR-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_alertas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="210" x="655" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-10" parent="So-3PQWQG8SqXKxdj2lR-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-11" parent="So-3PQWQG8SqXKxdj2lR-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="185" x="930" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-13" parent="So-3PQWQG8SqXKxdj2lR-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="87.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Alerta_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1185" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-15" parent="So-3PQWQG8SqXKxdj2lR-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="75" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-16" edge="1" parent="1" source="So-3PQWQG8SqXKxdj2lR-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="So-3PQWQG8SqXKxdj2lR-7" value="1. Accede al panel de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="260" y="620" as="sourcePoint" />
+            <mxPoint x="480" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="So-3PQWQG8SqXKxdj2lR-10" value="2 Solicitar historial de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="495" y="645" as="sourcePoint" />
+            <mxPoint x="750" y="645" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="So-3PQWQG8SqXKxdj2lR-13" value="3. Recuperar historial de alertas internas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="764" y="669.5" as="sourcePoint" />
+            <mxPoint x="1011" y="669.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Consultar registros de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1028" y="679.5" as="sourcePoint" />
+            <mxPoint x="1258" y="679.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. Retornar registros de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1258" y="720" as="sourcePoint" />
+            <mxPoint x="1028" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="So-3PQWQG8SqXKxdj2lR-13" value="7. Retornar datos del historial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1498.75" y="810" as="sourcePoint" />
+            <mxPoint x="1031.25" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="So-3PQWQG8SqXKxdj2lR-11" value="8. Entregar listado de alertas históricas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1015" y="820" as="sourcePoint" />
+            <mxPoint x="770" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="So-3PQWQG8SqXKxdj2lR-8" value="9. Cargar listado de alertas históricas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="830" as="sourcePoint" />
+            <mxPoint x="530" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="So-3PQWQG8SqXKxdj2lR-25" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-50: Consultando historial de alertas internas" vertex="1">
+          <mxGeometry height="20" width="275" x="782.5" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="TbdI6Nq76hR07gxTU2jJ-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Historial_Alerta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1420" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="TbdI6Nq76hR07gxTU2jJ-2" parent="TbdI6Nq76hR07gxTU2jJ-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="95" width="10" x="75" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="TbdI6Nq76hR07gxTU2jJ-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Consultar datos del historial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1028" y="780" as="sourcePoint" />
+            <mxPoint x="1495" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TbdI6Nq76hR07gxTU2jJ-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="So-3PQWQG8SqXKxdj2lR-5" value="10. Muestra listado de alertas históricas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="485" y="850" as="sourcePoint" />
+            <mxPoint x="260" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="y3AtWKrK4nAEXQa4L95c" name="Excepcion 1">
+    <mxGraphModel dx="1651" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="krpyHr30CDMe7d1skL5f-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="570" width="1440" x="170" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia / JOP" vertex="1">
+          <mxGeometry height="30" width="90" x="180" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="460" width="20" x="210" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-4" parent="krpyHr30CDMe7d1skL5f-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-5" parent="krpyHr30CDMe7d1skL5f-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Alertas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="360" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-7" parent="krpyHr30CDMe7d1skL5f-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-8" parent="krpyHr30CDMe7d1skL5f-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_alertas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="210" x="625" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-10" parent="krpyHr30CDMe7d1skL5f-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-11" parent="krpyHr30CDMe7d1skL5f-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="100" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="185" x="900" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-13" parent="krpyHr30CDMe7d1skL5f-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="87.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Alerta_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1155" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-15" parent="krpyHr30CDMe7d1skL5f-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="75" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-16" edge="1" parent="1" source="krpyHr30CDMe7d1skL5f-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="krpyHr30CDMe7d1skL5f-7" value="1. Accede al panel de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="1070" as="sourcePoint" />
+            <mxPoint x="450" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="krpyHr30CDMe7d1skL5f-10" value="2 Solicitar historial de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="1095" as="sourcePoint" />
+            <mxPoint x="720" y="1095" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="krpyHr30CDMe7d1skL5f-13" value="3. Recuperar historial de alertas internas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="734" y="1119.5" as="sourcePoint" />
+            <mxPoint x="981" y="1119.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Consultar registros de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="998" y="1129.5" as="sourcePoint" />
+            <mxPoint x="1228" y="1129.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="5. Retornar conjunto vacío">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1228" y="1170" as="sourcePoint" />
+            <mxPoint x="998" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Informar que no hay registros">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="983" y="1220" as="sourcePoint" />
+            <mxPoint x="733" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Cargar mensaje &quot;No hay información disponible&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="725" y="1260" as="sourcePoint" />
+            <mxPoint x="465" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-50: Consultando historial de alertas internas" vertex="1">
+          <mxGeometry height="20" width="275" x="752.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Historial_Alerta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1390" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Muestra mensaje&amp;nbsp;&lt;div&gt;&quot;No hay información disponible&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="1280" as="sourcePoint" />
+            <mxPoint x="225" y="1280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="krpyHr30CDMe7d1skL5f-29" parent="1" style="text;whiteSpace=wrap;html=1;" value="Excepción 1" vertex="1">
+          <mxGeometry height="20" width="75" x="852.5" y="860" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="1vvGQh1VQE1GrB0ypAtO" name="Excepcion 2">
+    <mxGraphModel dx="1651" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="580" width="1440" x="130" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia / JOP" vertex="1">
+          <mxGeometry height="30" width="90" x="140" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="460" width="20" x="170" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-4" parent="K2OxrWG2MiGcpiT6JbUE-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-5" parent="K2OxrWG2MiGcpiT6JbUE-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Alertas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="320" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-7" parent="K2OxrWG2MiGcpiT6JbUE-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="95" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_alertas&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="210" x="585" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-10" parent="K2OxrWG2MiGcpiT6JbUE-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="100" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_&lt;/u&gt;&lt;u&gt;Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="185" x="860" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-13" parent="K2OxrWG2MiGcpiT6JbUE-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="87.5" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Alerta_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1115" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-16" edge="1" parent="1" source="K2OxrWG2MiGcpiT6JbUE-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="K2OxrWG2MiGcpiT6JbUE-7" value="1. Accede al panel de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="590" as="sourcePoint" />
+            <mxPoint x="410" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="K2OxrWG2MiGcpiT6JbUE-10" value="2 Solicitar historial de alertas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="425" y="615" as="sourcePoint" />
+            <mxPoint x="680" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="K2OxrWG2MiGcpiT6JbUE-13" value="3. Recuperar historial de alertas internas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="694" y="639.5" as="sourcePoint" />
+            <mxPoint x="941" y="639.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="4. Error en la consulta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="947.5" y="690" as="sourcePoint" />
+            <mxPoint x="695" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-22" edge="1" parent="1" source="K2OxrWG2MiGcpiT6JbUE-10" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=0.5;entryY=0.722;entryDx=0;entryDy=0;entryPerimeter=0;" value="5. Cargar mensaje de error y opción de reintentar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="720" as="sourcePoint" />
+            <mxPoint x="425" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="6. Muestra mensaje &quot;La consulta no pudo&amp;nbsp;&lt;div&gt;completarse. Intente nuevamente.&quot;&lt;/div&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="760" as="sourcePoint" />
+            <mxPoint x="185" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-24" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-50: Consultando historial de alertas internas" vertex="1">
+          <mxGeometry height="20" width="275" x="712.5" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Historial_Alerta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="160" x="1350" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="K2OxrWG2MiGcpiT6JbUE-29" parent="1" style="text;whiteSpace=wrap;html=1;" value="Excepción 2" vertex="1">
+          <mxGeometry height="20" width="70" x="815" y="370" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

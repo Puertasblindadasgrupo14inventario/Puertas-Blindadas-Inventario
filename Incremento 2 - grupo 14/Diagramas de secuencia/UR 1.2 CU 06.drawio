@@ -1,0 +1,450 @@
+<mxfile host="Electron" pages="3">
+  <diagram id="cu06general" name="Flujo general">
+    <mxGraphModel dx="2505" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1550" pageHeight="1280" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="vUxWQeE0rRMx3sFjkALn-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1280" width="1710" x="40" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-06: Duplicando producto existente" vertex="1">
+          <mxGeometry height="30" width="420" x="685" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="180" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-lifeline-view-inner" parent="cu06general-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-9" parent="cu06general-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="85" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-10" parent="cu06general-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="85" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="180" x="750" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-lifeline-controller-inner" parent="cu06general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="260" width="10" x="85" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-7" parent="cu06general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-8" parent="cu06general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="85" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-15" parent="cu06general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="180" x="1030" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-lifeline-db-inner" parent="cu06general-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="85" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-6" parent="cu06general-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="310" width="10" x="85" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="180" x="1440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-lifeline-entity-inner" parent="cu06general-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-2" parent="cu06general-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-3" parent="cu06general-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="820" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06general-msg-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona el producto a duplicar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="465" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra el detalle del producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="320" as="sourcePoint" />
+            <mxPoint x="135" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Solicita duplicar el producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="360" as="sourcePoint" />
+            <mxPoint x="465" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu06general-lifeline-controller-inner" value="4. Envía petición de obtener producto base&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="400" as="sourcePoint" />
+            <mxPoint x="745" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Consultar datos del producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="440" as="sourcePoint" />
+            <mxPoint x="1115" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu06general-lifeline-entity-inner" value="6.&amp;nbsp;Busca el material según su SKU.">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="480" as="sourcePoint" />
+            <mxPoint x="1395" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-7" edge="1" parent="1" source="cu06general-lifeline-entity-inner" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Datos del producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1395" y="520" as="sourcePoint" />
+            <mxPoint x="1125" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.5;entryY=0.692;entryDx=0;entryDy=0;entryPerimeter=0;" target="cu06general-lifeline-controller-inner" value="8. Datos descriptivos y categorías">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1110" y="560" as="sourcePoint" />
+            <mxPoint x="850" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Solicita un nuevo SKU para el producto duplicado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="640" as="sourcePoint" />
+            <mxPoint x="135" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Ingresa un nuevo SKU&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="680" as="sourcePoint" />
+            <mxPoint x="465" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="G0qsiPnmES4LHoBTHEwe-15" value="12. Envía la solicitud de creación&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="475" y="720" as="sourcePoint" />
+            <mxPoint x="680" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="13. Validar SKU único">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="760" as="sourcePoint" />
+            <mxPoint x="1115" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;blockquote style=&quot;margin: 0 0 0 40px; border: none; padding: 0px;&quot;&gt;14.Busca el SKU del material ignorando mayúsculas y minúsculas.&lt;/blockquote&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="800" as="sourcePoint" />
+            <mxPoint x="1520" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="15. No existe el SKU&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="840" as="sourcePoint" />
+            <mxPoint x="1125" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="16. SKU válido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="880" as="sourcePoint" />
+            <mxPoint x="845" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="17. Guardar nuevo registro">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="845" y="920" as="sourcePoint" />
+            <mxPoint x="1115" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="18.&amp;nbsp;Registra un nuevo material.">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1125" y="960" as="sourcePoint" />
+            <mxPoint x="1520" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="19. Confirmación de inserción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1520" y="1000" as="sourcePoint" />
+            <mxPoint x="1125" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="20. Producto duplicado creado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="1040" as="sourcePoint" />
+            <mxPoint x="845" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-21" edge="1" parent="1" source="G0qsiPnmES4LHoBTHEwe-8" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="21. Confirmación de creación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="1080" as="sourcePoint" />
+            <mxPoint x="475" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06general-msg-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="22. Muestra confirmación del nuevo producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="1120" as="sourcePoint" />
+            <mxPoint x="135" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G0qsiPnmES4LHoBTHEwe-1" edge="1" parent="1" source="cu06general-lifeline-controller-inner" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="&lt;span style=&quot;text-align: left;&quot;&gt;9. Copiar datos descriptivos y categorías del producto base&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="815" y="620" as="sourcePoint" />
+            <mxPoint x="480" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="GbcR-hkFlWXeWNSwJnyh-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="GbcR-hkFlWXeWNSwJnyh-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1140" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="GbcR-hkFlWXeWNSwJnyh-3" parent="GbcR-hkFlWXeWNSwJnyh-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="5" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="GbcR-hkFlWXeWNSwJnyh-4" parent="GbcR-hkFlWXeWNSwJnyh-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="GbcR-hkFlWXeWNSwJnyh-5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="125" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu06e1" name="Excepción 1">
+    <mxGraphModel dx="1503" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1550" pageHeight="800" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1PACvJAfvRQOq4IJYcPH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="810" width="1470" x="70" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-06: Duplicando producto existente" vertex="1">
+          <mxGeometry height="30" width="420" x="595" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="180" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-lifeline-view-inner" parent="cu06e1-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="150" width="10" x="85" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="hGJQ8JuSsHnaaR_EcHzd-2" parent="cu06e1-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="180" x="740" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-lifeline-controller-inner" parent="cu06e1-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="hGJQ8JuSsHnaaR_EcHzd-1" parent="cu06e1-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="180" x="1020" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-lifeline-db-inner" parent="cu06e1-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="85" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="180" x="1300" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-lifeline-entity-inner" parent="cu06e1-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e1-msg-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona el producto a duplicar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="465" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra el detalle del producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="320" as="sourcePoint" />
+            <mxPoint x="135" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Solicita duplicar el producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="360" as="sourcePoint" />
+            <mxPoint x="465" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu06e1-lifeline-controller-inner" value="4. Envía petición de obtener producto base&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="400" as="sourcePoint" />
+            <mxPoint x="745" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Consultar datos del producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="835" y="440" as="sourcePoint" />
+            <mxPoint x="1105" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Busca el material según su SKU.">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1115" y="480" as="sourcePoint" />
+            <mxPoint x="1385" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. No existe el producto por que fue eliminado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1385" y="520" as="sourcePoint" />
+            <mxPoint x="1115" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="8. Producto no encontrado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1105" y="560" as="sourcePoint" />
+            <mxPoint x="835" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-9" edge="1" parent="1" source="hGJQ8JuSsHnaaR_EcHzd-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Cancela la duplicación e informa el error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="600" as="sourcePoint" />
+            <mxPoint x="475" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e1-msg-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Muestra el error">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="640" as="sourcePoint" />
+            <mxPoint x="135" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1PACvJAfvRQOq4IJYcPH-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Execepción 1" vertex="1">
+          <mxGeometry height="30" width="420" x="595" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bCWUeh7nhhiglkfP1eTQ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="bCWUeh7nhhiglkfP1eTQ-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="660" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="bCWUeh7nhhiglkfP1eTQ-4" parent="bCWUeh7nhhiglkfP1eTQ-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="5" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="bCWUeh7nhhiglkfP1eTQ-5" parent="bCWUeh7nhhiglkfP1eTQ-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="5" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu06e2" name="Excepción 2">
+    <mxGraphModel dx="1503" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1550" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rBT3ajc_egcjOLo7Fbra-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="870" width="1385" x="75" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e2-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="380" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="Ds4A_q1Xla1kTq5X6n7N-2" parent="cu06e2-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="85" y="436.0899999999999" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e2-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="660" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="vHaH4TVWVhztpgJKILVp-3" parent="cu06e2-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="250.00363636363636" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e2-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="200" x="930" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e2-lifeline-db-inner" parent="cu06e2-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="95" y="266.09" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e2-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="1210" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="rBT3ajc_egcjOLo7Fbra-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-06: Duplicando producto existente" vertex="1">
+          <mxGeometry height="30" width="420" x="557.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rBT3ajc_egcjOLo7Fbra-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Execepción 2" vertex="1">
+          <mxGeometry height="30" width="420" x="557.5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vHaH4TVWVhztpgJKILVp-2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="150" width="10" x="465" y="270.00363636363636" as="geometry" />
+        </mxCell>
+        <mxCell id="vHaH4TVWVhztpgJKILVp-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona el producto a duplicar">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280.00363636363636" as="sourcePoint" />
+            <mxPoint x="465" y="280.00363636363636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHaH4TVWVhztpgJKILVp-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra el detalle del producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="320.00363636363636" as="sourcePoint" />
+            <mxPoint x="135" y="320.00363636363636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHaH4TVWVhztpgJKILVp-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Solicita duplicar el producto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="360.00363636363636" as="sourcePoint" />
+            <mxPoint x="465" y="360.00363636363636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHaH4TVWVhztpgJKILVp-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="vHaH4TVWVhztpgJKILVp-3" value="4. Envía petición de obtener producto base&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="400.00363636363636" as="sourcePoint" />
+            <mxPoint x="745" y="400.00363636363636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHaH4TVWVhztpgJKILVp-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Consultar datos del producto base">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="430.00363636363636" as="sourcePoint" />
+            <mxPoint x="1025" y="430.00363636363636" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Ds4A_q1Xla1kTq5X6n7N-1" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="745" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e2-msg-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="Ds4A_q1Xla1kTq5X6n7N-1" value="10. SKU duplicado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1024.98" y="559.9999999999999" as="sourcePoint" />
+            <mxPoint x="800" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e2-msg-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Solicita un código distinto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745.0000000000002" y="590" as="sourcePoint" />
+            <mxPoint x="475" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu06e2-msg-12" edge="1" parent="1" source="Ds4A_q1Xla1kTq5X6n7N-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Muestra el error y solicita un código distinto">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="630" as="sourcePoint" />
+            <mxPoint x="135" y="611.0899999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="92L2c4py8wrwfuR2rvhK-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="165" as="geometry" />
+        </mxCell>
+        <mxCell id="92L2c4py8wrwfuR2rvhK-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="740" width="20" x="120" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="92L2c4py8wrwfuR2rvhK-4" parent="92L2c4py8wrwfuR2rvhK-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="92L2c4py8wrwfuR2rvhK-5" parent="92L2c4py8wrwfuR2rvhK-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="5" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e2-lifeline-entity-inner" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="1295" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="cu06e2-msg-9" edge="1" parent="1" source="cu06e2-lifeline-entity-inner" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu06e2-lifeline-db-inner" value="9. Ya existe el SKU">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1260" y="490" as="sourcePoint" />
+            <mxPoint x="1040" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vHaH4TVWVhztpgJKILVp-9" edge="1" parent="1" source="cu06e2-lifeline-db-inner" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1.5;exitY=0.399;exitDx=0;exitDy=0;exitPerimeter=0;" target="cu06e2-lifeline-entity-inner" value="6. Busca el material según su SKU.">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1050" y="460" as="sourcePoint" />
+            <mxPoint x="1280" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,692 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="Flujo General" id="6gZzs86U4f5Zc7gG-I14">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="YjlQq5mPTqWHHKqD3gvF-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="870" width="1620" x="990" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="5xjrM1-4VAIfs_qmoNsB-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="4. Busqueda de cosumo estimado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1825.5" y="620" as="sourcePoint" />
+            <mxPoint x="2104" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-36" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="15. Muestra resultado de validacion">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1282.19" y="890" as="sourcePoint" />
+            <mxPoint x="1046.0003448275863" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xjrM1-4VAIfs_qmoNsB-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="6. Busqueda de cosumo estimado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1825.5" y="680" as="sourcePoint" />
+            <mxPoint x="2434" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Ordenes_de_trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="150" x="2035" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="150" x="1750" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;span style=&quot;text-decoration: underline;&quot;&gt;C_ordenesTrabajo&lt;/span&gt;" vertex="1">
+          <mxGeometry height="730" width="150" x="1470" y="440" as="geometry">
+            <mxRectangle height="30" width="140" x="1470" y="440" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Ordenes_de_trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="150" x="1210" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-6" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="2104" y="959.71" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la planificación de la OT">
+          <mxGeometry relative="1" x="-0.0698" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1050" y="580" as="sourcePoint" />
+            <mxPoint x="1279" y="580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.097;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" value="2. Solicita información de la OT">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1292.1599999999999" y="594.86" as="sourcePoint" />
+            <mxPoint x="1538.996" y="594.5800000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-9" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="3. Consulta consumo estimado registrado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1554" y="610" as="sourcePoint" />
+            <mxPoint x="1819" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-10" edge="1" parent="1" source="GH8fMsfm4fWwipqOvETN-1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="7. Retorna datos de la OT y consumo estimado">
+          <mxGeometry relative="1" x="-0.0189" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2430" y="710" as="sourcePoint" />
+            <mxPoint x="1830" y="709" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="8. Carga los valores estimados guardados">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1825.5" y="730" as="sourcePoint" />
+            <mxPoint x="1551" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="11. Modifica las cantidades proyectadas">
+          <mxGeometry relative="1" x="0.0233" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1038.5" y="790" as="sourcePoint" />
+            <mxPoint x="1278" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="12. Envía nuevos valores para validación">
+          <mxGeometry relative="1" x="0.0408" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1290" y="804.72" as="sourcePoint" />
+            <mxPoint x="1535" y="804.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-14" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="14. Retorna resultado de validación">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1539" y="880" as="sourcePoint" />
+            <mxPoint x="1290" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-15" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="16. Confirma los cambios">
+          <mxGeometry relative="1" x="-0.014" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1050" y="914.5000000000001" as="sourcePoint" />
+            <mxPoint x="1279" y="914.5000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="17. Solicita actualización de la línea base">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1291" y="929.71" as="sourcePoint" />
+            <mxPoint x="1536" y="929.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="18. Actualiza consumo estimado de la OT">
+          <mxGeometry relative="1" x="-0.0071" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1551" y="949.71" as="sourcePoint" />
+            <mxPoint x="1820" y="949.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-18" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="19. Registra modificación en auditoría">
+          <mxGeometry relative="1" x="-0.0345" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1831" y="964.71" as="sourcePoint" />
+            <mxPoint x="2101" y="964.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-19" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="20. Retorna confirmación de registro">
+          <mxGeometry relative="1" x="0.037" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2104" y="994.29" as="sourcePoint" />
+            <mxPoint x="1834" y="994.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-20" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="22. Confirma actualización realizada">
+          <mxGeometry relative="1" x="0.0361" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1539" y="1019.71" as="sourcePoint" />
+            <mxPoint x="1290" y="1019.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="23. Muestra consumo estimado actualizado">
+          <mxGeometry relative="1" x="-0.0233" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1278" y="1029.3700000000001" as="sourcePoint" />
+            <mxPoint x="1049" y="1029.3700000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="740" width="20" x="1030" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="1010" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1034" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1279" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1539" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="140" width="12" x="1819" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1279" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-30" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.067;exitY=0.276;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Muestra valores guardados">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1545.186" y="740" as="sourcePoint" />
+            <mxPoint x="1291.000344827586" y="740.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1034" y="745" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="1539" y="790" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="75" width="12" x="1279" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1034" y="875" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1539" y="914.71" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1819" y="929.71" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-40" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="21. Retorna confirmación de registro">
+          <mxGeometry relative="1" x="0.037" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1820" y="1004.71" as="sourcePoint" />
+            <mxPoint x="1551" y="1004.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1539" y="984.71" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1279" y="1004.71" as="geometry" />
+        </mxCell>
+        <mxCell id="duQL3GNappvSplHtsVbo-43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1034" y="1004.71" as="geometry" />
+        </mxCell>
+        <mxCell id="jRTg1nti8fkqA-njkxXq-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=#000000;" value="&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; text-align: start; white-space: pre-wrap;&quot;&gt;CU-99: Modificando consumo estimado de una OT&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="500" x="1600" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="GH8fMsfm4fWwipqOvETN-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="200" x="2340" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="GH8fMsfm4fWwipqOvETN-2" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="59" width="12" x="2434" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="5xjrM1-4VAIfs_qmoNsB-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="5. Retorna datos de la OT y consumo estimado">
+          <mxGeometry relative="1" x="-0.0189" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2105.189655172414" y="650" as="sourcePoint" />
+            <mxPoint x="1831" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5xjrM1-4VAIfs_qmoNsB-6" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1539" y="710" as="geometry" />
+        </mxCell>
+        <mxCell id="FADjlnEnLToGHRWaTicr-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.067;exitY=0.276;exitDx=0;exitDy=0;exitPerimeter=0;" value="10. Muestra valores guardados">
+          <mxGeometry relative="1" x="0.0408" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1278.9959999999999" y="755.36" as="sourcePoint" />
+            <mxPoint x="1046.8" y="755" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FADjlnEnLToGHRWaTicr-7" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;13. Valida integridad y valores permitidos&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1581" y="850" />
+            </Array>
+            <mxPoint x="1551" y="820" as="sourcePoint" />
+            <mxPoint x="1556" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FADjlnEnLToGHRWaTicr-8" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="59" width="12" x="2104" y="600" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="-MPsfNKRSVcxRSeNuXmR" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" value="" vertex="1">
+          <mxGeometry height="960" width="1710" x="990" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="j0o9otscLh1TSEzYBMX--2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="100" x="1824" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="4. Busqueda de cosumo estimado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1849.5" y="1590" as="sourcePoint" />
+            <mxPoint x="2128" y="1590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="15. Solicita ingresar valor no negativo">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1306.19" y="1860" as="sourcePoint" />
+            <mxPoint x="1070.0003448275863" y="1860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="6. Busqueda de cosumo estimado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1849.5" y="1650" as="sourcePoint" />
+            <mxPoint x="2458" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Ordenes_de_trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="150" x="2059" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="150" x="1774" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;span style=&quot;text-decoration: underline;&quot;&gt;C_ordenesTrabajo&lt;/span&gt;" vertex="1">
+          <mxGeometry height="730" width="150" x="1494" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Ordenes_de_trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="150" x="1234" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-10" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la planificación de la OT">
+          <mxGeometry relative="1" x="-0.0698" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1074" y="1550" as="sourcePoint" />
+            <mxPoint x="1303" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.097;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" value="2. Solicita información de la OT">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1316.1599999999999" y="1564.8600000000001" as="sourcePoint" />
+            <mxPoint x="1562.996" y="1564.5800000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-12" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="3. Consulta consumo estimado registrado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1578" y="1580" as="sourcePoint" />
+            <mxPoint x="1843" y="1580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-13" edge="1" parent="1" source="RJwiBGLt3-FgDKS9D4Dc-44" style="rounded=0;html=1;endArrow=open;dashed=1;" value="7. Retorna datos de la OT y consumo estimado">
+          <mxGeometry relative="1" x="-0.0189" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2454" y="1680" as="sourcePoint" />
+            <mxPoint x="1854" y="1679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="8. Carga los valores estimados guardados">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1849.5" y="1700" as="sourcePoint" />
+            <mxPoint x="1575" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="11. Modifica las cantidades proyectadas">
+          <mxGeometry relative="1" x="0.0233" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1062.5" y="1760" as="sourcePoint" />
+            <mxPoint x="1302" y="1760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-16" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="12. Envía nuevos valores para validación">
+          <mxGeometry relative="1" x="0.0408" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1314" y="1774.72" as="sourcePoint" />
+            <mxPoint x="1559" y="1774.72" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-17" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="14. Resultados inválidos&amp;nbsp;&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1563" y="1850" as="sourcePoint" />
+            <mxPoint x="1314" y="1850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="740" width="20" x="1054" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="1034" y="1460" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1058" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1303" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1563" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="140" width="12" x="1843" y="1570" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1303" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-32" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.067;exitY=0.276;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Muestra valores guardados">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1569.186" y="1710" as="sourcePoint" />
+            <mxPoint x="1315.000344827586" y="1710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1058" y="1715" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="1563" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1303" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1058" y="1845" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-43" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=default;" value="&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; text-align: start; white-space: pre-wrap;&quot;&gt;CU-99: Modificando consumo estimado de una OT&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="500" x="1625" y="1300" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="720" width="200" x="2364" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-45" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="59" width="12" x="2458" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-46" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="5. Retorna datos de la OT y consumo estimado">
+          <mxGeometry relative="1" x="-0.0189" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2129.189655172414" y="1620" as="sourcePoint" />
+            <mxPoint x="1855" y="1620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-47" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1563" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-48" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.067;exitY=0.276;exitDx=0;exitDy=0;exitPerimeter=0;" value="10. Muestra valores guardados">
+          <mxGeometry relative="1" x="0.0408" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1302.9959999999999" y="1725.3600000000001" as="sourcePoint" />
+            <mxPoint x="1070.8" y="1725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-49" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;13. Valida integridad y valores permitidos&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1605" y="1820" />
+            </Array>
+            <mxPoint x="1575" y="1790" as="sourcePoint" />
+            <mxPoint x="1580" y="1820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RJwiBGLt3-FgDKS9D4Dc-50" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="59" width="12" x="2128" y="1570" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="vaZkPNbPFigGxMbYBCbo" name="Excepción 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="890" width="1910" x="560" y="1330" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-39" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="21. Retornar existencia de consumos que superan el valor estimado&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0386" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1676.5" y="2049.71" as="sourcePoint" />
+            <mxPoint x="1301" y="2049.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-48" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.067;exitY=0.276;exitDx=0;exitDy=0;exitPerimeter=0;" value="10. Muestra valores guardados">
+          <mxGeometry relative="1" x="0.0408" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="905.3259999999999" y="1795.3600000000001" as="sourcePoint" />
+            <mxPoint x="625.9966666666666" y="1795.3600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="8. Carga los valores estimados guardados">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1675.07" y="1770" as="sourcePoint" />
+            <mxPoint x="1300.9985714285715" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="4. Busqueda de cosumo estimado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1675.5" y="1660" as="sourcePoint" />
+            <mxPoint x="1954" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="15. Muestra resultado de validacion">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="908.5200000000001" y="1940" as="sourcePoint" />
+            <mxPoint x="625.9966666666666" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="6. Busqueda de cosumo estimado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1675.5" y="1720" as="sourcePoint" />
+            <mxPoint x="2284" y="1720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Ordenes_de_trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="1885" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="1600" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;span style=&quot;text-decoration: underline;&quot;&gt;C_ordenesTrabajo&lt;/span&gt;" vertex="1">
+          <mxGeometry height="670" width="150" x="1220" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_Ordenes_de_trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="830" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-9" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1954" y="1999.71" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-10" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-25" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la planificación de la OT">
+          <mxGeometry relative="1" x="-0.0698" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="670" y="1630" as="sourcePoint" />
+            <mxPoint x="899" y="1630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-11" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-8" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.097;entryY=0.11;entryDx=0;entryDy=0;entryPerimeter=0;" value="2. Solicita información de la OT">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1042.1599999999999" y="1644.8600000000001" as="sourcePoint" />
+            <mxPoint x="1288.996" y="1644.5800000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-12" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-7" style="rounded=0;html=1;endArrow=block;endFill=1" value="3. Consulta consumo estimado registrado">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1404" y="1650" as="sourcePoint" />
+            <mxPoint x="1669" y="1650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-13" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-44" style="rounded=0;html=1;endArrow=open;dashed=1;" value="7. Retorna datos de la OT y consumo estimado">
+          <mxGeometry relative="1" x="-0.0189" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2280" y="1750" as="sourcePoint" />
+            <mxPoint x="1680" y="1749" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-15" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-25" style="rounded=0;html=1;endArrow=block;endFill=1;" value="11. Modifica las cantidades proyectadas">
+          <mxGeometry relative="1" x="0.0233" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="658.5" y="1840" as="sourcePoint" />
+            <mxPoint x="898" y="1840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-16" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-8" style="rounded=0;html=1;endArrow=block;endFill=1" value="12. Envía nuevos valores para validación">
+          <mxGeometry relative="1" x="0.0408" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="988.9285714285713" y="1855.0000000000002" as="sourcePoint" />
+            <mxPoint x="1289" y="1855" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Retorna resultado de validación">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1301" y="1930" as="sourcePoint" />
+            <mxPoint x="910.9538095238096" y="1930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-18" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-25" style="rounded=0;html=1;endArrow=block;endFill=1" value="16. Confirma los cambios">
+          <mxGeometry relative="1" x="-0.014" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="670" y="1964.5" as="sourcePoint" />
+            <mxPoint x="899" y="1964.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-19" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-8" style="rounded=0;html=1;endArrow=block;endFill=1" value="17. Solicita actualización de la línea base">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="987.9285714285713" y="1979.71" as="sourcePoint" />
+            <mxPoint x="1289" y="1979.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-20" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-7" style="rounded=0;html=1;endArrow=block;endFill=1" value="18. Actualiza consumo estimado de la OT">
+          <mxGeometry relative="1" x="-0.0071" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1401" y="1989.71" as="sourcePoint" />
+            <mxPoint x="1670" y="1989.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-21" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="19. Registra modificación en auditoría">
+          <mxGeometry relative="1" x="-0.0345" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1681" y="2004.71" as="sourcePoint" />
+            <mxPoint x="1951" y="2004.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-22" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="20. Retorna confirmación de registro">
+          <mxGeometry relative="1" x="0.037" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1954" y="2034.29" as="sourcePoint" />
+            <mxPoint x="1684" y="2034.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" target="3ZdbowvRzeHc0hKl_0Td-8" value="22. Informar posibles valores negativos&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0361" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1289" y="2069.71" as="sourcePoint" />
+            <mxPoint x="1040" y="2069.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="23. Advierte desviacion negativa solicita confirmacion&amp;nbsp;">
+          <mxGeometry relative="1" x="-0.0233" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="904.07" y="2084.14" as="sourcePoint" />
+            <mxPoint x="625.9985714285714" y="2084.14" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-25" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="640" width="20" x="610" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="590" y="1540" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="614" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="899" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1289" y="1630" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="140" width="12" x="1669" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="899" y="1770" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-32" edge="1" parent="1" source="3ZdbowvRzeHc0hKl_0Td-47" style="rounded=0;html=1;endArrow=open;dashed=1;" value="9. Muestra valores guardados">
+          <mxGeometry relative="1" x="0.0385" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1306.9759999999999" y="1784.76" as="sourcePoint" />
+            <mxPoint x="911.0038095238097" y="1784.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="75" width="12" x="614" y="1780" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="1289" y="1840" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="75" width="12" x="899" y="1920" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="614" y="1925" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1289" y="1964.71" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1669" y="1969.71" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1289" y="2034.71" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="899" y="2054.71" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="614" y="2054.71" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="670" width="200" x="2190" y="1490" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-45" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="59" width="12" x="2284" y="1700" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-46" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="5. Retorna datos de la OT y consumo estimado">
+          <mxGeometry relative="1" x="-0.0189" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1955.189655172414" y="1690" as="sourcePoint" />
+            <mxPoint x="1681" y="1690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-47" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1289" y="1760" as="geometry" />
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-49" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;" value="&lt;span style=&quot;text-align: center;&quot;&gt;13. Valida integridad y valores permitidos&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1331" y="1900" />
+            </Array>
+            <mxPoint x="1301" y="1870" as="sourcePoint" />
+            <mxPoint x="1306" y="1900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="3ZdbowvRzeHc0hKl_0Td-50" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="59" width="12" x="1954" y="1640" as="geometry" />
+        </mxCell>
+        <mxCell id="mIPsfVikCTr8GQy8jBec-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="100" x="1500" y="1440" as="geometry" />
+        </mxCell>
+        <mxCell id="NmVeKUoXuy3n0fiJpNgV-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontColor=default;" value="&lt;span style=&quot;font-family: Arial, sans-serif; font-size: 14.6667px; text-align: start; white-space: pre-wrap;&quot;&gt;CU-99: Modificando consumo estimado de una OT&lt;/span&gt;" vertex="1">
+          <mxGeometry height="30" width="500" x="1301" y="1410" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

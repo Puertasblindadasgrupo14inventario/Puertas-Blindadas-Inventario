@@ -1,0 +1,515 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram id="cu13general" name="Flujo general">
+    <mxGraphModel dx="1768" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1550" pageHeight="920" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VaxBkMLoL3vE-RuCvEja-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="955" width="1505" x="5" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-13: Identificando productos críticos" vertex="1">
+          <mxGeometry height="30" width="420" x="510" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="780" width="180" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-lifeline-view-inner" parent="cu13general-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="85" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="lSBHBupy5TJScCUrQvK9-3" parent="cu13general-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="780" width="180" x="660" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-lifeline-controller-inner" parent="cu13general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="lSBHBupy5TJScCUrQvK9-2" parent="cu13general-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="100" width="10" x="85" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="780" width="180" x="940" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-lifeline-db-inner" parent="cu13general-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="lSBHBupy5TJScCUrQvK9-1" parent="cu13general-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="780" width="180" x="1270" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-lifeline-entity-inner" parent="cu13general-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13general-msg-1" edge="1" parent="1" source="FzshKZM5edujRYmGVovQ-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita identificar un producto crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="465" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="FzshKZM5edujRYmGVovQ-5" value="2. Muestra el estado de criticidad actual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="320" as="sourcePoint" />
+            <mxPoint x="135" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-3" edge="1" parent="1" source="FzshKZM5edujRYmGVovQ-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Activa el marcador de &quot;Producto Crítico&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="360" as="sourcePoint" />
+            <mxPoint x="465" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;entryX=1.5;entryY=0.75;entryDx=0;entryDy=0;entryPerimeter=0;" target="FzshKZM5edujRYmGVovQ-5" value="4. Solicita confirmación del cambio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="400" as="sourcePoint" />
+            <mxPoint x="135" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-5" edge="1" parent="1" source="FzshKZM5edujRYmGVovQ-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Confirma el cambio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="440" as="sourcePoint" />
+            <mxPoint x="465" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Envía la actualización&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="480" as="sourcePoint" />
+            <mxPoint x="745" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Actualizar atributo de criticidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="520" as="sourcePoint" />
+            <mxPoint x="1025" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu13general-lifeline-entity-inner" value="8.&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Marca el material como crítico.&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="560" as="sourcePoint" />
+            <mxPoint x="1305" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-9" edge="1" parent="1" source="cu13general-lifeline-entity-inner" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Confirmación de actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1305" y="600" as="sourcePoint" />
+            <mxPoint x="1035" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Producto actualizado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="640" as="sourcePoint" />
+            <mxPoint x="755" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-11" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="11. Prioriza el ítem en los monitores">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="820" y="680" />
+              <mxPoint x="820" y="710" />
+            </Array>
+            <mxPoint x="755" y="680" as="sourcePoint" />
+            <mxPoint x="755" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Confirmación de actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="720" as="sourcePoint" />
+            <mxPoint x="475" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13general-msg-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="FzshKZM5edujRYmGVovQ-3" value="13. Muestra el producto priorizado como crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="760" as="sourcePoint" />
+            <mxPoint x="135" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FzshKZM5edujRYmGVovQ-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="90" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="FzshKZM5edujRYmGVovQ-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="780" width="20" x="110" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="FzshKZM5edujRYmGVovQ-3" parent="FzshKZM5edujRYmGVovQ-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="FzshKZM5edujRYmGVovQ-5" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="115" y="235" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu13e1" name="Excepción 1">
+    <mxGraphModel dx="1253" dy="701" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1550" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pk83W5Y9dbnf0xrIP5x7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="945" width="1475" x="15" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-title" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-13: Identificando productos críticos" vertex="1">
+          <mxGeometry height="30" width="420" x="542.5" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-lifeline-view-inner" parent="cu13e1-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="240" width="10" x="85" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="tzwJT8fP9IYDULZ0M4S7-2" parent="cu13e1-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="660" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-lifeline-controller-inner" parent="cu13e1-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="tzwJT8fP9IYDULZ0M4S7-1" parent="cu13e1-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="940" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-lifeline-db-inner" parent="cu13e1-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="170" width="10" x="85" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="1250" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-lifeline-entity-inner" parent="cu13e1-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e1-msg-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita identificar un producto crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="465" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra el estado de criticidad actual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="320" as="sourcePoint" />
+            <mxPoint x="135" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Desactiva el marcador de &quot;Producto Crítico&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="360" as="sourcePoint" />
+            <mxPoint x="465" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="4. Solicita confirmación adicional por el riesgo operativo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="400" as="sourcePoint" />
+            <mxPoint x="135" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Confirma la desactivación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="440" as="sourcePoint" />
+            <mxPoint x="465" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Envía la actualización&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="480" as="sourcePoint" />
+            <mxPoint x="745" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Actualizar atributo de criticidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="520" as="sourcePoint" />
+            <mxPoint x="1025" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu13e1-lifeline-entity-inner" value="8.&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Marca el material como crítico.&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="560" as="sourcePoint" />
+            <mxPoint x="1305" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-9" edge="1" parent="1" source="cu13e1-lifeline-entity-inner" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Confirmación de actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1305" y="600" as="sourcePoint" />
+            <mxPoint x="1035" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Producto actualizado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="640" as="sourcePoint" />
+            <mxPoint x="755" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Confirmación de actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="680" as="sourcePoint" />
+            <mxPoint x="475" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e1-msg-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Muestra el producto como no crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="720" as="sourcePoint" />
+            <mxPoint x="135" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pk83W5Y9dbnf0xrIP5x7-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ecepción 1" vertex="1">
+          <mxGeometry height="30" width="420" x="542.5" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9Up1uj8xfZTYaWqnWEhf-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="9Up1uj8xfZTYaWqnWEhf-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="740" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="9Up1uj8xfZTYaWqnWEhf-3" parent="9Up1uj8xfZTYaWqnWEhf-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="5" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="9Up1uj8xfZTYaWqnWEhf-5" parent="9Up1uj8xfZTYaWqnWEhf-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="180" width="10" x="5" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu13e2" name="Excepción 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1550" pageHeight="680" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="IBYzB_c2cvnyDTHLPGeO-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="690" width="1420" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="180" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-lifeline-view-inner" parent="cu13e2-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="85" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="180" x="660" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-lifeline-controller-inner" parent="cu13e2-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="85" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="180" x="940" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-lifeline-db-inner" parent="cu13e2-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="85" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="180" x="1220" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-lifeline-entity-inner" parent="cu13e2-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="85" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e2-msg-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita identificar un producto crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="465" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e2-msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra el estado de criticidad actual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="320" as="sourcePoint" />
+            <mxPoint x="135" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e2-msg-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Activa el marcador de &quot;Producto Crítico&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="360" as="sourcePoint" />
+            <mxPoint x="465" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e2-msg-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="4. Solicita confirmación del cambio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="400" as="sourcePoint" />
+            <mxPoint x="135" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e2-msg-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Cancela la confirmación del cambio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="440" as="sourcePoint" />
+            <mxPoint x="465" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e2-msg-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="7. Muestra que no se aplicaron cambios">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="520" as="sourcePoint" />
+            <mxPoint x="135" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="IBYzB_c2cvnyDTHLPGeO-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-13: Identificando productos críticos" vertex="1">
+          <mxGeometry height="30" width="420" x="540" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="IBYzB_c2cvnyDTHLPGeO-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Ecepción 2" vertex="1">
+          <mxGeometry height="30" width="420" x="540" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="W6HuoSsGuiXHEx6q6iMk-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="W6HuoSsGuiXHEx6q6iMk-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="540" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="W6HuoSsGuiXHEx6q6iMk-5" parent="W6HuoSsGuiXHEx6q6iMk-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="W6HuoSsGuiXHEx6q6iMk-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="&lt;span style=&quot;text-align: left;&quot;&gt;6. Mantiene el estado de criticidad anterior&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="470" as="sourcePoint" />
+            <mxPoint x="745" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W6HuoSsGuiXHEx6q6iMk-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu13e2-lifeline-view-inner" value="7. No se aplicaron cambios">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="500" as="sourcePoint" />
+            <mxPoint x="480" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu13e3" name="Excepción 3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1550" pageHeight="880" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OPQrtFwpOq-BKueyR2H0-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="925" width="1430" x="30" y="15" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-lifeline-view" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Editar Producto&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="380" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-lifeline-view-inner" parent="cu13e3-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="240" width="10" x="85" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="v8X-Rm4NYmFjGDI3_E7C-5" parent="cu13e3-lifeline-view" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-lifeline-controller" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="660" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-lifeline-controller-inner" parent="cu13e3-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="85" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="v8X-Rm4NYmFjGDI3_E7C-4" parent="cu13e3-lifeline-controller" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-lifeline-db" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="940" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-lifeline-db-inner" parent="cu13e3-lifeline-db" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="85" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-lifeline-entity" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="180" x="1250" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-lifeline-entity-inner" parent="cu13e3-lifeline-entity" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="85" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="cu13e3-msg-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Solicita identificar un producto crítico">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="280" as="sourcePoint" />
+            <mxPoint x="465" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="2. Muestra el estado de criticidad actual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="320" as="sourcePoint" />
+            <mxPoint x="135" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="3. Activa el marcador de &quot;Producto Crítico&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="360" as="sourcePoint" />
+            <mxPoint x="465" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="5. Confirma el cambio">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="440" as="sourcePoint" />
+            <mxPoint x="465" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="6. Envía la actualización&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="475" y="480" as="sourcePoint" />
+            <mxPoint x="745" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Actualizar atributo de criticidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="520" as="sourcePoint" />
+            <mxPoint x="1025" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu13e3-lifeline-entity-inner" value="8.&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Marca el material como crítico.&lt;/span&gt;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1035" y="560" as="sourcePoint" />
+            <mxPoint x="1305" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-9" edge="1" parent="1" source="cu13e3-lifeline-entity-inner" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="9. Error al actualizar el registro">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1305" y="600" as="sourcePoint" />
+            <mxPoint x="1035" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-10" edge="1" parent="1" source="v8X-Rm4NYmFjGDI3_E7C-2" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="10. Error de base de datos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="640" as="sourcePoint" />
+            <mxPoint x="755" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="11. Informa el fallo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="680" as="sourcePoint" />
+            <mxPoint x="475" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu13e3-msg-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="12. Solicita reintentar la operación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="720" as="sourcePoint" />
+            <mxPoint x="135" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8X-Rm4NYmFjGDI3_E7C-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="400" as="sourcePoint" />
+            <mxPoint x="135" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8X-Rm4NYmFjGDI3_E7C-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="v8X-Rm4NYmFjGDI3_E7C-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1025" y="640" as="sourcePoint" />
+            <mxPoint x="755" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="v8X-Rm4NYmFjGDI3_E7C-2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="1025" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="OPQrtFwpOq-BKueyR2H0-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-13: Identificando productos críticos" vertex="1">
+          <mxGeometry height="30" width="420" x="565" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="OPQrtFwpOq-BKueyR2H0-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 3" vertex="1">
+          <mxGeometry height="30" width="420" x="565" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="QsrCR5BLFZkKij8uExzc-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="100" y="155" as="geometry" />
+        </mxCell>
+        <mxCell id="QsrCR5BLFZkKij8uExzc-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="780" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="QsrCR5BLFZkKij8uExzc-3" parent="QsrCR5BLFZkKij8uExzc-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="20" width="10" x="5" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="QsrCR5BLFZkKij8uExzc-4" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="220" width="10" x="125" y="235" as="geometry" />
+        </mxCell>
+        <mxCell id="g_1xdQbWLbpFuVNCsy8b-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Solicita confirmación del cambio" vertex="1">
+          <mxGeometry height="30" width="210" x="193" y="378" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

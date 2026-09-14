@@ -1,0 +1,491 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram name="flujo general" id="EPmvwlaGpA9URxSL-aHS">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NnIxTEsnh7ZAEog8nAc1-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="540" width="1740" x="830" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-27" edge="1" parent="1" source="81x07nvNclBAP3qgBD7s-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" target="D_DEu7Lo9tfjLvXCfNLk-26" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="890" as="sourcePoint" />
+            <mxPoint x="885" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81x07nvNclBAP3qgBD7s-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="1550" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="81x07nvNclBAP3qgBD7s-2" parent="81x07nvNclBAP3qgBD7s-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="81x07nvNclBAP3qgBD7s-3" parent="81x07nvNclBAP3qgBD7s-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="95" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="81x07nvNclBAP3qgBD7s-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="1230" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="81x07nvNclBAP3qgBD7s-5" parent="81x07nvNclBAP3qgBD7s-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="81x07nvNclBAP3qgBD7s-6" parent="81x07nvNclBAP3qgBD7s-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-25" edge="1" parent="1" source="D_DEu7Lo9tfjLvXCfNLk-26" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="885" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="81x07nvNclBAP3qgBD7s-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="870" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="1820" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-5" parent="D_DEu7Lo9tfjLvXCfNLk-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="95" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="2090" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-8" parent="D_DEu7Lo9tfjLvXCfNLk-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="95" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="2350" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-12" parent="D_DEu7Lo9tfjLvXCfNLk-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="95" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-13" edge="1" parent="1" source="D_DEu7Lo9tfjLvXCfNLk-23" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="81x07nvNclBAP3qgBD7s-5" value="1. Registra un cambio físico de material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="980" as="sourcePoint" />
+            <mxPoint x="1320" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-14" edge="1" parent="1" source="81x07nvNclBAP3qgBD7s-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="81x07nvNclBAP3qgBD7s-2" value="2. Solicitar registro de movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1340" y="1010" as="sourcePoint" />
+            <mxPoint x="1635" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="D_DEu7Lo9tfjLvXCfNLk-5" value="3. Procesar cambio de saldo y validaciones de stock">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1654" y="1040" as="sourcePoint" />
+            <mxPoint x="1949" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Actualizar cantidad física disponible">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1925" y="1060" as="sourcePoint" />
+            <mxPoint x="2185" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="5. Retorna confirmación del nuevo saldo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1925" y="1100" as="sourcePoint" />
+            <mxPoint x="2185" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="D_DEu7Lo9tfjLvXCfNLk-12" value="6. Registrar evento para el historial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1925" y="1150" as="sourcePoint" />
+            <mxPoint x="2440" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="7. Retorna confirmación de registro guardado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1925" y="1190" as="sourcePoint" />
+            <mxPoint x="2445" y="1190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="8. Devolver éxito de la transacción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1654" y="1210" as="sourcePoint" />
+            <mxPoint x="1915" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-21" edge="1" parent="1" source="81x07nvNclBAP3qgBD7s-6" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="9. Emitir evento de refresco indicando actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1350" y="1240" as="sourcePoint" />
+            <mxPoint x="1645" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-22" edge="1" parent="1" source="D_DEu7Lo9tfjLvXCfNLk-26" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="10. Refresca automáticamente las pantallas activas y el usuario ve el stock actualizado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1030" y="1260" as="sourcePoint" />
+            <mxPoint x="1325" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-23" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="880" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="D_DEu7Lo9tfjLvXCfNLk-26" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="880" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="NnIxTEsnh7ZAEog8nAc1-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;font-size: 12px;&quot;&gt;CU-105: Actualizando el stock de manera instantánea&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="290" x="1555" y="810" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="w47FKew_0hdIsdV18QEa" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qOMkT0TRJQhhDrOH9h9f-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="650" width="1740" x="160" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-1" edge="1" parent="1" source="U7JiqSKJjbsNGjsoq53Z-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" target="U7JiqSKJjbsNGjsoq53Z-29" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="340" as="sourcePoint" />
+            <mxPoint x="215" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="570" width="200" x="880" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-4" parent="U7JiqSKJjbsNGjsoq53Z-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="410" width="10" x="95" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="570" width="200" x="560" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-7" parent="U7JiqSKJjbsNGjsoq53Z-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="460" width="10" x="95" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-8" edge="1" parent="1" source="U7JiqSKJjbsNGjsoq53Z-29" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="215" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="200" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="570" width="200" x="1150" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-11" parent="U7JiqSKJjbsNGjsoq53Z-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="440" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-2" edge="1" parent="U7JiqSKJjbsNGjsoq53Z-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;edgeStyle=orthogonalEdgeStyle;" value="6. Esperar y volver a ejecutar transacción">
+          <mxGeometry relative="1" x="0.0867" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="221.02999999999997" y="270.03" />
+              <mxPoint x="221.02999999999997" y="330.03" />
+            </Array>
+            <mxPoint x="105" y="270" as="sourcePoint" />
+            <mxPoint x="105" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="200" x="1420" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-15" parent="U7JiqSKJjbsNGjsoq53Z-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="95" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-13" parent="U7JiqSKJjbsNGjsoq53Z-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="570" width="200" x="1680" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-17" parent="U7JiqSKJjbsNGjsoq53Z-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="95" y="405" as="geometry" />
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Registra un cambio físico de material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="435" as="sourcePoint" />
+            <mxPoint x="655" y="435" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar registro de movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="665" y="460" as="sourcePoint" />
+            <mxPoint x="975" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="U7JiqSKJjbsNGjsoq53Z-11" value="3. Procesar cambio de saldo y validaciones de stock">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="984" y="490" as="sourcePoint" />
+            <mxPoint x="1279" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Intentar actualizar cantidad física disponible">
+          <mxGeometry relative="1" x="0.0045" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1255" y="510" as="sourcePoint" />
+            <mxPoint x="1515" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="5. Retorna error de concurrencia">
+          <mxGeometry relative="1" x="0.0045" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1255" y="550" as="sourcePoint" />
+            <mxPoint x="1515" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="U7JiqSKJjbsNGjsoq53Z-29" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="470" width="10" x="210" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="7. Reintentar actualizar cantidad física disponible">
+          <mxGeometry relative="1" x="0.0045" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1255" y="670" as="sourcePoint" />
+            <mxPoint x="1515" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="P7iGkOp3XoflnV9x3wj9-13" value="8. Retorna confirmación del nuevo saldo">
+          <mxGeometry relative="1" x="0.0045" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1255" y="705" as="sourcePoint" />
+            <mxPoint x="1510" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="9. Registrar evento para el historial">
+          <mxGeometry relative="1" x="0.0045" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1255" y="740" as="sourcePoint" />
+            <mxPoint x="1775" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="10. Retorna confirmación de registro guardado">
+          <mxGeometry relative="1" x="0.0045" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1255" y="768.8200000000002" as="sourcePoint" />
+            <mxPoint x="1775" y="768.82" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-8" edge="1" parent="1" source="U7JiqSKJjbsNGjsoq53Z-7" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="U7JiqSKJjbsNGjsoq53Z-4" value="12. Emitir evento de refresco indicando actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="830" as="sourcePoint" />
+            <mxPoint x="980" y="830" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="13. Refresca automáticamente las pantallas activas y el usuario ve el stock actualizado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="860" as="sourcePoint" />
+            <mxPoint x="655" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P7iGkOp3XoflnV9x3wj9-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="11. Devolver éxito de la transacción">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="985" y="800" as="sourcePoint" />
+            <mxPoint x="1245" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="b3PjFmfdunuyIbzdKn_G-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;CU-105: Actualizando el stock de manera instantánea&lt;/span&gt;&lt;/div&gt;Excepción 1" vertex="1">
+          <mxGeometry height="30" width="290" x="885" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fDGItIiS9QA9dYPwP-2v" name="Excepción 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="svBuHloTg5bQHemOH7XO-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="910" width="1730" x="140" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-1" edge="1" parent="1" source="jQp57ZjO3tmekxLel1GH-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="340" as="sourcePoint" />
+            <mxPoint x="185" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C movimientos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="200" x="850" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-1" edge="1" parent="jQp57ZjO3tmekxLel1GH-2" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="7. Encolar movimiento pendiente en memoria local">
+          <mxGeometry relative="1" x="0.0685" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="105" y="310" />
+              <mxPoint x="226" y="310" />
+              <mxPoint x="226" y="370" />
+            </Array>
+            <mxPoint x="105" y="315" as="sourcePoint" />
+            <mxPoint x="105" y="370.0588235294117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Productos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="200" x="530" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-6" parent="jQp57ZjO3tmekxLel1GH-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="95" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-7" parent="jQp57ZjO3tmekxLel1GH-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="75" width="10" x="95" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-8" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;endArrow=none;endFill=0;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="185" y="725" as="sourcePoint" />
+            <mxPoint x="185" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="60" width="30" x="170" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="200" x="1120" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-11" parent="jQp57ZjO3tmekxLel1GH-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="210" width="10" x="95" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-14" parent="jQp57ZjO3tmekxLel1GH-10" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="135" width="10" x="95" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="200" x="1390" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-15" parent="jQp57ZjO3tmekxLel1GH-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="95" y="185" as="geometry" />
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-13" parent="jQp57ZjO3tmekxLel1GH-14" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="95" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="200" x="1650" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="jQp57ZjO3tmekxLel1GH-6" value="1. Registra un cambio físico de material">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="435" as="sourcePoint" />
+            <mxPoint x="620" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-19" edge="1" parent="1" source="jQp57ZjO3tmekxLel1GH-6" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicitar registro de movimiento">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="640" y="460" as="sourcePoint" />
+            <mxPoint x="945" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="jQp57ZjO3tmekxLel1GH-11" value="3. Procesar cambio de saldo&amp;nbsp;">
+          <mxGeometry relative="1" x="-0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="954" y="490" as="sourcePoint" />
+            <mxPoint x="1249" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="4. Intentar actualizar cantidad física">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225" y="510" as="sourcePoint" />
+            <mxPoint x="1485" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="5. Retorna error sin conexión">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225" y="550" as="sourcePoint" />
+            <mxPoint x="1485" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="6. Devuelve fallo de conexión con la base de datos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="954" y="584" as="sourcePoint" />
+            <mxPoint x="1215" y="584" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="8. Emitir evento de estado &quot;En proceso&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="635" y="704.5" as="sourcePoint" />
+            <mxPoint x="945" y="704.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="jQp57ZjO3tmekxLel1GH-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="9. Informa al usuario que la actualización esta en proceso">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="720" as="sourcePoint" />
+            <mxPoint x="625" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="10. Iniciar reintento de procesamiento">
+          <mxGeometry relative="1" x="0.0685" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="955" y="760" />
+              <mxPoint x="1076" y="760" />
+              <mxPoint x="1076" y="820" />
+            </Array>
+            <mxPoint x="955" y="765" as="sourcePoint" />
+            <mxPoint x="955" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="11. Reintentar cambio de saldo">
+          <mxGeometry relative="1" x="-0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="955" y="882.5" as="sourcePoint" />
+            <mxPoint x="1215" y="882.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="apbeqq8PnVN6gPUQLX24-13" value="12. Intentar actualizar cantidad física">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225" y="900" as="sourcePoint" />
+            <mxPoint x="1470" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="13. Retorna error persistente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1225" y="940" as="sourcePoint" />
+            <mxPoint x="1485" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-9" edge="1" parent="1" source="apbeqq8PnVN6gPUQLX24-17" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="14. Devuelve fallo definitivo de conexión">
+          <mxGeometry relative="1" x="-0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="950" y="970" as="sourcePoint" />
+            <mxPoint x="1211" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-10" edge="1" parent="1" source="apbeqq8PnVN6gPUQLX24-17" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;startArrow=none;startFill=0;endFill=1;edgeStyle=orthogonalEdgeStyle;" value="15. Descartar movimiento encolado">
+          <mxGeometry relative="1" x="0.0685" y="4" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1081.03" y="1000.03" />
+              <mxPoint x="1081.03" y="1060.03" />
+            </Array>
+            <mxPoint x="960" y="1005" as="sourcePoint" />
+            <mxPoint x="955" y="1060.0588235294117" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-11" edge="1" parent="1" source="apbeqq8PnVN6gPUQLX24-20" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="16. Emitir evento de error crítico de sincronización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="1090" as="sourcePoint" />
+            <mxPoint x="945" y="1087.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="17. Solicita reintentar la operación manualmente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="190" y="1110" as="sourcePoint" />
+            <mxPoint x="625" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" target="apbeqq8PnVN6gPUQLX24-17" value="">
+          <mxGeometry relative="1" x="-0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="950" y="970" as="sourcePoint" />
+            <mxPoint x="1211" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-17" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="700" width="10" x="945" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" target="apbeqq8PnVN6gPUQLX24-20" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="630" y="1090" as="sourcePoint" />
+            <mxPoint x="940" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-20" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="625" y="1055" as="geometry" />
+        </mxCell>
+        <mxCell id="apbeqq8PnVN6gPUQLX24-22" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="720" width="10" x="180" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="svBuHloTg5bQHemOH7XO-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;div&gt;&lt;span style=&quot;text-align: left;&quot;&gt;CU-105: Actualizando el stock de manera instantánea&lt;/span&gt;&lt;/div&gt;Excepción 2" vertex="1">
+          <mxGeometry height="30" width="290" x="860" y="270" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

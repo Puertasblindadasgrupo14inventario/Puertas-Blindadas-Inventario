@@ -1,0 +1,727 @@
+<mxfile host="app.diagrams.net" pages="4">
+  <diagram name="Flujo general" id="kN2iGkcDu2TGpu3hV414">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Zn-yiO-oV7VcvRVNLjep-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="790" width="1776" x="1020" y="189" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-101: Analizando rentabilidad y sugerencia de precio&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="435" x="1690.5" y="299" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-2" edge="1" parent="1" source="dE4bmM8Ac82VP3KhmOWH-13" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="1. Selecciona una puerta fabricada">
+          <mxGeometry relative="1" x="-0.0698" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1080.5" y="498.71000000000004" as="sourcePoint" />
+            <mxPoint x="1305" y="498.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-3" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita información de costos consolidados">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1317" y="509" as="sourcePoint" />
+            <mxPoint x="1562" y="509" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="3. Consulta costos asociados a la pieza">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1577" y="519" as="sourcePoint" />
+            <mxPoint x="1845" y="519" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna información de cosos asociados">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1842" y="699" as="sourcePoint" />
+            <mxPoint x="1577" y="699" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-6" edge="1" parent="1" source="dE4bmM8Ac82VP3KhmOWH-26" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.133;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" value="12. Muestra costo total consolidado">
+          <mxGeometry relative="1" x="-0.0083" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1570.9" y="709" as="sourcePoint" />
+            <mxPoint x="1317" y="709" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1.15;exitY=0.84;exitDx=0;exitDy=0;exitPerimeter=0;" value="14. Ingresa margen de utilidad deseado">
+          <mxGeometry relative="1" x="-0.014" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1087.8" y="759.4000000000001" as="sourcePoint" />
+            <mxPoint x="1305" y="759" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.119;entryY=0.155;entryDx=0;entryDy=0;entryPerimeter=0;" value="15. Solicita cálculo de precio sugerido">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1317" y="784.7" as="sourcePoint" />
+            <mxPoint x="1563.5720000000001" y="783.3000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.23;exitY=0.774;exitDx=0;exitDy=0;exitPerimeter=0;" value="17. Retorna precio sugerido">
+          <mxGeometry relative="1" x="-0.0077" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1842.2399999999998" y="829" as="sourcePoint" />
+            <mxPoint x="1577.0038095238097" y="829.3400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-10" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="18. Muestra precio de venta sugerido">
+          <mxGeometry relative="1" x="-0.0251" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1566" y="849" as="sourcePoint" />
+            <mxPoint x="1317" y="849" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="520" width="20" x="1070" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-13" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1074" y="479" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" value="13. Refleja datos de costo total consolidado">
+          <mxGeometry relative="1" x="-0.0083" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1304" y="729" as="sourcePoint" />
+            <mxPoint x="1085.9959999999999" y="728.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1074" y="709" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.119;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" value="16. Calcula precio de venta sugerido">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1629.5" y="799.3" />
+            </Array>
+            <mxPoint x="1577" y="799.3" as="sourcePoint" />
+            <mxPoint x="1843.5720000000001" y="799" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.044;entryY=0.199;entryDx=0;entryDy=0;entryPerimeter=0;" value="19. Valida el valor para uso comercial">
+          <mxGeometry relative="1" x="-0.0233" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1305" y="859.8299999999999" as="sourcePoint" />
+            <mxPoint x="1086.528" y="859" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-18" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="20" width="12" x="1074" y="849" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="1050" y="429" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;font&gt;&lt;u style=&quot;&quot;&gt;V_&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Costos Orden Trabajo&lt;/span&gt;&lt;/u&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1236" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-21" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1305" y="489" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1305" y="699" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1305" y="839" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1496" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1565" y="499" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1565" y="689" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="1565" y="759" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-28" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1776" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="200" width="12" x="1845" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1845" y="789" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="190" x="2242" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="2026" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-33" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="200" x="2495" y="379" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-34" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="5. Consulta materiales asociados">
+          <mxGeometry relative="1" x="0.0361" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1857" y="529" as="sourcePoint" />
+            <mxPoint x="2096" y="529" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-35" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna información de materiales">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2094.5" y="559" as="sourcePoint" />
+            <mxPoint x="1857" y="559" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-36" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="7. Consulta cantidades de la OT">
+          <mxGeometry relative="1" x="-0.0235" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1857" y="589" as="sourcePoint" />
+            <mxPoint x="2326" y="589" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-37" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna información de cantidades de la OT">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2324.5" y="618.31" as="sourcePoint" />
+            <mxPoint x="1857" y="618.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-38" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="9. Consulta costos reales registrados">
+          <mxGeometry relative="1" x="-0.0015" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1860" y="649" as="sourcePoint" />
+            <mxPoint x="2589" y="649" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-39" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="10. Recupera informacion de costos reales registrados">
+          <mxGeometry relative="1" x="-0.0123" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2586" y="679" as="sourcePoint" />
+            <mxPoint x="1857" y="679" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2589" y="629" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="2331" y="579" as="geometry" />
+        </mxCell>
+        <mxCell id="dE4bmM8Ac82VP3KhmOWH-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2096" y="509" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="zNa9IUicXkEhEzIPRHVS" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="j47BipL_0_boO_hge-Z7-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="710" width="1726" x="1060" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-101: Analizando rentabilidad y sugerencia de precio&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="435" x="1680.5" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-3" edge="1" parent="1" source="pQ0WlC1xVP0dzNjbZ6U4-9" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="1. Selecciona una puerta fabricada">
+          <mxGeometry relative="1" x="-0.0698" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1120.5" y="509.71000000000004" as="sourcePoint" />
+            <mxPoint x="1345" y="509.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita información de costos consolidados">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1357" y="520" as="sourcePoint" />
+            <mxPoint x="1602" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="3. Consulta costos asociados a la pieza">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1617" y="530" as="sourcePoint" />
+            <mxPoint x="1885" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna información de cosos asociados">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1882" y="710" as="sourcePoint" />
+            <mxPoint x="1617" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-7" edge="1" parent="1" source="pQ0WlC1xVP0dzNjbZ6U4-17" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.133;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" value="12. Muestra sin costo total consolidado">
+          <mxGeometry relative="1" x="-0.0083" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1610.9" y="720" as="sourcePoint" />
+            <mxPoint x="1357" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="520" width="20" x="1110" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-9" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1114" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-10" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" value="13. Refleja sin costos consolidados">
+          <mxGeometry relative="1" x="-0.0083" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1344" y="740" as="sourcePoint" />
+            <mxPoint x="1125.9959999999999" y="739.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1114" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="1090" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Costos Orden Trabajo&lt;/span&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1276" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-14" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1345" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1536" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-16" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1605" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1605" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1816" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-19" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="200" width="12" x="1885" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="190" x="2282" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="2066" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="200" x="2535" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="5. Consulta materiales asociados">
+          <mxGeometry relative="1" x="0.0361" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1897" y="540" as="sourcePoint" />
+            <mxPoint x="2136" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna información de materiales">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2134.5" y="570" as="sourcePoint" />
+            <mxPoint x="1897" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="7. Consulta cantidades de la OT">
+          <mxGeometry relative="1" x="-0.0235" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1897" y="600" as="sourcePoint" />
+            <mxPoint x="2366" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna información de cantidades de la OT">
+          <mxGeometry relative="1" x="0.0374" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2364.5" y="629.31" as="sourcePoint" />
+            <mxPoint x="1897" y="629.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-27" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="9. Consulta costos reales registrados">
+          <mxGeometry relative="1" x="-0.0015" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="660" as="sourcePoint" />
+            <mxPoint x="2629" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="10. Recupera informacion de costos reales registrados">
+          <mxGeometry relative="1" x="-0.0123" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2626" y="690" as="sourcePoint" />
+            <mxPoint x="1897" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2629" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="2371" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2136" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="pQ0WlC1xVP0dzNjbZ6U4-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="96" x="1850" y="320" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5PASQ62RDpj-ntthpzIi" name="Excepción 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="QlKUWKYGjwWuQ3cjl3QC-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="710" width="1730" x="1203" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-2" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-101: Analizando rentabilidad y sugerencia de precio&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="435" x="1873.5" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-3" edge="1" parent="1" source="gzen13UPV1eJRj8wSyer-9" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="1. Selecciona una puerta fabricada">
+          <mxGeometry relative="1" x="-0.0698" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1273.5" y="419.71000000000004" as="sourcePoint" />
+            <mxPoint x="1498" y="419.71000000000004" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-4" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita información de costos consolidados">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1510" y="430" as="sourcePoint" />
+            <mxPoint x="1755" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="3. Consulta costos asociados a la pieza">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1770" y="440" as="sourcePoint" />
+            <mxPoint x="2038" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna información de cosos asociados">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2035" y="620" as="sourcePoint" />
+            <mxPoint x="1770" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-7" edge="1" parent="1" source="gzen13UPV1eJRj8wSyer-17" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.133;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" value="12. Muestra costos consolidados incompletos">
+          <mxGeometry relative="1" x="-0.0083" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1763.9" y="630" as="sourcePoint" />
+            <mxPoint x="1510" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="520" width="20" x="1263" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-9" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1267" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-10" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.083;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" value="13. Muestra advertencia datos incompletos">
+          <mxGeometry relative="1" x="-0.0083" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1497" y="650" as="sourcePoint" />
+            <mxPoint x="1278.9959999999999" y="649.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1267" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="1243" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-13" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Costos Orden Trabajo&lt;/span&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1429" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-14" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1498" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-15" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1689" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-16" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1758" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1758" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1969" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-19" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="200" width="12" x="2038" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="190" x="2435" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="2219" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="200" x="2688" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="5. Consulta materiales asociados">
+          <mxGeometry relative="1" x="0.0361" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2050" y="450" as="sourcePoint" />
+            <mxPoint x="2289" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna información de materiales">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2287.5" y="480" as="sourcePoint" />
+            <mxPoint x="2050" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="7. Consulta cantidades de la OT">
+          <mxGeometry relative="1" x="-0.0235" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2050" y="510" as="sourcePoint" />
+            <mxPoint x="2519" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna información de cantidades de la OT">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2517.5" y="539.31" as="sourcePoint" />
+            <mxPoint x="2050" y="539.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-27" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="9. Consulta costos reales registrados">
+          <mxGeometry relative="1" x="-0.0015" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2053" y="570" as="sourcePoint" />
+            <mxPoint x="2782" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-28" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="10. Recupera informacion de costos reales registrados">
+          <mxGeometry relative="1" x="-0.0123" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2779" y="600" as="sourcePoint" />
+            <mxPoint x="2050" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2782" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="2524" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2289" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="gzen13UPV1eJRj8wSyer-32" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="96" x="2043" y="230" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cSTYE8Tkk8CJwg7v9XmI" name="Excepción 3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xtEvv0KL-azn5FChOrwz-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="750" width="1776" x="1020" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-4" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-101: Analizando rentabilidad y sugerencia de precio&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="435" x="1723.5" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-5" edge="1" parent="1" source="LJc3yxrN-qv4uSMJrdub-15" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="1. Selecciona una puerta fabricada">
+          <mxGeometry relative="1" x="-0.0698" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1149" y="539.71" as="sourcePoint" />
+            <mxPoint x="1373.5" y="539.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-6" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1" value="2. Solicita información de costos consolidados">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1385.5" y="550" as="sourcePoint" />
+            <mxPoint x="1630.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="3. Consulta costos asociados a la pieza">
+          <mxGeometry relative="1" x="-0.0357" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1645.5" y="560" as="sourcePoint" />
+            <mxPoint x="1913.5" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="11. Retorna información de cosos asociados">
+          <mxGeometry relative="1" x="0.0357" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1910.5" y="740" as="sourcePoint" />
+            <mxPoint x="1645.5" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-9" edge="1" parent="1" source="LJc3yxrN-qv4uSMJrdub-28" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.133;exitY=0.667;exitDx=0;exitDy=0;exitPerimeter=0;" value="12. Muestra costo total consolidado">
+          <mxGeometry relative="1" x="-0.0083" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1639.4" y="750" as="sourcePoint" />
+            <mxPoint x="1385.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-10" edge="1" parent="1" source="LJc3yxrN-qv4uSMJrdub-14" style="rounded=0;html=1;endArrow=block;endFill=1;" value="14. Ingresa margen de utilidad deseado">
+          <mxGeometry relative="1" x="-0.014" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1156.3" y="800.4000000000001" as="sourcePoint" />
+            <mxPoint x="1373.5" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.119;entryY=0.155;entryDx=0;entryDy=0;entryPerimeter=0;" value="15. Solicita cálculo de precio sugerido">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1385.5" y="825.6999999999998" as="sourcePoint" />
+            <mxPoint x="1632.0720000000001" y="824.3000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.23;exitY=0.774;exitDx=0;exitDy=0;exitPerimeter=0;" value="17. Retorna error invalido">
+          <mxGeometry relative="1" x="-0.0064" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1910.7399999999998" y="870" as="sourcePoint" />
+            <mxPoint x="1645.5038095238097" y="870.3400000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-13" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="18. Muestra valor 0 o menor">
+          <mxGeometry relative="1" x="-0.0251" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1634.5" y="890" as="sourcePoint" />
+            <mxPoint x="1385.5" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="520" width="20" x="1087" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1091" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.187;entryY=0.328;entryDx=0;entryDy=0;entryPerimeter=0;" target="LJc3yxrN-qv4uSMJrdub-17" value="13. Refleja datos de costo total consolidado">
+          <mxGeometry relative="1" x="-0.0083" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1372.5" y="770" as="sourcePoint" />
+            <mxPoint x="1130" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1091" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.119;entryY=0.33;entryDx=0;entryDy=0;entryPerimeter=0;" value="16. Calcula precio de venta sugerido">
+          <mxGeometry relative="1" x="-0.0385" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1698" y="840.3000000000002" />
+            </Array>
+            <mxPoint x="1645.5" y="840.3000000000002" as="sourcePoint" />
+            <mxPoint x="1912.0720000000001" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" target="LJc3yxrN-qv4uSMJrdub-14" value="19. Muestra mensaje incompatible valor 0 o menor">
+          <mxGeometry relative="1" x="-0.0233" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1373.5" y="900.8299999999999" as="sourcePoint" />
+            <mxPoint x="1155.028" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-20" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="20" width="12" x="1091" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="1067" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_&lt;span style=&quot;color: rgb(0, 0, 0); font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; text-align: start; background-color: rgb(255, 255, 255);&quot;&gt;Costos Orden Trabajo&lt;/span&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1304.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1373.5" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1373.5" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1373.5" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-26" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_materiales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1564.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-27" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1633.5" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="1633.5" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="1633.5" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1844.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-31" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="200" width="12" x="1913.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="1913.5" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-33" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="190" x="2310.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="2094.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material_Orden_Trabajo&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="200" x="2563.5" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-36" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="5. Consulta materiales asociados">
+          <mxGeometry relative="1" x="0.0361" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1925.5" y="570" as="sourcePoint" />
+            <mxPoint x="2164.5" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-37" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna información de materiales">
+          <mxGeometry relative="1" x="0.0346" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2163" y="600" as="sourcePoint" />
+            <mxPoint x="1925.5" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-38" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="7. Consulta cantidades de la OT">
+          <mxGeometry relative="1" x="-0.0235" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1925.5" y="630" as="sourcePoint" />
+            <mxPoint x="2394.5" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-39" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna información de cantidades de la OT">
+          <mxGeometry relative="1" x="0.0328" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2393" y="659.31" as="sourcePoint" />
+            <mxPoint x="1925.5" y="659.31" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-40" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1" value="9. Consulta costos reales registrados">
+          <mxGeometry relative="1" x="-0.0015" y="7" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1928.5" y="690" as="sourcePoint" />
+            <mxPoint x="2657.5" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-41" edge="1" parent="1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=open;dashed=1" value="10. Recupera informacion de costos reales registrados">
+          <mxGeometry relative="1" x="-0.0123" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2654.5" y="720" as="sourcePoint" />
+            <mxPoint x="1925.5" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2657.5" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="50" width="12" x="2399.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-44" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2164.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="LJc3yxrN-qv4uSMJrdub-45" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 3" vertex="1">
+          <mxGeometry height="30" width="96" x="1893" y="360" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
