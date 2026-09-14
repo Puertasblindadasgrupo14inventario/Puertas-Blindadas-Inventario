@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Página-1" id="fF4w1A0bhzZ4BBvBmAi3">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="w2SevEr8LgmzT99JMj16-1" edge="1" parent="1" source="w2SevEr8LgmzT99JMj16-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w2SevEr8LgmzT99JMj16-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-2" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Validando y actualizando las existencias" vertex="1">
+          <mxGeometry height="80" width="120" x="300" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-3" edge="1" parent="1" source="w2SevEr8LgmzT99JMj16-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w2SevEr8LgmzT99JMj16-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-4" parent="1" style="ellipse;whiteSpace=wrap;html=1;" value="Generando reporte comparativo Estimado vs Real" vertex="1">
+          <mxGeometry height="80" width="120" x="480" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-7" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="270" width="580" x="270" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-8" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+          <mxGeometry height="340" width="750" x="150" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-9" parent="w2SevEr8LgmzT99JMj16-8" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Sistema" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-10" parent="w2SevEr8LgmzT99JMj16-8" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;Sistema de producción y ordenes&lt;/font&gt;&lt;/b&gt;" vertex="1">
+          <mxGeometry height="30" width="310" x="240" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-11" parent="w2SevEr8LgmzT99JMj16-8" style="ellipse;whiteSpace=wrap;html=1;" value="Procesando diferenciales de consumo" vertex="1">
+          <mxGeometry height="80" width="120" x="540" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-6" parent="w2SevEr8LgmzT99JMj16-8" style="ellipse;whiteSpace=wrap;html=1;" value="Consolidando costos por orden de trabajo&amp;nbsp;" vertex="1">
+          <mxGeometry height="80" width="120" x="540" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-5" edge="1" parent="w2SevEr8LgmzT99JMj16-8" source="w2SevEr8LgmzT99JMj16-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="w2SevEr8LgmzT99JMj16-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="w2SevEr8LgmzT99JMj16-16" edge="1" parent="1" source="w2SevEr8LgmzT99JMj16-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="w2SevEr8LgmzT99JMj16-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
