@@ -715,3 +715,49 @@ INSERT INTO finanzas.costo_proyecto (id_costo_proyecto, id_proyecto_financiero, 
 
 INSERT INTO finanzas.alerta_financiera (id_alerta_financiera, tipo_alerta, nivel_alerta, fecha_generacion, prioridad, estado, mensaje, id_cliente_financiero, id_proyecto_financiero, id_documento_tributario, id_documento_compra_proveedor, id_costo_proyecto, id_credito_proyecto) OVERRIDING SYSTEM VALUE VALUES (1, 'vencimiento_documento', 'media', '2026-06-02 23:10:18.751781-04', 'alta', 'pendiente', 'Documento FAC-E-002 vence en 30 días. Monto: $4.720.000', 2, 2, NULL, NULL, NULL, NULL);
 INSERT INTO finanzas.alerta_financiera (id_alerta_financiera, tipo_alerta, nivel_alerta, fecha_generacion, prioridad, estado, mensaje, id_cliente_financiero, id_proyecto_financiero, id_documento_tributario, id_documento_compra_proveedor, id_costo_proyecto, id_credito_proyecto) OVERRIDING SYSTEM VALUE VALUES (2, 'hito_pendiente', 'baja', '2026-06-02 23:10:18.751781-04', 'media', 'pendiente', 'Hito entrega final PRY-2024-002 vence 2025-01-15. Monto: $5.356.800', 2, 2, NULL, NULL, NULL, NULL);
+
+-- ============================================================
+-- Resetear secuencias IDENTITY para schema finanzas
+-- Necesario despues de INSERT con OVERRIDING SYSTEM VALUE
+-- ============================================================
+SELECT setval(pg_get_serial_sequence('finanzas.empleado_cargo', 'empleado_cargo_id_cargo'), (SELECT MAX(empleado_cargo_id_cargo) FROM finanzas.empleado_cargo));
+SELECT setval(pg_get_serial_sequence('finanzas.empleado_tipo_vinculo_laboral', 'empleado_tipo_vinculo_laboral_id_tipo_vinculo'), (SELECT MAX(empleado_tipo_vinculo_laboral_id_tipo_vinculo) FROM finanzas.empleado_tipo_vinculo_laboral));
+SELECT setval(pg_get_serial_sequence('finanzas.tipo_cliente', 'id_tipo_cliente'), (SELECT MAX(id_tipo_cliente) FROM finanzas.tipo_cliente));
+SELECT setval(pg_get_serial_sequence('finanzas.cliente_financiero', 'id_cliente_financiero'), (SELECT MAX(id_cliente_financiero) FROM finanzas.cliente_financiero));
+SELECT setval(pg_get_serial_sequence('finanzas.proyecto_financiero', 'id_proyecto_financiero'), (SELECT MAX(id_proyecto_financiero) FROM finanzas.proyecto_financiero));
+SELECT setval(pg_get_serial_sequence('finanzas.cotizacion', 'id_cotizacion'), (SELECT MAX(id_cotizacion) FROM finanzas.cotizacion));
+SELECT setval(pg_get_serial_sequence('finanzas.detalle_cotizacion', 'id_detalle_cotizacion'), (SELECT MAX(id_detalle_cotizacion) FROM finanzas.detalle_cotizacion));
+SELECT setval(pg_get_serial_sequence('finanzas.nota_venta', 'id_nota_venta'), (SELECT MAX(id_nota_venta) FROM finanzas.nota_venta));
+SELECT setval(pg_get_serial_sequence('finanzas.item_nota_venta', 'id_item_nota_venta'), (SELECT MAX(id_item_nota_venta) FROM finanzas.item_nota_venta));
+SELECT setval(pg_get_serial_sequence('finanzas.tipo_documento_tributario', 'id_tipo_documento_tributario'), (SELECT MAX(id_tipo_documento_tributario) FROM finanzas.tipo_documento_tributario));
+SELECT setval(pg_get_serial_sequence('finanzas.documento_tributario', 'id_documento_tributario'), (SELECT MAX(id_documento_tributario) FROM finanzas.documento_tributario));
+SELECT setval(pg_get_serial_sequence('finanzas.hito_cobro', 'id_hito_cobro'), (SELECT MAX(id_hito_cobro) FROM finanzas.hito_cobro));
+SELECT setval(pg_get_serial_sequence('finanzas.medio_pago', 'id_medio_pago'), (SELECT MAX(id_medio_pago) FROM finanzas.medio_pago));
+SELECT setval(pg_get_serial_sequence('finanzas.pago_cliente', 'id_pago_cliente'), (SELECT MAX(id_pago_cliente) FROM finanzas.pago_cliente));
+SELECT setval(pg_get_serial_sequence('finanzas.asignacion_pago_cliente', 'id_asignacion_pago_cliente'), (SELECT MAX(id_asignacion_pago_cliente) FROM finanzas.asignacion_pago_cliente));
+SELECT setval(pg_get_serial_sequence('finanzas.tipo_documento_compra_proveedor', 'id_tipo_documento_compra'), (SELECT MAX(id_tipo_documento_compra) FROM finanzas.tipo_documento_compra_proveedor));
+SELECT setval(pg_get_serial_sequence('finanzas.categoria_gasto', 'id_categoria_gasto'), (SELECT MAX(id_categoria_gasto) FROM finanzas.categoria_gasto));
+SELECT setval(pg_get_serial_sequence('finanzas.documento_compra_proveedor', 'id_documento_compra_proveedor'), (SELECT MAX(id_documento_compra_proveedor) FROM finanzas.documento_compra_proveedor));
+SELECT setval(pg_get_serial_sequence('finanzas.pago_proveedor', 'id_pago_proveedor'), (SELECT MAX(id_pago_proveedor) FROM finanzas.pago_proveedor));
+SELECT setval(pg_get_serial_sequence('finanzas.asignacion_pago_proveedor', 'id_asignacion_pago_proveedor'), (SELECT MAX(id_asignacion_pago_proveedor) FROM finanzas.asignacion_pago_proveedor));
+SELECT setval(pg_get_serial_sequence('finanzas.gasto_caja_chica', 'id_gasto_caja'), (SELECT MAX(id_gasto_caja) FROM finanzas.gasto_caja_chica));
+SELECT setval(pg_get_serial_sequence('finanzas.costo_proyecto', 'id_costo_proyecto'), (SELECT MAX(id_costo_proyecto) FROM finanzas.costo_proyecto));
+SELECT setval(pg_get_serial_sequence('finanzas.movimiento_financiero', 'id_movimiento_financiero'), (SELECT MAX(id_movimiento_financiero) FROM finanzas.movimiento_financiero));
+SELECT setval(pg_get_serial_sequence('finanzas.movimiento_bancario', 'id_movimiento_bancario'), (SELECT MAX(id_movimiento_bancario) FROM finanzas.movimiento_bancario));
+SELECT setval(pg_get_serial_sequence('finanzas.conciliacion', 'id_conciliacion'), (SELECT MAX(id_conciliacion) FROM finanzas.conciliacion));
+SELECT setval(pg_get_serial_sequence('finanzas.detalle_conciliacion', 'id_detalle_conciliacion'), (SELECT MAX(id_detalle_conciliacion) FROM finanzas.detalle_conciliacion));
+SELECT setval(pg_get_serial_sequence('finanzas.fondo_global_credito', 'id_fondo_credito'), (SELECT MAX(id_fondo_credito) FROM finanzas.fondo_global_credito));
+SELECT setval(pg_get_serial_sequence('finanzas.limite_credito_cliente', 'id_limite_credito_cliente'), (SELECT MAX(id_limite_credito_cliente) FROM finanzas.limite_credito_cliente));
+SELECT setval(pg_get_serial_sequence('finanzas.parametro_riesgo_financiero', 'id_parametro_riesgo'), (SELECT MAX(id_parametro_riesgo) FROM finanzas.parametro_riesgo_financiero));
+SELECT setval(pg_get_serial_sequence('finanzas.evaluacion_credito', 'id_evaluacion_credito'), (SELECT MAX(id_evaluacion_credito) FROM finanzas.evaluacion_credito));
+SELECT setval(pg_get_serial_sequence('finanzas.detalle_evaluacion_credito', 'id_detalle_evaluacion_credito'), (SELECT MAX(id_detalle_evaluacion_credito) FROM finanzas.detalle_evaluacion_credito));
+SELECT setval(pg_get_serial_sequence('finanzas.credito_proyecto', 'id_credito_proyecto'), (SELECT MAX(id_credito_proyecto) FROM finanzas.credito_proyecto));
+SELECT setval(pg_get_serial_sequence('finanzas.tipo_tarea_catalogada', 'id_tipo_tarea'), (SELECT MAX(id_tipo_tarea) FROM finanzas.tipo_tarea_catalogada));
+SELECT setval(pg_get_serial_sequence('finanzas.tarea_catalogada', 'id_tarea_catalogada'), (SELECT MAX(id_tarea_catalogada) FROM finanzas.tarea_catalogada));
+SELECT setval(pg_get_serial_sequence('finanzas.tarifa_tarea', 'id_tarifa_tarea'), (SELECT MAX(id_tarifa_tarea) FROM finanzas.tarifa_tarea));
+SELECT setval(pg_get_serial_sequence('finanzas.tarea_remunerable', 'id_tarea_remunerable'), (SELECT MAX(id_tarea_remunerable) FROM finanzas.tarea_remunerable));
+SELECT setval(pg_get_serial_sequence('finanzas.liquidacion_remuneracion', 'id_liquidacion'), (SELECT MAX(id_liquidacion) FROM finanzas.liquidacion_remuneracion));
+SELECT setval(pg_get_serial_sequence('finanzas.concepto_remuneracion', 'id_concepto_remuneracion'), (SELECT MAX(id_concepto_remuneracion) FROM finanzas.concepto_remuneracion));
+SELECT setval(pg_get_serial_sequence('finanzas.evento_auditoria', 'id_evento'), (SELECT MAX(id_evento) FROM finanzas.evento_auditoria));
+-- SKIP finanzas.detalle_evento_auditoria.id_detalle_evento (sin datos insertados)
+SELECT setval(pg_get_serial_sequence('finanzas.alerta_financiera', 'id_alerta_financiera'), (SELECT MAX(id_alerta_financiera) FROM finanzas.alerta_financiera));

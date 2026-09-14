@@ -269,3 +269,27 @@ INSERT INTO terreno.tarea_tipo (id_tarea_tipo, tiempo_estimado_tarea, remuneraci
 INSERT INTO terreno.tarea_usuario (id_tarea, id_usuario) VALUES (1, 3);
 INSERT INTO terreno.tarea_usuario (id_tarea, id_usuario) VALUES (2, 3);
 INSERT INTO terreno.tarea_usuario (id_tarea, id_usuario) VALUES (3, 2);
+
+-- ============================================================
+-- Resetear secuencias IDENTITY para schema terreno
+-- Necesario despues de INSERT con OVERRIDING SYSTEM VALUE
+-- ============================================================
+SELECT setval(pg_get_serial_sequence('terreno.medidas_puerta', 'id_medidas'), (SELECT MAX(id_medidas) FROM terreno.medidas_puerta));
+SELECT setval(pg_get_serial_sequence('terreno.especificacion_puerta', 'id_especificacion_puerta'), (SELECT MAX(id_especificacion_puerta) FROM terreno.especificacion_puerta));
+SELECT setval(pg_get_serial_sequence('terreno.especificacion_metalmecanica', 'id_metalmecanica'), (SELECT MAX(id_metalmecanica) FROM terreno.especificacion_metalmecanica));
+SELECT setval(pg_get_serial_sequence('terreno.especificacion_terminaciones', 'id_terminacion'), (SELECT MAX(id_terminacion) FROM terreno.especificacion_terminaciones));
+SELECT setval(pg_get_serial_sequence('terreno.adicionales_pagados', 'id_adicionales'), (SELECT MAX(id_adicionales) FROM terreno.adicionales_pagados));
+SELECT setval(pg_get_serial_sequence('terreno.historial_cambio_orden_trabajo', 'id_cambio'), (SELECT MAX(id_cambio) FROM terreno.historial_cambio_orden_trabajo));
+SELECT setval(pg_get_serial_sequence('terreno.proyecto', 'id_proyecto'), (SELECT MAX(id_proyecto) FROM terreno.proyecto));
+SELECT setval(pg_get_serial_sequence('terreno.obra', 'id_obra'), (SELECT MAX(id_obra) FROM terreno.obra));
+SELECT setval(pg_get_serial_sequence('terreno.especificacion_proyecto_terreno', 'id_especificacion_proyecto_terreno'), (SELECT MAX(id_especificacion_proyecto_terreno) FROM terreno.especificacion_proyecto_terreno));
+SELECT setval(pg_get_serial_sequence('terreno.checklist_de_materiales', 'id_checklist_de_materiales'), (SELECT MAX(id_checklist_de_materiales) FROM terreno.checklist_de_materiales));
+SELECT setval(pg_get_serial_sequence('terreno.servicio_terreno', 'id_servicio_terreno'), (SELECT MAX(id_servicio_terreno) FROM terreno.servicio_terreno));
+SELECT setval(pg_get_serial_sequence('terreno.servicio_terreno_herramientas_materiales', 'id_servicio_terreno_herramientas_materiales'), (SELECT MAX(id_servicio_terreno_herramientas_materiales) FROM terreno.servicio_terreno_herramientas_materiales));
+SELECT setval(pg_get_serial_sequence('terreno.tarea', 'id_tarea'), (SELECT MAX(id_tarea) FROM terreno.tarea));
+SELECT setval(pg_get_serial_sequence('terreno.tarea_tipo', 'id_tarea_tipo'), (SELECT MAX(id_tarea_tipo) FROM terreno.tarea_tipo));
+SELECT setval(pg_get_serial_sequence('terreno.receptor', 'id_receptor'), (SELECT MAX(id_receptor) FROM terreno.receptor));
+SELECT setval(pg_get_serial_sequence('terreno.formulario_de_cierre', 'id_formulario_de_cierre'), (SELECT MAX(id_formulario_de_cierre) FROM terreno.formulario_de_cierre));
+SELECT setval(pg_get_serial_sequence('terreno.prestamo_herramientas', 'id_prestamo_herramienta'), (SELECT MAX(id_prestamo_herramienta) FROM terreno.prestamo_herramientas));
+SELECT setval(pg_get_serial_sequence('terreno.notificacion_tecnico', 'id_notificacion_tecnico'), (SELECT MAX(id_notificacion_tecnico) FROM terreno.notificacion_tecnico));
+SELECT setval(pg_get_serial_sequence('terreno.notificacion_terreno', 'id_notificacion_terreno'), (SELECT MAX(id_notificacion_terreno) FROM terreno.notificacion_terreno));

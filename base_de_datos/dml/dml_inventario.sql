@@ -1136,3 +1136,42 @@ INSERT INTO inventario.usuario_contrasena (usuario_id_usuario, usuario_contrasen
 INSERT INTO inventario.usuario_contrasena (usuario_id_usuario, usuario_contrasena, es_temporal) VALUES (10, '$2b$12$t6Aatpzv17vyockvhkypwe1r4PnPEIqv8wIGUIt43BVMSPA/tR4F.', false);
 INSERT INTO inventario.usuario_contrasena (usuario_id_usuario, usuario_contrasena, es_temporal) VALUES (4, '$2b$12$F5Tf/lIhQEI/Mj1eAoo9UunF3u1ENR/6qxIwivZWRL1ZNFH1y.efm', false);
 INSERT INTO inventario.usuario_contrasena (usuario_id_usuario, usuario_contrasena, es_temporal) VALUES (6, '$2b$12$ooWuCMWEck3ZleUdoqHBaOECH3.u7IAfiZ4eiIumvQcHVsuDn5Jr.', false);
+
+-- ============================================================
+-- Resetear secuencias IDENTITY para schema inventario
+-- Necesario despues de INSERT con OVERRIDING SYSTEM VALUE
+-- ============================================================
+SELECT setval(pg_get_serial_sequence('inventario.material_categoria_general', 'material_categoria_general_id_categoria_general'), (SELECT MAX(material_categoria_general_id_categoria_general) FROM inventario.material_categoria_general));
+SELECT setval(pg_get_serial_sequence('inventario.material_categoria_funcional', 'material_categoria_funcional_id_categoria_funcional'), (SELECT MAX(material_categoria_funcional_id_categoria_funcional) FROM inventario.material_categoria_funcional));
+SELECT setval(pg_get_serial_sequence('inventario.material_clasificacion_categoria', 'material_clasificacion_categoria_id'), (SELECT MAX(material_clasificacion_categoria_id) FROM inventario.material_clasificacion_categoria));
+SELECT setval(pg_get_serial_sequence('inventario.material_clasificacion_subcategoria', 'material_clasificacion_subcategoria_id'), (SELECT MAX(material_clasificacion_subcategoria_id) FROM inventario.material_clasificacion_subcategoria));
+SELECT setval(pg_get_serial_sequence('inventario.material_clasificacion_nivel_especifico', 'material_clasificacion_nivel_especifico_id'), (SELECT MAX(material_clasificacion_nivel_especifico_id) FROM inventario.material_clasificacion_nivel_especifico));
+SELECT setval(pg_get_serial_sequence('inventario.material_unidad_medida', 'material_unidad_medida_id_unidad_medida'), (SELECT MAX(material_unidad_medida_id_unidad_medida) FROM inventario.material_unidad_medida));
+SELECT setval(pg_get_serial_sequence('inventario.historial_alerta', 'historial_alerta_id_historial'), (SELECT MAX(historial_alerta_id_historial) FROM inventario.historial_alerta));
+SELECT setval(pg_get_serial_sequence('inventario.alerta_inventario_nivel_prioridad', 'alerta_inventario_nivel_prioridad_id_nivel_prioridad'), (SELECT MAX(alerta_inventario_nivel_prioridad_id_nivel_prioridad) FROM inventario.alerta_inventario_nivel_prioridad));
+SELECT setval(pg_get_serial_sequence('inventario.alerta_inventario_tipo_alerta', 'alerta_inventario_tipo_alerta_id_tipo_alerta'), (SELECT MAX(alerta_inventario_tipo_alerta_id_tipo_alerta) FROM inventario.alerta_inventario_tipo_alerta));
+SELECT setval(pg_get_serial_sequence('inventario.movimiento_inventario_tipo_movimiento', 'movimiento_inventario_tipo_movimiento_id_tipo_movimiento'), (SELECT MAX(movimiento_inventario_tipo_movimiento_id_tipo_movimiento) FROM inventario.movimiento_inventario_tipo_movimiento));
+SELECT setval(pg_get_serial_sequence('inventario.movimiento_inventario_clasificacion_salida', 'movimiento_inventario_clasificacion_salida_id_clasificacion_sal'), (SELECT MAX(movimiento_inventario_clasificacion_salida_id_clasificacion_sal) FROM inventario.movimiento_inventario_clasificacion_salida));
+SELECT setval(pg_get_serial_sequence('inventario.movimiento_inventario_motivo_movimiento', 'movimiento_inventario_motivo_movimiento_id_motivo_movimiento'), (SELECT MAX(movimiento_inventario_motivo_movimiento_id_motivo_movimiento) FROM inventario.movimiento_inventario_motivo_movimiento));
+SELECT setval(pg_get_serial_sequence('inventario.factura_compra_tipo_cambio', 'factura_compra_tipo_cambio_id_tipo_cambio'), (SELECT MAX(factura_compra_tipo_cambio_id_tipo_cambio) FROM inventario.factura_compra_tipo_cambio));
+SELECT setval(pg_get_serial_sequence('inventario.perfil', 'perfil_id_perfil'), (SELECT MAX(perfil_id_perfil) FROM inventario.perfil));
+SELECT setval(pg_get_serial_sequence('inventario.permiso', 'permiso_id_permiso'), (SELECT MAX(permiso_id_permiso) FROM inventario.permiso));
+SELECT setval(pg_get_serial_sequence('inventario.area_trabajo', 'area_trabajo_id_area'), (SELECT MAX(area_trabajo_id_area) FROM inventario.area_trabajo));
+SELECT setval(pg_get_serial_sequence('inventario.producto_terminado', 'producto_terminado_id_producto'), (SELECT MAX(producto_terminado_id_producto) FROM inventario.producto_terminado));
+SELECT setval(pg_get_serial_sequence('inventario.bodega', 'bodega_id_bodega'), (SELECT MAX(bodega_id_bodega) FROM inventario.bodega));
+SELECT setval(pg_get_serial_sequence('inventario.proveedor', 'proveedor_id_proveedor'), (SELECT MAX(proveedor_id_proveedor) FROM inventario.proveedor));
+SELECT setval(pg_get_serial_sequence('inventario.anaquel', 'anaquel_id_anaquel'), (SELECT MAX(anaquel_id_anaquel) FROM inventario.anaquel));
+SELECT setval(pg_get_serial_sequence('inventario.factura_compra', 'factura_compra_id_factura'), (SELECT MAX(factura_compra_id_factura) FROM inventario.factura_compra));
+SELECT setval(pg_get_serial_sequence('inventario.lote', 'lote_id_lote'), (SELECT MAX(lote_id_lote) FROM inventario.lote));
+SELECT setval(pg_get_serial_sequence('inventario.lote_fecha_pedido', 'lote_fecha_pedido_id'), (SELECT MAX(lote_fecha_pedido_id) FROM inventario.lote_fecha_pedido));
+SELECT setval(pg_get_serial_sequence('inventario.movimiento_inventario', 'movimiento_inventario_id_movimiento'), (SELECT MAX(movimiento_inventario_id_movimiento) FROM inventario.movimiento_inventario));
+SELECT setval(pg_get_serial_sequence('inventario.alerta_inventario', 'alerta_inventario_id_alerta'), (SELECT MAX(alerta_inventario_id_alerta) FROM inventario.alerta_inventario));
+SELECT setval(pg_get_serial_sequence('inventario.reserva_inventario', 'reserva_inventario_id_reserva'), (SELECT MAX(reserva_inventario_id_reserva) FROM inventario.reserva_inventario));
+SELECT setval(pg_get_serial_sequence('inventario.alerta_faltante_pedido', 'alerta_faltante_pedido_id_alerta_faltante'), (SELECT MAX(alerta_faltante_pedido_id_alerta_faltante) FROM inventario.alerta_faltante_pedido));
+SELECT setval(pg_get_serial_sequence('inventario.notificacion', 'notificacion_id_notificacion'), (SELECT MAX(notificacion_id_notificacion) FROM inventario.notificacion));
+SELECT setval(pg_get_serial_sequence('inventario.preparacion_pedido', 'preparacion_pedido_id_preparacion'), (SELECT MAX(preparacion_pedido_id_preparacion) FROM inventario.preparacion_pedido));
+SELECT setval(pg_get_serial_sequence('inventario.preparacion_pedido_estado', 'preparacion_pedido_estado_id_estado_preparacion'), (SELECT MAX(preparacion_pedido_estado_id_estado_preparacion) FROM inventario.preparacion_pedido_estado));
+SELECT setval(pg_get_serial_sequence('inventario.usuario', 'usuario_id_usuario'), (SELECT MAX(usuario_id_usuario) FROM inventario.usuario));
+SELECT setval(pg_get_serial_sequence('inventario.orden_trabajo', 'orden_trabajo_id_orden'), (SELECT MAX(orden_trabajo_id_orden) FROM inventario.orden_trabajo));
+SELECT setval(pg_get_serial_sequence('inventario.insumo_estandar_proceso', 'insumo_estandar_proceso_id_insumo_estandar'), (SELECT MAX(insumo_estandar_proceso_id_insumo_estandar) FROM inventario.insumo_estandar_proceso));
+SELECT setval(pg_get_serial_sequence('inventario.reporte', 'reporte_id_reporte'), (SELECT MAX(reporte_id_reporte) FROM inventario.reporte));
