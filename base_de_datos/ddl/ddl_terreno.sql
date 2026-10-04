@@ -4,6 +4,9 @@
 -- Schema: terreno
 -- ============================================================
 
+-- El archivo es UTF-8: sin esto, psql en Windows lo lee como WIN1252 y daña los acentos
+SET client_encoding = 'UTF8';
+
 BEGIN;
 
 DROP SCHEMA IF EXISTS terreno CASCADE;
@@ -90,6 +93,7 @@ CREATE TABLE especificacion_puerta (
     bisagras                    TEXT    NOT NULL,
     observaciones               TEXT,
     id_medidas                  BIGINT  NOT NULL,
+    producto_terminado_id       BIGINT,
     CONSTRAINT pk_especificacion_puerta PRIMARY KEY (id_especificacion_puerta),
     CONSTRAINT uk_esp_puerta_medidas UNIQUE (id_medidas)
 );
@@ -360,19 +364,10 @@ CREATE TABLE formulario_de_cierre (
 -- ══════════════════════════════════════════════════════════════
 
 -- FK blanda: rut_empleado → finanzas.empleado, sku_material → inventario.material
-CREATE TABLE prestamo_herramientas (
-    id_prestamo_herramienta  BIGINT GENERATED ALWAYS AS IDENTITY NOT NULL,
-    fecha_entrega            TIMESTAMPTZ NOT NULL,
-    fecha_devolucion         TIMESTAMPTZ NOT NULL,
-    cantidad                 INTEGER     NOT NULL,
-    estado_de_prestamo       TEXT        NOT NULL,
-    observacion              TEXT,
-    -- FK blanda hacia finanzas.empleado
-    rut_empleado             VARCHAR(12) NOT NULL,
-    -- FK blanda hacia inventario.material
-    sku_material             BIGINT      NOT NULL,
-    CONSTRAINT pk_prestamo_herramientas PRIMARY KEY (id_prestamo_herramienta)
-);
+-- prestamo_herramientas ELIMINADA el 2026-09-19.
+-- La reemplaza inventario.asignacion_herramienta (OPUS-13), que sí puede
+-- representar un préstamo vigente y referencia material_sku con el tipo correcto.
+-- Sus 2 filas y el motivo completo quedaron en historico_prestamo_herramientas.sql.
 
 CREATE TABLE notificacion_tecnico (
     id_notificacion_tecnico  BIGINT GENERATED ALWAYS AS IDENTITY NOT NULL,
@@ -495,10 +490,12 @@ CREATE INDEX idx_tarea_estado   ON tarea(estado_de_tarea);
 CREATE INDEX idx_nt_st          ON notificacion_tecnico(id_servicio_terreno);
 CREATE INDEX idx_nter_tarea     ON notificacion_terreno(id_tarea);
 
-CREATE INDEX idx_prestamo_emp   ON prestamo_herramientas(rut_empleado);
-CREATE INDEX idx_prestamo_mat   ON prestamo_herramientas(sku_material);
 
 CREATE INDEX idx_receptor_tarea ON receptor(id_tarea);
+
+-- OPUS-19: de aqui sale la receta de la OT
+CREATE INDEX idx_esp_puerta_producto ON especificacion_puerta(producto_terminado_id)
+    WHERE producto_terminado_id IS NOT NULL;
 
 -- ══════════════════════════════════════════════════════════════
 -- BLOQUE 9 — COMENTARIOS
@@ -516,7 +513,7 @@ COMMENT ON COLUMN tarea_usuario.id_usuario IS 'FK blanda hacia inventario.usuari
 COMMENT ON COLUMN notificacion_tecnico.id_usuario IS 'FK blanda hacia inventario.usuario — sin constraint cross-schema';
 COMMENT ON COLUMN notificacion_terreno.id_usuario IS 'FK blanda hacia inventario.usuario — sin constraint cross-schema';
 COMMENT ON COLUMN detalles_herraje.sku_material IS 'FK blanda hacia inventario.material — sin constraint cross-schema';
-COMMENT ON COLUMN prestamo_herramientas.rut_empleado IS 'FK blanda hacia finanzas.empleado — sin constraint cross-schema';
-COMMENT ON COLUMN prestamo_herramientas.sku_material IS 'FK blanda hacia inventario.material — sin constraint cross-schema';
+COMMENT ON COLUMN especificacion_puerta.producto_terminado_id IS 'FK blanda hacia inventario.producto_terminado — de aqui sale la receta de la OT (OPUS-19)';
+
 
 COMMIT;

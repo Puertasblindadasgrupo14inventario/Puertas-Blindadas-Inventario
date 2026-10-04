@@ -4,6 +4,9 @@
 -- Schema: finanzas
 -- ============================================================
 
+-- El archivo es UTF-8: sin esto, psql en Windows lo lee como WIN1252 y daña los acentos
+SET client_encoding = 'UTF8';
+
 BEGIN;
 
 DROP SCHEMA IF EXISTS finanzas CASCADE;
@@ -163,6 +166,8 @@ CREATE TABLE item_nota_venta (
     id_nota_venta          BIGINT        NOT NULL,
     -- FK blanda hacia inventario.producto_terminado
     id_producto_terminado  BIGINT,
+    -- FK blanda hacia inventario.material: material vendido suelto (agregada por Inventario, 2026-09-28)
+    sku_material           VARCHAR(16),
     descripcion_item       TEXT          NOT NULL,
     cantidad               NUMERIC(12,2) NOT NULL,
     alto                   NUMERIC(10,2),
@@ -817,6 +822,7 @@ CREATE INDEX idx_cot_estado        ON cotizacion(estado);
 CREATE INDEX idx_nv_cliente        ON nota_venta(id_cliente_financiero);
 CREATE INDEX idx_nv_proyecto       ON nota_venta(id_proyecto_financiero);
 CREATE INDEX idx_nv_estado_pedido  ON nota_venta(estado_pedido);
+CREATE INDEX idx_inv_sku_material  ON item_nota_venta(sku_material);   -- Inventario, 2026-09-28
 
 CREATE INDEX idx_pc_cliente        ON pago_cliente(id_cliente_financiero);
 CREATE INDEX idx_pc_estado         ON pago_cliente(estado_pago);
@@ -855,6 +861,7 @@ COMMENT ON COLUMN cotizacion.id_usuario_creador IS 'FK blanda hacia inventario.u
 COMMENT ON COLUMN detalle_cotizacion.sku_material IS 'FK blanda hacia inventario.material — sin constraint cross-schema';
 COMMENT ON COLUMN detalle_cotizacion.id_precio_material IS 'FK blanda hacia inventario.lote_fecha_pedido — sin constraint cross-schema';
 COMMENT ON COLUMN item_nota_venta.id_producto_terminado IS 'FK blanda hacia inventario.producto_terminado — sin constraint cross-schema';
+COMMENT ON COLUMN item_nota_venta.sku_material IS 'FK blanda hacia inventario.material — sin constraint cross-schema. Material vendido suelto; NULL en lineas de puerta (id_producto_terminado) o de servicio. Agregada por Inventario (Grupo 14) el 2026-09-28.';
 COMMENT ON COLUMN documento_compra_proveedor.id_proveedor IS 'FK blanda hacia inventario.proveedor — sin constraint cross-schema';
 COMMENT ON COLUMN pago_proveedor.id_proveedor IS 'FK blanda hacia inventario.proveedor — sin constraint cross-schema';
 COMMENT ON COLUMN tarea_remunerable.id_producto_terminado IS 'FK blanda hacia inventario.producto_terminado — sin constraint cross-schema';
