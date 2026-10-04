@@ -1,0 +1,910 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Diagrama general" id="7I_J4sRIMMpTz26gYg8E">
+    <mxGraphModel dx="3655" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="OR17UA-ZLewb028CIFzf-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="870" width="2660" x="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="kWzgWA6AE1xoLex3y0sl-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Gerencia" vertex="1">
+          <mxGeometry height="760" width="20" x="-661" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-1" parent="kWzgWA6AE1xoLex3y0sl-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-47" parent="kWzgWA6AE1xoLex3y0sl-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="kWzgWA6AE1xoLex3y0sl-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V Alertas de Faltantes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="145" x="-214" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-2" parent="kWzgWA6AE1xoLex3y0sl-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="68" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-46" parent="kWzgWA6AE1xoLex3y0sl-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="68" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="kWzgWA6AE1xoLex3y0sl-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_insumosEspeciales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="122" x="132" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-5" parent="kWzgWA6AE1xoLex3y0sl-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="430" width="10" x="57" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-15" edge="1" parent="kWzgWA6AE1xoLex3y0sl-3" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="fBVpnlmLJa5uZCZev4XU-5" value="7. Detectar clasificación especial de producto por su marca de no rotativo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.02" y="170" />
+              <mxPoint x="87.02" y="190" />
+            </Array>
+            <mxPoint x="78" y="200" as="sourcePoint" />
+            <mxPoint x="83" y="229.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-23" edge="1" parent="kWzgWA6AE1xoLex3y0sl-3" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="fBVpnlmLJa5uZCZev4XU-5" value="12. Verificar que no exista alerta activa para el mismo producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="280" />
+              <mxPoint x="87" y="300" />
+            </Array>
+            <mxPoint x="78" y="280" as="sourcePoint" />
+            <mxPoint x="83" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-31" edge="1" parent="kWzgWA6AE1xoLex3y0sl-3" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="fBVpnlmLJa5uZCZev4XU-5" value="17. Verificar que el producto especial tenga proveedor registrado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="390" />
+              <mxPoint x="87" y="410" />
+            </Array>
+            <mxPoint x="78" y="400" as="sourcePoint" />
+            <mxPoint x="83" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-33" edge="1" parent="kWzgWA6AE1xoLex3y0sl-3" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="fBVpnlmLJa5uZCZev4XU-5" value="18. Verificar que material no esté marcado como descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="430" />
+              <mxPoint x="87" y="450" />
+            </Array>
+            <mxPoint x="78" y="430" as="sourcePoint" />
+            <mxPoint x="83" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-35" edge="1" parent="kWzgWA6AE1xoLex3y0sl-3" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="fBVpnlmLJa5uZCZev4XU-5" value="19. Calcular fecha límite estimada según el plazo de instalación del pedido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="86.96" y="470" />
+              <mxPoint x="86.96" y="490" />
+            </Array>
+            <mxPoint x="78" y="470" as="sourcePoint" />
+            <mxPoint x="83" y="500.02222222222224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-45" parent="kWzgWA6AE1xoLex3y0sl-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="56" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="kWzgWA6AE1xoLex3y0sl-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="100" x="540" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-8" parent="kWzgWA6AE1xoLex3y0sl-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-16" parent="kWzgWA6AE1xoLex3y0sl-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-24" parent="kWzgWA6AE1xoLex3y0sl-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-36" parent="kWzgWA6AE1xoLex3y0sl-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="135" width="10" x="45" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="kWzgWA6AE1xoLex3y0sl-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Item_Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="100" x="1290" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-11" parent="kWzgWA6AE1xoLex3y0sl-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="kWzgWA6AE1xoLex3y0sl-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Alerta_Faltante_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="750" width="136" x="1588" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-19" parent="kWzgWA6AE1xoLex3y0sl-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="63" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-39" parent="kWzgWA6AE1xoLex3y0sl-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="63" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="kWzgWA6AE1xoLex3y0sl-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="116" x="1420" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-27" parent="kWzgWA6AE1xoLex3y0sl-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="53" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="kWzgWA6AE1xoLex3y0sl-73" parent="1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;CU-122: Controlando insumos especiales&lt;/span&gt;" vertex="1">
+          <mxGeometry height="20" width="380" x="430" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="o5vT-q8y26zR8PhjQEOp-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Notificacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="106" x="1810" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-42" parent="o5vT-q8y26zR8PhjQEOp-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="48" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-3" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-2" value="1. Registra una venta que tiene un producto marcado como &quot;Especial/ No Rotativo&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-216" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-6" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-5" value="2. Enviar venta registrada con sus productos para evaluación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-9" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-8" value="3. Consultar la clasificación de los productos de la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-12" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-11" value="4. Obtiene los items de la ventas no canceladas de los ultimos dias, con su material, su marca de no rotativo y su marda de descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="847" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-13" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-11" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-8" value="5. Retornar material especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="881" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-10" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-8" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-5" value="6. Entregar clasificación de productos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-17" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-16" value="8. Consultar alertas activas para el mismo producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-20" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-16" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-19" value="9. Obtener alertas activas del producto asociadas al pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-21" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-19" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-16" value="10. Retornar que no existe alerta activa para ese producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-18" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-16" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-5" value="11. Entregar resultado de la verificación de duplicidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-25" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-24" value="13. Consultar proveedor asociado al producto especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-28" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-24" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-27" value="14. Obtener proveedores vinculados al material con su tiempo de reposición">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1032" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-29" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-24" value="15. Retornar proveedor asociado al producto especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1032" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-26" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-24" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-5" value="16. Entregar proveedor del producto especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-38" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-36" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-45" value="25. Confirmar presistencia de alerta y notificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-41" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-39" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-36" value="22. Confirmar registro de alerta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-43" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-42" value="23. Insertar notificación de alerta de compra dirigida a Gerencia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="710" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-44" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-42" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="fBVpnlmLJa5uZCZev4XU-36" value="24. Confirmar registro de notificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1421" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-37" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-5" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-36" value="20. Solicitar registrar la alerta de compra dirigida a Gerencia">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-48" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-45" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="fBVpnlmLJa5uZCZev4XU-46" value="26. Retornar alerta de compra generada con sus caracteristicas">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="730" as="sourcePoint" />
+            <mxPoint y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-49" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-46" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="fBVpnlmLJa5uZCZev4XU-47" value="27. Notifica alerta de compra para gestionar la compra del insumo especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="750" as="sourcePoint" />
+            <mxPoint x="-330" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fBVpnlmLJa5uZCZev4XU-40" edge="1" parent="1" source="fBVpnlmLJa5uZCZev4XU-36" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="fBVpnlmLJa5uZCZev4XU-39" value="21. Insertar alerta con el producto requerido y las demas características">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="929.9999999999998" y="605" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepción 1" id="c64Xb17laardz8s29S0I">
+    <mxGraphModel dx="5189" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-0" />
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-1" parent="2NKJG55AhpxYKhHoKPcs-0" />
+        <mxCell id="YRQ8SPNvSE2odigYc0B2-0" parent="2NKJG55AhpxYKhHoKPcs-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="850" width="2840" x="-840" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-2" parent="2NKJG55AhpxYKhHoKPcs-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Gerencia" vertex="1">
+          <mxGeometry height="730" width="20" x="-800.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-3" parent="2NKJG55AhpxYKhHoKPcs-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-4" parent="2NKJG55AhpxYKhHoKPcs-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-5" parent="2NKJG55AhpxYKhHoKPcs-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V Alertas de Faltantes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="145" x="-243.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-6" parent="2NKJG55AhpxYKhHoKPcs-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="68" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-7" parent="2NKJG55AhpxYKhHoKPcs-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="68" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-8" parent="2NKJG55AhpxYKhHoKPcs-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_insumosEspeciales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="122" x="171.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-9" parent="2NKJG55AhpxYKhHoKPcs-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="430" width="10" x="57" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-10" edge="1" parent="2NKJG55AhpxYKhHoKPcs-8" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="2NKJG55AhpxYKhHoKPcs-9" value="7. Detectar clasificación especial de producto por su marca de no rotativo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.02" y="170" />
+              <mxPoint x="87.02" y="190" />
+            </Array>
+            <mxPoint x="78" y="200" as="sourcePoint" />
+            <mxPoint x="83" y="229.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-11" edge="1" parent="2NKJG55AhpxYKhHoKPcs-8" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="2NKJG55AhpxYKhHoKPcs-9" value="12. Verificar que no exista alerta activa para el mismo producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="280" />
+              <mxPoint x="87" y="300" />
+            </Array>
+            <mxPoint x="78" y="280" as="sourcePoint" />
+            <mxPoint x="83" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-12" edge="1" parent="2NKJG55AhpxYKhHoKPcs-8" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="2NKJG55AhpxYKhHoKPcs-9" value="17. Verificar que el producto especial tenga proveedor registrado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="390" />
+              <mxPoint x="87" y="410" />
+            </Array>
+            <mxPoint x="78" y="400" as="sourcePoint" />
+            <mxPoint x="83" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-13" edge="1" parent="2NKJG55AhpxYKhHoKPcs-8" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="2NKJG55AhpxYKhHoKPcs-9" value="18. Verificar que material no esté marcado como descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="430" />
+              <mxPoint x="87" y="450" />
+            </Array>
+            <mxPoint x="78" y="430" as="sourcePoint" />
+            <mxPoint x="83" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-14" edge="1" parent="2NKJG55AhpxYKhHoKPcs-8" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="2NKJG55AhpxYKhHoKPcs-9" value="19. Calcular fecha límite estimada e incorpora que el material esta descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="86.96" y="470" />
+              <mxPoint x="86.96" y="490" />
+            </Array>
+            <mxPoint x="78" y="470" as="sourcePoint" />
+            <mxPoint x="83" y="500.02222222222224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-15" parent="2NKJG55AhpxYKhHoKPcs-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="56" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-16" parent="2NKJG55AhpxYKhHoKPcs-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="100" x="619.5" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-17" parent="2NKJG55AhpxYKhHoKPcs-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-18" parent="2NKJG55AhpxYKhHoKPcs-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-19" parent="2NKJG55AhpxYKhHoKPcs-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-20" parent="2NKJG55AhpxYKhHoKPcs-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="135" width="10" x="45" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-21" parent="2NKJG55AhpxYKhHoKPcs-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Item_Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="100" x="1330" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-22" parent="2NKJG55AhpxYKhHoKPcs-21" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-23" parent="2NKJG55AhpxYKhHoKPcs-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Alerta_Faltante_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="136" x="1670" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-24" parent="2NKJG55AhpxYKhHoKPcs-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="63" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-25" parent="2NKJG55AhpxYKhHoKPcs-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="63" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-27" parent="2NKJG55AhpxYKhHoKPcs-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="116" x="1466" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-28" parent="2NKJG55AhpxYKhHoKPcs-27" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="53" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-29" parent="2NKJG55AhpxYKhHoKPcs-1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;CU-122: Controlando insumos especiales&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Excepción 1&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="380" x="390" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-30" parent="2NKJG55AhpxYKhHoKPcs-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Notificacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="730" width="106" x="1860" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-31" parent="2NKJG55AhpxYKhHoKPcs-30" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="48" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-32" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-6" value="1. Registra una venta que tiene un producto marcado como &quot;Especial/ No Rotativo&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-355.5" y="215" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-33" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-6" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-9" value="2. Enviar venta registrada con sus productos para evaluación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="75.5" y="225" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-34" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-17" value="3. Consultar la clasificación de los productos de la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509.5" y="235" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-35" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-17" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-22" value="4. Obtiene los items de la ventas no canceladas de los ultimos dias, con su material, su marca de no rotativo y su marda de descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="926.5" y="245" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-36" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-22" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-17" value="5. Retornar material especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="960.5" y="315" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-37" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-17" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-9" value="6. Entregar clasificación de productos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="509.5" y="305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-38" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-18" value="8. Consultar alertas activas para el mismo producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554.5" y="345" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-39" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-18" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-24" value="9. Obtener alertas activas del producto asociadas al pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325.5" y="355" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-40" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-24" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-18" value="10. Retornar que no existe alerta activa para ese producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325.5" y="425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-41" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-18" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-9" value="11. Entregar resultado de la verificación de duplicidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="519.5" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-42" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-19" value="13. Consultar proveedor asociado al producto especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554.5" y="455" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-43" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-19" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-28" value="14. Obtener proveedores vinculados al material con su tiempo de reposición">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1111.5" y="465" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-44" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-28" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-19" value="15. Retornar proveedor asociado al producto especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1111.5" y="535" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-45" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-19" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-9" value="16. Entregar proveedor del producto especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554.5" y="525" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-46" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-20" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-15" value="25. Confirmar presistencia de alerta y notificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="409.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-47" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-25" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-20" value="22. Confirmar registro de alerta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1325.5" y="725" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-48" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-31" value="23. Insertar notificación dirigida a Gerencia solicitando confirmación de cancelación o autorización de reemplazo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="789.5" y="730" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-49" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-31" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="2NKJG55AhpxYKhHoKPcs-20" value="24. Confirmar registro de notificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1500.5" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-50" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-20" value="20. Solicitar registrar la alerta de compra indicando la condición de descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="249.5" y="640" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-51" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-15" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="2NKJG55AhpxYKhHoKPcs-7" value="26. Retornar alerta con condición de descontinuado y solicitud de decisión">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50.5" y="780" as="sourcePoint" />
+            <mxPoint x="-29.5" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-52" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-7" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="2NKJG55AhpxYKhHoKPcs-4" value="27. Notifica alerta indicando la condición de descontinuado y solicita confirmar la cancelación o autorizar el reemplazo">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-389.5" y="800" as="sourcePoint" />
+            <mxPoint x="-469.5" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2NKJG55AhpxYKhHoKPcs-26" edge="1" parent="2NKJG55AhpxYKhHoKPcs-1" source="2NKJG55AhpxYKhHoKPcs-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="2NKJG55AhpxYKhHoKPcs-25" value="21. Insertar alerta con el producto requerido, la condición de descontinuado y las demas características">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1011.9999999999998" y="655" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepción 2" id="Z0K1A6V7q6pu9O3DORYx">
+    <mxGraphModel dx="4362" dy="3272" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-0" />
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-1" parent="Gzvse0JKBdKoqHDTwQbv-0" />
+        <mxCell id="YIzoMxrMTfuAl6X_dZ1N-0" parent="Gzvse0JKBdKoqHDTwQbv-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="890" width="2820" x="-730" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-2" parent="Gzvse0JKBdKoqHDTwQbv-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Gerencia" vertex="1">
+          <mxGeometry height="760" width="20" x="-661" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-3" parent="Gzvse0JKBdKoqHDTwQbv-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-4" parent="Gzvse0JKBdKoqHDTwQbv-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-5" parent="Gzvse0JKBdKoqHDTwQbv-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V Alertas de Faltantes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="145" x="-268" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-6" parent="Gzvse0JKBdKoqHDTwQbv-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="68" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-7" parent="Gzvse0JKBdKoqHDTwQbv-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="68" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-8" parent="Gzvse0JKBdKoqHDTwQbv-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_insumosEspeciales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="122" x="78" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-9" parent="Gzvse0JKBdKoqHDTwQbv-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="430" width="10" x="57" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-10" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-8" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="Gzvse0JKBdKoqHDTwQbv-9" value="7. Detectar clasificación especial de producto por su marca de no rotativo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.02" y="170" />
+              <mxPoint x="87.02" y="190" />
+            </Array>
+            <mxPoint x="78" y="200" as="sourcePoint" />
+            <mxPoint x="83" y="229.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-11" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-8" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="Gzvse0JKBdKoqHDTwQbv-9" value="12. Verificar que no exista alerta activa para el mismo producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="280" />
+              <mxPoint x="87" y="300" />
+            </Array>
+            <mxPoint x="78" y="280" as="sourcePoint" />
+            <mxPoint x="83" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-12" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-8" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="Gzvse0JKBdKoqHDTwQbv-9" value="17. Verificar que el producto especial tenga proveedor registrado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="390" />
+              <mxPoint x="87" y="410" />
+            </Array>
+            <mxPoint x="78" y="400" as="sourcePoint" />
+            <mxPoint x="83" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-13" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-8" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="Gzvse0JKBdKoqHDTwQbv-9" value="18. Verificar que material no esté marcado como descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="430" />
+              <mxPoint x="87" y="450" />
+            </Array>
+            <mxPoint x="78" y="430" as="sourcePoint" />
+            <mxPoint x="83" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-14" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-8" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="Gzvse0JKBdKoqHDTwQbv-9" value="19. Calcular fecha límite estimada y advertencia de proveedor no identificado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="86.96" y="470" />
+              <mxPoint x="86.96" y="490" />
+            </Array>
+            <mxPoint x="78" y="470" as="sourcePoint" />
+            <mxPoint x="83" y="500.02222222222224" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-15" parent="Gzvse0JKBdKoqHDTwQbv-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="56" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-16" parent="Gzvse0JKBdKoqHDTwQbv-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="100" x="499" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-17" parent="Gzvse0JKBdKoqHDTwQbv-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-18" parent="Gzvse0JKBdKoqHDTwQbv-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-19" parent="Gzvse0JKBdKoqHDTwQbv-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-20" parent="Gzvse0JKBdKoqHDTwQbv-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="135" width="10" x="45" y="505" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-21" parent="Gzvse0JKBdKoqHDTwQbv-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Item_Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="100" x="1410" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-22" parent="Gzvse0JKBdKoqHDTwQbv-21" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-23" parent="Gzvse0JKBdKoqHDTwQbv-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Alerta_Faltante_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="750" width="136" x="1750" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-24" parent="Gzvse0JKBdKoqHDTwQbv-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="63" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-25" parent="Gzvse0JKBdKoqHDTwQbv-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="63" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-27" parent="Gzvse0JKBdKoqHDTwQbv-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="116" x="1546" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-28" parent="Gzvse0JKBdKoqHDTwQbv-27" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="53" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-29" parent="Gzvse0JKBdKoqHDTwQbv-1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;CU-122: Controlando insumos especiales&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Excepción 2&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="380" x="490" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-30" parent="Gzvse0JKBdKoqHDTwQbv-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Notificacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="760" width="106" x="1940" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-31" parent="Gzvse0JKBdKoqHDTwQbv-30" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="48" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-32" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-6" value="1. Registra una venta que tiene un producto marcado como &quot;Especial/ No Rotativo&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-216" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-33" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-6" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-9" value="2. Enviar venta registrada con sus productos para evaluación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="51" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-34" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-17" value="3. Consultar la clasificación de los productos de la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-35" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-17" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-22" value="4. Obtiene los items de la ventas no canceladas de los ultimos dias, con su material, su marca de no rotativo y su marda de descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="806" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-36" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-22" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-17" value="5. Retornar material especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="840" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-37" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-17" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-9" value="6. Entregar clasificación de productos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="416" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-38" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-18" value="8. Consultar alertas activas para el mismo producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-39" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-18" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-24" value="9. Obtener alertas activas del producto asociadas al pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-40" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-24" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-18" value="10. Retornar que no existe alerta activa para ese producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-41" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-18" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-9" value="11. Entregar resultado de la verificación de duplicidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="426" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-42" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-19" value="13. Consultar proveedor asociado al producto especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-43" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-19" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-28" value="14. Obtener proveedores vinculados al material con su tiempo de reposición">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="991" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-44" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-28" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-19" value="15. Retornar que producto especial no tiene proveedor asignado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="991" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-45" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-19" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-9" value="16. Entregar proveedor del producto especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="461" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-46" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-20" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-15" value="25. Confirmar presistencia de alerta y notificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="316" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-47" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-25" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-20" value="22. Confirmar registro de alerta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1205" y="675" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-48" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-31" value="23. Insertar notificación de alerta de compra dirigida a Gerencia indicando que se requiere un proveedor de forma manual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="669" y="680" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-49" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-31" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="Gzvse0JKBdKoqHDTwQbv-20" value="24. Confirmar registro de notificación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1380" y="735" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-50" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-20" value="20. Solicitar registrar la alerta de compra sin proveedor sugerido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="156" y="590" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-51" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-15" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="Gzvse0JKBdKoqHDTwQbv-7" value="26. Retornar alerta generada sin proveedor sugerido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="26" y="730" as="sourcePoint" />
+            <mxPoint x="-54" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-52" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-7" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="Gzvse0JKBdKoqHDTwQbv-4" value="27. Notifica alerta de compra e indica que se requiere un proveedor de forma manual">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="750" as="sourcePoint" />
+            <mxPoint x="-330" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Gzvse0JKBdKoqHDTwQbv-26" edge="1" parent="Gzvse0JKBdKoqHDTwQbv-1" source="Gzvse0JKBdKoqHDTwQbv-20" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="Gzvse0JKBdKoqHDTwQbv-25" value="21. Insertar alerta con el producto requerido sin proveedor y las demas características">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1091.9999999999998" y="605" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepción 3" id="TbDayhC293kv-Pf3uR1q">
+    <mxGraphModel dx="4867" dy="3572" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-0" />
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-1" parent="CsE5gJucIAsO3Yixn9hr-0" />
+        <mxCell id="_VomSiOrVThJ7voTxEaN-0" parent="CsE5gJucIAsO3Yixn9hr-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="580" width="2730" x="-710" y="-20" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-2" parent="CsE5gJucIAsO3Yixn9hr-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;size=40;" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Gerencia" vertex="1">
+          <mxGeometry height="460" width="20" x="-661" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-3" parent="CsE5gJucIAsO3Yixn9hr-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-4" parent="CsE5gJucIAsO3Yixn9hr-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="5" y="402" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-5" parent="CsE5gJucIAsO3Yixn9hr-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;V Alertas de Faltantes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="145" x="-214" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-6" parent="CsE5gJucIAsO3Yixn9hr-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="68" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-7" parent="CsE5gJucIAsO3Yixn9hr-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="30" width="10" x="68" y="382" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-8" parent="CsE5gJucIAsO3Yixn9hr-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_insumosEspeciales&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="122" x="132" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-9" parent="CsE5gJucIAsO3Yixn9hr-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="300" width="10" x="57" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-10" edge="1" parent="CsE5gJucIAsO3Yixn9hr-8" source="CsE5gJucIAsO3Yixn9hr-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="CsE5gJucIAsO3Yixn9hr-9" value="7. Detectar clasificación especial de producto por su marca de no rotativo">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87.02" y="170" />
+              <mxPoint x="87.02" y="190" />
+            </Array>
+            <mxPoint x="78" y="200" as="sourcePoint" />
+            <mxPoint x="83" y="229.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-11" edge="1" parent="CsE5gJucIAsO3Yixn9hr-8" source="CsE5gJucIAsO3Yixn9hr-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;innerLoopWaypoints=1;" target="CsE5gJucIAsO3Yixn9hr-9" value="12. Verificar que no exista alerta activa para el mismo producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="87" y="280" />
+              <mxPoint x="87" y="300" />
+            </Array>
+            <mxPoint x="78" y="280" as="sourcePoint" />
+            <mxPoint x="83" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-16" parent="CsE5gJucIAsO3Yixn9hr-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="100" x="540" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-17" parent="CsE5gJucIAsO3Yixn9hr-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-18" parent="CsE5gJucIAsO3Yixn9hr-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="210" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-19" parent="CsE5gJucIAsO3Yixn9hr-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-21" parent="CsE5gJucIAsO3Yixn9hr-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Item_Nota_Venta&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="100" x="1350" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-22" parent="CsE5gJucIAsO3Yixn9hr-21" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-23" parent="CsE5gJucIAsO3Yixn9hr-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Alerta_Faltante_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="136" x="1690" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-24" parent="CsE5gJucIAsO3Yixn9hr-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="63" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-28" parent="CsE5gJucIAsO3Yixn9hr-23" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="63" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-27" parent="CsE5gJucIAsO3Yixn9hr-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="116" x="1486" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-29" parent="CsE5gJucIAsO3Yixn9hr-1" style="text;align=center;fontStyle=1;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;html=1;" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;CU-122: Controlando insumos especiales&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;font-weight: normal;&quot;&gt;Excepción 3&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="20" width="380" x="465" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-30" parent="CsE5gJucIAsO3Yixn9hr-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="&lt;u&gt;Notificacion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="106" x="1880" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-32" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="CsE5gJucIAsO3Yixn9hr-6" value="1. Registra una venta que tiene un producto marcado como &quot;Especial/ No Rotativo&quot;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-216" y="165" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-33" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-6" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="CsE5gJucIAsO3Yixn9hr-9" value="2. Enviar venta registrada con sus productos para evaluación">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="105" y="175" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-34" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="CsE5gJucIAsO3Yixn9hr-17" value="3. Consultar la clasificación de los productos de la venta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="185" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-35" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-17" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="CsE5gJucIAsO3Yixn9hr-22" value="4. Obtiene los items de la ventas no canceladas de los ultimos dias, con su material, su marca de no rotativo y su marda de descontinuado">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="847" y="195" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-36" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-22" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="CsE5gJucIAsO3Yixn9hr-17" value="5. Retornar material especial">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="881" y="265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-37" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-17" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="CsE5gJucIAsO3Yixn9hr-9" value="6. Entregar clasificación de productos">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="255" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-38" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="CsE5gJucIAsO3Yixn9hr-18" value="8. Consultar alertas activas para el mismo producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="295" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-39" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-18" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="CsE5gJucIAsO3Yixn9hr-24" value="9. Obtener alertas activas del producto asociadas al pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="305" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-40" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-24" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="CsE5gJucIAsO3Yixn9hr-18" value="10. Retornar alerta existente para ese producto y pedido">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1246" y="375" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-41" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-18" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="CsE5gJucIAsO3Yixn9hr-9" value="11. Entregar resultado de la verificación de duplicidad">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-42" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="CsE5gJucIAsO3Yixn9hr-19" value="13. Solicitar actualizar cantidad requerida en alerta existente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="405" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-43" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-19" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;" target="CsE5gJucIAsO3Yixn9hr-28" value="14. Actualizar cantidad requerida de la alerta activa">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1032" y="415" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-44" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-28" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="CsE5gJucIAsO3Yixn9hr-19" value="15. Confirmar actualización de la alerta">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1032" y="485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-45" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-19" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;" target="CsE5gJucIAsO3Yixn9hr-9" value="16. Confirmar presistencia de actualización">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="475" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-51" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-9" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="CsE5gJucIAsO3Yixn9hr-7" value="17. Retornar alerta existente con cantidad requerida actualizada">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="80" y="730" as="sourcePoint" />
+            <mxPoint y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="CsE5gJucIAsO3Yixn9hr-52" edge="1" parent="CsE5gJucIAsO3Yixn9hr-1" source="CsE5gJucIAsO3Yixn9hr-7" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" target="CsE5gJucIAsO3Yixn9hr-4" value="18. Informa que no se generó alerta nueva y la cantidad requerida fue actualizada en la alerta vigente">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-250" y="482" as="sourcePoint" />
+            <mxPoint x="-330" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,914 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="GENERAL" id="EFSP8IY8_7DSxQ1Pd_Ah">
+    <mxGraphModel dx="3184" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="O08lvP79b5KV2964Hz6U-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1360" width="1860" x="-440" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-36" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-14" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="27. Actualiza la tabla para el análisis del desempeño logístico">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-360" y="1470" as="sourcePoint" />
+            <mxPoint x="-58.81999999999999" y="1470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-35" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-12" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-9" value="26. Retorna la tabla actualizada según los filtros aplicados">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-10" y="1455" as="sourcePoint" />
+            <mxPoint x="275" y="1450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-34" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-10" value="25. Entrega las alertas históricas filtradas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="300" y="1420" as="sourcePoint" />
+            <mxPoint x="610.67" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-33" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-10" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="24. Retorna los registros coincidentes con los criterios">
+          <mxGeometry relative="1" width="80" x="0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="650" y="1400" as="sourcePoint" />
+            <mxPoint x="931" y="1400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="LuovOiHnLdpwXk9wLWBC-11" value="23. Obtiene los registros históricos del período consultado">
+          <mxGeometry relative="1" width="80" x="0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="630" y="1370" as="sourcePoint" />
+            <mxPoint x="920" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="LuovOiHnLdpwXk9wLWBC-9" value="20. Envía los criterios de filtrado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-59.996470588235134" y="1240" as="sourcePoint" />
+            <mxPoint x="240" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="19. Filtra por rango de fechas, tipo de alerta o producto">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-380.33333333333326" y="1220.0000000000002" as="sourcePoint" />
+            <mxPoint x="-65" y="1220.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-27" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-13" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="18. Despliega la tabla del historial de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-370" y="1180" as="sourcePoint" />
+            <mxPoint x="-59.82" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-26" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-12" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-9" value="&lt;div&gt;17. Retorna el historial con fecha de generación,&amp;nbsp;&lt;/div&gt;&lt;div&gt;fecha de&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;resolución,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;producto, tipo, severidad,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tiempo transcurrido y&lt;/span&gt;&lt;/div&gt;&lt;div&gt;usuario resolutor&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-55" y="1120" as="sourcePoint" />
+            <mxPoint x="240" y="1125" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-20" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="11. Retorna los datos de los usuarios resolutores">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="730" as="sourcePoint" />
+            <mxPoint x="1340" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="LuovOiHnLdpwXk9wLWBC-8" value="10. Obtiene el usuario que resolvió cada alerta">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="690" as="sourcePoint" />
+            <mxPoint x="1320" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-18" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="9. Retorna los datos descriptivos de los materiales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="650" as="sourcePoint" />
+            <mxPoint x="1210" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-16" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="7. Retorna los datos de las alertas históricas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="570" as="sourcePoint" />
+            <mxPoint x="1079.5" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="LuovOiHnLdpwXk9wLWBC-6" value="&lt;div&gt;6. Obtiene por cada alerta su material, su tipo, su severidad y&lt;/div&gt;&lt;div&gt;su fecha de generación&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="530" as="sourcePoint" />
+            <mxPoint x="1060" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-14" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="5. Retorna los registros históricos de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="480" as="sourcePoint" />
+            <mxPoint x="931" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="LuovOiHnLdpwXk9wLWBC-5" value="&lt;div&gt;4. Obtiene los registros históricos con su fecha y hora de&lt;/div&gt;&lt;div&gt;resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="440" as="sourcePoint" />
+            <mxPoint x="910" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="LuovOiHnLdpwXk9wLWBC-4" value="&lt;div&gt;3. Consulta el historial de alertas con sus fechas de generación&lt;/div&gt;&lt;div&gt;y de resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="278.83333333333394" y="410" as="sourcePoint" />
+            <mxPoint x="590" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-11" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-3" value="2. Solicita el registro de alertas pasadas, resueltas y expiradas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-40" y="360" as="sourcePoint" />
+            <mxPoint x="240" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-10" edge="1" parent="1" source="TMxNc6SSGABxmwItuibi-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-2" value="1. Accede al módulo de historial de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-300.67647058823513" y="340" as="sourcePoint" />
+            <mxPoint x="-80" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1280" width="20" x="-390" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-1" parent="TMxNc6SSGABxmwItuibi-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-13" parent="TMxNc6SSGABxmwItuibi-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="929" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-14" parent="TMxNc6SSGABxmwItuibi-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="-410" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="V_Alertas" vertex="1">
+          <mxGeometry height="1280" width="100" x="-110" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-2" parent="TMxNc6SSGABxmwItuibi-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-12" parent="TMxNc6SSGABxmwItuibi-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="370" width="10" x="45" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_alertas" vertex="1">
+          <mxGeometry height="1280" width="100" x="230" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-25" edge="1" parent="TMxNc6SSGABxmwItuibi-4" source="LuovOiHnLdpwXk9wLWBC-9" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.357;exitDx=0;exitDy=0;exitPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-9" value="&lt;div&gt;16. Calcula el promedio de tiempo de resolución del conjunto&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.0833" y="70" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="779.9" />
+              <mxPoint x="150" y="840" />
+            </Array>
+            <mxPoint x="60" y="780" as="sourcePoint" />
+            <mxPoint x="60" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-23" edge="1" parent="TMxNc6SSGABxmwItuibi-4" source="LuovOiHnLdpwXk9wLWBC-9" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.157;exitDx=0;exitDy=0;exitPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-9" value="&lt;div&gt;14. Calcula el tiempo transcurrido entre la generación y la&lt;/div&gt;&lt;div&gt;resolución de cada alerta&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.1667" y="60" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="639.9" />
+              <mxPoint x="150" y="700" />
+            </Array>
+            <mxPoint x="60" y="640" as="sourcePoint" />
+            <mxPoint x="60" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-22" edge="1" parent="TMxNc6SSGABxmwItuibi-4" source="LuovOiHnLdpwXk9wLWBC-9" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.043;exitDx=0;exitDy=0;exitPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-9" value="13. Verifica que existan alertas pasadas registradas">
+          <mxGeometry relative="1" width="80" x="0.0833" y="50" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="560.1" />
+              <mxPoint x="150" y="620" />
+            </Array>
+            <mxPoint x="60" y="560" as="sourcePoint" />
+            <mxPoint x="60" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-3" parent="TMxNc6SSGABxmwItuibi-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-9" parent="TMxNc6SSGABxmwItuibi-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="690" width="10" x="45" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-24" edge="1" parent="TMxNc6SSGABxmwItuibi-4" source="LuovOiHnLdpwXk9wLWBC-9" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="LuovOiHnLdpwXk9wLWBC-9" value="&lt;div&gt;15. Verifica que todas las alertas del período estén resueltas&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.0833" y="70" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="710" />
+              <mxPoint x="150" y="770" />
+            </Array>
+            <mxPoint x="60" y="710" as="sourcePoint" />
+            <mxPoint x="60" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-30" edge="1" parent="TMxNc6SSGABxmwItuibi-4" source="LuovOiHnLdpwXk9wLWBC-9" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="LuovOiHnLdpwXk9wLWBC-9" value="&lt;div&gt;21. Valida que el rango de fechas sea coherente y que no incluya&lt;/div&gt;&lt;div&gt;fechas futuras&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.1667" y="80" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="1020" />
+              <mxPoint x="150" y="1080.17" />
+            </Array>
+            <mxPoint x="60" y="1020" as="sourcePoint" />
+            <mxPoint x="60" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_Postgre&amp;nbsp;" vertex="1">
+          <mxGeometry height="1280" width="100" x="580" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-4" parent="TMxNc6SSGABxmwItuibi-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="390" width="10" x="45" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-10" parent="TMxNc6SSGABxmwItuibi-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="45" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Historial_Alerta" vertex="1">
+          <mxGeometry height="1280" width="100" x="880" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-5" parent="TMxNc6SSGABxmwItuibi-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-11" parent="TMxNc6SSGABxmwItuibi-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Alerta_Inventario" vertex="1">
+          <mxGeometry height="1280" width="100" x="1030" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-6" parent="TMxNc6SSGABxmwItuibi-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="1280" width="100" x="1160" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-7" parent="TMxNc6SSGABxmwItuibi-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Usuario" vertex="1">
+          <mxGeometry height="1280" width="100" x="1290" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="LuovOiHnLdpwXk9wLWBC-8" parent="TMxNc6SSGABxmwItuibi-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="45" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-17" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-7" value="8. Obtiene el nombre del material de cada alerta">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="650" y="610" as="sourcePoint" />
+            <mxPoint x="1190" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-21" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-4" value="12. Entrega el historial de alertas con todos sus datos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="300" y="780" as="sourcePoint" />
+            <mxPoint x="590" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TMxNc6SSGABxmwItuibi-31" edge="1" parent="1" source="LuovOiHnLdpwXk9wLWBC-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="LuovOiHnLdpwXk9wLWBC-10" value="22. Consulta las alertas históricas que coinciden con los criterios">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="290" y="1350" as="sourcePoint" />
+            <mxPoint x="600" y="1350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="O08lvP79b5KV2964Hz6U-1" parent="1" style="text;whiteSpace=wrap;align=center;" value="CU-55: Consultando alertas históricas" vertex="1">
+          <mxGeometry height="40" width="240" x="370" y="200" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="j1GJ7Uk9Q5RKnHYNVQ3W" name="EXP 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="JQHX4CfTHxeCQ18bek86-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="800" width="1830" x="220" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-27" edge="1" parent="1" source="zH7JaNDsUVO8tn9Mywlz-3" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="15. Informa la ausencia de historial y no despliega la tabla">
+          <mxGeometry relative="1" width="80" x="-0.0021" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="270" y="860" as="sourcePoint" />
+            <mxPoint x="580.18" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-26" edge="1" parent="1" source="zH7JaNDsUVO8tn9Mywlz-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="oLOZpBes24L-u1n1KKLm-4" value="14. Retorna el aviso de ausencia de historial">
+          <mxGeometry relative="1" width="80" x="-0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="610" y="840" as="sourcePoint" />
+            <mxPoint x="890" y="835" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-21" edge="1" parent="1" source="zH7JaNDsUVO8tn9Mywlz-8" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="zH7JaNDsUVO8tn9Mywlz-9" value="12. Entrega el historial de alertas con todos sus datos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="920" y="740" as="sourcePoint" />
+            <mxPoint x="1240.67" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-20" edge="1" parent="1" source="zH7JaNDsUVO8tn9Mywlz-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="zH7JaNDsUVO8tn9Mywlz-10" value="11. Retorna los datos de los usuarios resolutores">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1280" y="690" as="sourcePoint" />
+            <mxPoint x="1970" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="zH7JaNDsUVO8tn9Mywlz-10" value="10. Obtiene el usuario que resolvió cada alerta">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1260" y="650" as="sourcePoint" />
+            <mxPoint x="1960" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-18" edge="1" parent="1" source="zH7JaNDsUVO8tn9Mywlz-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="zH7JaNDsUVO8tn9Mywlz-11" value="9. Retorna los datos descriptivos de los materiales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1270" y="610" as="sourcePoint" />
+            <mxPoint x="1840" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="zH7JaNDsUVO8tn9Mywlz-11" value="8. Obtiene el nombre del material de cada alerta">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1260" y="570" as="sourcePoint" />
+            <mxPoint x="1830" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-16" edge="1" parent="1" source="zH7JaNDsUVO8tn9Mywlz-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="zH7JaNDsUVO8tn9Mywlz-14" value="7. Retorna los datos de las alertas históricas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1270" y="530" as="sourcePoint" />
+            <mxPoint x="1709.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="zH7JaNDsUVO8tn9Mywlz-14" value="&lt;div&gt;6. Obtiene por cada alerta su material, su tipo, su severidad y&lt;/div&gt;&lt;div&gt;su fecha de generación&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1260" y="490" as="sourcePoint" />
+            <mxPoint x="1700" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-14" edge="1" parent="1" source="zH7JaNDsUVO8tn9Mywlz-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="zH7JaNDsUVO8tn9Mywlz-15" value="5. Retorna los registros históricos de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1270" y="440" as="sourcePoint" />
+            <mxPoint x="1561" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="zH7JaNDsUVO8tn9Mywlz-15" value="&lt;div&gt;4. Obtiene los registros históricos con su fecha y hora de&lt;/div&gt;&lt;div&gt;resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1260" y="400" as="sourcePoint" />
+            <mxPoint x="1540" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="zH7JaNDsUVO8tn9Mywlz-9" value="&lt;div&gt;3. Consulta el historial de alertas con sus fechas de generación&lt;/div&gt;&lt;div&gt;y de resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="908.8333333333339" y="370" as="sourcePoint" />
+            <mxPoint x="1230" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicita el registro de alertas pasadas, resueltas y expiradas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="584.9999999999998" y="330" as="sourcePoint" />
+            <mxPoint x="904.9999999999998" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Accede al módulo de historial de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="259.6666666666665" y="300" as="sourcePoint" />
+            <mxPoint x="575" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="720" width="20" x="250" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-2" parent="oLOZpBes24L-u1n1KKLm-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-3" parent="oLOZpBes24L-u1n1KKLm-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="V_Alertas" vertex="1">
+          <mxGeometry height="720" width="100" x="530" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-4" parent="oLOZpBes24L-u1n1KKLm-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="45" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-5" parent="oLOZpBes24L-u1n1KKLm-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_alertas" vertex="1">
+          <mxGeometry height="720" width="100" x="860" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-6" parent="oLOZpBes24L-u1n1KKLm-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="65" width="10" x="45" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-8" parent="oLOZpBes24L-u1n1KKLm-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="45" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-22" edge="1" parent="oLOZpBes24L-u1n1KKLm-4" source="zH7JaNDsUVO8tn9Mywlz-8" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="zH7JaNDsUVO8tn9Mywlz-8" value="13. Verifica que existan alertas pasadas registradas">
+          <mxGeometry relative="1" width="80" x="0.0833" y="50" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="560" />
+              <mxPoint x="150" y="620" />
+            </Array>
+            <mxPoint x="60" y="560" as="sourcePoint" />
+            <mxPoint x="60" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_Postgre&amp;nbsp;" vertex="1">
+          <mxGeometry height="720" width="100" x="1210" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-9" parent="oLOZpBes24L-u1n1KKLm-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="402.5" width="10" x="45" y="147.5" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Historial_Alerta" vertex="1">
+          <mxGeometry height="720" width="100" x="1520" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-15" parent="oLOZpBes24L-u1n1KKLm-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Alerta_Inventario" vertex="1">
+          <mxGeometry height="720" width="100" x="1670" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-14" parent="oLOZpBes24L-u1n1KKLm-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="275" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="720" width="100" x="1800" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-11" parent="oLOZpBes24L-u1n1KKLm-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="oLOZpBes24L-u1n1KKLm-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Usuario" vertex="1">
+          <mxGeometry height="720" width="100" x="1930" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="zH7JaNDsUVO8tn9Mywlz-10" parent="oLOZpBes24L-u1n1KKLm-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="45" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="JQHX4CfTHxeCQ18bek86-1" parent="1" style="text;whiteSpace=wrap;align=center;" value="CU-55: Consultando alertas históricas&#xa;Excepción 1" vertex="1">
+          <mxGeometry height="40" width="240" x="1015" y="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9LmBdVa-RiG_fV5PHXP1" name="EXP 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Ky_CeWueb-n2sJy1VgFN-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1300" width="1840" x="140" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-36" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-13" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="23. Solicita corregir el rango de fechas">
+          <mxGeometry relative="1" width="80" x="0.0021" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="200" y="1290" as="sourcePoint" />
+            <mxPoint x="501.18" y="1290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-35" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-11" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="SwlWMDW2Sh9MNeVwejLt-10" value="22. Retorna el error de rango inválido sin ejecutar la consulta">
+          <mxGeometry relative="1" width="80" x="-0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="510" y="1270" as="sourcePoint" />
+            <mxPoint x="820.1800000000001" y="1270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="SwlWMDW2Sh9MNeVwejLt-10" value="20. Envía los criterios de filtrado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="500.0035294117649" y="1150" as="sourcePoint" />
+            <mxPoint x="800" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="19. Filtra por rango de fechas, tipo de alerta o producto">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="179.66666666666652" y="1130.0000000000002" as="sourcePoint" />
+            <mxPoint x="495" y="1130.0000000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-27" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-12" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="18. Despliega la tabla del historial de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="200" y="1090" as="sourcePoint" />
+            <mxPoint x="500.18" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-26" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-11" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;exitX=1;exitY=0;exitDx=0;exitDy=5;exitPerimeter=0;" target="SwlWMDW2Sh9MNeVwejLt-10" value="&lt;div&gt;17. Retorna el historial con fecha de generación,&amp;nbsp;&lt;/div&gt;&lt;div&gt;fecha de&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;resolución,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;producto, tipo, severidad,&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;tiempo transcurrido y&lt;/span&gt;&lt;/div&gt;&lt;div&gt;usuario resolutor&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="520" y="1050" as="sourcePoint" />
+            <mxPoint x="820.1800000000001" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-21" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-10" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="SwlWMDW2Sh9MNeVwejLt-5" value="12. Entrega el historial de alertas con todos sus datos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="860" y="690" as="sourcePoint" />
+            <mxPoint x="1170.67" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-20" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-5" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="11. Retorna los datos de los usuarios resolutores">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1220" y="640" as="sourcePoint" />
+            <mxPoint x="1910" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="SwlWMDW2Sh9MNeVwejLt-6" value="10. Obtiene el usuario que resolvió cada alerta">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1200" y="600" as="sourcePoint" />
+            <mxPoint x="1890" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-18" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-5" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="9. Retorna los datos descriptivos de los materiales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1220" y="560" as="sourcePoint" />
+            <mxPoint x="1780" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="SwlWMDW2Sh9MNeVwejLt-7" value="8. Obtiene el nombre del material de cada alerta">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1200" y="520" as="sourcePoint" />
+            <mxPoint x="1750" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-16" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-5" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="7. Retorna los datos de las alertas históricas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1210" y="480" as="sourcePoint" />
+            <mxPoint x="1649.5" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="SwlWMDW2Sh9MNeVwejLt-8" value="&lt;div&gt;6. Obtiene por cada alerta su material, su tipo, su severidad y&lt;/div&gt;&lt;div&gt;su fecha de generación&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1200" y="440" as="sourcePoint" />
+            <mxPoint x="1630" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-14" edge="1" parent="1" source="SwlWMDW2Sh9MNeVwejLt-5" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="5. Retorna los registros históricos de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1210" y="390" as="sourcePoint" />
+            <mxPoint x="1501" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="SwlWMDW2Sh9MNeVwejLt-9" value="&lt;div&gt;4. Obtiene los registros históricos con su fecha y hora de&lt;/div&gt;&lt;div&gt;resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1200" y="350" as="sourcePoint" />
+            <mxPoint x="1480" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="SwlWMDW2Sh9MNeVwejLt-5" value="&lt;div&gt;3. Consulta el historial de alertas con sus fechas de generación&lt;/div&gt;&lt;div&gt;y de resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="838.8333333333339" y="320" as="sourcePoint" />
+            <mxPoint x="1160" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-10" edge="1" parent="1" source="rxtRxYedJu3kPRoAigEi-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="SwlWMDW2Sh9MNeVwejLt-2" value="1. Accede al módulo de historial de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="259.32352941176487" y="250" as="sourcePoint" />
+            <mxPoint x="480" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1210" width="20" x="170" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-1" parent="rxtRxYedJu3kPRoAigEi-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-12" parent="rxtRxYedJu3kPRoAigEi-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-13" parent="rxtRxYedJu3kPRoAigEi-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="5" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="150" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="V_Alertas" vertex="1">
+          <mxGeometry height="1210" width="100" x="450" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-11" parent="rxtRxYedJu3kPRoAigEi-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="270" width="10" x="45" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_alertas" vertex="1">
+          <mxGeometry height="1210" width="100" x="790" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-23" edge="1" parent="rxtRxYedJu3kPRoAigEi-4" source="SwlWMDW2Sh9MNeVwejLt-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="SwlWMDW2Sh9MNeVwejLt-10" value="&lt;div&gt;14. Calcula el tiempo transcurrido entre la generación y la&lt;/div&gt;&lt;div&gt;resolución de cada alerta&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.1667" y="60" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="147" y="640" />
+              <mxPoint x="147" y="700.33" />
+            </Array>
+            <mxPoint x="57" y="640" as="sourcePoint" />
+            <mxPoint x="60" y="700.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-22" edge="1" parent="rxtRxYedJu3kPRoAigEi-4" source="SwlWMDW2Sh9MNeVwejLt-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.386;exitY=0.081;exitDx=0;exitDy=0;exitPerimeter=0;" target="SwlWMDW2Sh9MNeVwejLt-10" value="13. Verifica que existan alertas pasadas registradas">
+          <mxGeometry relative="1" width="80" x="0.0833" y="50" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="147" y="561" />
+              <mxPoint x="147" y="620" />
+            </Array>
+            <mxPoint x="57" y="560" as="sourcePoint" />
+            <mxPoint x="70" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-4" parent="rxtRxYedJu3kPRoAigEi-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="75" width="10" x="45" y="115" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-10" parent="rxtRxYedJu3kPRoAigEi-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="610" width="10" x="45" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-24" edge="1" parent="rxtRxYedJu3kPRoAigEi-4" source="SwlWMDW2Sh9MNeVwejLt-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="SwlWMDW2Sh9MNeVwejLt-10" value="&lt;div&gt;15. Verifica que todas las alertas del período estén resueltas&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.0833" y="70" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="147" y="710" />
+              <mxPoint x="147" y="770.17" />
+            </Array>
+            <mxPoint x="60" y="710" as="sourcePoint" />
+            <mxPoint x="70" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-25" edge="1" parent="rxtRxYedJu3kPRoAigEi-4" source="SwlWMDW2Sh9MNeVwejLt-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="SwlWMDW2Sh9MNeVwejLt-10" value="&lt;div&gt;16. Calcula el promedio de tiempo de resolución del conjunto&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.0833" y="70" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="147" y="780" />
+              <mxPoint x="147" y="840.08" />
+            </Array>
+            <mxPoint x="57" y="780" as="sourcePoint" />
+            <mxPoint x="60" y="840.12" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-30" edge="1" parent="rxtRxYedJu3kPRoAigEi-4" source="SwlWMDW2Sh9MNeVwejLt-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="SwlWMDW2Sh9MNeVwejLt-10" value="21. Valida el rango de fechas">
+          <mxGeometry relative="1" width="80" x="0.0831" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="147" y="1018.4200000000001" />
+              <mxPoint x="147" y="1079" />
+            </Array>
+            <mxPoint x="60" y="1020" as="sourcePoint" />
+            <mxPoint x="57" y="1079" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_Postgre&amp;nbsp;" vertex="1">
+          <mxGeometry height="1210" width="100" x="1150" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-5" parent="rxtRxYedJu3kPRoAigEi-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="377.5" width="10" x="45" y="152.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Historial_Alerta" vertex="1">
+          <mxGeometry height="1210" width="100" x="1450" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-9" parent="rxtRxYedJu3kPRoAigEi-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Alerta_Inventario" vertex="1">
+          <mxGeometry height="1210" width="100" x="1600" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-8" parent="rxtRxYedJu3kPRoAigEi-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="1210" width="100" x="1730" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-7" parent="rxtRxYedJu3kPRoAigEi-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="75" width="10" x="45" y="355" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Usuario" vertex="1">
+          <mxGeometry height="1210" width="100" x="1860" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-6" parent="rxtRxYedJu3kPRoAigEi-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="75" width="10" x="45" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="rxtRxYedJu3kPRoAigEi-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="SwlWMDW2Sh9MNeVwejLt-4" value="2. Solicita el registro de alertas pasadas, resueltas y expiradas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="505" y="269.9999999999999" as="sourcePoint" />
+            <mxPoint x="815" y="269.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="SwlWMDW2Sh9MNeVwejLt-2" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="499.32352941176487" y="280" as="sourcePoint" />
+            <mxPoint x="819.5" y="280" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="SwlWMDW2Sh9MNeVwejLt-2" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="50" width="10" x="495" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="Ky_CeWueb-n2sJy1VgFN-1" parent="1" style="text;whiteSpace=wrap;align=center;" value="CU-55: Consultando alertas históricas&#xa;Excepción 2" vertex="1">
+          <mxGeometry height="40" width="240" x="920" y="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ehqVCr8f72f5QBHrv_kM" name="EXP 3">
+    <mxGraphModel dx="2020" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="sSfYO2iElQupslens4cK-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1150" width="1900" x="190" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-27" edge="1" parent="1" source="G1xj0lOX3SEQh3Z91Vp7-12" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="&lt;div&gt;19. Despliega la tabla mostrando las&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;alertas&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;pendientes con su&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: light-dark(#ffffff, var(--ge-dark-color, #121212));&quot;&gt;tiempo de&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;resolución &quot;En curso&quot;, sin&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;incluirlas en el promedio&lt;/span&gt;&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="-0.0012" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="280" y="1210" as="sourcePoint" />
+            <mxPoint x="590.18" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-26" edge="1" parent="1" source="G1xj0lOX3SEQh3Z91Vp7-11" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="&lt;div&gt;18. Retorna el historial distinguiendo las alertas resueltas de las&lt;/div&gt;&lt;div&gt;pendientes&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="640" y="1160" as="sourcePoint" />
+            <mxPoint x="950.1800000000001" y="1160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-21" edge="1" parent="1" source="G1xj0lOX3SEQh3Z91Vp7-10" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="G1xj0lOX3SEQh3Z91Vp7-4" value="12. Entrega el historial de alertas con todos sus datos">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="980" y="760" as="sourcePoint" />
+            <mxPoint x="1280.67" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-20" edge="1" parent="1" source="G1xj0lOX3SEQh3Z91Vp7-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="11. Retorna los datos de los usuarios resolutores">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1340" y="710" as="sourcePoint" />
+            <mxPoint x="2010" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="G1xj0lOX3SEQh3Z91Vp7-6" value="10. Obtiene el usuario que resolvió cada alerta">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1300" y="670" as="sourcePoint" />
+            <mxPoint x="1980" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-18" edge="1" parent="1" source="G1xj0lOX3SEQh3Z91Vp7-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="9. Retorna los datos descriptivos de los materiales">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1310" y="630" as="sourcePoint" />
+            <mxPoint x="1880" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="G1xj0lOX3SEQh3Z91Vp7-7" value="8. Obtiene el nombre del material de cada alerta">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1300" y="590" as="sourcePoint" />
+            <mxPoint x="1860" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-16" edge="1" parent="1" source="G1xj0lOX3SEQh3Z91Vp7-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="7. Retorna los datos de las alertas históricas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1320" y="550" as="sourcePoint" />
+            <mxPoint x="1749.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="G1xj0lOX3SEQh3Z91Vp7-8" value="&lt;div&gt;6. Obtiene por cada alerta su material, su tipo, su severidad y&lt;/div&gt;&lt;div&gt;su fecha de generación&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1300" y="510" as="sourcePoint" />
+            <mxPoint x="1730" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-14" edge="1" parent="1" source="G1xj0lOX3SEQh3Z91Vp7-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="5. Retorna los registros históricos de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1320" y="460" as="sourcePoint" />
+            <mxPoint x="1601" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-13" edge="1" parent="1" source="G1xj0lOX3SEQh3Z91Vp7-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="G1xj0lOX3SEQh3Z91Vp7-9" value="&lt;div&gt;4. Obtiene los registros históricos con su fecha y hora de&lt;/div&gt;&lt;div&gt;resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1300" y="420" as="sourcePoint" />
+            <mxPoint x="1580" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="G1xj0lOX3SEQh3Z91Vp7-4" value="&lt;div&gt;3. Consulta el historial de alertas con sus fechas de generación&lt;/div&gt;&lt;div&gt;y de resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="948.8333333333339" y="390" as="sourcePoint" />
+            <mxPoint x="1250" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="2. Solicita el registro de alertas pasadas, resueltas y expiradas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="594.9999999999998" y="350" as="sourcePoint" />
+            <mxPoint x="944.9999999999998" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-10" edge="1" parent="1" source="sF54lqmjjYz4aYf1BWpq-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="G1xj0lOX3SEQh3Z91Vp7-2" value="1. Accede al módulo de historial de alertas">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="349.32352941176487" y="320" as="sourcePoint" />
+            <mxPoint x="570" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1060" width="20" x="240" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-1" parent="sF54lqmjjYz4aYf1BWpq-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-12" parent="sF54lqmjjYz4aYf1BWpq-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="220" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="V_Alertas" vertex="1">
+          <mxGeometry height="1060" width="100" x="540" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-2" parent="sF54lqmjjYz4aYf1BWpq-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-11" parent="sF54lqmjjYz4aYf1BWpq-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="45" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_alertas" vertex="1">
+          <mxGeometry height="1060" width="100" x="900" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="e3budgHEClT4CUptoBUy-1" edge="1" parent="sF54lqmjjYz4aYf1BWpq-4" source="G1xj0lOX3SEQh3Z91Vp7-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.744;exitDx=0;exitDy=0;exitPerimeter=0;" target="G1xj0lOX3SEQh3Z91Vp7-10" value="&lt;div&gt;17. Calcula el promedio de tiempo de resolución únicamente&lt;/div&gt;&lt;div&gt;con las alertas resueltas&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.1664" y="70" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="849.91" />
+              <mxPoint x="150" y="910.09" />
+            </Array>
+            <mxPoint x="60" y="850" as="sourcePoint" />
+            <mxPoint x="60" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-25" edge="1" parent="sF54lqmjjYz4aYf1BWpq-4" source="G1xj0lOX3SEQh3Z91Vp7-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;exitX=0.5;exitY=0.581;exitDx=0;exitDy=0;exitPerimeter=0;" target="G1xj0lOX3SEQh3Z91Vp7-10" value="&lt;div&gt;16. Marca esas alertas con estado &quot;Pendiente&quot; y su tiempo de&lt;/div&gt;&lt;div&gt;resolución como &quot;En curso&quot;, y las excluye del promedio&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.1664" y="70" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="779.8" />
+              <mxPoint x="150" y="840" />
+            </Array>
+            <mxPoint x="60" y="780" as="sourcePoint" />
+            <mxPoint x="60" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-3" parent="sF54lqmjjYz4aYf1BWpq-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="45" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-10" parent="sF54lqmjjYz4aYf1BWpq-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="430" width="10" x="45" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-22" edge="1" parent="sF54lqmjjYz4aYf1BWpq-4" source="G1xj0lOX3SEQh3Z91Vp7-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="G1xj0lOX3SEQh3Z91Vp7-10" value="13. Verifica que existan alertas pasadas registradas">
+          <mxGeometry relative="1" width="80" x="0.0833" y="50" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="560" />
+              <mxPoint x="150" y="620" />
+            </Array>
+            <mxPoint x="60" y="560" as="sourcePoint" />
+            <mxPoint x="60" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-23" edge="1" parent="sF54lqmjjYz4aYf1BWpq-4" source="G1xj0lOX3SEQh3Z91Vp7-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="G1xj0lOX3SEQh3Z91Vp7-10" value="&lt;div&gt;14. Calcula el tiempo transcurrido entre la generación y la&lt;/div&gt;&lt;div&gt;resolución de cada alerta&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.1667" y="60" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="640" />
+              <mxPoint x="150" y="700" />
+            </Array>
+            <mxPoint x="60" y="640" as="sourcePoint" />
+            <mxPoint x="60" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-24" edge="1" parent="sF54lqmjjYz4aYf1BWpq-4" source="G1xj0lOX3SEQh3Z91Vp7-10" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" target="G1xj0lOX3SEQh3Z91Vp7-10" value="&lt;div&gt;15. Verifica el estado de resolución&lt;/div&gt;">
+          <mxGeometry relative="1" width="80" x="0.0831" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="710" />
+              <mxPoint x="150" y="770" />
+            </Array>
+            <mxPoint x="60" y="710" as="sourcePoint" />
+            <mxPoint x="60" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_Postgre&amp;nbsp;" vertex="1">
+          <mxGeometry height="1060" width="100" x="1250" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Historial_Alerta" vertex="1">
+          <mxGeometry height="1060" width="100" x="1550" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-9" parent="sF54lqmjjYz4aYf1BWpq-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Alerta_Inventario" vertex="1">
+          <mxGeometry height="1060" width="100" x="1700" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-8" parent="sF54lqmjjYz4aYf1BWpq-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="45" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="1060" width="100" x="1830" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-7" parent="sF54lqmjjYz4aYf1BWpq-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="sF54lqmjjYz4aYf1BWpq-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="Usuario" vertex="1">
+          <mxGeometry height="1060" width="100" x="1960" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-6" parent="sF54lqmjjYz4aYf1BWpq-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="45" y="440" as="geometry" />
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="G1xj0lOX3SEQh3Z91Vp7-4" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1300" y="420" as="sourcePoint" />
+            <mxPoint x="1601" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="G1xj0lOX3SEQh3Z91Vp7-4" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="390" width="10" x="1295" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="sSfYO2iElQupslens4cK-1" parent="1" style="text;whiteSpace=wrap;align=center;" value="CU-55: Consultando alertas históricas&#xa;Excepción 3" vertex="1">
+          <mxGeometry height="40" width="240" x="1020" y="170" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

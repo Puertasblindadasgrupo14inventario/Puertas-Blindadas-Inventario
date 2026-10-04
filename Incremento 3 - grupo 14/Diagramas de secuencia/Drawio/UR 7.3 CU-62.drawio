@@ -1,0 +1,671 @@
+<mxfile host="app.diagrams.net" pages="3">
+  <diagram id="cu62gen" name="Flujo general">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="1415" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ljPTJZXL6NlMqEIHP-kX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1360" width="3490" x="-130" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-62: Calculando tiempos reales de entrega" vertex="1">
+          <mxGeometry height="30" width="460" x="1385" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1255" width="20" x="-85" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-bar-Gerencia-0" parent="cu62gen-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1075" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="-110" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-ll-V_ProveedorDetalle" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle&amp;nbsp;&lt;/u&gt;&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1255" width="180" x="470" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-bar-V_ProveedorDetalle-0" parent="cu62gen-ll-V_ProveedorDetalle" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1075" width="10" x="85" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-ll-C_proveedores" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1255" width="180" x="1000" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-bar-C_proveedores-0" parent="cu62gen-ll-C_proveedores" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="964" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1255" width="180" x="1710" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-bar-C_Postgre-0" parent="cu62gen-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="366" width="10" x="85" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-ll-lote" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1255" width="180" x="2190" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-bar-lote-0" parent="cu62gen-ll-lote" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-ll-lote_fecha_pedido" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote_Fecha_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1255" width="180" x="2670" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-bar-lote_fecha_pedido-0" parent="cu62gen-ll-lote_fecha_pedido" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-ll-material_proveedor" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1255" width="180" x="3150" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-bar-material_proveedor-0" parent="cu62gen-ll-material_proveedor" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m1" edge="1" parent="1" source="cu62gen-bar-Gerencia-0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="85" y="260" as="sourcePoint" />
+            <mxPoint x="555" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Selecciona la ficha del proveedor" vertex="1">
+          <mxGeometry height="36" width="226" x="152" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m2" edge="1" parent="1" source="cu62gen-bar-V_ProveedorDetalle-0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="308" as="sourcePoint" />
+            <mxPoint x="1085" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita los indicadores de tiempo real de entrega del proveedor" vertex="1">
+          <mxGeometry height="36" width="355" x="660" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu62gen-bar-C_Postgre-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="356" as="sourcePoint" />
+            <mxPoint x="1565" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Consulta los pedidos del proveedor con su fecha de pedido y su fecha de recepción" vertex="1">
+          <mxGeometry height="36" width="485" x="1230" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1805" y="404" as="sourcePoint" />
+            <mxPoint x="2275" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Obtiene los lotes del proveedor con su fecha de recepción registrada" vertex="1">
+          <mxGeometry height="36" width="385" x="1820" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2275" y="452" as="sourcePoint" />
+            <mxPoint x="1805" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Retorna los lotes del proveedor" vertex="1">
+          <mxGeometry height="36" width="420" x="1840" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1805" y="500" as="sourcePoint" />
+            <mxPoint x="2755" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start; color: light-dark(rgb(237, 237, 237), rgb(237, 237, 237));&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;6. Obtiene la primera fecha de pedido de cada lote, no posterior a su recepción&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="612" x="2050" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2755" y="548" as="sourcePoint" />
+            <mxPoint x="1805" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Retorna las fechas de pedido de los lotes" vertex="1">
+          <mxGeometry height="36" width="274" x="2350" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1805" y="596" as="sourcePoint" />
+            <mxPoint x="3235" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Obtiene el tiempo de reposición prometido por el proveedor" vertex="1">
+          <mxGeometry height="36" width="376" x="2800" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3235" y="644" as="sourcePoint" />
+            <mxPoint x="1805" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Retorna el tiempo de reposición prometido" vertex="1">
+          <mxGeometry height="36" width="274" x="2863" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m10" edge="1" parent="1" source="cu62gen-bar-C_Postgre-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="692" as="sourcePoint" />
+            <mxPoint x="1095" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Entrega los pedidos con sus fechas y el plazo prometido" vertex="1">
+          <mxGeometry height="36" width="330" x="1307.5" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m11" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="755" />
+              <mxPoint x="1160" y="785" />
+            </Array>
+            <mxPoint x="1095" y="755" as="sourcePoint" />
+            <mxPoint x="1095" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Verifica que el proveedor registre pedidos con recepción efectiva" vertex="1">
+          <mxGeometry height="51" width="485" x="1170" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m12" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="855" />
+              <mxPoint x="1160" y="885" />
+            </Array>
+            <mxPoint x="1095" y="855" as="sourcePoint" />
+            <mxPoint x="1095" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Verifica que todos los pedidos del proveedor tengan fecha de recepción" vertex="1">
+          <mxGeometry height="51" width="520" x="1170" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m13" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="956" />
+              <mxPoint x="1160" y="986" />
+            </Array>
+            <mxPoint x="1095" y="956" as="sourcePoint" />
+            <mxPoint x="1095" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Calcula por cada entrega la diferencia en días hábiles entre la fecha de pedido y la fecha de recepción efectiva" vertex="1">
+          <mxGeometry height="51" width="620" x="1170" y="946" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m14" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="1056" />
+              <mxPoint x="1160" y="1086" />
+            </Array>
+            <mxPoint x="1095" y="1056" as="sourcePoint" />
+            <mxPoint x="1095" y="1086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Obtiene el promedio real de entrega, la mediana, el tiempo mínimo y el tiempo máximo" vertex="1">
+          <mxGeometry height="51" width="500" x="1170" y="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m15" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="1157" />
+              <mxPoint x="1160" y="1187" />
+            </Array>
+            <mxPoint x="1095" y="1157" as="sourcePoint" />
+            <mxPoint x="1095" y="1187" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="15. Calcula el porcentaje de cumplimiento comparando el tiempo prometido con el tiempo real promedio" vertex="1">
+          <mxGeometry height="51" width="570" x="1170" y="1146" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu62gen-bar-V_ProveedorDetalle-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="1242" as="sourcePoint" />
+            <mxPoint x="615" y="1242" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="16. Retorna los indicadores de entrega con la comparación entre el plazo prometido y el real" vertex="1">
+          <mxGeometry height="36" width="500" x="575" y="1204" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62gen-m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu62gen-bar-Gerencia-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="1305" as="sourcePoint" />
+            <mxPoint x="85" y="1305" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62gen-l17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="17. Muestra la comparación entre el tiempo prometido y el tiempo real promedio con su porcentaje de cumplimiento" vertex="1">
+          <mxGeometry height="51" width="675" x="-90" y="1260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu62e1" name="Excepción 1">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="1076" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="9-KgaQ1qAmdqsK_3DffY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1040" width="3160" x="80" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-62: Calculando tiempos reales de entrega&lt;div&gt;Excepción 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="460" x="1430" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="916" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-bar-Gerencia-0" parent="cu62e1-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="736" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="95" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-ll-V_ProveedorDetalle" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle&amp;nbsp;&lt;/u&gt;&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="916" width="180" x="520" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-bar-V_ProveedorDetalle-0" parent="cu62e1-ll-V_ProveedorDetalle" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="736" width="10" x="85" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-ll-C_proveedores" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="916" width="180" x="1000" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-bar-C_proveedores-0" parent="cu62e1-ll-C_proveedores" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="640" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="916" width="180" x="1598" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-bar-C_Postgre-0" parent="cu62e1-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="366" width="10" x="85" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-ll-lote" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote&lt;/u&gt;" vertex="1">
+          <mxGeometry height="916" width="180" x="2078" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-bar-lote-0" parent="cu62e1-ll-lote" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-ll-lote_fecha_pedido" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote_Fecha_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="916" width="180" x="2558" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-bar-lote_fecha_pedido-0" parent="cu62e1-ll-lote_fecha_pedido" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-ll-material_proveedor" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="916" width="180" x="3038" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-bar-material_proveedor-0" parent="cu62e1-ll-material_proveedor" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="260" as="sourcePoint" />
+            <mxPoint x="605" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Selecciona la ficha del proveedor" vertex="1">
+          <mxGeometry height="36" width="226" x="257" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="308" as="sourcePoint" />
+            <mxPoint x="1085" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita los indicadores de tiempo real de entrega del proveedor" vertex="1">
+          <mxGeometry height="36" width="365" x="650" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu62e1-bar-C_Postgre-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="356" as="sourcePoint" />
+            <mxPoint x="1565" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Consulta los pedidos del proveedor con su fecha de pedido y su fecha de recepción" vertex="1">
+          <mxGeometry height="36" width="480" x="1130" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1693" y="404" as="sourcePoint" />
+            <mxPoint x="2163" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Obtiene los lotes del proveedor con su fecha de recepción registrada" vertex="1">
+          <mxGeometry height="36" width="400" x="1693" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2163" y="452" as="sourcePoint" />
+            <mxPoint x="1693" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Retorna que el proveedor no registra lotes con fecha de recepción efectiva" vertex="1">
+          <mxGeometry height="36" width="455" x="1708" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1693" y="500" as="sourcePoint" />
+            <mxPoint x="2643" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start; color: light-dark(rgb(237, 237, 237), rgb(237, 237, 237));&quot;&gt;6. Obtiene la primera fecha de pedido de cada lote, no posterior a su recepción&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="500" x="2010" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2643" y="548" as="sourcePoint" />
+            <mxPoint x="1693" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Retorna las fechas de pedido de los lotes" vertex="1">
+          <mxGeometry height="36" width="274" x="2031" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1693" y="596" as="sourcePoint" />
+            <mxPoint x="3123" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Obtiene el tiempo de reposición prometido por el proveedor" vertex="1">
+          <mxGeometry height="36" width="376" x="2305" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3123" y="644" as="sourcePoint" />
+            <mxPoint x="1693" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Retorna el tiempo de reposición prometido" vertex="1">
+          <mxGeometry height="36" width="274" x="2350" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m10" edge="1" parent="1" source="cu62e1-bar-C_Postgre-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="692" as="sourcePoint" />
+            <mxPoint x="1095" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Entrega los pedidos con sus fechas y el plazo prometido" vertex="1">
+          <mxGeometry height="36" width="330" x="1165" y="653" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m11" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="755" />
+              <mxPoint x="1160" y="785" />
+            </Array>
+            <mxPoint x="1095" y="755" as="sourcePoint" />
+            <mxPoint x="1095" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Verifica los pedidos con recepción efectiva pero detecta que el proveedor no registra ninguno" vertex="1">
+          <mxGeometry height="51" width="523" x="1160" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m12" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="840" />
+              <mxPoint x="1160" y="870" />
+            </Array>
+            <mxPoint x="1095" y="840" as="sourcePoint" />
+            <mxPoint x="1095" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Marca el indicador como &quot;Dato no disponible&quot; y omite el cálculo del promedio" vertex="1">
+          <mxGeometry height="42" width="440" x="1165" y="838" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="918" as="sourcePoint" />
+            <mxPoint x="615" y="918" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Retorna el indicador sin valor calculable" vertex="1">
+          <mxGeometry height="36" width="280" x="710" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e1-m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="966" as="sourcePoint" />
+            <mxPoint x="135" y="966" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e1-l14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Muestra el indicador como &quot;Dato no disponible&quot; y no despliega el promedio" vertex="1">
+          <mxGeometry height="36" width="431" x="159" y="928" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu62e2" name="Excepción 2">
+    <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="3300" pageHeight="1438" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="1ZpmzuwJo7Mv4AGlBNLl-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1380" width="3520" x="-60" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-62: Calculando tiempos reales de entrega&lt;div&gt;Excepción 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="30" width="460" x="1470" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1278" width="20" x="-15" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-bar-Gerencia-0" parent="cu62e2-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1115" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="-40" y="148" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-ll-V_ProveedorDetalle" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle&amp;nbsp;&lt;/u&gt;&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278" width="180" x="520" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-bar-V_ProveedorDetalle-0" parent="cu62e2-ll-V_ProveedorDetalle" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1098" width="10" x="85" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-ll-C_proveedores" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278" width="180" x="1000" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-bar-C_proveedores-0" parent="cu62e2-ll-C_proveedores" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="987" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278" width="180" x="1806" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-bar-C_Postgre-0" parent="cu62e2-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="366" width="10" x="85" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-ll-lote" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278" width="180" x="2286" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-bar-lote-0" parent="cu62e2-ll-lote" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-ll-lote_fecha_pedido" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Lote_Fecha_Pedido&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278" width="180" x="2766" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-bar-lote_fecha_pedido-0" parent="cu62e2-ll-lote_fecha_pedido" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-ll-material_proveedor" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278" width="180" x="3246" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-bar-material_proveedor-0" parent="cu62e2-ll-material_proveedor" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m1" edge="1" parent="1" source="cu62e2-bar-Gerencia-0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.022;exitDx=0;exitDy=0;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="260" as="sourcePoint" />
+            <mxPoint x="605" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Selecciona la ficha del proveedor" vertex="1">
+          <mxGeometry height="36" width="226" x="160" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="308" as="sourcePoint" />
+            <mxPoint x="1085" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita los indicadores de tiempo real de entrega del proveedor" vertex="1">
+          <mxGeometry height="36" width="400" x="640" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu62e2-bar-C_Postgre-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="356" as="sourcePoint" />
+            <mxPoint x="1565" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Consulta los pedidos del proveedor con su fecha de pedido y su fecha de recepción" vertex="1">
+          <mxGeometry height="36" width="480" x="1240" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1901" y="404" as="sourcePoint" />
+            <mxPoint x="2371" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Obtiene los lotes del proveedor con su fecha de recepción registrada" vertex="1">
+          <mxGeometry height="36" width="385" x="1971" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2371" y="452" as="sourcePoint" />
+            <mxPoint x="1901" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Retorna los lotes del proveedor pero algunos no tienen fecha de recepción registrada" vertex="1">
+          <mxGeometry height="36" width="480" x="1900" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1901" y="500" as="sourcePoint" />
+            <mxPoint x="2851" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="&lt;span style=&quot;text-align: start; color: light-dark(rgb(237, 237, 237), rgb(237, 237, 237));&quot;&gt;6. Obtiene la primera fecha de pedido de cada lote, no posterior a su recepción&lt;/span&gt;" vertex="1">
+          <mxGeometry height="36" width="540" x="2180" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2851" y="548" as="sourcePoint" />
+            <mxPoint x="1901" y="548" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Retorna las fechas de pedido de los lotes" vertex="1">
+          <mxGeometry height="36" width="274" x="2466" y="509" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1901" y="596" as="sourcePoint" />
+            <mxPoint x="3331" y="596" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Obtiene el tiempo de reposición prometido por el proveedor" vertex="1">
+          <mxGeometry height="36" width="376" x="2926" y="557" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3331" y="644" as="sourcePoint" />
+            <mxPoint x="1901" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Retorna el tiempo de reposición prometido" vertex="1">
+          <mxGeometry height="36" width="274" x="2986" y="605" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m10" edge="1" parent="1" source="cu62e2-bar-C_Postgre-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="692" as="sourcePoint" />
+            <mxPoint x="1095" y="692" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Entrega los pedidos con sus fechas y el plazo prometido" vertex="1">
+          <mxGeometry height="36" width="330" x="1350" y="653" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m11" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="755" />
+              <mxPoint x="1160" y="785" />
+            </Array>
+            <mxPoint x="1095" y="755" as="sourcePoint" />
+            <mxPoint x="1095" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Verifica que el proveedor registre pedidos con recepción efectiva" vertex="1">
+          <mxGeometry height="51" width="475" x="1170" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m12" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="855" />
+              <mxPoint x="1160" y="885" />
+            </Array>
+            <mxPoint x="1095" y="855" as="sourcePoint" />
+            <mxPoint x="1095" y="885" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Verifica las fechas de recepción pero detecta pedidos del proveedor sin fecha de recepción registrada" vertex="1">
+          <mxGeometry height="51" width="570" x="1170" y="845" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m13" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="956" />
+              <mxPoint x="1160" y="986" />
+            </Array>
+            <mxPoint x="1095" y="956" as="sourcePoint" />
+            <mxPoint x="1095" y="986" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Excluye del cálculo los pedidos sin recepción y cuenta por separado los que quedan pendientes" vertex="1">
+          <mxGeometry height="51" width="560" x="1170" y="946" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m14" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="1056" />
+              <mxPoint x="1160" y="1086" />
+            </Array>
+            <mxPoint x="1095" y="1056" as="sourcePoint" />
+            <mxPoint x="1095" y="1086" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Calcula por cada entrega recibida la diferencia en días hábiles entre la fecha de pedido y la fecha de recepción" vertex="1">
+          <mxGeometry height="51" width="640" x="1170" y="1046" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m15" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="1172" />
+              <mxPoint x="1160" y="1202" />
+            </Array>
+            <mxPoint x="1095" y="1172" as="sourcePoint" />
+            <mxPoint x="1095" y="1202" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="15. Obtiene el promedio real, la mediana, el mínimo y el máximo con los pedidos recibidos, y calcula el porcentaje de cumplimiento" vertex="1">
+          <mxGeometry height="66" width="710" x="1170" y="1154" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="1265" as="sourcePoint" />
+            <mxPoint x="615" y="1265" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="16. Retorna los indicadores junto con la cantidad de pedidos pendientes de recepción" vertex="1">
+          <mxGeometry height="36" width="505" x="600" y="1226" as="geometry" />
+        </mxCell>
+        <mxCell id="cu62e2-m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu62e2-bar-Gerencia-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="1328" as="sourcePoint" />
+            <mxPoint x="135" y="1328" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu62e2-l17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="17. Muestra los indicadores de entrega e indica por separado la cantidad de pedidos pendientes de recepción" vertex="1">
+          <mxGeometry height="51" width="615" y="1274" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

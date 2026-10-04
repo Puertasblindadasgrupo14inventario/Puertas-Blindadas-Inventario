@@ -1,0 +1,1661 @@
+<mxfile host="Electron" pages="5">
+  <diagram name="General" id="YEOYEi-msJUTMdAMnM0e">
+    <mxGraphModel dx="3674" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1690" width="1810" x="-880" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1588.71" width="20" x="-850" y="351.29" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-6" parent="ZZx4ATUXN3obNgGbkRAW-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-7" parent="ZZx4ATUXN3obNgGbkRAW-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="102.42" width="10" x="5" y="876.29" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-8" parent="ZZx4ATUXN3obNgGbkRAW-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="83.58" width="10" x="5" y="1086.42" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-9" parent="ZZx4ATUXN3obNgGbkRAW-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="1418.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/ JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="-880" y="391.29" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Conteo cíclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1588.71" width="200" x="-700" y="351.29" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-12" parent="ZZx4ATUXN3obNgGbkRAW-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-13" parent="ZZx4ATUXN3obNgGbkRAW-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="145.64" width="10" x="95" y="848.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-14" parent="ZZx4ATUXN3obNgGbkRAW-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="95" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-15" parent="ZZx4ATUXN3obNgGbkRAW-11" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="1388.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_conteos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1588.71" width="200" x="-410" y="351.29" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-17" parent="ZZx4ATUXN3obNgGbkRAW-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="168.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-18" parent="ZZx4ATUXN3obNgGbkRAW-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="95" y="728.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-19" parent="ZZx4ATUXN3obNgGbkRAW-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="121.29" width="10" x="95" y="968.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-20" parent="ZZx4ATUXN3obNgGbkRAW-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="151.29" width="10" x="95" y="1138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-21" parent="ZZx4ATUXN3obNgGbkRAW-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="221.29" width="10" x="95" y="418.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-22" edge="1" parent="ZZx4ATUXN3obNgGbkRAW-16" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="498.72" />
+              <mxPoint x="150" y="518.72" />
+            </Array>
+            <mxPoint x="105" y="498.71000000000026" as="sourcePoint" />
+            <mxPoint x="105" y="518.7100000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-23" parent="ZZx4ATUXN3obNgGbkRAW-16" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="1368.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-316.25" y="1220" as="sourcePoint" />
+            <mxPoint x="-596.25" y="1220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="240" y="660" as="sourcePoint" />
+            <mxPoint x="-10" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="ZZx4ATUXN3obNgGbkRAW-31" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="5" y="610" />
+            </Array>
+            <mxPoint x="-10" y="610.0000000000001" as="sourcePoint" />
+            <mxPoint x="270" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0048" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-305" y="590" as="sourcePoint" />
+            <mxPoint x="-20" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="-100" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-29" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-835" y="509.825" as="sourcePoint" />
+            <mxPoint x="-605" y="509.825" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1588.71" width="200" x="150" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-31" parent="ZZx4ATUXN3obNgGbkRAW-30" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="228.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="1588.71" width="200" x="430" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-33" parent="ZZx4ATUXN3obNgGbkRAW-32" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-10" y="730" as="sourcePoint" />
+            <mxPoint x="525" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Conteo_Ciclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1588.71" width="200" x="710" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-36" parent="ZZx4ATUXN3obNgGbkRAW-35" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="628.71" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-37" parent="ZZx4ATUXN3obNgGbkRAW-35" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-38" edge="1" parent="1" source="ZZx4ATUXN3obNgGbkRAW-90" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-25" y="810" as="sourcePoint" />
+            <mxPoint x="-305" y="810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="520" y="770" as="sourcePoint" />
+            <mxPoint x="-9.99823529411799" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-40" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-594.5" y="540" as="sourcePoint" />
+            <mxPoint x="-315.0000000000002" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-41" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="2.&amp;nbsp;Solicitar iniciar un conteo para la bodega seleccionada" vertex="1">
+          <mxGeometry height="20" width="280" x="-595" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-42" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="3.Consultar los productos asignados a la bodega" vertex="1">
+          <mxGeometry height="20" width="250" x="-290" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-43" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="4.&amp;nbsp;Obtener los materiales con stock registrado en la bodega" vertex="1">
+          <mxGeometry height="20" width="235" x="-0.5" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-44" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="5.&amp;nbsp;Retornar los materiales asignados a la bodega con su cantidad física" vertex="1">
+          <mxGeometry height="20" width="235" x="-0.5" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-45" parent="1" style="text;whiteSpace=wrap;html=1;" value="7.&amp;nbsp;Retornar los datos descriptivos de los materiales" vertex="1">
+          <mxGeometry height="30" width="340" x="100" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-46" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-303.75" y="960" as="sourcePoint" />
+            <mxPoint x="-20" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-47" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-265" y="1150" />
+              <mxPoint x="-265" y="1170" />
+            </Array>
+            <mxPoint x="-305" y="1150" as="sourcePoint" />
+            <mxPoint x="-305" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-605" y="1240" as="sourcePoint" />
+            <mxPoint x="-835" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-835" y="1309.78" as="sourcePoint" />
+            <mxPoint x="-605" y="1309.78" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-50" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-593.7499999999998" y="1330" as="sourcePoint" />
+            <mxPoint x="-313.75" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-51" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-265" y="1350" />
+              <mxPoint x="-265" y="1370" />
+            </Array>
+            <mxPoint x="-305" y="1350" as="sourcePoint" />
+            <mxPoint x="-305" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-593.75" y="1509" as="sourcePoint" />
+            <mxPoint x="-313.75" y="1508.9999999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-53" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-173.75" y="1740" />
+            </Array>
+            <mxPoint x="-20" y="1740" as="sourcePoint" />
+            <mxPoint x="-303.75" y="1740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-54" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="ZZx4ATUXN3obNgGbkRAW-14" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-313.75" y="1430" as="sourcePoint" />
+            <mxPoint x="-593.75" y="1430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-55" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="ZZx4ATUXN3obNgGbkRAW-8" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-610" y="1460.0049999999999" as="sourcePoint" />
+            <mxPoint x="-830" y="1460.01" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-56" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Accede al módulo de conteo cíclico y selecciona la bodega a revisar" vertex="1">
+          <mxGeometry height="40" width="220" x="-830" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-57" parent="1" style="text;whiteSpace=wrap;html=1;" value="6. Obtener el nombre y la unidad de medida de cada material" vertex="1">
+          <mxGeometry height="20" width="350" x="90" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-58" parent="1" style="text;whiteSpace=wrap;html=1;" value="8. Entregar los materiales de la bodega" vertex="1">
+          <mxGeometry height="30" width="230" x="-280" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-59" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Verificar que la bodega tenga productos asignados" vertex="1">
+          <mxGeometry height="40" width="200" x="-260" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-60" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="10. Consultar si existe un conteo previo para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="260" x="-295" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-61" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="ZZx4ATUXN3obNgGbkRAW-36" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-10" y="1000" as="sourcePoint" />
+            <mxPoint x="790" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-62" parent="1" style="text;whiteSpace=wrap;html=1;" value="11. Obtener los movimientos de conteo registrados para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="460" x="160" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-63" edge="1" parent="1" source="ZZx4ATUXN3obNgGbkRAW-36" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="800" y="1050" as="sourcePoint" />
+            <mxPoint x="-9.99823529411799" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-64" parent="1" style="text;whiteSpace=wrap;html=1;" value="12. Retornar que no existe conteo registrado para esa bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="440" x="150" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-65" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-20" y="1110" as="sourcePoint" />
+            <mxPoint x="-305" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-66" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="13. Entregar el resultado de la verificación de duplicidad" vertex="1">
+          <mxGeometry height="20" width="280" x="-310" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-67" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="14. Verificar que no exista un conteo previo para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="40" width="240" x="-265" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-68" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="15. Retornar la lista de productos de la bodega habilitada para el conteo" vertex="1">
+          <mxGeometry height="40" width="287.5" x="-597.5" y="1180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-69" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="16. Despliega la lista de productos registrados en esa bodega" vertex="1">
+          <mxGeometry height="40" width="230" x="-840" y="1200" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-70" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="17. Ingresa las cantidades físicas contabilizadas y opcionalmente observaciones por ítem" vertex="1">
+          <mxGeometry height="40" width="230" x="-840" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-71" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="18. Envíar las cantidades contadas con sus observaciones" vertex="1">
+          <mxGeometry height="40" width="220" x="-575" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-72" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="19. Validar que cada cantidad ingresada sea un número entero igual o mayor a cero" vertex="1">
+          <mxGeometry height="40" width="220" x="-260" y="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-73" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="20. Retornar las cantidades validadas y solicita la confirmación del conteo" vertex="1">
+          <mxGeometry height="40" width="250" x="-578.75" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-74" parent="1" style="text;whiteSpace=wrap;html=1;" value="21. Solicita confirmar el conteo" vertex="1">
+          <mxGeometry height="30" width="180" x="-810" y="1430" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-75" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-835" y="1500" as="sourcePoint" />
+            <mxPoint x="-605" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-76" parent="1" style="text;whiteSpace=wrap;html=1;" value="22. Confirma el conteo" vertex="1">
+          <mxGeometry height="30" width="130" x="-790" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-77" parent="1" style="text;whiteSpace=wrap;html=1;" value="23. Envíar la confirmación del conteo" vertex="1">
+          <mxGeometry height="30" width="210" x="-565" y="1479" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-78" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="-265" y="1530" />
+              <mxPoint x="-265" y="1550" />
+            </Array>
+            <mxPoint x="-305" y="1530" as="sourcePoint" />
+            <mxPoint x="-305" y="1550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-79" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="24. Preparar un registro de conteo por cada producto con su bodega, cantidad contada, fecha, hora y usuario responsable" vertex="1">
+          <mxGeometry height="50" width="230" x="-270" y="1520" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-80" parent="1" style="text;whiteSpace=wrap;html=1;" value="25. Solicitar registrar el conteo y sus resultados" vertex="1">
+          <mxGeometry height="30" width="260" x="-290" y="1590" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-81" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-305" y="1620" as="sourcePoint" />
+            <mxPoint x="-20" y="1619.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-82" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="ZZx4ATUXN3obNgGbkRAW-37" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="-10" y="1654.71" as="sourcePoint" />
+            <mxPoint x="800" y="1660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-83" parent="1" style="text;whiteSpace=wrap;html=1;" value="26. Insertar por cada producto un movimiento de conteo con su cantidad contada, sin modificar el stock" vertex="1">
+          <mxGeometry height="30" width="560" x="130" y="1620" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-84" edge="1" parent="1" source="ZZx4ATUXN3obNgGbkRAW-37" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="800" y="1700" as="sourcePoint" />
+            <mxPoint x="-9.99823529411799" y="1700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-85" edge="1" parent="1" source="ZZx4ATUXN3obNgGbkRAW-97" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="390" as="sourcePoint" />
+            <mxPoint x="-15" y="1940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-86" parent="1" style="text;whiteSpace=wrap;html=1;" value="27. Retornar los identificadores únicos generados" vertex="1">
+          <mxGeometry height="30" width="270" x="240" y="1670" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-87" edge="1" parent="1" source="ZZx4ATUXN3obNgGbkRAW-90" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="ZZx4ATUXN3obNgGbkRAW-88" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="390" as="sourcePoint" />
+            <mxPoint x="-15" y="2281.4285714285716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-88" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="-20" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-89" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="ZZx4ATUXN3obNgGbkRAW-90" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="390" as="sourcePoint" />
+            <mxPoint x="-15" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-90" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="270" width="10" x="-20" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-91" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="28. Confirmar la persistencia del conteo con sus identificadores" vertex="1">
+          <mxGeometry height="40" width="240" x="-280" y="1690" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-92" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="ZZx4ATUXN3obNgGbkRAW-15" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="-473.43" y="1769.41" />
+            </Array>
+            <mxPoint x="-319.68" y="1769.41" as="sourcePoint" />
+            <mxPoint x="-580" y="1770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-93" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="29. Retornar la confirmación con el identificador único del conteo" vertex="1">
+          <mxGeometry height="40" width="280" x="-597.5" y="1730" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-94" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-606.5" y="1790" as="sourcePoint" />
+            <mxPoint x="-833.5" y="1790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-95" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="30. Muestra la confirmación del conteo registrado con su identificador único" vertex="1">
+          <mxGeometry height="40" width="210" x="-819" y="1750" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-96" edge="1" parent="1" source="ZZx4ATUXN3obNgGbkRAW-88" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="ZZx4ATUXN3obNgGbkRAW-97" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="1130" as="sourcePoint" />
+            <mxPoint x="-15" y="2180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-97" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="-20" y="1610" as="geometry" />
+        </mxCell>
+        <mxCell id="ZZx4ATUXN3obNgGbkRAW-98" parent="1" style="text;whiteSpace=wrap;html=1;" value="CU-37: Ejecutando conteo cíclico de inventario" vertex="1">
+          <mxGeometry height="40" width="280" x="-115" y="290" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="YO_PNYweTXmyaMF8VNYC" name="Excepción 1">
+    <mxGraphModel dx="2828" dy="4020" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1390" width="1820" y="-1260" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1278.71" width="20" x="40" y="-1178.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-8" parent="qV2Hy5ehBWE2c7OvjgpK-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="128.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-9" parent="qV2Hy5ehBWE2c7OvjgpK-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="114.45" width="10" x="5" y="815.55" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-10" parent="qV2Hy5ehBWE2c7OvjgpK-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="5" y="1038.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/ JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="10" y="-1138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Conteo cíclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278.71" width="200" x="190" y="-1178.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-13" parent="qV2Hy5ehBWE2c7OvjgpK-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-14" parent="qV2Hy5ehBWE2c7OvjgpK-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="95" y="766.22" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-15" parent="qV2Hy5ehBWE2c7OvjgpK-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="1018.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-16" parent="qV2Hy5ehBWE2c7OvjgpK-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="95" y="888.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-17" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_conteos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278.71" width="200" x="480" y="-1178.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-18" parent="qV2Hy5ehBWE2c7OvjgpK-17" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="95" y="158.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-19" parent="qV2Hy5ehBWE2c7OvjgpK-17" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="186.29" width="10" x="95" y="413.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-20" parent="qV2Hy5ehBWE2c7OvjgpK-17" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="151.29" width="10" x="95" y="658.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-21" parent="qV2Hy5ehBWE2c7OvjgpK-17" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="128.71" width="10" x="95" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-22" edge="1" parent="qV2Hy5ehBWE2c7OvjgpK-17" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="468.69000000000005" />
+              <mxPoint x="150" y="488.69000000000005" />
+            </Array>
+            <mxPoint x="104.99999999999977" y="468.71225806451616" as="sourcePoint" />
+            <mxPoint x="104.99999999999977" y="488.71225806451616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="573.75" y="-390" as="sourcePoint" />
+            <mxPoint x="293.75" y="-390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1130" y="-870" as="sourcePoint" />
+            <mxPoint x="880" y="-870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="qV2Hy5ehBWE2c7OvjgpK-31" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="895" y="-920" />
+            </Array>
+            <mxPoint x="880" y="-919.9999999999999" as="sourcePoint" />
+            <mxPoint x="1160" y="-920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0048" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="585" y="-940" as="sourcePoint" />
+            <mxPoint x="870" y="-940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-27" edge="1" parent="1" source="qV2Hy5ehBWE2c7OvjgpK-28" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;dashed=1;">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="790" y="-1180" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-29" edge="1" parent="1" source="qV2Hy5ehBWE2c7OvjgpK-8" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="qV2Hy5ehBWE2c7OvjgpK-13" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="60" y="-1020" as="sourcePoint" />
+            <mxPoint x="280" y="-1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278.71" width="200" x="1040" y="-1180" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-31" parent="qV2Hy5ehBWE2c7OvjgpK-30" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="101.29" width="10" x="95" y="228.71" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="1278.71" width="200" x="1320" y="-1180" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-33" parent="qV2Hy5ehBWE2c7OvjgpK-32" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="95" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="880" y="-810" as="sourcePoint" />
+            <mxPoint x="1415" y="-810" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Conteo_Ciclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1278.71" width="200" x="1600" y="-1180" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-36" parent="qV2Hy5ehBWE2c7OvjgpK-35" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="95" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-37" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="870" y="-750" as="sourcePoint" />
+            <mxPoint x="590" y="-750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1415" y="-760" as="sourcePoint" />
+            <mxPoint x="885.0017647058821" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="295.5" y="-990" as="sourcePoint" />
+            <mxPoint x="574.9999999999998" y="-990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-40" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="2.&amp;nbsp;Solicitar iniciar un conteo para la bodega seleccionada" vertex="1">
+          <mxGeometry height="20" width="280" x="295" y="-1030" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-41" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="3.Consultar los productos asignados a la bodega" vertex="1">
+          <mxGeometry height="20" width="250" x="590" y="-980" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-42" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="4.&amp;nbsp;Obtener los materiales con stock registrado en la bodega" vertex="1">
+          <mxGeometry height="20" width="235" x="889.5" y="-960" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-43" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="5.&amp;nbsp;Retornar los materiales asignados a la bodega con su cantidad física" vertex="1">
+          <mxGeometry height="20" width="235" x="889.5" y="-910" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-44" parent="1" style="text;whiteSpace=wrap;html=1;" value="7.&amp;nbsp;Retornar los datos descriptivos de los materiales" vertex="1">
+          <mxGeometry height="30" width="340" x="980" y="-790" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-45" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="586.25" y="-610" as="sourcePoint" />
+            <mxPoint x="870" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-46" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="624.98" y="-460" />
+              <mxPoint x="624.98" y="-440" />
+            </Array>
+            <mxPoint x="584.98" y="-460" as="sourcePoint" />
+            <mxPoint x="584.98" y="-440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="qV2Hy5ehBWE2c7OvjgpK-9" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="-340" as="sourcePoint" />
+            <mxPoint x="60" y="-340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-48" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="56.25" y="-270" as="sourcePoint" />
+            <mxPoint x="286.25" y="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="293.7500000000002" y="-230.47000000000003" as="sourcePoint" />
+            <mxPoint x="573.75" y="-230.47000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-50" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="625.02" y="-210" />
+              <mxPoint x="625.02" y="-190" />
+            </Array>
+            <mxPoint x="585.02" y="-210" as="sourcePoint" />
+            <mxPoint x="585.02" y="-190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-51" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="573.75" y="-140" as="sourcePoint" />
+            <mxPoint x="296.25" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-52" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="qV2Hy5ehBWE2c7OvjgpK-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="285" y="-110" as="sourcePoint" />
+            <mxPoint x="60" y="-110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-53" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Accede al módulo de conteo cíclico y selecciona la bodega a revisar" vertex="1">
+          <mxGeometry height="40" width="220" x="60" y="-1050" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-54" parent="1" style="text;whiteSpace=wrap;html=1;" value="6. Obtener el nombre y la unidad de medida de cada material" vertex="1">
+          <mxGeometry height="20" width="350" x="980" y="-835" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-55" parent="1" style="text;whiteSpace=wrap;html=1;" value="8. Entregar los materiales de la bodega" vertex="1">
+          <mxGeometry height="30" width="230" x="607" y="-780" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-56" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Verificar que la bodega tenga productos asignados" vertex="1">
+          <mxGeometry height="40" width="177" x="633.5" y="-720" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-57" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="10. Consultar si existe un conteo previo para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="260" x="597.5" y="-650" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-58" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="qV2Hy5ehBWE2c7OvjgpK-36" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="880" y="-580" as="sourcePoint" />
+            <mxPoint x="1690" y="-580" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-59" parent="1" style="text;whiteSpace=wrap;html=1;" value="11. Obtener los movimientos de conteo registrados para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="460" x="974" y="-610" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-60" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1690" y="-530" as="sourcePoint" />
+            <mxPoint x="880.0017647058821" y="-530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-61" parent="1" style="text;whiteSpace=wrap;html=1;" value="12. Retornar que no existe conteo registrado para esa bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="440" x="984" y="-560" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-62" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="870.0000000000002" y="-500" as="sourcePoint" />
+            <mxPoint x="585" y="-500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-63" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="13. Entregar el resultado de la verificación de duplicidad" vertex="1">
+          <mxGeometry height="20" width="280" x="577.5" y="-540" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-64" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="14. Verificar que no exista un conteo previo para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="40" width="240" x="625" y="-470" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-65" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="15. Retornar la lista de productos de la bodega habilitada para el conteo" vertex="1">
+          <mxGeometry height="40" width="287.5" x="286.25" y="-440" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-66" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="16. Despliega la lista de productos registrados en esa bodega" vertex="1">
+          <mxGeometry height="40" width="230" x="50" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-67" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="17. Ingresa las cantidades físicas contabilizadas y opcionalmente observaciones por ítem" vertex="1">
+          <mxGeometry height="40" width="230" x="55" y="-330" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-68" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="18. Envíar las cantidades contadas con sus observaciones" vertex="1">
+          <mxGeometry height="40" width="220" x="308.75" y="-270" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-69" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="19.&amp;nbsp;Validar las cantidades" vertex="1">
+          <mxGeometry height="30" width="155" x="625" y="-220" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-70" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="20 .Retornar el campo con error sin registrar el conteo" vertex="1">
+          <mxGeometry height="40" width="250" x="305" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-71" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="21.&amp;nbsp;Señala el campo y solicita corregir la información antes de confirmar" vertex="1">
+          <mxGeometry height="30" width="220" x="60" y="-160" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-72" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="225" width="10" x="870" y="-960" as="geometry" />
+        </mxCell>
+        <mxCell id="qV2Hy5ehBWE2c7OvjgpK-73" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="145.64" width="10" x="870" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="vtVw5n3sG-QczaxtAhmD-1" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="CU-37: Ejecutando conteo cíclico de inventario&lt;div&gt;Excepción 1&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="770" y="-1240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Bdi9QdTK4F_Ypv6o_UWy" name="Excepción 2">
+    <mxGraphModel dx="2357" dy="2571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="720" width="1810" x="430" y="-700" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="620" width="20" x="460" y="-619.71" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-3" parent="R4aqpQAUN1FcKIBx7dSZ-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="48.71" width="10" x="5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-4" parent="R4aqpQAUN1FcKIBx7dSZ-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="388.71" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/ JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="430" y="-579.71" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Conteo cíclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="620" width="200" x="610" y="-619.71" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-7" parent="R4aqpQAUN1FcKIBx7dSZ-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="48.71" width="10" x="95" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-8" parent="R4aqpQAUN1FcKIBx7dSZ-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="48.71" width="10" x="95" y="368.71000000000004" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_conteos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="620" width="200" x="900" y="-619.71" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-10" parent="R4aqpQAUN1FcKIBx7dSZ-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="168.71" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-11" parent="R4aqpQAUN1FcKIBx7dSZ-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="101.29" width="10" x="95" y="308.71" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-12" edge="1" parent="R4aqpQAUN1FcKIBx7dSZ-9" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="349.36" />
+              <mxPoint x="150" y="369.36" />
+            </Array>
+            <mxPoint x="105" y="349.35999999999996" as="sourcePoint" />
+            <mxPoint x="105" y="369.35999999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-13" edge="1" parent="1" source="R4aqpQAUN1FcKIBx7dSZ-19" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1550" y="-321" as="sourcePoint" />
+            <mxPoint x="1300" y="-321" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1314.5" y="-371" />
+            </Array>
+            <mxPoint x="1299.5" y="-370.9999999999999" as="sourcePoint" />
+            <mxPoint x="1554.4999999999998" y="-371" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0048" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1005" y="-401.38" as="sourcePoint" />
+            <mxPoint x="1290" y="-401.38" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="1210" y="-621" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-17" edge="1" parent="1" source="R4aqpQAUN1FcKIBx7dSZ-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="R4aqpQAUN1FcKIBx7dSZ-7" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="480" y="-461" as="sourcePoint" />
+            <mxPoint x="700" y="-461" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="620" width="200" x="1460" y="-621" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-19" parent="R4aqpQAUN1FcKIBx7dSZ-18" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="228.71" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-20" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="620" width="200" x="1740" y="-621" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-21" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Conteo_Ciclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="620" width="200" x="2020" y="-621" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="715.5" y="-431" as="sourcePoint" />
+            <mxPoint x="994.9999999999998" y="-431" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-23" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="2.&amp;nbsp;Solicitar iniciar un conteo para la bodega seleccionada" vertex="1">
+          <mxGeometry height="20" width="280" x="715" y="-471" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-24" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="3.Consultar los productos asignados a la bodega" vertex="1">
+          <mxGeometry height="20" width="250" x="1010" y="-441" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-25" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="4.&amp;nbsp;Obtener los materiales con stock registrado en la bodega" vertex="1">
+          <mxGeometry height="20" width="235" x="1309.5" y="-411" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-26" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="5.&amp;nbsp;Retornar que la bodega no tiene materiales asignados" vertex="1">
+          <mxGeometry height="20" width="235" x="1309.5" y="-361" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-27" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Accede al módulo de conteo cíclico y selecciona la bodega a revisar" vertex="1">
+          <mxGeometry height="40" width="220" x="480" y="-491" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-28" edge="1" parent="1" source="R4aqpQAUN1FcKIBx7dSZ-30" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1295" y="-581" as="sourcePoint" />
+            <mxPoint x="1295" y="-11" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-29" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="R4aqpQAUN1FcKIBx7dSZ-30" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1295" y="-581" as="sourcePoint" />
+            <mxPoint x="1295" y="9" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-30" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="140" width="10" x="1290" y="-421" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1290" y="-296" as="sourcePoint" />
+            <mxPoint x="1005" y="-296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-32" parent="1" style="text;whiteSpace=wrap;html=1;" value="6. Entregar el resultado de la consulta" vertex="1">
+          <mxGeometry height="30" width="220" x="1030" y="-326" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="995" y="-231.22000000000003" as="sourcePoint" />
+            <mxPoint x="715" y="-231.22000000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-34" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="7. Verificar que la bodega tenga productos asignados" vertex="1">
+          <mxGeometry height="40" width="160" x="1059" y="-281" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-35" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="8. Retornar que no hay productos para contar y no permite iniciar el conteo" vertex="1">
+          <mxGeometry height="40" width="265" x="722.5" y="-281" as="geometry" />
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-36" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="705" y="-211" as="sourcePoint" />
+            <mxPoint x="475" y="-211" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R4aqpQAUN1FcKIBx7dSZ-37" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Informa que no hay productos para contar en esa bodega y no permite iniciar el conteo" vertex="1">
+          <mxGeometry height="40" width="200" x="490" y="-271" as="geometry" />
+        </mxCell>
+        <mxCell id="VKAArCwLo7uFoJhMIAhm-1" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="CU-37: Ejecutando conteo cíclico de inventario&lt;div&gt;Excepción 2&lt;/div&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="1195" y="-680" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="Pz8-0uARCMP8Tb0yxPba" name="Excepción 3">
+    <mxGraphModel dx="2357" dy="2571" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1050" width="1830" x="170" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="948.71" width="20" x="210" y="-918.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-6" parent="pypW9fvT5DRjQ-Xm4nfH-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-7" parent="pypW9fvT5DRjQ-Xm4nfH-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="778.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/ JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="180" y="-878.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Conteo cíclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="948.71" width="200" x="360" y="-918.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-10" parent="pypW9fvT5DRjQ-Xm4nfH-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-11" parent="pypW9fvT5DRjQ-Xm4nfH-9" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="95" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-12" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_conteos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="948.71" width="200" x="650" y="-918.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-13" parent="pypW9fvT5DRjQ-Xm4nfH-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="168.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-14" parent="pypW9fvT5DRjQ-Xm4nfH-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="131.29" width="10" x="95" y="618.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-15" parent="pypW9fvT5DRjQ-Xm4nfH-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="95" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-16" edge="1" parent="pypW9fvT5DRjQ-Xm4nfH-12" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="440.01000000000005" />
+              <mxPoint x="150" y="460.01000000000005" />
+            </Array>
+            <mxPoint x="105" y="440.00000000000006" as="sourcePoint" />
+            <mxPoint x="105" y="460.00000000000006" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-17" edge="1" parent="pypW9fvT5DRjQ-Xm4nfH-12" source="pypW9fvT5DRjQ-Xm4nfH-14" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" target="pypW9fvT5DRjQ-Xm4nfH-14" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="678.72" />
+              <mxPoint x="150" y="698.72" />
+            </Array>
+            <mxPoint x="110" y="678.71" as="sourcePoint" />
+            <mxPoint x="110" y="698.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="743.75" y="-180" as="sourcePoint" />
+            <mxPoint x="463.75" y="-180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1302" y="-620" as="sourcePoint" />
+            <mxPoint x="1052" y="-620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1065" y="-670" />
+            </Array>
+            <mxPoint x="1050" y="-669.9999999999999" as="sourcePoint" />
+            <mxPoint x="1305" y="-670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0048" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="755" y="-700" as="sourcePoint" />
+            <mxPoint x="1040" y="-700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="960" y="-920" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-23" edge="1" parent="1" source="pypW9fvT5DRjQ-Xm4nfH-6" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="pypW9fvT5DRjQ-Xm4nfH-10" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="230" y="-760" as="sourcePoint" />
+            <mxPoint x="450" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="948.71" width="200" x="1210" y="-920" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-25" parent="pypW9fvT5DRjQ-Xm4nfH-24" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="95" y="228.71" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-26" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="948.71" width="200" x="1490" y="-920" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-27" parent="pypW9fvT5DRjQ-Xm4nfH-26" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="95" y="335" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-28" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1050" y="-560" as="sourcePoint" />
+            <mxPoint x="1585" y="-560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Conteo_Ciclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="948.71" width="200" x="1770" y="-920" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-30" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="pypW9fvT5DRjQ-Xm4nfH-15" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1040" y="-500" as="sourcePoint" />
+            <mxPoint x="760" y="-500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-31" edge="1" parent="1" source="pypW9fvT5DRjQ-Xm4nfH-27" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1580" y="-520" as="sourcePoint" />
+            <mxPoint x="1050.0017647058821" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-32" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="465.5" y="-730" as="sourcePoint" />
+            <mxPoint x="744.9999999999998" y="-730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-33" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="2.&amp;nbsp;Solicitar iniciar un conteo para la bodega seleccionada" vertex="1">
+          <mxGeometry height="20" width="280" x="465" y="-770" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-34" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="3.Consultar los productos asignados a la bodega" vertex="1">
+          <mxGeometry height="20" width="250" x="760" y="-740" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-35" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="4.&amp;nbsp;Obtener los materiales con stock registrado en la bodega" vertex="1">
+          <mxGeometry height="20" width="235" x="1059.5" y="-710" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-36" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="5.&amp;nbsp;Retornar los materiales asignados a la bodega con su cantidad física" vertex="1">
+          <mxGeometry height="20" width="235" x="1059.5" y="-660" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-37" parent="1" style="text;whiteSpace=wrap;html=1;" value="7.&amp;nbsp;Retornar los datos descriptivos de los materiales" vertex="1">
+          <mxGeometry height="30" width="340" x="1160" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-38" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="756.25" y="-390" as="sourcePoint" />
+            <mxPoint x="1040" y="-390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-39" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="455" y="-120" as="sourcePoint" />
+            <mxPoint x="225" y="-120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-40" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Accede al módulo de conteo cíclico y selecciona la bodega a revisar" vertex="1">
+          <mxGeometry height="40" width="220" x="230" y="-800" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-41" parent="1" style="text;whiteSpace=wrap;html=1;" value="6. Obtener el nombre y la unidad de medida de cada material" vertex="1">
+          <mxGeometry height="20" width="350" x="1130" y="-585" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-42" parent="1" style="text;whiteSpace=wrap;html=1;" value="8. Entregar los materiales de la bodega" vertex="1">
+          <mxGeometry height="30" width="230" x="787" y="-530" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-43" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Verificar que la bodega tenga productos asignados" vertex="1">
+          <mxGeometry height="40" width="200" x="790" y="-490" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-44" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="10. Consultar si existe un conteo previo para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="260" x="760" y="-430" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-45" edge="1" parent="1" source="pypW9fvT5DRjQ-Xm4nfH-60" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1050" y="-360" as="sourcePoint" />
+            <mxPoint x="1869.5" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-46" parent="1" style="text;whiteSpace=wrap;html=1;" value="11. Obtener los movimientos de conteo registrados para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="460" x="1160" y="-390" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-47" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1863" y="-310.26" as="sourcePoint" />
+            <mxPoint x="1053.0017647058821" y="-310.26" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-48" parent="1" style="text;whiteSpace=wrap;html=1;" value="12.Retornar que ya existe un conteo registrado para esa bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="473" x="1147" y="-340" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-49" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="pypW9fvT5DRjQ-Xm4nfH-14" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1045" y="-270" as="sourcePoint" />
+            <mxPoint x="760" y="-270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-50" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="13.&amp;nbsp;Entregar el resultado de la verificación de duplicidad" vertex="1">
+          <mxGeometry height="20" width="280" x="760" y="-310" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-51" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1044.74" y="-290" as="sourcePoint" />
+            <mxPoint x="1044.74" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-52" edge="1" parent="1" source="pypW9fvT5DRjQ-Xm4nfH-55" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="pypW9fvT5DRjQ-Xm4nfH-53" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="-880" as="sourcePoint" />
+            <mxPoint x="1045" y="1011.4285714285716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-53" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="1040" y="-415" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-54" edge="1" parent="1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="pypW9fvT5DRjQ-Xm4nfH-55" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1045" y="-880" as="sourcePoint" />
+            <mxPoint x="1045" y="-290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-55" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="230" width="10" x="1040" y="-720" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-56" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="14. Verificar la duplicidad" vertex="1">
+          <mxGeometry height="20" width="157" x="800" y="-250" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-57" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="15. Retornar el aviso de duplicidad con las opciones de ver el conteo existente o crear uno&amp;nbsp;&lt;div&gt;nuevo con justificación&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="293.75" x="451.25" y="-240" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-58" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="16. Informa la duplicidad y ofrece visualizar el conteo existente o crear uno nuevo con justificación" vertex="1">
+          <mxGeometry height="40" width="230" x="220" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-59" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="pypW9fvT5DRjQ-Xm4nfH-60" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1050" y="-360" as="sourcePoint" />
+            <mxPoint x="1869.5" y="-360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="pypW9fvT5DRjQ-Xm4nfH-60" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="1865" y="-380" as="geometry" />
+        </mxCell>
+        <mxCell id="poFSdESIj9d_ZcvGeuWM-1" parent="1" style="text;whiteSpace=wrap;html=1;align=center;" value="CU-37: Ejecutando conteo cíclico de inventario&lt;br&gt;Excepción 3" vertex="1">
+          <mxGeometry height="50" width="280" x="945" y="-980" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 4" id="-6q00FMb6rnUE1-WY20T">
+    <mxGraphModel dx="2020" dy="3539" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="I3LKtbRkLY6NUMOGb1ah-0" />
+        <mxCell id="I3LKtbRkLY6NUMOGb1ah-1" parent="I3LKtbRkLY6NUMOGb1ah-0" />
+        <mxCell id="TfyXlYcVwvxK0rjStqva-0" parent="I3LKtbRkLY6NUMOGb1ah-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1680" width="1820" x="320" y="-1300" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1578.71" width="20" x="360" y="-1218.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-2" parent="TfyXlYcVwvxK0rjStqva-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-3" parent="TfyXlYcVwvxK0rjStqva-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="102.42" width="10" x="5" y="876.29" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-4" parent="TfyXlYcVwvxK0rjStqva-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="83.58" width="10" x="5" y="1086.42" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-5" parent="TfyXlYcVwvxK0rjStqva-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="1518.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-6" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/ JOP" vertex="1">
+          <mxGeometry height="30" width="80" x="330" y="-1178.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-7" parent="I3LKtbRkLY6NUMOGb1ah-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Conteo cíclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1578.71" width="200" x="510" y="-1218.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-8" parent="TfyXlYcVwvxK0rjStqva-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-9" parent="TfyXlYcVwvxK0rjStqva-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="145.64" width="10" x="95" y="848.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-10" parent="TfyXlYcVwvxK0rjStqva-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="95" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-11" parent="TfyXlYcVwvxK0rjStqva-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="1488.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-12" parent="I3LKtbRkLY6NUMOGb1ah-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_conteos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1578.71" width="200" x="800" y="-1218.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-13" parent="TfyXlYcVwvxK0rjStqva-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="168.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-14" parent="TfyXlYcVwvxK0rjStqva-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="95" y="728.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-15" parent="TfyXlYcVwvxK0rjStqva-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="121.29" width="10" x="95" y="968.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-16" parent="TfyXlYcVwvxK0rjStqva-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="151.29" width="10" x="95" y="1138.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-17" parent="TfyXlYcVwvxK0rjStqva-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="221.29" width="10" x="95" y="418.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-18" edge="1" parent="TfyXlYcVwvxK0rjStqva-12" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="150" y="498.72" />
+              <mxPoint x="150" y="518.72" />
+            </Array>
+            <mxPoint x="105" y="498.71000000000026" as="sourcePoint" />
+            <mxPoint x="105" y="518.7100000000003" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-19" parent="TfyXlYcVwvxK0rjStqva-12" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="95" y="1468.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-20" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="893.75" y="-350" as="sourcePoint" />
+            <mxPoint x="613.75" y="-350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-21" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1450" y="-910" as="sourcePoint" />
+            <mxPoint x="1200" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-22" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="TfyXlYcVwvxK0rjStqva-27" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1215" y="-960" />
+            </Array>
+            <mxPoint x="1200" y="-959.9999999999999" as="sourcePoint" />
+            <mxPoint x="1480" y="-960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-23" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.0048" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="905" y="-980" as="sourcePoint" />
+            <mxPoint x="1190" y="-980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-24" parent="I3LKtbRkLY6NUMOGb1ah-1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="40" width="170" x="1110" y="-1220" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-25" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="-1060.175" as="sourcePoint" />
+            <mxPoint x="605" y="-1060.175" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-26" parent="I3LKtbRkLY6NUMOGb1ah-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1578.71" width="200" x="1360" y="-1220" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-27" parent="TfyXlYcVwvxK0rjStqva-26" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="228.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-105" parent="TfyXlYcVwvxK0rjStqva-26" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="68.71" width="10" x="95" y="1291.29" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-28" parent="I3LKtbRkLY6NUMOGb1ah-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;fontStyle=4" value="Material" vertex="1">
+          <mxGeometry height="1578.71" width="200" x="1640" y="-1220" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-29" parent="TfyXlYcVwvxK0rjStqva-28" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="95" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-30" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1200" y="-840" as="sourcePoint" />
+            <mxPoint x="1735" y="-840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-31" parent="I3LKtbRkLY6NUMOGb1ah-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Conteo_Ciclico&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1578.71" width="200" x="1920" y="-1220" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-32" parent="TfyXlYcVwvxK0rjStqva-31" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="628.71" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-33" parent="TfyXlYcVwvxK0rjStqva-31" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="91.29" width="10" x="95" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-34" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" source="TfyXlYcVwvxK0rjStqva-86" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1185" y="-760" as="sourcePoint" />
+            <mxPoint x="905" y="-760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-35" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="-800" as="sourcePoint" />
+            <mxPoint x="1200.0017647058821" y="-800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-36" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="615.5" y="-1030" as="sourcePoint" />
+            <mxPoint x="894.9999999999998" y="-1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-37" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="2.&amp;nbsp;Solicitar iniciar un conteo para la bodega seleccionada" vertex="1">
+          <mxGeometry height="20" width="280" x="615" y="-1070" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-38" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="3.Consultar los productos asignados a la bodega" vertex="1">
+          <mxGeometry height="20" width="250" x="920" y="-1020" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-39" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="4.&amp;nbsp;Obtener los materiales con stock registrado en la bodega" vertex="1">
+          <mxGeometry height="20" width="235" x="1209.5" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-40" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="5.&amp;nbsp;Retornar los materiales asignados a la bodega con su cantidad física" vertex="1">
+          <mxGeometry height="20" width="235" x="1209.5" y="-950" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-41" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="7.&amp;nbsp;Retornar los datos descriptivos de los materiales" vertex="1">
+          <mxGeometry height="30" width="340" x="1310" y="-830" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-42" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="906.25" y="-610" as="sourcePoint" />
+            <mxPoint x="1190" y="-610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-43" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="945" y="-420" />
+              <mxPoint x="945" y="-400" />
+            </Array>
+            <mxPoint x="905" y="-420" as="sourcePoint" />
+            <mxPoint x="905" y="-400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-44" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="-330" as="sourcePoint" />
+            <mxPoint x="375" y="-330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-45" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="-260.22" as="sourcePoint" />
+            <mxPoint x="605" y="-260.22" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-46" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="616.2500000000002" y="-240" as="sourcePoint" />
+            <mxPoint x="896.25" y="-240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-47" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="945" y="-220" />
+              <mxPoint x="945" y="-200" />
+            </Array>
+            <mxPoint x="905" y="-220" as="sourcePoint" />
+            <mxPoint x="905" y="-200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-48" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="616.25" y="-61" as="sourcePoint" />
+            <mxPoint x="896.25" y="-61.00000000000023" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-49" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1036.25" y="270" />
+            </Array>
+            <mxPoint x="1190" y="270" as="sourcePoint" />
+            <mxPoint x="906.25" y="270" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-50" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="TfyXlYcVwvxK0rjStqva-10" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="896.25" y="-140" as="sourcePoint" />
+            <mxPoint x="616.25" y="-140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-51" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="TfyXlYcVwvxK0rjStqva-4" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="600" y="-109.99500000000012" as="sourcePoint" />
+            <mxPoint x="380" y="-109.99000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-52" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="1. Accede al módulo de conteo cíclico y selecciona la bodega a revisar" vertex="1">
+          <mxGeometry height="40" width="220" x="380" y="-1100" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-53" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="6. Obtener el nombre y la unidad de medida de cada material" vertex="1">
+          <mxGeometry height="20" width="350" x="1300" y="-870" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-54" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="8. Entregar los materiales de la bodega" vertex="1">
+          <mxGeometry height="30" width="230" x="930" y="-790" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-55" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="9. Verificar que la bodega tenga productos asignados" vertex="1">
+          <mxGeometry height="40" width="200" x="950" y="-730" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-56" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="10. Consultar si existe un conteo previo para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="260" x="915" y="-650" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-57" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="TfyXlYcVwvxK0rjStqva-32" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1200" y="-570" as="sourcePoint" />
+            <mxPoint x="2000" y="-570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-58" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="11. Obtener los movimientos de conteo registrados para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="460" x="1370" y="-600" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-59" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" source="TfyXlYcVwvxK0rjStqva-32" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2010" y="-520" as="sourcePoint" />
+            <mxPoint x="1200.0017647058821" y="-520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-60" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="12. Retornar que no existe conteo registrado para esa bodega en la fecha actual" vertex="1">
+          <mxGeometry height="30" width="440" x="1360" y="-550" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-61" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" x="-0.0031" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1190" y="-460" as="sourcePoint" />
+            <mxPoint x="905" y="-460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-62" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="13. Entregar el resultado de la verificación de duplicidad" vertex="1">
+          <mxGeometry height="20" width="280" x="900" y="-500" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-63" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="14. Verificar que no exista un conteo previo para la bodega en la fecha actual" vertex="1">
+          <mxGeometry height="40" width="240" x="945" y="-430" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-64" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="15. Retornar la lista de productos de la bodega habilitada para el conteo" vertex="1">
+          <mxGeometry height="40" width="287.5" x="612.5" y="-390" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-65" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="16. Despliega la lista de productos registrados en esa bodega" vertex="1">
+          <mxGeometry height="40" width="230" x="370" y="-370" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-66" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="17. Ingresa las cantidades físicas contabilizadas y opcionalmente observaciones por ítem" vertex="1">
+          <mxGeometry height="40" width="230" x="370" y="-320" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-67" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="18. Envíar las cantidades contadas con sus observaciones" vertex="1">
+          <mxGeometry height="40" width="220" x="635" y="-280" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-68" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="19. Validar que cada cantidad ingresada sea un número entero igual o mayor a cero" vertex="1">
+          <mxGeometry height="40" width="220" x="950" y="-230" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-69" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="20. Retornar las cantidades validadas y solicita la confirmación del conteo" vertex="1">
+          <mxGeometry height="40" width="250" x="631.25" y="-180" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-70" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="21. Solicita confirmar el conteo" vertex="1">
+          <mxGeometry height="30" width="180" x="400" y="-140" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-71" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="375" y="-70" as="sourcePoint" />
+            <mxPoint x="605" y="-70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-72" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="22. Confirma el conteo" vertex="1">
+          <mxGeometry height="30" width="130" x="420" y="-100" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-73" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="23. Envíar la confirmación del conteo" vertex="1">
+          <mxGeometry height="30" width="210" x="645" y="-91" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-74" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0072" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="945" y="-40" />
+              <mxPoint x="945" y="-20" />
+            </Array>
+            <mxPoint x="905" y="-40" as="sourcePoint" />
+            <mxPoint x="905" y="-20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-75" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="24. Preparar un registro de conteo por cada producto con su bodega, cantidad contada, fecha, hora y usuario responsable" vertex="1">
+          <mxGeometry height="50" width="230" x="940" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-76" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="25. Solicitar registrar el conteo y sus resultados" vertex="1">
+          <mxGeometry height="30" width="260" x="920" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-77" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="905" y="60" as="sourcePoint" />
+            <mxPoint x="1190" y="59.999999999999545" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-78" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="TfyXlYcVwvxK0rjStqva-33" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1200" y="184.71000000000004" as="sourcePoint" />
+            <mxPoint x="2010" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-79" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="28. Insertar por cada producto un movimiento de conteo con su cantidad contada, sin modificar el stock" vertex="1">
+          <mxGeometry height="30" width="560" x="1340" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-80" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" source="TfyXlYcVwvxK0rjStqva-33" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2010" y="230" as="sourcePoint" />
+            <mxPoint x="1200.0017647058821" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-82" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;" value="29. Retornar los identificadores únicos generados" vertex="1">
+          <mxGeometry height="30" width="270" x="1450" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-83" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" source="TfyXlYcVwvxK0rjStqva-86" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="TfyXlYcVwvxK0rjStqva-84" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1195" y="-1180" as="sourcePoint" />
+            <mxPoint x="1195" y="711.4285714285716" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-84" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="190" width="10" x="1190" y="-630" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-85" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" target="TfyXlYcVwvxK0rjStqva-86" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1195" y="-1180" as="sourcePoint" />
+            <mxPoint x="1195" y="-590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-86" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="270" width="10" x="1190" y="-1000" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-87" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="30. Confirmar la persistencia del conteo con sus identificadores" vertex="1">
+          <mxGeometry height="40" width="240" x="930" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-88" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="TfyXlYcVwvxK0rjStqva-11" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="736.5699999999999" y="299.4100000000001" />
+            </Array>
+            <mxPoint x="890.3199999999999" y="299.4100000000001" as="sourcePoint" />
+            <mxPoint x="630" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-89" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="31. Retornar la confirmación con el identificador único del conteo" vertex="1">
+          <mxGeometry height="40" width="280" x="612.5" y="260" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-90" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="603.5" y="320" as="sourcePoint" />
+            <mxPoint x="376.5" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-91" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="32. Muestra la confirmación del conteo registrado con su identificador único" vertex="1">
+          <mxGeometry height="40" width="210" x="391" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-92" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" source="TfyXlYcVwvxK0rjStqva-84" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;endArrow=none;endFill=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1195" y="-440" as="sourcePoint" />
+            <mxPoint x="1195" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-93" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="240" width="10" x="1190" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-94" parent="I3LKtbRkLY6NUMOGb1ah-1" style="text;whiteSpace=wrap;html=1;align=center;" value="&lt;span style=&quot;&quot;&gt;CU-37: Ejecutando conteo cíclico de inventario&lt;/span&gt;&lt;br style=&quot;&quot;&gt;&lt;span style=&quot;&quot;&gt;Excepción 4&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="1090" y="-1280" as="geometry" />
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-95" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" source="TfyXlYcVwvxK0rjStqva-105" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1200" y="80" as="sourcePoint" />
+            <mxPoint x="1455" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-103" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1330" y="119.5" />
+            </Array>
+            <mxPoint x="1450" y="119.5" as="sourcePoint" />
+            <mxPoint x="1200" y="119.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-104" connectable="0" parent="TfyXlYcVwvxK0rjStqva-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="27. Retorna el stock teórico de cada producto" vertex="1">
+          <mxGeometry relative="1" x="0.0215" y="1" as="geometry">
+            <mxPoint x="1" y="-10" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-106" edge="1" parent="I3LKtbRkLY6NUMOGb1ah-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="TfyXlYcVwvxK0rjStqva-105" value="">
+          <mxGeometry relative="1" width="80" x="0.002" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1200" y="80" as="sourcePoint" />
+            <mxPoint x="1455" y="80" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TfyXlYcVwvxK0rjStqva-107" connectable="0" parent="TfyXlYcVwvxK0rjStqva-106" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="26. Lee el stock físico actual de cada producto&amp;nbsp;&lt;div&gt;de la bodega como stock teórico del conteo&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.0099" as="geometry">
+            <mxPoint x="4" y="-20" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

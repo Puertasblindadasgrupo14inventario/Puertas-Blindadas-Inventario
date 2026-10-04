@@ -1,0 +1,533 @@
+<mxfile host="Electron" pages="3">
+  <diagram name="GENERAL" id="naOKcih4zNyqBss1aGn2">
+    <mxGraphModel dx="3655" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KaMtuQ_RoQgU3WMV9VkY-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1190" width="2390" x="-290" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-36" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-13" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="23. Muestra la confirmación de la operación con el movimiento original anulado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-220" y="1250" as="sourcePoint" />
+            <mxPoint x="200" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-34" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="21. Confirma la persistencia de la reversión">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="1180" as="sourcePoint" />
+            <mxPoint x="1275" y="1180.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-29" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="oUYPET31y2oVR0JCvsvS-15" value="17. Restaura la cantidad física del material al estado previo al error">
+          <mxGeometry relative="1" width="80" x="0.0005" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1290" y="1015" as="sourcePoint" />
+            <mxPoint x="1970" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="oUYPET31y2oVR0JCvsvS-16" value="15. Inserta el movimiento inverso con la cantidad y el sentido contrario al original">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1280" y="940" as="sourcePoint" />
+            <mxPoint x="1802.5" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="oUYPET31y2oVR0JCvsvS-9" value="14. Solicita generar el movimiento inverso y restaurar el stock">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="910" as="sourcePoint" />
+            <mxPoint x="1250" y="910.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="12. Entrega el stock disponible">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="789.41" as="sourcePoint" />
+            <mxPoint x="1275" y="789.91" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-23" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-7" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;11. Retorna el stock actual del material en la bodega&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1300" y="750" as="sourcePoint" />
+            <mxPoint x="1992.5" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="oUYPET31y2oVR0JCvsvS-6" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;10. Obtiene la cantidad física y la cantidad reservada del material&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1280" y="710" as="sourcePoint" />
+            <mxPoint x="1970" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" target="PnwCqJhlirrKhZfcsvWk-6" value="6. Entrega el movimiento con su estado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="460" as="sourcePoint" />
+            <mxPoint x="1045" y="460.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-15" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;5. Retorna el movimiento en estado vigente&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" x="0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1283" y="440" as="sourcePoint" />
+            <mxPoint x="1812.5" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="oUYPET31y2oVR0JCvsvS-5" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;4.&amp;nbsp;Obtiene el movimiento con su estado y sus datos de cantidad, bodega y lote&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1280" y="400" as="sourcePoint" />
+            <mxPoint x="1790" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="oUYPET31y2oVR0JCvsvS-4" value="3. Consulta el movimiento y su estado actual">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="369.5" as="sourcePoint" />
+            <mxPoint x="1260" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="oUYPET31y2oVR0JCvsvS-3" value="2. Envía la solicitud de reversión del movimiento">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="211.00142857142845" y="349.9999999999998" as="sourcePoint" />
+            <mxPoint x="616.93" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona el movimiento erróneo y solicita la acción &quot;Revertir&quot;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="-240.18965517241395" y="320" as="sourcePoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1090" width="20" x="-250" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-1" parent="PnwCqJhlirrKhZfcsvWk-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="5" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-13" parent="PnwCqJhlirrKhZfcsvWk-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="5" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="V_Revertir_Movimientos" vertex="1">
+          <mxGeometry height="1090" width="150" x="130" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-2" parent="PnwCqJhlirrKhZfcsvWk-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="70" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_movimientos" vertex="1">
+          <mxGeometry height="1090" width="150" x="550" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-3" parent="PnwCqJhlirrKhZfcsvWk-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="590" width="10" x="70" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-10" parent="PnwCqJhlirrKhZfcsvWk-4" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="51" width="10" x="70" y="939" as="geometry" />
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="C_Postgre" vertex="1">
+          <mxGeometry height="1090" width="150" x="1200" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-4" parent="PnwCqJhlirrKhZfcsvWk-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="110" width="10" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-7" parent="PnwCqJhlirrKhZfcsvWk-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="70" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-9" parent="PnwCqJhlirrKhZfcsvWk-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="320" width="10" x="70" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="Movimiento_Inventario" vertex="1">
+          <mxGeometry height="1090" width="150" x="1738" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-5" parent="PnwCqJhlirrKhZfcsvWk-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-14" parent="PnwCqJhlirrKhZfcsvWk-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="51" width="10" x="70" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-16" parent="PnwCqJhlirrKhZfcsvWk-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="51" width="10" x="70" y="699" as="geometry" />
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="Inventario_Bodega" vertex="1">
+          <mxGeometry height="1090" width="150" x="1918" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-6" parent="PnwCqJhlirrKhZfcsvWk-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="60" width="10" x="70" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-15" parent="PnwCqJhlirrKhZfcsvWk-8" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="51" width="10" x="70" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="-270" y="270" as="geometry" />
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="7. Verifica que el movimiento no haya sido revertido con anterioridad">
+          <mxGeometry relative="1" width="80" x="0.0417" y="80" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="490" />
+              <mxPoint x="720" y="550" />
+              <mxPoint x="660" y="550" />
+            </Array>
+            <mxPoint x="630" y="490" as="sourcePoint" />
+            <mxPoint x="630" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="oUYPET31y2oVR0JCvsvS-7" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;9. Consulta el stock actual del material en la bodega del movimiento&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="630" y="670" as="sourcePoint" />
+            <mxPoint x="1240" y="670.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;13. Verifica que el stock actual permita ejecutar la reversión&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" x="0.0833" y="100" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="820" />
+              <mxPoint x="720" y="880" />
+              <mxPoint x="660" y="880" />
+            </Array>
+            <mxPoint x="630" y="820" as="sourcePoint" />
+            <mxPoint x="630" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-28" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="oUYPET31y2oVR0JCvsvS-16" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;16. Confirma el registro del movimiento inverso&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1290" y="984" as="sourcePoint" />
+            <mxPoint x="1802.5" y="980" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-30" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="oUYPET31y2oVR0JCvsvS-15" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;18. Confirma la restauración del stock&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1300" y="1060" as="sourcePoint" />
+            <mxPoint x="1970" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-32" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-9" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="oUYPET31y2oVR0JCvsvS-14" value="19. Marca el movimiento original con estado &quot;Anulado por Reversión&quot; conservando su registro íntegro">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1310" y="1100" as="sourcePoint" />
+            <mxPoint x="1790" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-33" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-9" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="oUYPET31y2oVR0JCvsvS-14" value="20. Confirma el cambio de estado del movimiento original">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1310" y="1155" as="sourcePoint" />
+            <mxPoint x="1813" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PnwCqJhlirrKhZfcsvWk-35" edge="1" parent="1" source="oUYPET31y2oVR0JCvsvS-11" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;dashed=1;endFill=0;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;22. Retorna la confirmación de la reversión con el movimiento inverso generado&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="204.32352941176487" y="1210" as="sourcePoint" />
+            <mxPoint x="620" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;dashed=1;endFill=0;" target="oUYPET31y2oVR0JCvsvS-11" value="">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="204.32352941176487" y="1210" as="sourcePoint" />
+            <mxPoint x="620" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="oUYPET31y2oVR0JCvsvS-11" parent="1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="200" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="8poEmJTq-8NbhrQgbsIT-1" parent="1" style="text;whiteSpace=wrap;align=center;" value="CU-44: Revirtiendo movimientos erróneos" vertex="1">
+          <mxGeometry height="40" width="260" x="775" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="q4Usq8bo3aYcZLUBIE5E-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="8. Verifica el token de autorizacion del mismo usuario y del mismo movimiento">
+          <mxGeometry relative="1" width="80" x="0.0833" y="110" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="720" y="570" />
+              <mxPoint x="720" y="630" />
+              <mxPoint x="660" y="630" />
+            </Array>
+            <mxPoint x="630" y="570" as="sourcePoint" />
+            <mxPoint x="630" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="IKV4dkmuxPK4iFVyqtnL" name="EXP 1">
+    <mxGraphModel dx="2175" dy="1294" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="NQjy_LI5fDsn4_9Otnke-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="530" width="2150" x="220" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="5. Retorna el movimiento en estado &quot;Anulado por Reversión&quot;">
+          <mxGeometry relative="1" width="80" x="0.0043" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1640" y="530" as="sourcePoint" />
+            <mxPoint x="2094.5" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="Bh8kSZs90tUzpeiMjyVE-5" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;4.&amp;nbsp;Obtiene el movimiento con su estado y sus datos de cantidad, bodega y lote&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1640" y="490" as="sourcePoint" />
+            <mxPoint x="2060" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" target="kdjmsgYmzDfTN2625ryh-5" value="6. Entrega el movimiento con su estado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1130" y="550" as="sourcePoint" />
+            <mxPoint x="1545" y="550.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="Bh8kSZs90tUzpeiMjyVE-4" value="3. Consulta el movimiento y su estado actual">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1130" y="459.5" as="sourcePoint" />
+            <mxPoint x="1600" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-31" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;dashed=1;endFill=0;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;8. Retorna el rechazo indicando que el movimiento ya fue revertido&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="710.0035294117648" y="670" as="sourcePoint" />
+            <mxPoint x="1125.68" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="Bh8kSZs90tUzpeiMjyVE-3" value="2. Envía la solicitud de reversión del movimiento">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="711.0014285714285" y="439.9999999999998" as="sourcePoint" />
+            <mxPoint x="1116.9299999999998" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-32" edge="1" parent="1" source="Bh8kSZs90tUzpeiMjyVE-1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;9. Informa que el movimiento ya fue revertido y no permite una segunda reversión&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="280" y="700" as="sourcePoint" />
+            <mxPoint x="700" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="1. Selecciona el movimiento erróneo y solicita la acción &quot;Revertir&quot;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="259.6666666666665" y="420" as="sourcePoint" />
+            <mxPoint x="700" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="440" width="20" x="250" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh8kSZs90tUzpeiMjyVE-1" parent="kdjmsgYmzDfTN2625ryh-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="330" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="V_Revertir_Movimientos" vertex="1">
+          <mxGeometry height="440" width="150" x="630" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh8kSZs90tUzpeiMjyVE-2" parent="kdjmsgYmzDfTN2625ryh-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="310" width="10" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_movimientos" vertex="1">
+          <mxGeometry height="440" width="150" x="1050" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh8kSZs90tUzpeiMjyVE-3" parent="kdjmsgYmzDfTN2625ryh-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="260" width="10" x="70" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="C_Postgre" vertex="1">
+          <mxGeometry height="440" width="150" x="1560" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh8kSZs90tUzpeiMjyVE-4" parent="kdjmsgYmzDfTN2625ryh-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="120" width="10" x="70" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="Movimiento_Inventario" vertex="1">
+          <mxGeometry height="440" width="150" x="2020" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="Bh8kSZs90tUzpeiMjyVE-5" parent="kdjmsgYmzDfTN2625ryh-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="70" width="10" x="70" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="Inventario_Bodega" vertex="1">
+          <mxGeometry height="440" width="150" x="2190" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="230" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="kdjmsgYmzDfTN2625ryh-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="7. Verifica la reversión previa">
+          <mxGeometry relative="1" width="80" x="0.0833" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1220" y="580" />
+              <mxPoint x="1220" y="640" />
+              <mxPoint x="1160" y="640" />
+            </Array>
+            <mxPoint x="1130" y="580" as="sourcePoint" />
+            <mxPoint x="1130" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="uf1pne94qtOlPkqeV7fD-1" parent="1" style="text;whiteSpace=wrap;align=center;" value="CU-44: Revirtiendo movimientos erróneos&#xa;Excepción 1" vertex="1">
+          <mxGeometry height="40" width="260" x="1165" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="0l8qKXeFDStSZpKTf2g0" name="EXP 2">
+    <mxGraphModel dx="3398" dy="1529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="_l0fUNMHobbY5MrEjbY9-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="980" width="2540" x="-30" y="280" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-32" edge="1" parent="1" source="NSmjvI30icNYeCj-Fv9Z-1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;16. Informa el stock disponible y la cantidad comprometida, y bloquea la reversión hasta resolver la diferencia&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="60" y="1090" as="sourcePoint" />
+            <mxPoint x="590" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-31" edge="1" parent="1" source="NSmjvI30icNYeCj-Fv9Z-2" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;dashed=1;endFill=0;" value="15. Retorna el stock disponible, la cantidad comprometida y el bloqueo de la reversión">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="640" y="1060" as="sourcePoint" />
+            <mxPoint x="1030" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;" target="kzkMuGsmVBXIQBSFKYhZ-5" value="6. Entrega el movimiento con su estado">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1040" y="570" as="sourcePoint" />
+            <mxPoint x="1455" y="570.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-13" edge="1" parent="1" source="NSmjvI30icNYeCj-Fv9Z-8" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;startArrow=block;startFill=1;endFill=0;dashed=1;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;5. Retorna el movimiento en estado vigente&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" x="0.0024" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1693" y="550" as="sourcePoint" />
+            <mxPoint x="2222.5" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="NSmjvI30icNYeCj-Fv9Z-6" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;4.&amp;nbsp;Obtiene el movimiento con su estado y sus datos de cantidad, bodega y lote&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1690" y="510" as="sourcePoint" />
+            <mxPoint x="2190" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="NSmjvI30icNYeCj-Fv9Z-8" value="3. Consulta el movimiento y su estado actual">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1040" y="479.5" as="sourcePoint" />
+            <mxPoint x="1660" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-9" edge="1" parent="1" source="kzkMuGsmVBXIQBSFKYhZ-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="NSmjvI30icNYeCj-Fv9Z-2" value="1. Selecciona el movimiento erróneo y solicita la acción &quot;Revertir&quot;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="260" y="430" as="sourcePoint" />
+            <mxPoint x="570" y="430" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="900" width="20" x="20" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="NSmjvI30icNYeCj-Fv9Z-1" parent="kzkMuGsmVBXIQBSFKYhZ-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="710" width="10" x="5" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;V_Revertir_Movimientos&lt;/span&gt;" vertex="1">
+          <mxGeometry height="900" width="150" x="520" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="NSmjvI30icNYeCj-Fv9Z-2" parent="kzkMuGsmVBXIQBSFKYhZ-2" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="700" width="10" x="70" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fontStyle=4" value="C_movimientos" vertex="1">
+          <mxGeometry height="900" width="150" x="960" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="NSmjvI30icNYeCj-Fv9Z-3" parent="kzkMuGsmVBXIQBSFKYhZ-3" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="630" width="10" x="70" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="C_Postgre" vertex="1">
+          <mxGeometry height="900" width="150" x="1610" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="NSmjvI30icNYeCj-Fv9Z-4" parent="kzkMuGsmVBXIQBSFKYhZ-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="90" width="10" x="70" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="NSmjvI30icNYeCj-Fv9Z-8" parent="kzkMuGsmVBXIQBSFKYhZ-5" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="130" width="10" x="70" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="Movimiento_Inventario" vertex="1">
+          <mxGeometry height="900" width="150" x="2148" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="NSmjvI30icNYeCj-Fv9Z-6" parent="kzkMuGsmVBXIQBSFKYhZ-6" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="80" width="10" x="70" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-7" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;fontStyle=4" value="Inventario_Bodega" vertex="1">
+          <mxGeometry height="900" width="150" x="2328" y="340" as="geometry" />
+        </mxCell>
+        <mxCell id="NSmjvI30icNYeCj-Fv9Z-5" parent="kzkMuGsmVBXIQBSFKYhZ-7" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" value="" vertex="1">
+          <mxGeometry height="40" width="10" x="70" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-10" edge="1" parent="1" source="NSmjvI30icNYeCj-Fv9Z-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="NSmjvI30icNYeCj-Fv9Z-3" value="2. Envía la solicitud de reversión del movimiento">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="640" y="460" as="sourcePoint" />
+            <mxPoint x="1026.9299999999998" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="7. Verifica que el movimiento no haya sido revertido con anterioridad">
+          <mxGeometry relative="1" width="80" x="0.0417" y="80" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1130" y="600" />
+              <mxPoint x="1130" y="660" />
+              <mxPoint x="1070" y="660" />
+            </Array>
+            <mxPoint x="1040" y="600" as="sourcePoint" />
+            <mxPoint x="1040" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-18" edge="1" parent="1" source="NSmjvI30icNYeCj-Fv9Z-3" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="NSmjvI30icNYeCj-Fv9Z-4" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;9. Consulta el stock actual del material en la bodega del movimiento&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1070" y="780" as="sourcePoint" />
+            <mxPoint x="1650" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-19" edge="1" parent="1" source="NSmjvI30icNYeCj-Fv9Z-4" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;entryPerimeter=0;" target="NSmjvI30icNYeCj-Fv9Z-5" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;10. Obtiene la cantidad física y la cantidad reservada del material&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1690" y="800" as="sourcePoint" />
+            <mxPoint x="2360" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-20" edge="1" parent="1" source="NSmjvI30icNYeCj-Fv9Z-4" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="NSmjvI30icNYeCj-Fv9Z-5" value="11. Retorna un stock actual menor a la cantidad a descontar, con parte de las unidades ya consumidas">
+          <mxGeometry relative="1" width="80" x="0.0006" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1690" y="840" as="sourcePoint" />
+            <mxPoint x="2402.5" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-21" edge="1" parent="1" source="NSmjvI30icNYeCj-Fv9Z-3" style="html=1;verticalAlign=bottom;endArrow=none;curved=0;rounded=0;dashed=1;startArrow=block;startFill=1;endFill=0;entryX=0;entryY=1;entryDx=0;entryDy=-5;entryPerimeter=0;" target="NSmjvI30icNYeCj-Fv9Z-4" value="12. Entrega el stock disponible">
+          <mxGeometry relative="1" width="80" as="geometry">
+            <mxPoint x="1070" y="865" as="sourcePoint" />
+            <mxPoint x="1640" y="860.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="&lt;span style=&quot;white-space-collapse: collapse;&quot;&gt;13. Verifica que el stock actual permita ejecutar la reversión&lt;/span&gt;">
+          <mxGeometry relative="1" width="80" x="0.0833" y="100" as="geometry">
+            <mxPoint y="-1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1130" y="880" />
+              <mxPoint x="1130" y="940" />
+              <mxPoint x="1070" y="940" />
+            </Array>
+            <mxPoint x="1040" y="880" as="sourcePoint" />
+            <mxPoint x="1040" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kzkMuGsmVBXIQBSFKYhZ-33" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="14. Determina el stock disponible y la cantidad comprometida por consumos posteriores">
+          <mxGeometry relative="1" width="80" x="0.0833" y="130" as="geometry">
+            <mxPoint y="1" as="offset" />
+            <Array as="points">
+              <mxPoint x="1130" y="960" />
+              <mxPoint x="1130" y="1020" />
+              <mxPoint x="1070" y="1020" />
+            </Array>
+            <mxPoint x="1040" y="960" as="sourcePoint" />
+            <mxPoint x="1040" y="1020" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_l0fUNMHobbY5MrEjbY9-1" parent="1" style="text;whiteSpace=wrap;align=center;" value="CU-44: Revirtiendo movimientos erróneos&#xa;Excepción 2" vertex="1">
+          <mxGeometry height="40" width="260" x="1110" y="290" as="geometry" />
+        </mxCell>
+        <mxCell id="BTfS63xFLTLVpyiqng3n-1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;" value="8. Verifica el token de autorizacion del mismo usuario y del mismo movimiento">
+          <mxGeometry relative="1" width="80" x="0.0833" y="110" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1130" y="680" />
+              <mxPoint x="1130" y="740" />
+              <mxPoint x="1070" y="740" />
+            </Array>
+            <mxPoint x="1040" y="680" as="sourcePoint" />
+            <mxPoint x="1040" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

@@ -1,0 +1,1246 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Diagrama general" id="iooqac_NBjzbvndqS1jG">
+    <mxGraphModel dx="2020" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0MEDqnqnOEmU6Ou0Owy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1080" width="2276" x="102" y="44" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-43" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="30. Confirma la persistencia de la regla y de su auditoria">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1132.5" y="993.5799999999999" as="sourcePoint" />
+            <mxPoint x="799" y="993.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene las asignaciones de permiso">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1132.5" y="306" as="sourcePoint" />
+            <mxPoint x="1447" y="306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-46" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="32. Muestra la confirmacion de la regla activa">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="468.33298850574715" y="1024" as="sourcePoint" />
+            <mxPoint x="138" y="1024" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-39" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="29. Confirma el asiento del log de auditoria">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2218.93" y="973.29" as="sourcePoint" />
+            <mxPoint x="1139.0014285714285" y="973.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-38" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="28. Inserta el evento con la fecha, hora y el usuario que realizo el cambio">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1133.5" y="938.1700000000001" as="sourcePoint" />
+            <mxPoint x="2211.9999999999995" y="938.1699999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-37" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="27. Confirma el registro de la regla">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1453" y="903.41" as="sourcePoint" />
+            <mxPoint x="1139" y="903.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-35" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="26. Inserta la asignacion de permiso al perfil como activa">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1132.5" y="874" as="sourcePoint" />
+            <mxPoint x="1447" y="874" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-33" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="25. Solicita guardar la regla y asentar el cambio de log&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="792.5" y="864" as="sourcePoint" />
+            <mxPoint x="1127" y="864" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-31" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="24. Envia la confirmacion de la configuracion">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="469" y="844" as="sourcePoint" />
+            <mxPoint x="788.0000000000002" y="844.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-30" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="23. Confirma la configuracion">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="131.67000000000002" y="824" as="sourcePoint" />
+            <mxPoint x="462.0033333333333" y="824.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="793.3329885057474" y="774" as="sourcePoint" />
+            <mxPoint x="474" y="774" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-29" connectable="0" parent="PvAfDToQnnVDu4viWUzq-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="21. Retorna la regla validada y solicita confirmacion" vertex="1">
+          <mxGeometry relative="1" x="0.1487" y="1" as="geometry">
+            <mxPoint x="9" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="19. Entrega el resultado de la verificacion de duplicidad">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1132.5" y="703.66" as="sourcePoint" />
+            <mxPoint x="799" y="703.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-22" edge="1" parent="1" source="PvAfDToQnnVDu4viWUzq-2" style="rounded=0;html=1;endArrow=open;dashed=1" value="18. Retorna que no existe regla activa">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1418.189655172414" y="694" as="sourcePoint" />
+            <mxPoint x="1139" y="694" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17. Obtiene las asignaciones activadas">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1132.5" y="663.5" as="sourcePoint" />
+            <mxPoint x="1447" y="663.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="16. Consulta si existe una regla activa&amp;nbsp;&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="792.5" y="644" as="sourcePoint" />
+            <mxPoint x="1127" y="644" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="10. Entrega las reglas vigentes con todos sus datos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1132.5" y="488" as="sourcePoint" />
+            <mxPoint x="799" y="488" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-15" edge="1" parent="1" source="PvAfDToQnnVDu4viWUzq-1" style="rounded=0;html=1;endArrow=open;dashed=1" value="9. Retorna los nombres de los perfiles">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1893.3329885057474" y="464" as="sourcePoint" />
+            <mxPoint x="1138.9966666666664" y="464" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="8. Obtiene el nombre del perfil autorizado&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1127" y="433.58000000000004" as="sourcePoint" />
+            <mxPoint x="1921" y="433.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-10" edge="1" parent="1" source="1Yhnj_wOcT1IclhnVDDp-1" style="rounded=0;html=1;endArrow=open;dashed=1" value="7. Retorna los permisos con su modulo y su accion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1651.3296551724138" y="404" as="sourcePoint" />
+            <mxPoint x="1138.9966666666664" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="6. Obtiene el modulo de origen y la accion de cada permiso">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1127" y="367.58" as="sourcePoint" />
+            <mxPoint x="1679" y="367.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-7" edge="1" parent="1" source="PvAfDToQnnVDu4viWUzq-2" style="rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna las asignaciones&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1418.189655172414" y="334" as="sourcePoint" />
+            <mxPoint x="1139" y="334" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consulta las reglas de permisos configuradas">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="792.5" y="289" as="sourcePoint" />
+            <mxPoint x="1127" y="289" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-30" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="22. Solicita confirmar la configuracion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="468.33298850574715" y="793" as="sourcePoint" />
+            <mxPoint x="138" y="793" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="14. Agrega un regla nueva seleccionando el modulo&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="131.67000000000002" y="604" as="sourcePoint" />
+            <mxPoint x="462.0033333333333" y="604.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="15. Envia la regla a configurar">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="468" y="624" as="sourcePoint" />
+            <mxPoint x="787.0000000000002" y="624.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Retorna la tabla de reglas con el modulo de origen">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="793.3296551724139" y="554" as="sourcePoint" />
+            <mxPoint x="473.9966666666665" y="554" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita los permisos vigentes">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="468" y="274" as="sourcePoint" />
+            <mxPoint x="787.0033333333332" y="274.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="718" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la seccion de usuarios&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="131.66666666666674" y="264" as="sourcePoint" />
+            <mxPoint x="462" y="264.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="930" width="20" x="122" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="126" y="242" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="102" y="192" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="1058" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="787" y="254" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;font&gt;&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;V_&lt;span style=&quot;font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;Integración_entre_módulos&lt;/span&gt;&lt;/u&gt;&lt;/font&gt;" vertex="1">
+          <mxGeometry height="930" width="197" x="369.5" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="462" y="252" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="1611" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-5" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="220" width="12" x="1127" y="274" as="geometry" />
+        </mxCell>
+        <mxCell id="R1dFlx97Qt3iOsqK2Q-V-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-108: Configurando permisos de operacion entre modulos&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="990" y="64" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-1" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Muestra la tabla de reglas vigentes">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="468.32965517241394" y="574" as="sourcePoint" />
+            <mxPoint x="137.99666666666675" y="574" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-7" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="787" y="474" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-9" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="462" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-12" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="126" y="564" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1127" y="634" as="geometry" />
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="126" y="774" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;perfil&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="1853" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;evento_auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="2143" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;perfil_permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="1378" y="144" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-6" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1447" y="294" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-9" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1680" y="356" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-12" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1922" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-13" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2212" y="924" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-17" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.167;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. Verifica que existan reglas de permisos&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="829" y="509.15999999999997" />
+              <mxPoint x="829" y="538.86" />
+            </Array>
+            <mxPoint x="799" y="509.14" as="sourcePoint" />
+            <mxPoint x="801.0039999999999" y="538.8599999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-18" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="787" y="614" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-20" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1447" y="654" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-23" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="787" y="684" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="462" y="764" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-27" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.167;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" value="20. Verifica que no exista ya una regla activa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="829" y="724.16" />
+              <mxPoint x="829" y="753.86" />
+            </Array>
+            <mxPoint x="799" y="724.14" as="sourcePoint" />
+            <mxPoint x="801.0039999999999" y="753.8599999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="788" y="834" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-34" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="180" width="12" x="1127" y="844" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1447" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="787" y="984" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="25" width="12" x="462" y="1004" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="25" width="12" x="126" y="1014" as="geometry" />
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-44" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="793.3329885057474" y="1014" as="sourcePoint" />
+            <mxPoint x="474" y="1014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="PvAfDToQnnVDu4viWUzq-45" connectable="0" parent="PvAfDToQnnVDu4viWUzq-44" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="31. Retorna la confirmacion de la regla configurada" vertex="1">
+          <mxGeometry relative="1" x="0.1487" y="1" as="geometry">
+            <mxPoint x="9" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="55Cy9Y-z1bAQFlVy2HXG" name="Excepción 1">
+    <mxGraphModel dx="2357" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="beVXhs5DHuaCaNK44g5J-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="720" width="2350" x="40" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene las asignaciones de permiso">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1170.5" y="382" as="sourcePoint" />
+            <mxPoint x="1485" y="382" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="10. Entrega las reglas vigentes con todos sus datos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1170.5" y="564" as="sourcePoint" />
+            <mxPoint x="837" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-18" edge="1" parent="1" source="beVXhs5DHuaCaNK44g5J-47" style="rounded=0;html=1;endArrow=open;dashed=1" value="9. Retorna los nombres de los perfiles">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1931.3329885057474" y="540" as="sourcePoint" />
+            <mxPoint x="1176.9966666666664" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="8. Obtiene el nombre del perfil autorizado&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1165" y="509.58000000000004" as="sourcePoint" />
+            <mxPoint x="1959" y="509.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-20" edge="1" parent="1" source="beVXhs5DHuaCaNK44g5J-38" style="rounded=0;html=1;endArrow=open;dashed=1" value="7. Retorna los permisos con su modulo y su accion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1689.3296551724138" y="480" as="sourcePoint" />
+            <mxPoint x="1176.9966666666664" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="6. Obtiene el modulo de origen y la accion de cada permiso">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1165" y="443.58" as="sourcePoint" />
+            <mxPoint x="1717" y="443.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-22" edge="1" parent="1" source="beVXhs5DHuaCaNK44g5J-49" style="rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna las asignaciones&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1456.189655172414" y="410" as="sourcePoint" />
+            <mxPoint x="1177" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consulta las reglas de permisos configuradas">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="830.5" y="365" as="sourcePoint" />
+            <mxPoint x="1165" y="365" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-27" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Retorna la tabla vacia junto con el aviso">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="831.3296551724139" y="630" as="sourcePoint" />
+            <mxPoint x="511.9966666666665" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-28" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita los permisos vigentes">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="506" y="350" as="sourcePoint" />
+            <mxPoint x="825.0033333333332" y="350.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="150" x="756" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-30" edge="1" parent="1" source="beVXhs5DHuaCaNK44g5J-31" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la seccion de usuarios&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="169.66666666666674" y="340" as="sourcePoint" />
+            <mxPoint x="500" y="340.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="540" width="20" x="80" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="84" y="318" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="60" y="268" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="150" x="1096" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="825" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;V_&lt;span style=&quot;font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;Integración_entre_módulos&lt;/span&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="179" x="416.5" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="500" y="328" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="150" x="1649" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="220" width="12" x="1165" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-108: Configurando permisos de operacion entre modulos&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="950" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-41" edge="1" parent="1" source="beVXhs5DHuaCaNK44g5J-36" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Muestra la tabla vacia e informa que los modulos no se pueden registrar">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="518.4996551724139" y="650" as="sourcePoint" />
+            <mxPoint x="96" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="825" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="500" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-44" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="84" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-47" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="150" x="1891" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-48" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="150" x="2181" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-49" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil_Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="540" width="150" x="1416" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-50" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1485" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1718" y="432" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1960" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-54" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.167;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. Verifica que existan reglas de permisos&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="867" y="585.16" />
+              <mxPoint x="867" y="614.86" />
+            </Array>
+            <mxPoint x="837" y="585.14" as="sourcePoint" />
+            <mxPoint x="839.0039999999999" y="614.8599999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="beVXhs5DHuaCaNK44g5J-70" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="80" x="1160" y="160" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="A_EGuqHOGGCRNQpbXZoV" name="Excepcion 2">
+    <mxGraphModel dx="1664" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="f7knM3V7KfkjLVzerGoy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1100" width="2340" x="230" y="330" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-66" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="30. Confirma la persistencia de la regla y de su auditoria">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320.5" y="1299.58" as="sourcePoint" />
+            <mxPoint x="987" y="1299.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-67" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="981.3329885057474" y="1320" as="sourcePoint" />
+            <mxPoint x="662" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-68" connectable="0" parent="f7knM3V7KfkjLVzerGoy-67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="31. Retorna la confirmacion de la regla configurada" vertex="1">
+          <mxGeometry relative="1" x="0.1487" y="1" as="geometry">
+            <mxPoint x="9" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene las asignaciones de permiso">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320.5" y="612" as="sourcePoint" />
+            <mxPoint x="1635" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="32. Muestra la confirmacion de la regla activa">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="656.3329885057472" y="1330" as="sourcePoint" />
+            <mxPoint x="326" y="1330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="29. Confirma el asiento del log de auditoria">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2406.93" y="1279.29" as="sourcePoint" />
+            <mxPoint x="1327.0014285714285" y="1279.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="28. Inserta el evento con la fecha, hora y el usuario que realizo el cambio">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1321.5" y="1244.17" as="sourcePoint" />
+            <mxPoint x="2399.9999999999995" y="1244.1699999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="27. Confirma el registro de la regla">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1641" y="1209.4099999999999" as="sourcePoint" />
+            <mxPoint x="1327" y="1209.4099999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="26. Inserta la asignacion de permiso al perfil como activa">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320.5" y="1180" as="sourcePoint" />
+            <mxPoint x="1635" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="25. Solicita guardar la regla y asentar el cambio de log&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="980.5" y="1170" as="sourcePoint" />
+            <mxPoint x="1315" y="1170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="24. Envia la confirmacion de la configuracion">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="657" y="1150" as="sourcePoint" />
+            <mxPoint x="976.0000000000002" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-10" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="23. Confirma la configuracion">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="319.67" y="1130" as="sourcePoint" />
+            <mxPoint x="650.0033333333333" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="981.3329885057474" y="1080" as="sourcePoint" />
+            <mxPoint x="662" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-12" connectable="0" parent="f7knM3V7KfkjLVzerGoy-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="21. Retorna la regla existente validada y solicita confirmacion" vertex="1">
+          <mxGeometry relative="1" x="0.1487" y="1" as="geometry">
+            <mxPoint x="22" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-13" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="19. Entrega el resultado de la verificacion de duplicidad">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320.5" y="1009.66" as="sourcePoint" />
+            <mxPoint x="987" y="1009.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-14" edge="1" parent="1" source="f7knM3V7KfkjLVzerGoy-49" style="rounded=0;html=1;endArrow=open;dashed=1" value="18. Retorna que no existe regla activa">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1606.189655172414" y="1000" as="sourcePoint" />
+            <mxPoint x="1327" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17. Obtiene las asignaciones activadas">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320.5" y="969.5" as="sourcePoint" />
+            <mxPoint x="1635" y="969.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="16. Consulta si existe una regla activa&amp;nbsp;&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="980.5" y="950" as="sourcePoint" />
+            <mxPoint x="1315" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="10. Entrega las reglas vigentes con todos sus datos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1320.5" y="794" as="sourcePoint" />
+            <mxPoint x="987" y="794" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-18" edge="1" parent="1" source="f7knM3V7KfkjLVzerGoy-47" style="rounded=0;html=1;endArrow=open;dashed=1" value="9. Retorna los nombres de los perfiles">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2081.3329885057474" y="770" as="sourcePoint" />
+            <mxPoint x="1326.9966666666664" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="8. Obtiene el nombre del perfil autorizado&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1315" y="739.58" as="sourcePoint" />
+            <mxPoint x="2109" y="739.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-20" edge="1" parent="1" source="f7knM3V7KfkjLVzerGoy-38" style="rounded=0;html=1;endArrow=open;dashed=1" value="7. Retorna los permisos con su modulo y su accion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1839.3296551724138" y="710" as="sourcePoint" />
+            <mxPoint x="1326.9966666666664" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="6. Obtiene el modulo de origen y la accion de cada permiso">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1315" y="673.5799999999999" as="sourcePoint" />
+            <mxPoint x="1867" y="673.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-22" edge="1" parent="1" source="f7knM3V7KfkjLVzerGoy-49" style="rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna las asignaciones&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1606.189655172414" y="640" as="sourcePoint" />
+            <mxPoint x="1327" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consulta las reglas de permisos configuradas">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="980.5" y="595" as="sourcePoint" />
+            <mxPoint x="1315" y="595" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="22. Solicita confirmar el cambio de regla a la configuracion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="656.3329885057472" y="1099" as="sourcePoint" />
+            <mxPoint x="326" y="1099" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-25" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="14. Agrega un regla nueva seleccionando el modulo&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="319.67" y="910" as="sourcePoint" />
+            <mxPoint x="650.0033333333333" y="910.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-26" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="15. Envia la regla a configurar">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="656" y="930" as="sourcePoint" />
+            <mxPoint x="975.0000000000002" y="930.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-27" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Retorna la tabla de reglas con el modulo de origen">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="981.3296551724139" y="860" as="sourcePoint" />
+            <mxPoint x="661.9966666666664" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-28" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita los permisos vigentes">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="656" y="580" as="sourcePoint" />
+            <mxPoint x="975.0033333333332" y="580.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="906" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-30" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la seccion de usuarios&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="319.66666666666674" y="570" as="sourcePoint" />
+            <mxPoint x="650" y="570.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="930" width="20" x="310" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="314" y="548" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="290" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="1246" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="975" y="560" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;V_&lt;span style=&quot;font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;Integración_entre_módulos&lt;/span&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="179" x="566.5" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="650" y="558" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="1799" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="220" width="12" x="1315" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-108: Configurando permisos de operacion entre modulos&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="500" x="1071" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-41" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Muestra la tabla de reglas vigentes">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="656.3296551724139" y="880" as="sourcePoint" />
+            <mxPoint x="325.9966666666668" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="975" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="650" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-44" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="314" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-45" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1315" y="940" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-46" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="314" y="1080" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-47" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="2041" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-48" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="2331" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-49" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil_Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="1566" y="450" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-50" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1635" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1868" y="662" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2110" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-53" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2400" y="1230" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-54" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.167;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. Verifica que existan reglas de permisos&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1017" y="815.16" />
+              <mxPoint x="1017" y="844.86" />
+            </Array>
+            <mxPoint x="987" y="815.14" as="sourcePoint" />
+            <mxPoint x="989.0039999999999" y="844.8599999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-55" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="975" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-56" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1635" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-57" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="975" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-58" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="650" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-59" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.167;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" value="20. Verifica que no exista ya una regla activa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1017" y="1030.1599999999999" />
+              <mxPoint x="1017" y="1059.8600000000001" />
+            </Array>
+            <mxPoint x="987" y="1030.1399999999999" as="sourcePoint" />
+            <mxPoint x="989.0039999999999" y="1059.8599999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-60" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="976" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-61" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="160" width="12" x="1315" y="1150" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-62" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1635" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-63" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="975" y="1290" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-64" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="25" width="12" x="650" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-65" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="25" width="12" x="314" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="f7knM3V7KfkjLVzerGoy-69" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="76" x="1283" y="390" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="QqUg6OnT0IuZuN1V7c9j" name="Excepcion 3">
+    <mxGraphModel dx="2828" dy="1682" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1170" width="2580" x="240" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--66" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="32. Confirma la persistencia de la deshabilitacion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1300.5" y="1539.58" as="sourcePoint" />
+            <mxPoint x="967" y="1539.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--67" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="961.3329885057474" y="1560" as="sourcePoint" />
+            <mxPoint x="642" y="1560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--68" connectable="0" parent="WpFnNG3NhTQ61PR4uoW--67" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="33. Retorna la confirmacion de la regla deshabilitada" vertex="1">
+          <mxGeometry relative="1" x="0.1487" y="1" as="geometry">
+            <mxPoint x="9" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--73" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="21. Entrega la ultima regla activa">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1301.33" y="1260" as="sourcePoint" />
+            <mxPoint x="966.9966666666668" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--72" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="20. Retorna las operaciones en curso que dependen de la integracion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2686.57" y="1240" as="sourcePoint" />
+            <mxPoint x="1306.9985714285713" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--69" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="19. Obtiene los movimientos en curso&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1301.5" y="1210" as="sourcePoint" />
+            <mxPoint x="2679" y="1210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Obtiene las asignaciones de permiso">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1300.5" y="792" as="sourcePoint" />
+            <mxPoint x="1615" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--3" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="34. Muestra la confirmacion de la deshabilitacion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="636.3329885057472" y="1570" as="sourcePoint" />
+            <mxPoint x="306" y="1570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--4" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="31. Confirma el asiento del log de auditoria">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2386.93" y="1519.29" as="sourcePoint" />
+            <mxPoint x="1307.0014285714285" y="1519.29" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--5" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="30. Inserta el evento con la fecha, hora y el usuario que realizo el cambio">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1301.5" y="1484.17" as="sourcePoint" />
+            <mxPoint x="2379.9999999999995" y="1484.1699999999996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--6" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="29. Confirma la deshabilitacion de la regla">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1621" y="1449.4099999999999" as="sourcePoint" />
+            <mxPoint x="1307" y="1449.4099999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--7" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="28. Inserta la asignacion de permiso al perfil como inactiva">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1300.5" y="1420" as="sourcePoint" />
+            <mxPoint x="1615" y="1420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="27. Solicita deshabilitar la regla y asentar el cambio de log&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0015" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="960.5" y="1410" as="sourcePoint" />
+            <mxPoint x="1295" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="26. Envia la confirmacion de la configuracion">
+          <mxGeometry relative="1" x="-0.0021" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="637" y="1390" as="sourcePoint" />
+            <mxPoint x="956.0000000000002" y="1390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--10" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="25. Confirma la configuracion">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="299.67" y="1370" as="sourcePoint" />
+            <mxPoint x="630.0033333333333" y="1370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="961.3329885057474" y="1320" as="sourcePoint" />
+            <mxPoint x="642" y="1320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--12" connectable="0" parent="WpFnNG3NhTQ61PR4uoW--11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="23. Retorna la advertencia con los procesos que dependen" vertex="1">
+          <mxGeometry relative="1" x="0.1487" y="1" as="geometry">
+            <mxPoint x="22" y="-11" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--14" edge="1" parent="1" source="WpFnNG3NhTQ61PR4uoW--49" style="rounded=0;html=1;endArrow=open;dashed=1" value="18. Retorna que la regla a deshabilitar es la ultima&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1586.189655172414" y="1180" as="sourcePoint" />
+            <mxPoint x="1307" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17. Obtiene las asignaciones activadas">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1300.5" y="1149.5" as="sourcePoint" />
+            <mxPoint x="1615" y="1149.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="16. Consulta si existe una regla activa&amp;nbsp;&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="960.5" y="1130" as="sourcePoint" />
+            <mxPoint x="1295" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--17" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="10. Entrega las reglas vigentes con todos sus datos">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1300.5" y="974" as="sourcePoint" />
+            <mxPoint x="967" y="974" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--18" edge="1" parent="1" source="WpFnNG3NhTQ61PR4uoW--47" style="rounded=0;html=1;endArrow=open;dashed=1" value="9. Retorna los nombres de los perfiles">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2061.3329885057474" y="950" as="sourcePoint" />
+            <mxPoint x="1306.9966666666664" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--19" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="8. Obtiene el nombre del perfil autorizado&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1295" y="919.58" as="sourcePoint" />
+            <mxPoint x="2089" y="919.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--20" edge="1" parent="1" source="WpFnNG3NhTQ61PR4uoW--38" style="rounded=0;html=1;endArrow=open;dashed=1" value="7. Retorna los permisos con su modulo y su accion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1819.3296551724138" y="890" as="sourcePoint" />
+            <mxPoint x="1306.9966666666664" y="890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--21" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="6. Obtiene el modulo de origen y la accion de cada permiso">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1295" y="853.5799999999999" as="sourcePoint" />
+            <mxPoint x="1847" y="853.5799999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--22" edge="1" parent="1" source="WpFnNG3NhTQ61PR4uoW--49" style="rounded=0;html=1;endArrow=open;dashed=1" value="5. Retorna las asignaciones&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1586.189655172414" y="820" as="sourcePoint" />
+            <mxPoint x="1307" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--23" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="3. Consulta las reglas de permisos configuradas">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="960.5" y="775" as="sourcePoint" />
+            <mxPoint x="1295" y="775" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--24" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="24. Advierte que procesos dependen de esa integracion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="636.3329885057472" y="1339" as="sourcePoint" />
+            <mxPoint x="306" y="1339" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--25" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="14. Selecciona una regla vigente y solicita deshabilitarla">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="299.67" y="1090" as="sourcePoint" />
+            <mxPoint x="630.0033333333333" y="1090" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--26" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="15. Envia la solicitud de deshabilitacion de la regla">
+          <mxGeometry relative="1" x="-0.0028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="636" y="1110" as="sourcePoint" />
+            <mxPoint x="955.0000000000002" y="1110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--27" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Retorna la tabla de reglas con el modulo de origen">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="961.3296551724139" y="1040" as="sourcePoint" />
+            <mxPoint x="641.9966666666664" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--28" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita los permisos vigentes">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="636" y="760" as="sourcePoint" />
+            <mxPoint x="955.0033333333332" y="760.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="980" width="150" x="886" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--30" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Accede a la seccion de usuarios&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="299.66666666666674" y="750" as="sourcePoint" />
+            <mxPoint x="630" y="750.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="980" width="20" x="290" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="294" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--33" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="678" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--34" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="980" width="150" x="1226" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--35" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="955" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(237, 237, 237));&quot;&gt;V_&lt;span style=&quot;font-family: &amp;quot;DM Sans&amp;quot;, sans-serif; text-align: start;&quot;&gt;Integración_entre_módulos&lt;/span&gt;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="980" width="199" x="536.5" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--37" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="630" y="738" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="980" width="150" x="1779" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="220" width="12" x="1295" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--40" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-108: Configurando permisos de operacion entre modulos&amp;nbsp;&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="400" x="1220" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--41" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Muestra la tabla de reglas vigentes">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="636.3296551724139" y="1060" as="sourcePoint" />
+            <mxPoint x="305.9966666666668" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="955" y="960" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="630" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--44" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="294" y="1050" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--45" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="150" width="12" x="1295" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--46" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="70" width="12" x="294" y="1320" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--47" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil&lt;/u&gt;" vertex="1">
+          <mxGeometry height="980" width="150" x="2021" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--48" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Evento_Auditoria&lt;/u&gt;" vertex="1">
+          <mxGeometry height="980" width="150" x="2311" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--49" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil_Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="980" width="150" x="1546" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--50" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1615" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1848" y="842" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2090" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--53" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2380" y="1470" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--54" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.167;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. Verifica que existan reglas de permisos&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="997" y="995.16" />
+              <mxPoint x="997" y="1024.8600000000001" />
+            </Array>
+            <mxPoint x="967" y="995.14" as="sourcePoint" />
+            <mxPoint x="969.0039999999999" y="1024.8599999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--55" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="955" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--56" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1615" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--57" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="80" width="12" x="955" y="1250" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--58" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="630" y="1310" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--59" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.167;entryY=0.647;entryDx=0;entryDy=0;entryPerimeter=0;" value="22. Detecta que se intenta deshabilitar la ultima regla activa">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="997" y="1280.0499999999997" />
+              <mxPoint x="997" y="1309.75" />
+            </Array>
+            <mxPoint x="967" y="1280.0299999999997" as="sourcePoint" />
+            <mxPoint x="969.0039999999999" y="1309.7499999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--60" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="956" y="1380" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--61" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="160" width="12" x="1295" y="1390" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--62" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1615" y="1410" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--63" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="955" y="1530" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--64" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="25" width="12" x="630" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--65" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="25" width="12" x="294" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--70" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="980" width="150" x="2610" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--71" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="2679" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="WpFnNG3NhTQ61PR4uoW--74" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 3" vertex="1">
+          <mxGeometry height="30" width="70" x="1385" y="560" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

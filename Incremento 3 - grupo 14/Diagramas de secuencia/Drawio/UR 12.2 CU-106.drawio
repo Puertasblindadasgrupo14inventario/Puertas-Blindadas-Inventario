@@ -1,0 +1,946 @@
+<mxfile host="Electron" pages="4">
+  <diagram name="Diagrama " id="AmhF0HxjhMXRflaUciy4">
+    <mxGraphModel dx="3184" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1380" width="3120" x="-80" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-22" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="27. Muestra la disponibilidad del producto en la pantalla del módulo de origen">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570.93" y="1265.29" as="sourcePoint" />
+            <mxPoint x="6.001428571428441" y="1265.2899999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-20" edge="1" parent="1" source="H7_PTHNQFkK7bnYbA_Uh-9" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.029;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" value="26. Retorna la disponibilidad del producto">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1055" y="1240" as="sourcePoint" />
+            <mxPoint x="576" y="1241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-18" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" value="25. Retorna en formato JSON el stock físico, el reservado y el disponible&amp;nbsp;&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;del producto por bodega, sin alterar los saldos&lt;/span&gt;">
+          <mxGeometry relative="1" x="-0.053" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1544.4999999999995" y="1219.41" as="sourcePoint" />
+            <mxPoint x="901" y="1219.41" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-1" parent="1" style="text;whiteSpace=wrap;" value="CU-106: Consultando stock de inventario desde otro módulo" vertex="1">
+          <mxGeometry height="40" width="360" x="1251" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita la disponibilidad del producto para la operación">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="889.0033333333332" y="450.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-9" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="150" x="820" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-10" edge="1" parent="1" source="H7_PTHNQFkK7bnYbA_Uh-12" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="1. Ejecuta en el módulo de Terreno o de Finanzas una operación que requiere conocer el stock de un producto">
+          <mxGeometry relative="1" x="-0.0028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="233.66666666666674" y="440" as="sourcePoint" />
+            <mxPoint x="564" y="440.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-11" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1140" width="20" x="-10" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-12" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-6" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-14" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="150" x="1820" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="889" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-16" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V Integración entre módulos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="175" x="482.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="564" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Usuario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="150" x="2100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_auth&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="150" x="1170" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-30" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="150" x="2550" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="150" x="1470" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-32" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="150" x="2730" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-33" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="H7_PTHNQFkK7bnYbA_Uh-39" value="3. Invoca el servicio de consulta de inventario enviando&amp;nbsp;&lt;div&gt;el token de sesión del usuario, el SKU del producto y la bodega&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.016" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="901" y="460" as="sourcePoint" />
+            <mxPoint x="1230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-34" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.167;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" target="5apOg3e0eZGWa_2VYFrS-10" value="4. Consulta la cuenta del usuario identificado en el token">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251" y="482" as="sourcePoint" />
+            <mxPoint x="1580" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-35" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="5apOg3e0eZGWa_2VYFrS-11" value="5. Obtiene la cuenta del usuario con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="500" as="sourcePoint" />
+            <mxPoint x="2080" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-36" edge="1" parent="1" source="H7_PTHNQFkK7bnYbA_Uh-18" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna la cuenta en estado activo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2120" y="540" as="sourcePoint" />
+            <mxPoint x="1900" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-37" edge="1" parent="1" source="H7_PTHNQFkK7bnYbA_Uh-14" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.029;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" target="H7_PTHNQFkK7bnYbA_Uh-40" value="7. Entrega el estado de la cuenta">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="570" as="sourcePoint" />
+            <mxPoint x="1510" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-38" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="8. Valida que el token sea auténtico, esté&amp;nbsp;&lt;div&gt;vigente y corresponda a una cuenta activa&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1280" y="610" />
+              <mxPoint x="1280" y="640" />
+            </Array>
+            <mxPoint x="1250" y="610" as="sourcePoint" />
+            <mxPoint x="1252" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-39" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1239" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="145" width="12" x="1239" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-42" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="9. Entrega la consulta con el usuario&amp;nbsp;&lt;div&gt;identificado por el token&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0381" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251" y="690" as="sourcePoint" />
+            <mxPoint x="1539.9999999999995" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-43" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.214;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" target="5apOg3e0eZGWa_2VYFrS-24" value="11. Obtiene la bodega con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="710" as="sourcePoint" />
+            <mxPoint x="1895" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-44" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1140" width="150" x="2330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-45" edge="1" parent="1" source="H7_PTHNQFkK7bnYbA_Uh-44" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Retorna la bodega">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2360" y="750" as="sourcePoint" />
+            <mxPoint x="1900" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-46" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0.083;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" target="5apOg3e0eZGWa_2VYFrS-12" value="10. Consulta la bodega indicada">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1550" y="700" as="sourcePoint" />
+            <mxPoint x="1734" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-47" edge="1" parent="1" source="H7_PTHNQFkK7bnYbA_Uh-14" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Entrega los datos de la bodega">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="780" as="sourcePoint" />
+            <mxPoint x="1550" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-48" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="14. Valida que los datos de la consulta estén&amp;nbsp;&lt;div&gt;presentes y sean coherentes&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1580" y="810" />
+              <mxPoint x="1580" y="840" />
+            </Array>
+            <mxPoint x="1550" y="810" as="sourcePoint" />
+            <mxPoint x="1552" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-49" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.086;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" target="5apOg3e0eZGWa_2VYFrS-14" value="15. Consulta el SKU recibido en el catálogo de inventario">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1550" y="880" as="sourcePoint" />
+            <mxPoint x="1734" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-50" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.167;entryY=0.311;entryDx=0;entryDy=0;entryPerimeter=0;" target="5apOg3e0eZGWa_2VYFrS-25" value="16. Obtiene el material asociado al SKU con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1897.5" y="910" as="sourcePoint" />
+            <mxPoint x="2352.5" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H7_PTHNQFkK7bnYbA_Uh-51" edge="1" parent="1" source="5apOg3e0eZGWa_2VYFrS-25" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.072;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.343;exitY=0.902;exitDx=0;exitDy=0;exitPerimeter=0;" target="5apOg3e0eZGWa_2VYFrS-14" value="17. Retorna el material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2570" y="950" as="sourcePoint" />
+            <mxPoint x="2110" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-1" edge="1" parent="1" source="5apOg3e0eZGWa_2VYFrS-14" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=0.083;exitY=0.909;exitDx=0;exitDy=0;exitPerimeter=0;" value="18. Entrega los datos del material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="970" as="sourcePoint" />
+            <mxPoint x="1550" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-2" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="19. Verifica que el SKU exista en el catálogo y&amp;nbsp;&lt;div&gt;que el material esté activo; la verificación es satisfactoria&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1580" y="1000" />
+              <mxPoint x="1580" y="1030" />
+            </Array>
+            <mxPoint x="1550" y="1000" as="sourcePoint" />
+            <mxPoint x="1552" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-3" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.109;entryY=0.198;entryDx=0;entryDy=0;entryPerimeter=0;" target="5apOg3e0eZGWa_2VYFrS-15" value="20. Consulta el stock del material en la bodega indicada">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1550" y="1080" as="sourcePoint" />
+            <mxPoint x="1734" y="1080" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-4" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0.115;entryY=0.308;entryDx=0;entryDy=0;entryPerimeter=0;" target="5apOg3e0eZGWa_2VYFrS-26" value="21. Obtiene la cantidad física y la cantidad reservada del material en la bodega, sumadas por lote">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1901" y="1100" as="sourcePoint" />
+            <mxPoint x="2755.5" y="1099.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-5" edge="1" parent="1" source="H7_PTHNQFkK7bnYbA_Uh-32" style="rounded=0;html=1;endArrow=open;dashed=1" value="22. Retorna el stock del material en la bodega">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2740" y="1130" as="sourcePoint" />
+            <mxPoint x="1901.001428571428" y="1130" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-6" edge="1" parent="1" source="H7_PTHNQFkK7bnYbA_Uh-14" style="rounded=0;html=1;endArrow=open;dashed=1" value="23. Entrega el stock del material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1731" y="1150" as="sourcePoint" />
+            <mxPoint x="1551" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-7" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="24. Calcula por bodega el stock físico,&amp;nbsp;&lt;div&gt;el stock reservado y el stock disponible del producto&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1581" y="1169" />
+              <mxPoint x="1581" y="1199" />
+            </Array>
+            <mxPoint x="1551" y="1169" as="sourcePoint" />
+            <mxPoint x="1553" y="1199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-9" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="440" width="12" x="1539" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-10" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="130" width="12" x="1889" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="68" width="12" x="2169" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-12" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1889" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-14" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1889" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-15" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="1889" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-16" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="1539" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-17" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="889" y="1198" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-19" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="564" y="1220" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-21" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="-6" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="2399" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="68" width="12" x="2619" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="5apOg3e0eZGWa_2VYFrS-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="68" width="12" x="2799" y="1080" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 1" id="PQfMCmi1mraZjkEdO-7B">
+    <mxGraphModel dx="2847" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-0" />
+        <mxCell id="nVyvLebDhWfreuD4_xuX-1" parent="nVyvLebDhWfreuD4_xuX-0" />
+        <mxCell id="nVyvLebDhWfreuD4_xuX-2" parent="nVyvLebDhWfreuD4_xuX-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="640" width="2980" x="-60" y="190" as="geometry" />
+        </mxCell>
+        <mxCell id="4HH_ZGgloHxAlRssvygu-4" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="11. Solicita al usuario iniciar sesión nuevamente">
+          <mxGeometry relative="1" x="0.0031" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="576" y="700" as="sourcePoint" />
+            <mxPoint x="6" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HH_ZGgloHxAlRssvygu-2" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" source="nVyvLebDhWfreuD4_xuX-8" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.029;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" value="10.&amp;nbsp;Retorna el rechazo por sesión no válida">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="919.4999999999995" y="690" as="sourcePoint" />
+            <mxPoint x="576" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="4HH_ZGgloHxAlRssvygu-0" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.029;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" value="9. Deniega el acceso sin entregar datos de inventario">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1244.4999999999995" y="670" as="sourcePoint" />
+            <mxPoint x="901" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-6" parent="nVyvLebDhWfreuD4_xuX-1" style="text;whiteSpace=wrap;" value="CU-106: Consultando stock de inventario desde otro módulo" vertex="1">
+          <mxGeometry height="40" width="360" x="1251" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-7" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita la disponibilidad del producto para la operación">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="889.0033333333332" y="450.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-8" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="820" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-9" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" source="nVyvLebDhWfreuD4_xuX-11" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="1. Ejecuta en el módulo de Terreno o de Finanzas una operación que requiere conocer el stock de un producto">
+          <mxGeometry relative="1" x="-0.0028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="233.66666666666674" y="440" as="sourcePoint" />
+            <mxPoint x="564" y="440.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-10" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="460" width="20" x="-10" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-11" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-6" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-12" parent="nVyvLebDhWfreuD4_xuX-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-13" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="1820" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-14" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="889" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-15" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V Integración entre módulos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="185" x="477.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-16" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="564" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-17" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Usuario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="2100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-18" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_auth&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="1170" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-19" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="2550" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-20" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="1470" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-21" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="2730" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-22" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="nVyvLebDhWfreuD4_xuX-28" value="3. Invoca el servicio de consulta de inventario enviando&amp;nbsp;&lt;div&gt;el token de sesión del usuario, el SKU del producto y la bodega&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.016" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="901" y="460" as="sourcePoint" />
+            <mxPoint x="1230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-23" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.167;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" target="nVyvLebDhWfreuD4_xuX-48" value="4. Consulta la cuenta del usuario identificado en el token">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251" y="482" as="sourcePoint" />
+            <mxPoint x="1580" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-24" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="nVyvLebDhWfreuD4_xuX-49" value="5. Obtiene la cuenta del usuario con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="500" as="sourcePoint" />
+            <mxPoint x="2080" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-25" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" source="nVyvLebDhWfreuD4_xuX-17" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna la cuenta en estado activo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2120" y="540" as="sourcePoint" />
+            <mxPoint x="1900" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-26" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" source="nVyvLebDhWfreuD4_xuX-13" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.029;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" target="nVyvLebDhWfreuD4_xuX-29" value="7. Entrega el estado de la cuenta">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="570" as="sourcePoint" />
+            <mxPoint x="1510" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-27" edge="1" parent="nVyvLebDhWfreuD4_xuX-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="8. Valida que el token sea auténtico, esté&amp;nbsp;&lt;div&gt;vigente y corresponda a una cuenta activa&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1280" y="610" />
+              <mxPoint x="1280" y="640" />
+            </Array>
+            <mxPoint x="1250" y="610" as="sourcePoint" />
+            <mxPoint x="1252" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-28" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1239" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-29" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="145" width="12" x="1239" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-32" parent="nVyvLebDhWfreuD4_xuX-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="460" width="150" x="2330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-48" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="130" width="12" x="1889" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="nVyvLebDhWfreuD4_xuX-49" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="68" width="12" x="2169" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="4HH_ZGgloHxAlRssvygu-1" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="889" y="648" as="geometry" />
+        </mxCell>
+        <mxCell id="4HH_ZGgloHxAlRssvygu-3" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="564" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="4HH_ZGgloHxAlRssvygu-5" parent="nVyvLebDhWfreuD4_xuX-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-6" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="4HH_ZGgloHxAlRssvygu-6" parent="nVyvLebDhWfreuD4_xuX-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Excepcion 1&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="100" x="1370" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 2" id="-dvrMbf3PTaGVBUHrLTs">
+    <mxGraphModel dx="2847" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-0" />
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-1" parent="ZbJzZurjGpyWau5EhXXW-0" />
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-2" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1080" width="3050" x="-60" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-3" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="22. Informa que el producto no fue reconocido en el catálogo de inventario">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570.93" y="1095.29" as="sourcePoint" />
+            <mxPoint x="6.001428571428441" y="1095.2899999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-4" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.283;entryY=0.212;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-55" value="21. Retorna el rechazo de la consulta">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="889" y="1081.59" as="sourcePoint" />
+            <mxPoint x="570.5" y="1081.59" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-5" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.375;entryY=0.385;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-54" value="20. Rechaza la consulta retornando el motivo de producto no reconocido">
+          <mxGeometry relative="1" x="-0.053" y="-15" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1538.9999999999995" y="1060" as="sourcePoint" />
+            <mxPoint x="895.5" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-6" parent="ZbJzZurjGpyWau5EhXXW-1" style="text;whiteSpace=wrap;" value="CU-106: Consultando stock de inventario desde otro módulo" vertex="1">
+          <mxGeometry height="40" width="360" x="1280" y="180" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-7" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita la disponibilidad del producto para la operación">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="889.0033333333332" y="450.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-8" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="150" x="820" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-9" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" source="ZbJzZurjGpyWau5EhXXW-11" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="1. Ejecuta en el módulo de Terreno o de Finanzas una operación que requiere conocer el stock de un producto">
+          <mxGeometry relative="1" x="-0.0028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="233.66666666666674" y="440" as="sourcePoint" />
+            <mxPoint x="564" y="440.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-10" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="850" width="20" x="-10" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-11" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-6" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-12" parent="ZbJzZurjGpyWau5EhXXW-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-13" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="150" x="1820" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-14" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="889" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-15" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V Integración entre módulos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="175" x="482.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-16" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="564" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-17" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Usuario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="150" x="2100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-18" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_auth&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="150" x="1170" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-19" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="150" x="2550" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-20" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="150" x="1470" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-21" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="150" x="2730" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-22" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="ZbJzZurjGpyWau5EhXXW-28" value="3. Invoca el servicio de consulta de inventario enviando&amp;nbsp;&lt;div&gt;el token de sesión del usuario, el SKU del producto y la bodega&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.016" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="901" y="460" as="sourcePoint" />
+            <mxPoint x="1230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-23" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.167;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-48" value="4. Consulta la cuenta del usuario identificado en el token">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251" y="482" as="sourcePoint" />
+            <mxPoint x="1580" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-24" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="ZbJzZurjGpyWau5EhXXW-49" value="5. Obtiene la cuenta del usuario con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="500" as="sourcePoint" />
+            <mxPoint x="2080" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-25" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" source="ZbJzZurjGpyWau5EhXXW-17" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna la cuenta en estado activo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2120" y="540" as="sourcePoint" />
+            <mxPoint x="1900" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-26" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" source="ZbJzZurjGpyWau5EhXXW-13" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.029;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-29" value="7. Entrega el estado de la cuenta">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="570" as="sourcePoint" />
+            <mxPoint x="1510" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-27" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="8. Valida que el token sea auténtico, esté&amp;nbsp;&lt;div&gt;vigente y corresponda a una cuenta activa&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1280" y="610" />
+              <mxPoint x="1280" y="640" />
+            </Array>
+            <mxPoint x="1250" y="610" as="sourcePoint" />
+            <mxPoint x="1252" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-28" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1239" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-29" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="145" width="12" x="1239" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-30" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="9. Entrega la consulta con el usuario&amp;nbsp;&lt;div&gt;identificado por el token&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0381" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251" y="690" as="sourcePoint" />
+            <mxPoint x="1539.9999999999995" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-31" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.214;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-57" value="11. Obtiene la bodega con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="710" as="sourcePoint" />
+            <mxPoint x="1895" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-32" parent="ZbJzZurjGpyWau5EhXXW-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="850" width="150" x="2330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-33" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" source="ZbJzZurjGpyWau5EhXXW-32" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Retorna la bodega">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2360" y="750" as="sourcePoint" />
+            <mxPoint x="1900" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-34" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0.083;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-50" value="10. Consulta la bodega indicada">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1550" y="700" as="sourcePoint" />
+            <mxPoint x="1734" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-35" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" source="ZbJzZurjGpyWau5EhXXW-13" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Entrega los datos de la bodega">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="780" as="sourcePoint" />
+            <mxPoint x="1550" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-36" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="14. Valida que los datos de la consulta estén&amp;nbsp;&lt;div&gt;presentes y sean coherentes&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1580" y="810" />
+              <mxPoint x="1580" y="840" />
+            </Array>
+            <mxPoint x="1550" y="810" as="sourcePoint" />
+            <mxPoint x="1552" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-37" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.086;entryY=0.084;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-51" value="15. Consulta el SKU recibido en el catálogo de inventario">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1550" y="880" as="sourcePoint" />
+            <mxPoint x="1734" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-38" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.167;entryY=0.311;entryDx=0;entryDy=0;entryPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-58" value="16. Obtiene el material asociado al SKU con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1897.5" y="910" as="sourcePoint" />
+            <mxPoint x="2352.5" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-39" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" source="ZbJzZurjGpyWau5EhXXW-58" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.072;entryY=0.733;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.343;exitY=0.902;exitDx=0;exitDy=0;exitPerimeter=0;" target="ZbJzZurjGpyWau5EhXXW-51" value="17. Retorna el material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2570" y="950" as="sourcePoint" />
+            <mxPoint x="2110" y="950" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-40" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" source="ZbJzZurjGpyWau5EhXXW-51" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=0.083;exitY=0.909;exitDx=0;exitDy=0;exitPerimeter=0;" value="18. Entrega los datos del material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="970" as="sourcePoint" />
+            <mxPoint x="1550" y="970" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-41" edge="1" parent="ZbJzZurjGpyWau5EhXXW-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="19. Verifica que el SKU exista en el catálogo y&amp;nbsp;&lt;div&gt;que el material esté activo; la verificación es satisfactoria&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1580" y="1000" />
+              <mxPoint x="1580" y="1030" />
+            </Array>
+            <mxPoint x="1550" y="1000" as="sourcePoint" />
+            <mxPoint x="1552" y="1030" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-47" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="420" width="12" x="1539" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-48" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="130" width="12" x="1889" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-49" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="68" width="12" x="2169" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-50" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1889" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-51" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1889" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-54" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="889" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-55" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="564" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-56" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="-6" y="1070" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-57" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="2399" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="ZbJzZurjGpyWau5EhXXW-58" parent="ZbJzZurjGpyWau5EhXXW-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="68" width="12" x="2619" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="cmCtICD3o6VAc-rUOvjP-0" parent="ZbJzZurjGpyWau5EhXXW-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Excepcion 2&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="90" x="1380" y="220" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="Excepcion 3" id="OK7v5du5WduYngnwDfCk">
+    <mxGraphModel dx="2491" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-0" />
+        <mxCell id="2zKJSE27oY7d2_z9isXa-1" parent="2zKJSE27oY7d2_z9isXa-0" />
+        <mxCell id="2zKJSE27oY7d2_z9isXa-2" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="820" width="3120" x="-110" y="200" as="geometry" />
+        </mxCell>
+        <mxCell id="asY1ys31FgqBEvO3EKQz-4" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" source="asY1ys31FgqBEvO3EKQz-1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.27;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" value="16. Retorna el rechazo con el detalle de los campos con error">
+          <mxGeometry relative="1" x="0.0553" y="-14" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="901" y="880" as="sourcePoint" />
+            <mxPoint x="577" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-6" parent="2zKJSE27oY7d2_z9isXa-1" style="text;whiteSpace=wrap;" value="CU-106: Consultando stock de inventario desde otro módulo" vertex="1">
+          <mxGeometry height="40" width="360" x="1251" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-7" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Solicita la disponibilidad del producto para la operación">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="570" y="450" as="sourcePoint" />
+            <mxPoint x="889.0033333333332" y="450.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-8" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="820" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-9" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" source="2zKJSE27oY7d2_z9isXa-11" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" value="1. Ejecuta en el módulo de Terreno o de Finanzas una operación que requiere conocer el stock de un producto">
+          <mxGeometry relative="1" x="-0.0028" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="233.66666666666674" y="440" as="sourcePoint" />
+            <mxPoint x="564" y="440.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-10" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="660" width="20" x="-10" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-11" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="-6" y="418" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-12" parent="2zKJSE27oY7d2_z9isXa-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="-30" y="368" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-13" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="1820" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-14" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="889" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-15" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V Integración entre módulos&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="165" x="487.5" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-16" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="564" y="428" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-17" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Usuario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="2100" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-18" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_auth&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="1170" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-19" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="2550" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-20" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="1470" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-21" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="2730" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-22" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="2zKJSE27oY7d2_z9isXa-28" value="3. Invoca el servicio de consulta de inventario enviando&amp;nbsp;&lt;div&gt;el token de sesión del usuario, el SKU del producto y la bodega&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.016" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="901" y="460" as="sourcePoint" />
+            <mxPoint x="1230" y="460" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-23" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.167;entryY=0.178;entryDx=0;entryDy=0;entryPerimeter=0;" target="2zKJSE27oY7d2_z9isXa-48" value="4. Consulta la cuenta del usuario identificado en el token">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251" y="482" as="sourcePoint" />
+            <mxPoint x="1580" y="482" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-24" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" target="2zKJSE27oY7d2_z9isXa-49" value="5. Obtiene la cuenta del usuario con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="500" as="sourcePoint" />
+            <mxPoint x="2080" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-25" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" source="2zKJSE27oY7d2_z9isXa-17" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna la cuenta en estado activo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2120" y="540" as="sourcePoint" />
+            <mxPoint x="1900" y="540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-26" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" source="2zKJSE27oY7d2_z9isXa-13" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.029;entryY=0.108;entryDx=0;entryDy=0;entryPerimeter=0;" target="2zKJSE27oY7d2_z9isXa-29" value="7. Entrega el estado de la cuenta">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="570" as="sourcePoint" />
+            <mxPoint x="1510" y="570" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-27" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="8. Valida que el token sea auténtico, esté&amp;nbsp;&lt;div&gt;vigente y corresponda a una cuenta activa&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1280" y="610" />
+              <mxPoint x="1280" y="640" />
+            </Array>
+            <mxPoint x="1250" y="610" as="sourcePoint" />
+            <mxPoint x="1252" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-28" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="60" width="12" x="1239" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-29" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="145" width="12" x="1239" y="555" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-30" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="9. Entrega la consulta con el usuario&amp;nbsp;&lt;div&gt;identificado por el token&lt;/div&gt;">
+          <mxGeometry relative="1" x="-0.0381" y="20" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1251" y="690" as="sourcePoint" />
+            <mxPoint x="1539.9999999999995" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-31" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=-0.214;entryY=0.3;entryDx=0;entryDy=0;entryPerimeter=0;" target="2zKJSE27oY7d2_z9isXa-57" value="11. Obtiene la bodega con su estado">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="710" as="sourcePoint" />
+            <mxPoint x="1895" y="710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-32" parent="2zKJSE27oY7d2_z9isXa-1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="660" width="150" x="2330" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-33" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" source="2zKJSE27oY7d2_z9isXa-32" style="rounded=0;html=1;endArrow=open;dashed=1" value="12. Retorna la bodega">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2360" y="750" as="sourcePoint" />
+            <mxPoint x="1900" y="750" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-34" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=block;endFill=1;entryX=0.083;entryY=0.182;entryDx=0;entryDy=0;entryPerimeter=0;" target="2zKJSE27oY7d2_z9isXa-50" value="10. Consulta la bodega indicada">
+          <mxGeometry relative="1" x="-0.0114" y="12" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1550" y="700" as="sourcePoint" />
+            <mxPoint x="1734" y="700" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-35" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" source="2zKJSE27oY7d2_z9isXa-13" style="rounded=0;html=1;endArrow=open;dashed=1" value="13. Entrega los datos de la bodega">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1730" y="780" as="sourcePoint" />
+            <mxPoint x="1550" y="780" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-36" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=1.165;entryY=0.469;entryDx=0;entryDy=0;entryPerimeter=0;" value="14. Valida que los datos de la consulta estén&amp;nbsp;&lt;div&gt;presentes y sean coherentes&lt;/div&gt;">
+          <mxGeometry relative="1" x="0.0038" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1580" y="810" />
+              <mxPoint x="1580" y="840" />
+            </Array>
+            <mxPoint x="1550" y="810" as="sourcePoint" />
+            <mxPoint x="1552" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-47" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="220" width="12" x="1539" y="660" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-48" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="130" width="12" x="1889" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-49" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="68" width="12" x="2169" y="482" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-50" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="110" width="12" x="1889" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="2zKJSE27oY7d2_z9isXa-57" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="100" width="12" x="2399" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="asY1ys31FgqBEvO3EKQz-0" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=open;dashed=1;entryX=1.27;entryY=0.364;entryDx=0;entryDy=0;entryPerimeter=0;" target="asY1ys31FgqBEvO3EKQz-1" value="15. Rechaza la consulta retornando el detalle de los campos con error">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1539" y="860" as="sourcePoint" />
+            <mxPoint x="910" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asY1ys31FgqBEvO3EKQz-1" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="889" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="asY1ys31FgqBEvO3EKQz-2" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="564" y="864" as="geometry" />
+        </mxCell>
+        <mxCell id="asY1ys31FgqBEvO3EKQz-3" parent="2zKJSE27oY7d2_z9isXa-1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="-6" y="886" as="geometry" />
+        </mxCell>
+        <mxCell id="asY1ys31FgqBEvO3EKQz-5" edge="1" parent="2zKJSE27oY7d2_z9isXa-1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=1;exitY=0.75;exitDx=0;exitDy=0;entryX=0.893;entryY=0.371;entryDx=0;entryDy=0;entryPerimeter=0;" target="asY1ys31FgqBEvO3EKQz-3" value="17. Detalla al usuario los campos con error que impiden la consulta">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="564" y="900" as="sourcePoint" />
+            <mxPoint x="10" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="asY1ys31FgqBEvO3EKQz-6" parent="2zKJSE27oY7d2_z9isXa-1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=16;" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;Excepcion 3&lt;/font&gt;" vertex="1">
+          <mxGeometry height="30" width="101" x="1380.5" y="260" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

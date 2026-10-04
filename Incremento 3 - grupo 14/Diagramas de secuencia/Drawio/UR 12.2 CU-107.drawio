@@ -1,0 +1,1213 @@
+<mxfile host="Electron" pages="5">
+  <diagram name="Diagrama general" id="iooqac_NBjzbvndqS1jG">
+    <mxGraphModel dx="3184" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="d0MEDqnqnOEmU6Ou0Owy-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1070" width="2780" x="-50" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-52" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="30. Muestra la confirmacion de la operacion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="480.32619047619045" y="1050" as="sourcePoint" />
+            <mxPoint x="25.99666666666674" y="1050" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-49" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="29. Retorna el resultado de la operacion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="804.98" y="1038.26" as="sourcePoint" />
+            <mxPoint x="486.00380952380954" y="1038.2600000000002" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-44" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="26. Confirma la actualizacion del saldo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2376.5029885057475" y="990" as="sourcePoint" />
+            <mxPoint x="1401" y="990" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-43" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="25. Actualiza el saldo del material en la bodega segun el tipo de movimiento&amp;nbsp;">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1396.5" y="960" as="sourcePoint" />
+            <mxPoint x="2370" y="960" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-39" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="24. Confirma el registro de movimiento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2605.5029885057475" y="930" as="sourcePoint" />
+            <mxPoint x="1401" y="930" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-37" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="23. Inserta el movimiento con sus datos correspondientes">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1395.5" y="899.5" as="sourcePoint" />
+            <mxPoint x="2599" y="899.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-35" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="22. Solicita registrar el movimiento">
+          <mxGeometry relative="1" x="0.0012" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1155" y="890" as="sourcePoint" />
+            <mxPoint x="1389.003333333333" y="890.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-31" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="19. Retorna el saldo disponible del material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2376.5029885057475" y="800" as="sourcePoint" />
+            <mxPoint x="1401" y="800" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-28" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="18. Obtiene la cantidad fisica y la cantidad reservada del material a la bodega">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1396.5" y="770" as="sourcePoint" />
+            <mxPoint x="2370" y="770" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Retorna el material existente">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2145.329655172414" y="680" as="sourcePoint" />
+            <mxPoint x="1400.9966666666664" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-27" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17. Consulta el stock disponible">
+          <mxGeometry relative="1" x="0.0012" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1155" y="760" as="sourcePoint" />
+            <mxPoint x="1389.003333333333" y="760.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-19" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-18" style="rounded=0;html=1;endArrow=block;endFill=1;" value="13. Obtiene el material asociado al SKU con su estado">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1410" y="650" as="sourcePoint" />
+            <mxPoint x="2138.83" y="649.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna la asignacion activa que autoriza el perfil&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1915.499655172414" y="500" as="sourcePoint" />
+            <mxPoint x="1401" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="12. Consulta el SKU recibido">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1155" y="640" as="sourcePoint" />
+            <mxPoint x="1389.003333333333" y="640.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="7. Obtiene la asignacion activa de ese permiso al perfil del usuario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1395.5" y="470" as="sourcePoint" />
+            <mxPoint x="1909" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-8" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="5. Obtiene el permiso correspondiente">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1395.5" y="412" as="sourcePoint" />
+            <mxPoint x="1674" y="412" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-7" edge="1" parent="1" source="AyU7uQCcoj9uF-ESbqiL-5" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Recupera perfiles registrados">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1115" y="402" as="sourcePoint" />
+            <mxPoint x="1389.003333333333" y="402.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-3" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-22" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=0.881;exitY=0.652;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Invoca el servicio de movimientos enviando el SKU">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="820" y="385" as="sourcePoint" />
+            <mxPoint x="1149" y="385" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-5" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna el permiso del modulo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1680.189655172414" y="440" as="sourcePoint" />
+            <mxPoint x="1401" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="eXQo7twSvsaSOrZBXdvv-2" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Envia la operacion a procesar">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="480" y="370" as="sourcePoint" />
+            <mxPoint x="799.0033333333332" y="370.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="936" width="150" x="730" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-2" edge="1" parent="1" source="OzcYTzQlrOSOlaFpA1wu-10" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Ejecuta en el modulo de Terreno o Finanzas una operacion que afecta a Inventario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="143.66666666666674" y="360" as="sourcePoint" />
+            <mxPoint x="474" y="360.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="936" width="20" x="10" y="233" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-11" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="14" y="331" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="-10" y="281" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-18" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="936" width="150" x="1320" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-22" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="799" y="350" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;" value="&lt;u&gt;V_ModuloOrigen&amp;nbsp;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="936" width="150" x="405" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="OzcYTzQlrOSOlaFpA1wu-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="474" y="348" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="936" width="150" x="1605" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1Yhnj_wOcT1IclhnVDDp-5" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1389" y="391.5" as="geometry" />
+        </mxCell>
+        <mxCell id="cBHN9LfRHxzjqxhNy-5d-2" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1674" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="R1dFlx97Qt3iOsqK2Q-V-1" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-107: Registrando movimiento de inventario desde otro modulo&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="415" x="1033" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil_Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="936" width="150" x="1840" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="2070" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-3" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="2300" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="930" width="150" x="2530" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-5" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="936" width="150" x="1080" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-6" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1149" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-10" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1909" y="460" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Entrega la regla de permisos vigente">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1388.4240000000002" y="521.1529999999998" as="sourcePoint" />
+            <mxPoint x="1161" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-14" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1149" y="512" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-15" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Valida que el rol este autorizado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1192" y="541" />
+              <mxPoint x="1192" y="571" />
+            </Array>
+            <mxPoint x="1162" y="541" as="sourcePoint" />
+            <mxPoint x="1161.0040000000001" y="570.9919999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-16" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. Valida los campos obligatorios&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1192" y="585" />
+              <mxPoint x="1192" y="615" />
+            </Array>
+            <mxPoint x="1162" y="585" as="sourcePoint" />
+            <mxPoint x="1161" y="615" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-18" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="65" width="12" x="1389" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-20" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2139" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-23" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="15. Entrega los datos del material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1389.0040000000001" y="691.1529999999998" as="sourcePoint" />
+            <mxPoint x="1161.58" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-24" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1151" y="680" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-25" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="16. Verifica que SKU exista y este activo&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1194" y="710" />
+              <mxPoint x="1194" y="740" />
+            </Array>
+            <mxPoint x="1164" y="710" as="sourcePoint" />
+            <mxPoint x="1163" y="740" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-26" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="80" width="12" x="1389" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-29" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2370" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1149" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-33" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="20. Entrega saldo disponible&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1389.0040000000001" y="821.1529999999998" as="sourcePoint" />
+            <mxPoint x="1161.58" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-34" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="21. Verifica que exista el stock suficiente">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1192" y="840" />
+              <mxPoint x="1192" y="870" />
+            </Array>
+            <mxPoint x="1162" y="840" as="sourcePoint" />
+            <mxPoint x="1161" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-36" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1389" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-38" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2599" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1149" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-42" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2369" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-45" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="27. Confirma la persistencia del movimiento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1388.4240000000002" y="1011.1529999999998" as="sourcePoint" />
+            <mxPoint x="1161" y="1010" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-46" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="799" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-47" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="28. Retorna la confirmacion del movimiento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1154.9040000000002" y="1020.0029999999998" as="sourcePoint" />
+            <mxPoint x="810.9999999999999" y="1020.0029999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-48" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="474" y="1018.5" as="geometry" />
+        </mxCell>
+        <mxCell id="AyU7uQCcoj9uF-ESbqiL-51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="14" y="1030" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="55Cy9Y-z1bAQFlVy2HXG" name="Excepción 1">
+    <mxGraphModel dx="2357" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="670" width="2780" x="240" y="140" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-65" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="11. Rechaza la operacion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1435.074" y="599.7129999999997" as="sourcePoint" />
+            <mxPoint x="1090.9985714285713" y="599.7129999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-69" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="13. Informa que no tiene permisos para afectar inventario desde este modulo">
+          <mxGeometry relative="1" x="0.0005" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="759.5" y="628.9999999999999" as="sourcePoint" />
+            <mxPoint x="306" y="629.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-68" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;" value="12. Retorna el rechazo de la operacion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1084.5" y="619.1600000000002" as="sourcePoint" />
+            <mxPoint x="766" y="619.1600000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna la asignacion activa que autoriza el perfil&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2195.499655172414" y="510" as="sourcePoint" />
+            <mxPoint x="1681" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="7. Obtiene la asignacion activa de ese permiso al perfil del usuario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1675.5" y="480" as="sourcePoint" />
+            <mxPoint x="2189" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="5. Obtiene el permiso correspondiente">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1675.5" y="422" as="sourcePoint" />
+            <mxPoint x="1954" y="422" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-18" edge="1" parent="1" source="DJG6rLN3SJEipYBm2_hK-39" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Recupera perfiles registrados">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1395" y="412" as="sourcePoint" />
+            <mxPoint x="1669.003333333333" y="412.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-19" edge="1" parent="1" source="DJG6rLN3SJEipYBm2_hK-28" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=0.881;exitY=0.652;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Invoca el servicio de movimientos enviando el SKU">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1100" y="395" as="sourcePoint" />
+            <mxPoint x="1429" y="395" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna el permiso del modulo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1960.189655172414" y="450" as="sourcePoint" />
+            <mxPoint x="1681" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Envia la operacion a procesar">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="760" y="380" as="sourcePoint" />
+            <mxPoint x="1079.003333333333" y="380.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1010" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-23" edge="1" parent="1" source="DJG6rLN3SJEipYBm2_hK-24" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Ejecuta en el modulo de Terreno o Finanzas una operacion que afecta a Inventario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="423.66666666666674" y="370" as="sourcePoint" />
+            <mxPoint x="754" y="370.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="510" width="20" x="290" y="243" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="294" y="341" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="270" y="291" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1600" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1079" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_ModuloOrigen&amp;nbsp;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="685" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="754" y="358" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1885" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1669" y="401.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1954" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-107: Registrando movimiento de inventario desde otro modulo&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="415" x="1422.5" y="150" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil_Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="2120" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="2350" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="2580" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="2810" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="510" width="150" x="1360" y="250" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1429" y="380" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2189" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-42" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Entrega la regla de permisos vigente">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1668.4240000000002" y="531.1529999999998" as="sourcePoint" />
+            <mxPoint x="1441" y="530" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="98" width="12" x="1429" y="522" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-44" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Valida que el rol este autorizado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1472" y="551" />
+              <mxPoint x="1472" y="581" />
+            </Array>
+            <mxPoint x="1442" y="551" as="sourcePoint" />
+            <mxPoint x="1441.0040000000001" y="580.9919999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-66" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="59.5" width="12" x="1079" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-67" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="754" y="609.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-70" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="294" y="609.5" as="geometry" />
+        </mxCell>
+        <mxCell id="DJG6rLN3SJEipYBm2_hK-71" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 1" vertex="1">
+          <mxGeometry height="30" width="81" x="1589.5" y="190" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="ij7ejjGInq8NC8HV4hzf" name="Excepcion 2">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="770" width="2770" x="440" y="310" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-71" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" value="19. Informa que el producto no fue reconocido&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="970.19" y="960" as="sourcePoint" />
+            <mxPoint x="516.0003448275863" y="960.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-69" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="17. Rechaza la operacion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1647.1940000000002" y="931.1529999999998" as="sourcePoint" />
+            <mxPoint x="1301.000344827586" y="931.1529999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Retorna el material existente">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2635.329655172414" y="850" as="sourcePoint" />
+            <mxPoint x="1890.9966666666664" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-13" edge="1" parent="1" source="rPnZcjjWKxjJ5-vqWMUz-27" style="rounded=0;html=1;endArrow=block;endFill=1;" value="13. Obtiene el material asociado al SKU con su estado">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1900" y="820" as="sourcePoint" />
+            <mxPoint x="2628.83" y="819.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna la asignacion activa que autoriza el perfil&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2405.499655172414" y="670" as="sourcePoint" />
+            <mxPoint x="1891" y="670" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="12. Consulta el SKU recibido">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1645" y="810" as="sourcePoint" />
+            <mxPoint x="1879.003333333333" y="810.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="7. Obtiene la asignacion activa de ese permiso al perfil del usuario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1885.5" y="640" as="sourcePoint" />
+            <mxPoint x="2399" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="5. Obtiene el permiso correspondiente">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1885.5" y="582" as="sourcePoint" />
+            <mxPoint x="2164" y="582" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-18" edge="1" parent="1" source="rPnZcjjWKxjJ5-vqWMUz-39" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Recupera perfiles registrados">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1605" y="572" as="sourcePoint" />
+            <mxPoint x="1879.003333333333" y="572.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-19" edge="1" parent="1" source="rPnZcjjWKxjJ5-vqWMUz-28" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=0.881;exitY=0.652;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Invoca el servicio de movimientos enviando el SKU">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1310" y="555" as="sourcePoint" />
+            <mxPoint x="1639" y="555" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna el permiso del modulo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2170.189655172414" y="610" as="sourcePoint" />
+            <mxPoint x="1891" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Envia la operacion a procesar">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="970" y="540" as="sourcePoint" />
+            <mxPoint x="1289.003333333333" y="540.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="1220" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-23" edge="1" parent="1" source="rPnZcjjWKxjJ5-vqWMUz-24" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Ejecuta en el modulo de Terreno o Finanzas una operacion que afecta a Inventario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="633.6666666666667" y="530" as="sourcePoint" />
+            <mxPoint x="964" y="530.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="637" width="20" x="500" y="403" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="504" y="501" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="480" y="451" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="1810" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1289" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_ModuloOrigen&amp;nbsp;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="895" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="964" y="518" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="2095" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1879" y="561.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2164" y="570" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-107: Registrando movimiento de inventario desde otro modulo&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="415" x="1570" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil_Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="2330" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="2560" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="2790" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="3020" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="630" width="150" x="1570" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1639" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2399" y="630" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-42" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Entrega la regla de permisos vigente">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1878.4240000000002" y="691.1529999999998" as="sourcePoint" />
+            <mxPoint x="1651" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1639" y="682" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-44" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Valida que el rol este autorizado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1682" y="711" />
+              <mxPoint x="1682" y="741" />
+            </Array>
+            <mxPoint x="1652" y="711" as="sourcePoint" />
+            <mxPoint x="1651.0040000000001" y="740.9919999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-45" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. Valida los campos obligatorios&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1682" y="755" />
+              <mxPoint x="1682" y="785" />
+            </Array>
+            <mxPoint x="1652" y="755" as="sourcePoint" />
+            <mxPoint x="1651" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-46" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="65" width="12" x="1879" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-47" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2629" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-48" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="15. Entrega los datos del material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1879.0040000000001" y="861.1529999999998" as="sourcePoint" />
+            <mxPoint x="1651.58" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-49" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1641" y="850" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-50" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="16. Verifica que SKU exista y este activo&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1684" y="880" />
+              <mxPoint x="1684" y="910" />
+            </Array>
+            <mxPoint x="1654" y="880" as="sourcePoint" />
+            <mxPoint x="1653" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 2" vertex="1">
+          <mxGeometry height="30" width="80" x="1730" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-66" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1289" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-67" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="964" y="930" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-68" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="504" y="950" as="geometry" />
+        </mxCell>
+        <mxCell id="rPnZcjjWKxjJ5-vqWMUz-70" edge="1" parent="1" source="rPnZcjjWKxjJ5-vqWMUz-66" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;" value="18. Retorna el rechazo de la operacion">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1280" y="949.66" as="sourcePoint" />
+            <mxPoint x="976" y="949.66" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="H80WlhBt_qv3AzuXlxFv" name="Excepcion 3">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="690" width="2780" x="290" y="530" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-71" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="14. Informa error que impiden registrar el movimiento">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="820.193310344828" y="1065.66" as="sourcePoint" />
+            <mxPoint x="366.00034482758616" y="1065.6599999999994" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-70" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="13. Rechaza la operación&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1145.193655172414" y="1050.5" as="sourcePoint" />
+            <mxPoint x="826.0003448275861" y="1050.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-66" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="12. Rechaza la operación&amp;nbsp;">
+          <mxGeometry relative="1" x="0.0023" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1495.1940000000002" y="1035.6529999999998" as="sourcePoint" />
+            <mxPoint x="1151.000344827586" y="1035.6529999999998" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna la asignacion activa que autoriza el perfil&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2255.499655172414" y="900" as="sourcePoint" />
+            <mxPoint x="1741" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="7. Obtiene la asignacion activa de ese permiso al perfil del usuario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1735.5" y="870" as="sourcePoint" />
+            <mxPoint x="2249" y="870" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="5. Obtiene el permiso correspondiente">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1735.5" y="812" as="sourcePoint" />
+            <mxPoint x="2014" y="812" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-18" edge="1" parent="1" source="X3BxPKT8mR01IFhzKyjZ-39" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Recupera perfiles registrados">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1455" y="802" as="sourcePoint" />
+            <mxPoint x="1729.003333333333" y="802.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-19" edge="1" parent="1" source="X3BxPKT8mR01IFhzKyjZ-28" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=0.881;exitY=0.652;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Invoca el servicio de movimientos enviando el SKU">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1160" y="785" as="sourcePoint" />
+            <mxPoint x="1489" y="785" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna el permiso del modulo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2020.189655172414" y="840" as="sourcePoint" />
+            <mxPoint x="1741" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-21" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Envia la operacion a procesar">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="820" y="770" as="sourcePoint" />
+            <mxPoint x="1139.003333333333" y="770.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1070" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-23" edge="1" parent="1" source="X3BxPKT8mR01IFhzKyjZ-24" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Ejecuta en el modulo de Terreno o Finanzas una operacion que afecta a Inventario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="483.66666666666674" y="760" as="sourcePoint" />
+            <mxPoint x="814" y="760.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="527" width="20" x="350" y="633" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="354" y="731" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="330" y="681" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1660" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1139" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_ModuloOrigen&amp;nbsp;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="745" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="814" y="748" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1945" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1729" y="791.5" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2014" y="800" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-107: Registrando movimiento de inventario desde otro modulo&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="415" x="1406.5" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil_Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="2180" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="2410" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="2640" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="2870" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="520" width="150" x="1420" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1489" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2249" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-42" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Entrega la regla de permisos vigente">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1728.4240000000002" y="921.1529999999998" as="sourcePoint" />
+            <mxPoint x="1501" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1489" y="912" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-44" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Valida que el rol este autorizado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1532" y="941" />
+              <mxPoint x="1532" y="971" />
+            </Array>
+            <mxPoint x="1502" y="941" as="sourcePoint" />
+            <mxPoint x="1501.0040000000001" y="970.9919999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-45" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. Valida los campos obligatorios&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1532" y="985" />
+              <mxPoint x="1532" y="1015" />
+            </Array>
+            <mxPoint x="1502" y="985" as="sourcePoint" />
+            <mxPoint x="1501" y="1015" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 3" vertex="1">
+          <mxGeometry height="30" width="80" x="1574" y="585" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-67" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1139" y="1030" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-68" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="814" y="1040" as="geometry" />
+        </mxCell>
+        <mxCell id="X3BxPKT8mR01IFhzKyjZ-69" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="354" y="1050" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cRzywsuijjdm9SqwbQYr" name="Excepcion 4">
+    <mxGraphModel dx="1664" dy="989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="W40si1qYPuKL9beBPDio-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="860" width="2810" x="330" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-71" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="24. Informa sobre el stock disponible y que la salida no puede registrarse">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="860.1936551724141" y="1300.0000000000007" as="sourcePoint" />
+            <mxPoint x="406.0003448275863" y="1300.0000000000014" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-70" edge="1" parent="1" source="W40si1qYPuKL9beBPDio-22" style="rounded=0;html=1;endArrow=open;dashed=1;" value="23. Notifica que la operacion fue rechazada y entrega stock actual">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1185.1940000000002" y="1290" as="sourcePoint" />
+            <mxPoint x="866.0003448275861" y="1289.9999999999993" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-69" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="22. Rechaza la operacion&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1585.5040000000001" y="1270.0029999999997" as="sourcePoint" />
+            <mxPoint x="1241" y="1270.0029999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-9" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="19. Retorna el saldo disponible del material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2806.5029885057475" y="1180" as="sourcePoint" />
+            <mxPoint x="1831" y="1180" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-10" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="18. Obtiene la cantidad fisica y la cantidad reservada del material a la bodega">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1826.5" y="1150" as="sourcePoint" />
+            <mxPoint x="2800" y="1150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-11" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="14. Retorna el material existente">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2575.329655172414" y="1060" as="sourcePoint" />
+            <mxPoint x="1830.9966666666664" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-12" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="17. Consulta el stock disponible">
+          <mxGeometry relative="1" x="0.0012" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1585" y="1140" as="sourcePoint" />
+            <mxPoint x="1819.003333333333" y="1140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-13" edge="1" parent="1" source="W40si1qYPuKL9beBPDio-27" style="rounded=0;html=1;endArrow=block;endFill=1;" value="13. Obtiene el material asociado al SKU con su estado">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1840" y="1030" as="sourcePoint" />
+            <mxPoint x="2568.83" y="1029.58" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-14" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="8. Retorna la asignacion activa que autoriza el perfil&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2345.499655172414" y="880" as="sourcePoint" />
+            <mxPoint x="1831" y="880" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-15" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="12. Consulta el SKU recibido">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1585" y="1020" as="sourcePoint" />
+            <mxPoint x="1819.003333333333" y="1020.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-16" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="7. Obtiene la asignacion activa de ese permiso al perfil del usuario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1825.5" y="850" as="sourcePoint" />
+            <mxPoint x="2339" y="850" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-17" edge="1" parent="1" style="rounded=0;html=1;endArrow=block;endFill=1;" value="5. Obtiene el permiso correspondiente">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1825.5" y="792" as="sourcePoint" />
+            <mxPoint x="2104" y="792" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-18" edge="1" parent="1" source="W40si1qYPuKL9beBPDio-39" style="rounded=0;html=1;endArrow=block;endFill=1;" value="4. Recupera perfiles registrados">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1545" y="782" as="sourcePoint" />
+            <mxPoint x="1819.003333333333" y="782.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-19" edge="1" parent="1" source="W40si1qYPuKL9beBPDio-28" style="rounded=0;html=1;endArrow=block;endFill=1;exitX=0.881;exitY=0.652;exitDx=0;exitDy=0;exitPerimeter=0;" value="3. Invoca el servicio de movimientos enviando el SKU">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1250" y="765" as="sourcePoint" />
+            <mxPoint x="1579" y="765" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-20" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1" value="6. Retorna el permiso del modulo">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="2110.189655172414" y="820" as="sourcePoint" />
+            <mxPoint x="1831" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-21" edge="1" parent="1" source="W40si1qYPuKL9beBPDio-29" style="rounded=0;html=1;endArrow=block;endFill=1;" value="2. Envia la operacion a procesar">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="910" y="750" as="sourcePoint" />
+            <mxPoint x="1229.003333333333" y="750.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-22" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;C_moduloOrigen&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="1160" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-23" edge="1" parent="1" source="W40si1qYPuKL9beBPDio-24" style="rounded=0;html=1;endArrow=block;endFill=1;" value="1. Ejecuta en el modulo de Terreno o Finanzas una operacion que afecta a Inventario">
+          <mxGeometry relative="1" y="10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="523.6666666666667" y="740" as="sourcePoint" />
+            <mxPoint x="854" y="740.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-24" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="747" width="20" x="390" y="613" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-25" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="394" y="711" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia/JOP" vertex="1">
+          <mxGeometry height="30" width="60" x="370" y="661" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-27" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="1750" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-28" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="1229" y="730" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-29" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;V_ModuloOrigen&amp;nbsp;&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="785" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-30" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="854" y="728" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-31" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="2035" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-32" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1819" y="771.5" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-33" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2104" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-34" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;fontSize=18;fontStyle=1" value="&lt;span style=&quot;font-weight: normal;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;CU-107: Registrando movimiento de inventario desde otro modulo&lt;/font&gt;&lt;/span&gt;" vertex="1">
+          <mxGeometry height="40" width="415" x="1557.5" y="529" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-35" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Perfil_Permiso&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="2270" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-36" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="2500" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-37" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="2730" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-38" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="2960" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-39" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0" value="&lt;u&gt;C_integracion&lt;/u&gt;" vertex="1">
+          <mxGeometry height="740" width="150" x="1510" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-40" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1579" y="750" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-41" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2339" y="840" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-42" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="9. Entrega la regla de permisos vigente">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1818.4240000000002" y="901.1529999999998" as="sourcePoint" />
+            <mxPoint x="1591" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-43" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="138.5" width="12" x="1579" y="892" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-44" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="10. Valida que el rol este autorizado">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1622" y="921" />
+              <mxPoint x="1622" y="951" />
+            </Array>
+            <mxPoint x="1592" y="921" as="sourcePoint" />
+            <mxPoint x="1591.0040000000001" y="950.9919999999997" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-45" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="11. Valida los campos obligatorios&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1622" y="965" />
+              <mxPoint x="1622" y="995" />
+            </Array>
+            <mxPoint x="1592" y="965" as="sourcePoint" />
+            <mxPoint x="1591" y="995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-46" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="65" width="12" x="1819" y="1010" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-47" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2569" y="1020" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-48" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="15. Entrega los datos del material">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1819.0040000000001" y="1071.1529999999998" as="sourcePoint" />
+            <mxPoint x="1591.58" y="1070" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-49" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1581" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-50" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="16. Verifica que SKU exista y este activo&amp;nbsp;">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1624" y="1090" />
+              <mxPoint x="1624" y="1120" />
+            </Array>
+            <mxPoint x="1594" y="1090" as="sourcePoint" />
+            <mxPoint x="1593" y="1120" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-51" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="80" width="12" x="1819" y="1130" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-52" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="2800" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-53" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="90" width="12" x="1579" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-54" edge="1" parent="1" style="rounded=0;html=1;endArrow=open;dashed=1;exitX=-0.048;exitY=0.818;exitDx=0;exitDy=0;exitPerimeter=0;" value="20. Entrega saldo disponible&amp;nbsp;">
+          <mxGeometry relative="1" y="-10" as="geometry">
+            <mxPoint as="offset" />
+            <mxPoint x="1819.0040000000001" y="1201.1529999999998" as="sourcePoint" />
+            <mxPoint x="1591.58" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-55" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;entryX=0.917;entryY=0.659;entryDx=0;entryDy=0;entryPerimeter=0;" value="21. Verifica que exista el stock suficiente">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1622" y="1220" />
+              <mxPoint x="1622" y="1250" />
+            </Array>
+            <mxPoint x="1592" y="1220" as="sourcePoint" />
+            <mxPoint x="1591" y="1250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-65" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepcion 4" vertex="1">
+          <mxGeometry height="30" width="70" x="1730" y="569" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-66" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="40" width="12" x="1229" y="1260" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-67" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="30" width="12" x="854" y="1280" as="geometry" />
+        </mxCell>
+        <mxCell id="W40si1qYPuKL9beBPDio-68" parent="1" style="fillColor=#ffffff;strokeColor=#000000" vertex="1">
+          <mxGeometry height="52" width="12" x="394" y="1280" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

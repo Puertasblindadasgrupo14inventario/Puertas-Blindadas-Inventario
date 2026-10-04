@@ -1,0 +1,775 @@
+<mxfile host="Electron" pages="3">
+  <diagram id="cu61gen" name="Flujo general">
+    <mxGraphModel dx="2357" dy="1402" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="1520" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="nCfMgiixfNFeAA5PjesH-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1490" width="3230" x="10" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-61: Consultando historial de precios" vertex="1">
+          <mxGeometry height="30" width="460" x="1420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1360" width="20" x="35" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-Gerencia-0" parent="cu61gen-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1180" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="10" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-ll-V_ProveedorDetalle" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle&amp;nbsp;&lt;/u&gt;&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1360" width="180" x="435" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-V_ProveedorDetalle-0" parent="cu61gen-ll-V_ProveedorDetalle" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="723" width="10" x="85" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-V_ProveedorDetalle-1" parent="cu61gen-ll-V_ProveedorDetalle" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="438" width="10" x="85" y="866" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-ll-C_materiales" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1360" width="180" x="1000" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-C_materiales-0" parent="cu61gen-ll-C_materiales" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="627" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-C_materiales-1" parent="cu61gen-ll-C_materiales" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="356" width="10" x="85" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1360" width="180" x="1540" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-C_Postgre-0" parent="cu61gen-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="338" width="10" x="85" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-C_Postgre-1" parent="cu61gen-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="85" y="948" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-ll-historial_precio_material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Historial_Precio_Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1360" width="180" x="2020" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-historial_precio_material-0" parent="cu61gen-ll-historial_precio_material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-historial_precio_material-1" parent="cu61gen-ll-historial_precio_material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="996" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-ll-material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1360" width="180" x="2500" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-material-0" parent="cu61gen-ll-material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="85" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-ll-usuario" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Usuario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1360" width="180" x="2980" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-bar-usuario-0" parent="cu61gen-ll-usuario" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="260" as="sourcePoint" />
+            <mxPoint x="520" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Accede al módulo de historial de precios y selecciona un proveedor" vertex="1">
+          <mxGeometry height="36" width="375" x="85" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m2" edge="1" parent="1" source="cu61gen-bar-V_ProveedorDetalle-0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="308" as="sourcePoint" />
+            <mxPoint x="1085" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita el historial de precios del proveedor seleccionado" vertex="1">
+          <mxGeometry height="36" width="345" x="565" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu61gen-bar-C_Postgre-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="356" as="sourcePoint" />
+            <mxPoint x="1565" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Consulta los registros históricos de precios asociados al proveedor" vertex="1">
+          <mxGeometry height="36" width="390" x="1135" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1635" y="404" as="sourcePoint" />
+            <mxPoint x="2105" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Obtiene los precios registrados con su fecha de vigencia y su fuente" vertex="1">
+          <mxGeometry height="36" width="420" x="1660" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2105" y="452" as="sourcePoint" />
+            <mxPoint x="1635" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Retorna los registros históricos de precios del proveedor" vertex="1">
+          <mxGeometry height="36" width="355" x="1660" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1635" y="500" as="sourcePoint" />
+            <mxPoint x="2585" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Obtiene el nombre y el SKU de cada material con precio registrado" vertex="1">
+          <mxGeometry height="36" width="560" x="1840" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2585" y="534" as="sourcePoint" />
+            <mxPoint x="1635" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Retorna los datos descriptivos de los materiales" vertex="1">
+          <mxGeometry height="21" width="420" x="1910" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1635" y="568" as="sourcePoint" />
+            <mxPoint x="3065" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Obtiene el usuario que registró cada cambio de precio" vertex="1">
+          <mxGeometry height="21" width="420" x="2280" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3065" y="616" as="sourcePoint" />
+            <mxPoint x="1635" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Retorna los datos de los usuarios que registraron los cambios" vertex="1">
+          <mxGeometry height="36" width="420" x="2310" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m10" edge="1" parent="1" source="cu61gen-bar-C_Postgre-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="664" as="sourcePoint" />
+            <mxPoint x="1095" y="664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Entrega el historial de precios con todos sus datos" vertex="1">
+          <mxGeometry height="36" width="315" x="1160" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m11" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="727" />
+              <mxPoint x="1160" y="757" />
+            </Array>
+            <mxPoint x="1095" y="727" as="sourcePoint" />
+            <mxPoint x="1095" y="757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Verifica que el proveedor tenga historial de precios registrado" vertex="1">
+          <mxGeometry height="51" width="460" x="1135" y="716" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m12" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="812" />
+              <mxPoint x="1160" y="842" />
+            </Array>
+            <mxPoint x="1095" y="812" as="sourcePoint" />
+            <mxPoint x="1095" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Ordena los precios cronológicamente por su fecha de vigencia" vertex="1">
+          <mxGeometry height="36" width="370" x="1155" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu61gen-bar-V_ProveedorDetalle-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="905" as="sourcePoint" />
+            <mxPoint x="615" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Retorna el historial con fecha de registro, producto, precio unitario y usuario que registró el cambio" vertex="1">
+          <mxGeometry height="51" width="550" x="540" y="852" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="953" as="sourcePoint" />
+            <mxPoint x="50" y="953" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Despliega el historial de precios ordenado cronológicamente" vertex="1">
+          <mxGeometry height="36" width="345" x="85" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="50" y="1001" as="sourcePoint" />
+            <mxPoint x="520" y="1001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="15. Filtra por rango de fechas y por producto específico" vertex="1">
+          <mxGeometry height="36" width="330" x="140" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m16" edge="1" parent="1" source="cu61gen-bar-V_ProveedorDetalle-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="1035" as="sourcePoint" />
+            <mxPoint x="1085" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="16. Envía los criterios de filtrado" vertex="1">
+          <mxGeometry height="21" width="290" x="620" y="1012" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu61gen-bar-C_Postgre-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="1083" as="sourcePoint" />
+            <mxPoint x="1565" y="1083" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="17. Consulta los precios del proveedor que coinciden con los criterios" vertex="1">
+          <mxGeometry height="36" width="390" x="1185" y="1044" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1635" y="1131" as="sourcePoint" />
+            <mxPoint x="2105" y="1131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="18. Obtiene los precios del período y del producto consultados" vertex="1">
+          <mxGeometry height="36" width="355" x="1685" y="1092" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2105" y="1179" as="sourcePoint" />
+            <mxPoint x="1635" y="1179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="19. Retorna los precios coincidentes con los criterios" vertex="1">
+          <mxGeometry height="36" width="315" x="1725" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m20" edge="1" parent="1" source="cu61gen-bar-C_Postgre-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="1213" as="sourcePoint" />
+            <mxPoint x="1095" y="1213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="20. Entrega los precios filtrados" vertex="1">
+          <mxGeometry height="21" width="290" x="1185" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m21" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="1276" />
+              <mxPoint x="1160" y="1306" />
+            </Array>
+            <mxPoint x="1095" y="1276" as="sourcePoint" />
+            <mxPoint x="1095" y="1306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="21. Verifica que el período seleccionado contenga registros de precios" vertex="1">
+          <mxGeometry height="51" width="560" x="1120" y="1266" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu61gen-bar-V_ProveedorDetalle-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="1362" as="sourcePoint" />
+            <mxPoint x="615" y="1362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="22. Retorna el resultado actualizado según los filtros aplicados" vertex="1">
+          <mxGeometry height="36" width="520" x="530" y="1323" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61gen-m23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="1410" as="sourcePoint" />
+            <mxPoint x="50" y="1410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61gen-l23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="23. Actualiza la tabla para revisar la evolución de los precios del proveedor" vertex="1">
+          <mxGeometry height="36" width="410" x="100" y="1371" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu61e1" name="Excepción 1">
+    <mxGraphModel dx="2020" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="948" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VOPXwSnmDY3hC3ZOE4tD-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="970" width="3220" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-61: Consultando historial de precios" vertex="1">
+          <mxGeometry height="30" width="460" x="1420" y="20" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-s" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 1" vertex="1">
+          <mxGeometry height="30" width="593" x="1354" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="788" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-bar-Gerencia-0" parent="cu61e1-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="608" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="95" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-ll-V_ProveedorDetalle" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle&amp;nbsp;&lt;/u&gt;&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="788" width="180" x="520" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-bar-V_ProveedorDetalle-0" parent="cu61e1-ll-V_ProveedorDetalle" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="608" width="10" x="85" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-ll-C_materiales" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="788" width="180" x="1000" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-bar-C_materiales-0" parent="cu61e1-ll-C_materiales" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="512" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="788" width="180" x="1520" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-bar-C_Postgre-0" parent="cu61e1-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="338" width="10" x="85" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-ll-historial_precio_material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Historial_Precio_Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="788" width="180" x="2000" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-bar-historial_precio_material-0" parent="cu61e1-ll-historial_precio_material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-ll-material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="788" width="180" x="2480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-bar-material-0" parent="cu61e1-ll-material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="85" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-ll-usuario" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Usuario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="788" width="180" x="2960" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-bar-usuario-0" parent="cu61e1-ll-usuario" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="260" as="sourcePoint" />
+            <mxPoint x="605" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Accede al módulo de historial de precios y selecciona un proveedor" vertex="1">
+          <mxGeometry height="36" width="385" x="165" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="308" as="sourcePoint" />
+            <mxPoint x="1085" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita el historial de precios del proveedor seleccionado" vertex="1">
+          <mxGeometry height="36" width="325" x="670" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu61e1-bar-C_Postgre-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="356" as="sourcePoint" />
+            <mxPoint x="1565" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Consulta los registros históricos de precios asociados al proveedor" vertex="1">
+          <mxGeometry height="36" width="380" x="1095" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1615" y="404" as="sourcePoint" />
+            <mxPoint x="2085" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Obtiene los precios registrados con su fecha de vigencia y su fuente" vertex="1">
+          <mxGeometry height="36" width="430" x="1640" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2085" y="452" as="sourcePoint" />
+            <mxPoint x="1615" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Retorna que el proveedor no posee registros históricos de precios" vertex="1">
+          <mxGeometry height="36" width="410" x="1640" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1615" y="500" as="sourcePoint" />
+            <mxPoint x="2565" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Obtiene el nombre y el SKU de cada material con precio registrado" vertex="1">
+          <mxGeometry height="36" width="420" x="1880" y="467" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2565" y="534" as="sourcePoint" />
+            <mxPoint x="1615" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Retorna los datos descriptivos de los materiales" vertex="1">
+          <mxGeometry height="21" width="420" x="1880" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1615" y="568" as="sourcePoint" />
+            <mxPoint x="3045" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Obtiene el usuario que registró cada cambio de precio" vertex="1">
+          <mxGeometry height="21" width="420" x="2230" y="544" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m9" edge="1" parent="1" source="cu61e1-bar-usuario-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=-5;exitPerimeter=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3050" y="626.0000000000001" as="sourcePoint" />
+            <mxPoint x="1620" y="626.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Retorna los datos de los usuarios que registraron los cambios" vertex="1">
+          <mxGeometry height="36" width="420" x="2200" y="590" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m10" edge="1" parent="1" source="cu61e1-bar-C_Postgre-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="664" as="sourcePoint" />
+            <mxPoint x="1095" y="664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Entrega el historial de precios con todos sus datos" vertex="1">
+          <mxGeometry height="36" width="315" x="1160" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m11" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="712" />
+              <mxPoint x="1160" y="742" />
+            </Array>
+            <mxPoint x="1095" y="712" as="sourcePoint" />
+            <mxPoint x="1095" y="742" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Verifica el historial del proveedor pero detecta que no tiene precios registrados" vertex="1">
+          <mxGeometry height="36" width="530" x="1120" y="715" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="790" as="sourcePoint" />
+            <mxPoint x="615" y="790" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Retorna el aviso de ausencia de historial para ese proveedor" vertex="1">
+          <mxGeometry height="36" width="355" x="640" y="751" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e1-m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="838" as="sourcePoint" />
+            <mxPoint x="135" y="838" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e1-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Informa que no existen datos disponibles para ese proveedor" vertex="1">
+          <mxGeometry height="36" width="355" x="160" y="799" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu61e2" name="Excepción 2">
+    <mxGraphModel dx="1414" dy="841" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="1535" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="ShkpPK9P8sA8d67Cha0x-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1531" width="3360" y="29" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-61: Consultando historial de precios" vertex="1">
+          <mxGeometry height="30" width="460" x="1420" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-s" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 2" vertex="1">
+          <mxGeometry height="30" width="579" x="1360" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1375" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-Gerencia-0" parent="cu61e2-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1195" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="95" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-ll-V_ProveedorDetalle" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V_Detalle&amp;nbsp;&lt;/u&gt;&lt;u&gt;Proveedor&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1375" width="180" x="520" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-V_ProveedorDetalle-0" parent="cu61e2-ll-V_ProveedorDetalle" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="723" width="10" x="85" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-V_ProveedorDetalle-1" parent="cu61e2-ll-V_ProveedorDetalle" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="453" width="10" x="85" y="866" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-ll-C_materiales" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_proveedores&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1375" width="180" x="1100" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-C_materiales-0" parent="cu61e2-ll-C_materiales" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="627" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-C_materiales-1" parent="cu61e2-ll-C_materiales" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="356" width="10" x="85" y="900" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1375" width="180" x="1700" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-C_Postgre-0" parent="cu61e2-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="338" width="10" x="85" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-C_Postgre-1" parent="cu61e2-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="160" width="10" x="85" y="948" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-ll-historial_precio_material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Historial_Precio_Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1375" width="180" x="2180" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-historial_precio_material-0" parent="cu61e2-ll-historial_precio_material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-historial_precio_material-1" parent="cu61e2-ll-historial_precio_material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="996" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-ll-material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1375" width="180" x="2660" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-material-0" parent="cu61e2-ll-material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="64" width="10" x="85" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-ll-usuario" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Usuario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1375" width="180" x="3140" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-bar-usuario-0" parent="cu61e2-ll-usuario" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="433" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="260" as="sourcePoint" />
+            <mxPoint x="605" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Accede al módulo de historial de precios y selecciona un proveedor" vertex="1">
+          <mxGeometry height="36" width="380" x="190" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu61e2-bar-C_materiales-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="308" as="sourcePoint" />
+            <mxPoint x="1085" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita el historial de precios del proveedor seleccionado" vertex="1">
+          <mxGeometry height="36" width="335" x="700" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu61e2-bar-C_Postgre-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1195" y="356" as="sourcePoint" />
+            <mxPoint x="1665" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Consulta los registros históricos de precios asociados al proveedor" vertex="1">
+          <mxGeometry height="36" width="410" x="1210" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1795" y="404" as="sourcePoint" />
+            <mxPoint x="2265" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Obtiene los precios registrados con su fecha de vigencia y su fuente" vertex="1">
+          <mxGeometry height="36" width="460" x="1795" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2265" y="452" as="sourcePoint" />
+            <mxPoint x="1795" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Retorna los registros históricos de precios del proveedor" vertex="1">
+          <mxGeometry height="36" width="335" x="1885" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1795" y="500" as="sourcePoint" />
+            <mxPoint x="2745" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Obtiene el nombre y el SKU de cada material con precio registrado" vertex="1">
+          <mxGeometry height="36" width="420" x="2060" y="462" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m7" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2745" y="534" as="sourcePoint" />
+            <mxPoint x="1795" y="534" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Retorna los datos descriptivos de los materiales" vertex="1">
+          <mxGeometry height="21" width="420" x="2060" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1795" y="568" as="sourcePoint" />
+            <mxPoint x="3225" y="568" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Obtiene el usuario que registró cada cambio de precio" vertex="1">
+          <mxGeometry height="21" width="420" x="2520" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3225" y="616" as="sourcePoint" />
+            <mxPoint x="1795" y="616" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Retorna los datos de los usuarios que registraron los cambios" vertex="1">
+          <mxGeometry height="36" width="420" x="2530" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m10" edge="1" parent="1" source="cu61e2-bar-C_Postgre-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1665" y="664" as="sourcePoint" />
+            <mxPoint x="1195" y="664" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Entrega el historial de precios con todos sus datos" vertex="1">
+          <mxGeometry height="36" width="315" x="1260" y="625" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m11" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1260" y="727" />
+              <mxPoint x="1260" y="757" />
+            </Array>
+            <mxPoint x="1195" y="727" as="sourcePoint" />
+            <mxPoint x="1195" y="757" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Verifica que el proveedor tenga historial de precios registrado" vertex="1">
+          <mxGeometry height="51" width="510" x="1210" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m12" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1260" y="812" />
+              <mxPoint x="1260" y="842" />
+            </Array>
+            <mxPoint x="1195" y="812" as="sourcePoint" />
+            <mxPoint x="1195" y="842" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Ordena los precios cronológicamente por su fecha de vigencia" vertex="1">
+          <mxGeometry height="36" width="365" x="1255" y="810" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m13" edge="1" parent="1" source="cu61e2-bar-C_materiales-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1170" y="905" as="sourcePoint" />
+            <mxPoint x="615" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Retorna el historial con fecha de registro, producto, precio unitario y usuario que registró el cambio" vertex="1">
+          <mxGeometry height="51" width="579" x="615" y="846" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="953" as="sourcePoint" />
+            <mxPoint x="135" y="953" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Despliega el historial de precios ordenado cronológicamente" vertex="1">
+          <mxGeometry height="36" width="440" x="150" y="914" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="1001" as="sourcePoint" />
+            <mxPoint x="605" y="1001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="15. Filtra por rango de fechas y por producto específico" vertex="1">
+          <mxGeometry height="36" width="335" x="225" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu61e2-bar-C_materiales-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="1035" as="sourcePoint" />
+            <mxPoint x="1085" y="1035" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="16. Envía los criterios de filtrado" vertex="1">
+          <mxGeometry height="21" width="290" x="770" y="1012" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" target="cu61e2-bar-C_Postgre-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1195" y="1083" as="sourcePoint" />
+            <mxPoint x="1665" y="1083" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="17. Consulta los precios del proveedor que coinciden con los criterios" vertex="1">
+          <mxGeometry height="36" width="420" x="1220" y="1044" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m18" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1795" y="1131" as="sourcePoint" />
+            <mxPoint x="2265" y="1131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="18. Obtiene los precios del período y del producto consultados" vertex="1">
+          <mxGeometry height="36" width="355" x="1885" y="1092" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2265" y="1179" as="sourcePoint" />
+            <mxPoint x="1795" y="1179" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="19. Retorna que el período consultado no contiene registros de precios" vertex="1">
+          <mxGeometry height="36" width="475" x="1787.5" y="1140" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m20" edge="1" parent="1" source="cu61e2-bar-C_Postgre-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1665" y="1213" as="sourcePoint" />
+            <mxPoint x="1195" y="1213" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="20. Entrega los precios filtrados" vertex="1">
+          <mxGeometry height="21" width="290" x="1285" y="1190" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m21" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1260" y="1276" />
+              <mxPoint x="1260" y="1306" />
+            </Array>
+            <mxPoint x="1195" y="1276" as="sourcePoint" />
+            <mxPoint x="1195" y="1306" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="21. Verifica el resultado del filtrado pero detecta que el período consultado no contiene registros" vertex="1">
+          <mxGeometry height="51" width="560" x="1240" y="1266" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m22" edge="1" parent="1" source="cu61e2-bar-C_materiales-1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="1362" as="sourcePoint" />
+            <mxPoint x="615" y="1362" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="22. Retorna el aviso de período sin datos y mantiene el filtro anterior" vertex="1">
+          <mxGeometry height="36" width="440" x="640" y="1323" as="geometry" />
+        </mxCell>
+        <mxCell id="cu61e2-m23" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="1425" as="sourcePoint" />
+            <mxPoint x="135" y="1425" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu61e2-l23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="23. Informa que no hay datos para el período consultado y mantiene el filtro anterior" vertex="1">
+          <mxGeometry height="51" width="460" x="135" y="1371" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

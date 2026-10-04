@@ -1,0 +1,1081 @@
+<mxfile host="Electron" pages="4">
+  <diagram id="cu75gen" name="Flujo general">
+    <mxGraphModel dx="7820" dy="2403" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3780" pageHeight="1698" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="z_tMQRXdDl39_3VDUaSX-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1718" width="3880" x="-160" y="22" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-15" y="1340" as="sourcePoint" />
+            <mxPoint x="455" y="1340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-m26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="1588" as="sourcePoint" />
+            <mxPoint x="-10" y="1588" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-m21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="1296" as="sourcePoint" />
+            <mxPoint x="-10" y="1296" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="460" y="404" as="sourcePoint" />
+            <mxPoint x="-10" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-75: Visualizando reportes históricos consolidados" vertex="1">
+          <mxGeometry height="30" width="460" x="1660" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1538" width="20" x="-25" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-Gerencia-0" parent="cu75gen-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1358" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="-50" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-ll-V_ReporteValorizacion" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Histórico de inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1538" width="215" x="350" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-V_ReporteValorizacion-2" parent="cu75gen-ll-V_ReporteValorizacion" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="376" width="10" x="102.5" y="1107" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-V_ReporteValorizacion-0" parent="cu75gen-ll-V_ReporteValorizacion" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="251" width="10" x="102.5" y="129" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-ll-C_reportes" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1538" width="180" x="895" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-C_reportes-0" parent="cu75gen-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-C_reportes-1" parent="cu75gen-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="792" width="10" x="85" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-C_reportes-2" parent="cu75gen-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="178" width="10" x="85" y="1257" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1538" width="180" x="1480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-C_Postgre-0" parent="cu75gen-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="462" width="10" x="85" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-ll-movimiento_inventario" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1538" width="180" x="1960" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-movimiento_inventario-0" parent="cu75gen-ll-movimiento_inventario" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-ll-inventario_bodega" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1538" width="180" x="2440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-inventario_bodega-0" parent="cu75gen-ll-inventario_bodega" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-ll-material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1538" width="180" x="2920" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-material-0" parent="cu75gen-ll-material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-ll-material_categoria_general" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Categoria_General&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1538" width="180" x="3400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-bar-material_categoria_general-0" parent="cu75gen-ll-material_categoria_general" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="260" as="sourcePoint" />
+            <mxPoint x="450" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Accede al módulo de reportes históricos" vertex="1">
+          <mxGeometry height="36" width="262" x="94" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m2" edge="1" parent="1" source="cu75gen-bar-V_ReporteValorizacion-0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="308" as="sourcePoint" />
+            <mxPoint x="980" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita el formulario de selección del año de análisis" vertex="1">
+          <mxGeometry height="36" width="330" x="580" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu75gen-bar-V_ReporteValorizacion-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="356" as="sourcePoint" />
+            <mxPoint x="510" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Retorna el requerimiento del año de análisis" vertex="1">
+          <mxGeometry height="36" width="292" x="599" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Solicita seleccionar el año de análisis" vertex="1">
+          <mxGeometry height="36" width="262" x="94" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-10" y="448" as="sourcePoint" />
+            <mxPoint x="450" y="448" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Elige el año" vertex="1">
+          <mxGeometry height="21" width="120" x="165" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="462.5" y="486" as="sourcePoint" />
+            <mxPoint x="980" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Envía el año seleccionado" vertex="1">
+          <mxGeometry height="36" width="178" x="656" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m7" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1055" y="534" />
+              <mxPoint x="1055" y="564" />
+            </Array>
+            <mxPoint x="990" y="534" as="sourcePoint" />
+            <mxPoint x="990" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Valida que el año seleccionado no sea futuro" vertex="1">
+          <mxGeometry height="36" width="292" x="1060" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m8" edge="1" parent="1" source="cu75gen-bar-C_reportes-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="612" as="sourcePoint" />
+            <mxPoint x="1565" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Consulta los saldos de inventario al cierre de cada mes del año" vertex="1">
+          <mxGeometry height="36" width="385" x="1110" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="660" as="sourcePoint" />
+            <mxPoint x="2045" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Obtiene los movimientos del año para reconstruir el saldo de cierre de cada mes" vertex="1">
+          <mxGeometry height="36" width="330" x="1645" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2045" y="708" as="sourcePoint" />
+            <mxPoint x="1575" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Retorna los movimientos de todos los meses del año" vertex="1">
+          <mxGeometry height="36" width="330" x="1645" y="669" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="756" as="sourcePoint" />
+            <mxPoint x="2525" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Obtiene el saldo actual de cada material como referencia de cierre" vertex="1">
+          <mxGeometry height="36" width="430" x="1860" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2525" y="804" as="sourcePoint" />
+            <mxPoint x="1575" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Retorna los saldos de inventario" vertex="1">
+          <mxGeometry height="36" width="226" x="1937" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="852" as="sourcePoint" />
+            <mxPoint x="3005" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Obtiene la categoría asignada a cada material" vertex="1">
+          <mxGeometry height="36" width="304" x="2160" y="814" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3005" y="900" as="sourcePoint" />
+            <mxPoint x="1575" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Retorna los materiales con su categoría" vertex="1">
+          <mxGeometry height="36" width="268" x="2163" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="948" as="sourcePoint" />
+            <mxPoint x="3485" y="948" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="15. Obtiene el nombre de cada categoría de producto" vertex="1">
+          <mxGeometry height="36" width="316" x="2380" y="899" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3485" y="996" as="sourcePoint" />
+            <mxPoint x="1575" y="996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="16. Retorna los nombres de las categorías" vertex="1">
+          <mxGeometry height="36" width="256" x="2404" y="947" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu75gen-bar-C_reportes-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="1044" as="sourcePoint" />
+            <mxPoint x="1095" y="1044" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="17. Entrega los saldos de cierre mensual agrupados por categoría" vertex="1">
+          <mxGeometry height="36" width="385" x="1085" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1055" y="1092" />
+              <mxPoint x="1055" y="1122" />
+            </Array>
+            <mxPoint x="990" y="1092" as="sourcePoint" />
+            <mxPoint x="990" y="1122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="18. Verifica que existan datos registrados para el año seleccionado" vertex="1">
+          <mxGeometry height="36" width="460" x="1060" y="1089" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m19" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1055" y="1170" />
+              <mxPoint x="1055" y="1200" />
+            </Array>
+            <mxPoint x="990" y="1170" as="sourcePoint" />
+            <mxPoint x="990" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="19. Verifica que todos los meses del año cuenten con información" vertex="1">
+          <mxGeometry height="36" width="460" x="1070" y="1173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1248" as="sourcePoint" />
+            <mxPoint x="462.5" y="1248" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="20. Retorna los saldos de cierre mensual agrupados por categoría de producto" vertex="1">
+          <mxGeometry height="36" width="430" x="480" y="1209" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-l21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="21. Despliega los saldos del año y solicita la granularidad de visualización" vertex="1">
+          <mxGeometry height="36" width="430" x="15" y="1257" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-l22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="22. Selecciona la granularidad de visualización entre mensual, trimestral y anual" vertex="1">
+          <mxGeometry height="25" width="460" x="-10" y="1305" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m23" edge="1" parent="1" source="cu75gen-bar-V_ReporteValorizacion-2" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="1392" as="sourcePoint" />
+            <mxPoint x="980" y="1392" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="23. Envía la granularidad seleccionada" vertex="1">
+          <mxGeometry height="36" width="238" x="626" y="1353" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m24" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1055" y="1455" />
+              <mxPoint x="1055" y="1485" />
+            </Array>
+            <mxPoint x="990" y="1455" as="sourcePoint" />
+            <mxPoint x="990" y="1485" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="24. Consolida los saldos según la granularidad elegida y calcula la línea de tendencia" vertex="1">
+          <mxGeometry height="51" width="460" x="1075" y="1444" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-m25" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu75gen-bar-V_ReporteValorizacion-2" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="1540" as="sourcePoint" />
+            <mxPoint x="510" y="1540" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75gen-l25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="25. Retorna la comparativa histórica en formato tabular y gráfico con su línea de tendencia" vertex="1">
+          <mxGeometry height="36" width="495" x="490" y="1502" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75gen-l26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="26. Despliega la tendencia de stock para la planificación de compras" vertex="1">
+          <mxGeometry height="36" width="385" x="50" y="1550" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu75e1" name="Excepción 1">
+    <mxGraphModel dx="6137" dy="2752" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3780" pageHeight="1350" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KtVYVAJz_pAn07dZwb4Z-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1365" width="3830" x="-130" y="-7" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-75: Visualizando reportes históricos consolidados" vertex="1">
+          <mxGeometry height="30" width="460" x="1660" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-s" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 1" vertex="1">
+          <mxGeometry height="30" width="502" x="1639" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1190" width="20" x="25" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-bar-Gerencia-0" parent="cu75e1-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1010" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-ll-C_reportes" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1190" width="180" x="905" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-bar-C_reportes-0" parent="cu75e1-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-bar-C_reportes-1" parent="cu75e1-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="736" width="10" x="85" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1190" width="180" x="1480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-bar-C_Postgre-0" parent="cu75e1-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="462" width="10" x="85" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-ll-movimiento_inventario" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1190" width="180" x="1960" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-bar-movimiento_inventario-0" parent="cu75e1-ll-movimiento_inventario" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-ll-inventario_bodega" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1190" width="180" x="2440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-bar-inventario_bodega-0" parent="cu75e1-ll-inventario_bodega" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-ll-material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1190" width="180" x="2920" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-bar-material-0" parent="cu75e1-ll-material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-ll-material_categoria_general" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Categoria_General&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1190" width="180" x="3400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-bar-material_categoria_general-0" parent="cu75e1-ll-material_categoria_general" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="260" as="sourcePoint" />
+            <mxPoint x="510" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Accede al módulo de reportes históricos" vertex="1">
+          <mxGeometry height="36" width="262" x="144" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="308" as="sourcePoint" />
+            <mxPoint x="990" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita el formulario de selección del año de análisis" vertex="1">
+          <mxGeometry height="36" width="330" x="590" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="356" as="sourcePoint" />
+            <mxPoint x="520" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Retorna el requerimiento del año de análisis" vertex="1">
+          <mxGeometry height="36" width="292" x="609" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="404" as="sourcePoint" />
+            <mxPoint x="40" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Solicita seleccionar el año de análisis" vertex="1">
+          <mxGeometry height="36" width="262" x="144" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="40" y="438" as="sourcePoint" />
+            <mxPoint x="510" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Elige el año" vertex="1">
+          <mxGeometry height="21" width="120" x="215" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="520" y="486" as="sourcePoint" />
+            <mxPoint x="990" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Envía el año seleccionado" vertex="1">
+          <mxGeometry height="36" width="178" x="666" y="447" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m7" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1065" y="534" />
+              <mxPoint x="1065" y="564" />
+            </Array>
+            <mxPoint x="1000" y="534" as="sourcePoint" />
+            <mxPoint x="1000" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Valida que el año seleccionado no sea futuro" vertex="1">
+          <mxGeometry height="36" width="292" x="1075" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m8" edge="1" parent="1" source="cu75e1-bar-C_reportes-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="612" as="sourcePoint" />
+            <mxPoint x="1565" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Consulta los saldos de inventario al cierre de cada mes del año" vertex="1">
+          <mxGeometry height="36" width="365" x="1035" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="660" as="sourcePoint" />
+            <mxPoint x="2045" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Obtiene los movimientos del año para reconstruir el saldo de cierre de cada mes" vertex="1">
+          <mxGeometry height="36" width="450" x="1590" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2045" y="708" as="sourcePoint" />
+            <mxPoint x="1575" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Retorna que no existen movimientos registrados para el año seleccionado" vertex="1">
+          <mxGeometry height="36" width="460" x="1590" y="669" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="756" as="sourcePoint" />
+            <mxPoint x="2525" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Obtiene el saldo actual de cada material como referencia de cierre" vertex="1">
+          <mxGeometry height="36" width="430" x="1860" y="720" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2525" y="804" as="sourcePoint" />
+            <mxPoint x="1575" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Retorna los saldos de inventario" vertex="1">
+          <mxGeometry height="36" width="226" x="1962" y="768" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="852" as="sourcePoint" />
+            <mxPoint x="3005" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Obtiene la categoría asignada a cada material" vertex="1">
+          <mxGeometry height="36" width="304" x="2180" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m14" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3005" y="900" as="sourcePoint" />
+            <mxPoint x="1575" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Retorna los materiales con su categoría" vertex="1">
+          <mxGeometry height="36" width="268" x="2198" y="861" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="948" as="sourcePoint" />
+            <mxPoint x="3485" y="948" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="15. Obtiene el nombre de cada categoría de producto" vertex="1">
+          <mxGeometry height="36" width="316" x="2580" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3485" y="996" as="sourcePoint" />
+            <mxPoint x="1575" y="996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="16. Retorna los nombres de las categorías" vertex="1">
+          <mxGeometry height="36" width="256" x="2610" y="958" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu75e1-bar-C_reportes-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="1044" as="sourcePoint" />
+            <mxPoint x="1095" y="1044" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="17. Entrega los saldos de cierre mensual agrupados por categoría" vertex="1">
+          <mxGeometry height="36" width="365" x="1035" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1065" y="1107" />
+              <mxPoint x="1065" y="1137" />
+            </Array>
+            <mxPoint x="1000" y="1107" as="sourcePoint" />
+            <mxPoint x="1000" y="1137" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="18. Verifica los datos del año y detecta que no existe ningún registro para el año seleccionado" vertex="1">
+          <mxGeometry height="51" width="502" x="1063" y="1096" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m19" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="990" y="1192" as="sourcePoint" />
+            <mxPoint x="520" y="1192" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="19. Retorna el aviso de falta de registros para el año" vertex="1">
+          <mxGeometry height="36" width="330" x="590" y="1154" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e1-m20" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="1240" as="sourcePoint" />
+            <mxPoint x="40" y="1240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e1-l20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="20. Informa la falta de registros y solicita elegir otro año" vertex="1">
+          <mxGeometry height="36" width="330" x="110" y="1202" as="geometry" />
+        </mxCell>
+        <mxCell id="u_pFyDnlA7L9Kv-8ELgd-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Histórico de inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1200" width="215" x="406" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="u_pFyDnlA7L9Kv-8ELgd-2" parent="u_pFyDnlA7L9Kv-8ELgd-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="102.5" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="u_pFyDnlA7L9Kv-8ELgd-3" parent="u_pFyDnlA7L9Kv-8ELgd-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="251" width="10" x="102.5" y="129" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu75e2" name="Excepción 2">
+    <mxGraphModel dx="7315" dy="2103" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3780" pageHeight="1829" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="UeqDCi_qpe-b6EAYDE24-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="1830" width="4460" x="-770" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-75: Visualizando reportes históricos consolidados" vertex="1">
+          <mxGeometry height="30" width="460" x="1580" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-s" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 2" vertex="1">
+          <mxGeometry height="30" width="768" x="1426" y="72" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="1669" width="20" x="-545" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-Gerencia-0" parent="cu75e2-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="1489" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="-570" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-ll-C_reportes" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1669" width="180" x="685" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-C_reportes-0" parent="cu75e2-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-C_reportes-1" parent="cu75e2-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="885" width="10" x="85" y="351" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-C_reportes-2" parent="cu75e2-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="201" width="10" x="85" y="1365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-ll-C_Postgre" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1669" width="180" x="1480" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-C_Postgre-0" parent="cu75e2-ll-C_Postgre" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="462" width="10" x="85" y="477" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-ll-movimiento_inventario" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1669" width="180" x="1960" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-movimiento_inventario-0" parent="cu75e2-ll-movimiento_inventario" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="525" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-ll-inventario_bodega" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1669" width="180" x="2440" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-inventario_bodega-0" parent="cu75e2-ll-inventario_bodega" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-ll-material" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1669" width="180" x="2920" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-material-0" parent="cu75e2-ll-material" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-ll-material_categoria_general" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Categoria_General&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1669" width="180" x="3400" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-bar-material_categoria_general-0" parent="cu75e2-ll-material_categoria_general" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m1" edge="1" parent="1" source="cu75e2-bar-Gerencia-0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="260" as="sourcePoint" />
+            <mxPoint x="120" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Accede al módulo de reportes históricos" vertex="1">
+          <mxGeometry height="36" width="262" x="-300" y="233" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="308" as="sourcePoint" />
+            <mxPoint x="770" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita el formulario de selección del año de análisis" vertex="1">
+          <mxGeometry height="36" width="330" x="285" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="356" as="sourcePoint" />
+            <mxPoint x="130" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Retorna el requerimiento del año de análisis" vertex="1">
+          <mxGeometry height="36" width="292" x="300" y="320" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu75e2-bar-Gerencia-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="404" as="sourcePoint" />
+            <mxPoint x="-350" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Solicita seleccionar el año de análisis" vertex="1">
+          <mxGeometry height="36" width="262" x="-350" y="370" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m5" edge="1" parent="1" source="cu75e2-bar-Gerencia-0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="438" as="sourcePoint" />
+            <mxPoint x="120" y="438" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Elige el año" vertex="1">
+          <mxGeometry height="21" width="120" x="-300" y="414" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="486" as="sourcePoint" />
+            <mxPoint x="770" y="486" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Envía el año seleccionado" vertex="1">
+          <mxGeometry height="36" width="178" x="346" y="435" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m7" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="845" y="534" />
+              <mxPoint x="845" y="564" />
+            </Array>
+            <mxPoint x="780" y="534" as="sourcePoint" />
+            <mxPoint x="780" y="564" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Valida que el año seleccionado no sea futuro" vertex="1">
+          <mxGeometry height="36" width="292" x="850" y="531" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m8" edge="1" parent="1" source="cu75e2-bar-C_reportes-1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1095" y="612" as="sourcePoint" />
+            <mxPoint x="1565" y="612" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Consulta los saldos de inventario al cierre de cada mes del año" vertex="1">
+          <mxGeometry height="36" width="355" x="1030" y="573" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="660" as="sourcePoint" />
+            <mxPoint x="2045" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Obtiene los movimientos del año para reconstruir el saldo de cierre de cada mes" vertex="1">
+          <mxGeometry height="36" width="455" x="1590" y="621" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m10" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2045" y="708" as="sourcePoint" />
+            <mxPoint x="1575" y="708" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l10" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="10. Retorna los movimientos del año y algunos meses no tienen información registrada" vertex="1">
+          <mxGeometry height="36" width="470" x="1575" y="669" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m11" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="756" as="sourcePoint" />
+            <mxPoint x="2525" y="756" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l11" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="11. Obtiene el saldo actual de cada material como referencia de cierre" vertex="1">
+          <mxGeometry height="36" width="430" x="1860" y="717" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m12" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2525" y="804" as="sourcePoint" />
+            <mxPoint x="1575" y="804" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l12" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="12. Retorna los saldos de inventario" vertex="1">
+          <mxGeometry height="36" width="226" x="1947" y="765" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m13" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="852" as="sourcePoint" />
+            <mxPoint x="3005" y="852" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="13. Obtiene la categoría asignada a cada material" vertex="1">
+          <mxGeometry height="36" width="304" x="2150" y="813" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m14" edge="1" parent="1" source="cu75e2-bar-material-0" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2630" y="900" as="sourcePoint" />
+            <mxPoint x="1575" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-m15" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1575" y="948" as="sourcePoint" />
+            <mxPoint x="3485" y="948" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l15" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="15. Obtiene el nombre de cada categoría de producto" vertex="1">
+          <mxGeometry height="36" width="316" x="2390" y="909" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m16" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="3485" y="996" as="sourcePoint" />
+            <mxPoint x="1575" y="996" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="16. Retorna los nombres de las categorías" vertex="1">
+          <mxGeometry height="36" width="256" x="2450" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m17" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu75e2-bar-C_reportes-1" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1565" y="1044" as="sourcePoint" />
+            <mxPoint x="1095" y="1044" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l17" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="17. Entrega los saldos de cierre mensual agrupados por categoría" vertex="1">
+          <mxGeometry height="36" width="355" x="1050" y="1005" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m18" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="845" y="1092" />
+              <mxPoint x="845" y="1122" />
+            </Array>
+            <mxPoint x="780" y="1092" as="sourcePoint" />
+            <mxPoint x="780" y="1122" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="18. Verifica que existan datos registrados para el año seleccionado" vertex="1">
+          <mxGeometry height="36" width="430" x="850" y="1088" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m19" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="845" y="1170" />
+              <mxPoint x="845" y="1200" />
+            </Array>
+            <mxPoint x="780" y="1170" as="sourcePoint" />
+            <mxPoint x="780" y="1200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l19" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="19. Verifica la cobertura mensual; detecta meses del año sin información registrada" vertex="1">
+          <mxGeometry height="36" width="430" x="840" y="1170" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m20" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="845" y="1248" />
+              <mxPoint x="845" y="1278" />
+            </Array>
+            <mxPoint x="780" y="1248" as="sourcePoint" />
+            <mxPoint x="780" y="1278" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l20" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="20. Arma la serie con los meses disponibles e identifica los períodos sin información" vertex="1">
+          <mxGeometry height="36" width="455" x="850" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m21" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="1341" as="sourcePoint" />
+            <mxPoint x="130" y="1340.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l21" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="21. Retorna los saldos de los meses disponibles junto con la marca de los períodos sin información" vertex="1">
+          <mxGeometry height="51" width="530" x="170" y="1287" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m22" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu75e2-bar-Gerencia-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1404" as="sourcePoint" />
+            <mxPoint x="-350" y="1404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l22" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="22. Muestra los meses disponibles, indica los períodos sin información con un aviso visual y solicita la granularidad" vertex="1">
+          <mxGeometry height="51" width="635" x="-512.5" y="1350" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m23" edge="1" parent="1" source="cu75e2-bar-Gerencia-0" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-350" y="1452" as="sourcePoint" />
+            <mxPoint x="120" y="1452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l23" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="23. Selecciona la granularidad de visualización entre mensual, trimestral y anual" vertex="1">
+          <mxGeometry height="36" width="440" x="-390" y="1413" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m24" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="130" y="1500" as="sourcePoint" />
+            <mxPoint x="770" y="1500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="24. Envía la granularidad seleccionada" vertex="1">
+          <mxGeometry height="36" width="238" x="316" y="1449" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m25" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="845" y="1578" />
+              <mxPoint x="845" y="1608" />
+            </Array>
+            <mxPoint x="780" y="1578" as="sourcePoint" />
+            <mxPoint x="780" y="1608" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l25" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="25. Consolida los saldos de los meses disponibles según la granularidad y calcula la línea de tendencia sobre los períodos con datos" vertex="1">
+          <mxGeometry height="66" width="715" x="850" y="1560" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m26" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="770" y="1671" as="sourcePoint" />
+            <mxPoint x="130" y="1670.9999999999995" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l26" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="26. Retorna la comparativa histórica con los períodos sin información marcados" vertex="1">
+          <mxGeometry height="36" width="485" x="215" y="1632" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-m27" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" target="cu75e2-bar-Gerencia-0" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="1719" as="sourcePoint" />
+            <mxPoint x="-350" y="1719" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e2-l27" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="27. Despliega la tendencia de stock señalando los períodos sin información" vertex="1">
+          <mxGeometry height="36" width="430" x="-380" y="1680" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e2-l14" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="14. Retorna los materiales con su categoría" vertex="1">
+          <mxGeometry height="36" width="268" x="2168" y="861" as="geometry" />
+        </mxCell>
+        <mxCell id="2qoKoIyXilDSTiApL4Na-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Histórico de inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="1680" width="215" x="20" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="2qoKoIyXilDSTiApL4Na-2" parent="2qoKoIyXilDSTiApL4Na-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="420" width="10" x="102.5" y="1210" as="geometry" />
+        </mxCell>
+        <mxCell id="2qoKoIyXilDSTiApL4Na-3" parent="2qoKoIyXilDSTiApL4Na-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="251" width="10" x="102.5" y="129" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="cu75e3" name="Excepción 3">
+    <mxGraphModel dx="2020" dy="1201" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="784" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="feQRoDKN4J1Mp47ESUId-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="" vertex="1">
+          <mxGeometry height="768" width="3870" x="70" y="12" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-t" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="CU-75: Visualizando reportes históricos consolidados" vertex="1">
+          <mxGeometry height="30" width="460" x="1940" y="58" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-s" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Excepción 3" vertex="1">
+          <mxGeometry height="30" width="460" x="1940" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-ll-Gerencia" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};participant=umlActor;" value="" vertex="1">
+          <mxGeometry height="624" width="20" x="120" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-bar-Gerencia-0" parent="cu75e3-ll-Gerencia" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="444" width="10" x="5" y="125" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-an" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Gerencia" vertex="1">
+          <mxGeometry height="30" width="70" x="95" y="158" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-ll-C_reportes" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_reportes&lt;/u&gt;" vertex="1">
+          <mxGeometry height="624" width="180" x="1000" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-bar-C_reportes-0" parent="cu75e3-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="78" width="10" x="85" y="173" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-bar-C_reportes-1" parent="cu75e3-ll-C_reportes" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="156" width="10" x="85" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m1" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="260" as="sourcePoint" />
+            <mxPoint x="605" y="260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1. Accede al módulo de reportes históricos" vertex="1">
+          <mxGeometry height="36" width="262" x="239" y="221" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m2" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="308" as="sourcePoint" />
+            <mxPoint x="1085" y="308" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="2. Solicita el formulario de selección del año de análisis" vertex="1">
+          <mxGeometry height="36" width="330" x="685" y="269" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m3" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="356" as="sourcePoint" />
+            <mxPoint x="615" y="356" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="3. Retorna el requerimiento del año de análisis" vertex="1">
+          <mxGeometry height="36" width="292" x="704" y="317" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m4" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="404" as="sourcePoint" />
+            <mxPoint x="135" y="404" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="4. Solicita seleccionar el año de análisis" vertex="1">
+          <mxGeometry height="36" width="262" x="239" y="365" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m5" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="135" y="452" as="sourcePoint" />
+            <mxPoint x="605" y="452" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l5" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="5. Elige un año futuro" vertex="1">
+          <mxGeometry height="36" width="142" x="299" y="413" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m6" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="615" y="500" as="sourcePoint" />
+            <mxPoint x="1085" y="500" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l6" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="6. Envía el año seleccionado" vertex="1">
+          <mxGeometry height="36" width="178" x="761" y="461" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m7" edge="1" parent="1" style="html=1;align=left;spacingLeft=2;endArrow=block;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;" value="">
+          <mxGeometry relative="1" x="0.0625" as="geometry">
+            <mxPoint as="offset" />
+            <Array as="points">
+              <mxPoint x="1160" y="548" />
+              <mxPoint x="1160" y="578" />
+            </Array>
+            <mxPoint x="1095" y="548" as="sourcePoint" />
+            <mxPoint x="1095" y="578" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="7. Valida el año seleccionado y detecta que corresponde a un período futuro" vertex="1">
+          <mxGeometry height="36" width="410" x="1170" y="545" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m8" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1085" y="626" as="sourcePoint" />
+            <mxPoint x="615" y="626" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l8" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="8. Retorna el error del año sin ejecutar la consulta" vertex="1">
+          <mxGeometry height="36" width="322" x="689" y="587" as="geometry" />
+        </mxCell>
+        <mxCell id="cu75e3-m9" edge="1" parent="1" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="605" y="674" as="sourcePoint" />
+            <mxPoint x="135" y="674" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="cu75e3-l9" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="9. Informa que no se pueden generar reportes históricos para períodos futuros" vertex="1">
+          <mxGeometry height="36" width="330" x="205" y="635" as="geometry" />
+        </mxCell>
+        <mxCell id="4rhe8ZHf8irq8lw1Wzhz-2" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;C_Postgre&lt;/u&gt;" vertex="1">
+          <mxGeometry height="624" width="180" x="1770" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4rhe8ZHf8irq8lw1Wzhz-4" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Movimiento_Inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="624" width="180" x="2230" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4rhe8ZHf8irq8lw1Wzhz-6" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Inventario_Bodega&lt;/u&gt;" vertex="1">
+          <mxGeometry height="624" width="180" x="2710" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4rhe8ZHf8irq8lw1Wzhz-8" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material&lt;/u&gt;" vertex="1">
+          <mxGeometry height="624" width="180" x="3190" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="4rhe8ZHf8irq8lw1Wzhz-10" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;Material_Categoria_General&lt;/u&gt;" vertex="1">
+          <mxGeometry height="624" width="180" x="3670" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sDyXmkkO7aQXnCKyeMzO-1" parent="1" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;" value="&lt;u&gt;V Histórico de inventario&lt;/u&gt;" vertex="1">
+          <mxGeometry height="624" width="215" x="501" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="sDyXmkkO7aQXnCKyeMzO-3" parent="sDyXmkkO7aQXnCKyeMzO-1" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;" value="" vertex="1">
+          <mxGeometry height="444" width="10" x="102.5" y="129" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
